@@ -1,0 +1,9 @@
+#ifndef GUARD_DEKSA_LEVEL_CAP_H
+#define GUARD_DEKSA_LEVEL_CAP_H
+
+#define DEKSA_PRE_BROCK_LEVEL_CAP 14
+#define DEKSA_PRE_MISTY_LEVEL_CAP 21
+
+u8 Deksa_GetLevelCap(void);
+
+#endif // GUARD_DEKSA_LEVEL_CAP_H

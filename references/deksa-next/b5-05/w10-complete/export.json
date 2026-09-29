@@ -1,0 +1,1543 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "rocket-grunt-44-ruby",
+      "lotId": "09A",
+      "window": 10,
+      "cap": 65,
+      "profile": "AVANZADO",
+      "anchors": [
+        {
+          "family": "family-019",
+          "species": "SPECIES_RATTATA"
+        },
+        {
+          "family": "family-027",
+          "species": "SPECIES_SANDSHREW"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Crobat abre con presión veloz y confusión. Magneton cubre Agua y Volador, Weezing absorbe Tierra con Levitación, y Sandslash castiga Roca y Eléctrico. Houndoom cierra con sol y cobertura Planta frente a Agua.",
+          "members": [
+            {
+              "species": "SPECIES_CROBAT",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_STEEL_WING"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": null
+            },
+            {
+              "species": "SPECIES_RATICATE",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYPER_FANG",
+                "MOVE_SUPER_FANG",
+                "MOVE_SHADOW_BALL",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_GUTS",
+              "item": null
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_TRI_ATTACK",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_STURDY",
+              "item": null
+            },
+            {
+              "species": "SPECIES_SANDSLASH",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_BRICK_BREAK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SAND_VEIL",
+              "item": "ITEM_SOFT_SAND"
+            },
+            {
+              "species": "SPECIES_WEEZING",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SLUDGE",
+                "MOVE_FLAMETHROWER",
+                "MOVE_HAZE",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_HOUNDOOM",
+              "level": 66,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_CRUNCH",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SOLAR_BEAM"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_CHARCOAL"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Persian abre con velocidad y presión física. Hypno aporta sueño y defensa especial; Muk sostiene el frente tóxico mientras Sandslash cubre Eléctrico. Sharpedo remata con Agua, Siniestro y Hielo.",
+          "members": [
+            {
+              "species": "SPECIES_PERSIAN",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_BODY_SLAM",
+                "MOVE_TAUNT",
+                "MOVE_FAKE_OUT",
+                "MOVE_SCREECH"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_LIMBER",
+              "item": null
+            },
+            {
+              "species": "SPECIES_RATICATE",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYPER_FANG",
+                "MOVE_SUPER_FANG",
+                "MOVE_SHADOW_BALL",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_GUTS",
+              "item": null
+            },
+            {
+              "species": "SPECIES_HYPNO",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_HYPNOSIS",
+                "MOVE_CALM_MIND",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_INSOMNIA",
+              "item": null
+            },
+            {
+              "species": "SPECIES_SANDSLASH",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_BRICK_BREAK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SAND_VEIL",
+              "item": "ITEM_SOFT_SAND"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_FLAMETHROWER",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_SHARPEDO",
+              "level": 66,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_CRUNCH",
+                "MOVE_ICE_BEAM",
+                "MOVE_SLASH"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_ROUGH_SKIN",
+              "item": "ITEM_MYSTIC_WATER"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Electrode abre con parálisis y pantalla. Arbok impone Intimidación y Glare, Cacturne pone Spikes y drena al rival mientras Sandslash cubre Fuego y Eléctrico. Gengar cierra con velocidad, sueño y cobertura especial.",
+          "members": [
+            {
+              "species": "SPECIES_ELECTRODE",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_SCREECH"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_STATIC",
+              "item": null
+            },
+            {
+              "species": "SPECIES_RATICATE",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYPER_FANG",
+                "MOVE_SUPER_FANG",
+                "MOVE_SHADOW_BALL",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_GUTS",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BODY_SLAM",
+                "MOVE_GLARE",
+                "MOVE_SCREECH"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": null
+            },
+            {
+              "species": "SPECIES_SANDSLASH",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_BRICK_BREAK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SAND_VEIL",
+              "item": null
+            },
+            {
+              "species": "SPECIES_CACTURNE",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_NEEDLE_ARM",
+                "MOVE_FAINT_ATTACK",
+                "MOVE_LEECH_SEED",
+                "MOVE_SPIKES"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SAND_VEIL",
+              "item": "ITEM_MIRACLE_SEED"
+            },
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 66,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HYPNOSIS",
+                "MOVE_SHADOW_BALL"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LEFTOVERS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "rocket-grunt-43-ruby",
+      "lotId": "09A",
+      "window": 10,
+      "cap": 65,
+      "profile": "COMÚN",
+      "anchors": [
+        {
+          "family": "family-104",
+          "species": "SPECIES_CUBONE"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Skarmory opens with Spikes and forces switches. Torkoal and Sableye slow the opposition while Starmie and Machamp cover Water, Ice and Dark pressure. Thick Club Marowak closes after Swords Dance.",
+          "members": [
+            {
+              "species": "SPECIES_SKARMORY",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SPIKES",
+                "MOVE_AERIAL_ACE",
+                "MOVE_STEEL_WING",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_STURDY",
+              "item": null
+            },
+            {
+              "species": "SPECIES_TORKOAL",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_BODY_SLAM",
+                "MOVE_TOXIC",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_WHITE_SMOKE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_SABLEYE",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_FAINT_ATTACK",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_DETECT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": null
+            },
+            {
+              "species": "SPECIES_MACHAMP",
+              "level": 63,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_CROSS_CHOP",
+                "MOVE_BRICK_BREAK",
+                "MOVE_BULK_UP",
+                "MOVE_ROCK_TOMB"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_GUTS",
+              "item": null
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_THUNDERBOLT",
+                "MOVE_ICE_BEAM"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": null
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 65,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Banette spreads burns before the volcanic Camerupt and Arbok attack. Gyarados checks Ground while Breloom pressures Water and Rock. Thick Club Marowak is the final physical threat.",
+          "members": [
+            {
+              "species": "SPECIES_BANETTE",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_THUNDERBOLT",
+                "MOVE_WILL_O_WISP",
+                "MOVE_SCREECH"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INSOMNIA",
+              "item": null
+            },
+            {
+              "species": "SPECIES_CAMERUPT",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_MAGNITUDE",
+                "MOVE_BODY_SLAM",
+                "MOVE_OVERHEAT"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_MAGMA_ARMOR",
+              "item": null
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_GLARE",
+                "MOVE_SCREECH",
+                "MOVE_IRON_TAIL"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": null
+            },
+            {
+              "species": "SPECIES_BRELOOM",
+              "level": 63,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SKY_UPPERCUT",
+                "MOVE_MACH_PUNCH",
+                "MOVE_BULK_UP",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EFFECT_SPORE",
+              "item": null
+            },
+            {
+              "species": "SPECIES_GYARADOS",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DRAGON_DANCE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_STRENGTH",
+                "MOVE_SURF"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 65,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BONEMERANG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Seviper opens with Glare and mixed coverage. Magmar and Aggron hold the volcanic route; Electabuzz and Milotic handle Water and Ground threats. Marowak closes with Thick Club and Swords Dance.",
+          "members": [
+            {
+              "species": "SPECIES_SEVIPER",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_CRUNCH",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_RASH",
+              "ability": "ABILITY_SHED_SKIN",
+              "item": null
+            },
+            {
+              "species": "SPECIES_MAGMAR",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_PSYCHIC",
+                "MOVE_BODY_SLAM",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_FLAME_BODY",
+              "item": null
+            },
+            {
+              "species": "SPECIES_AGGRON",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_IRON_TAIL",
+                "MOVE_EARTHQUAKE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": null
+            },
+            {
+              "species": "SPECIES_ELECTABUZZ",
+              "level": 63,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_BRICK_BREAK",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_LIGHT_SCREEN"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_STATIC",
+              "item": null
+            },
+            {
+              "species": "SPECIES_MILOTIC",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_MARVEL_SCALE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 65,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BONEMERANG",
+                "MOVE_AERIAL_ACE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "rocket-grunt-44-ruby",
+      "lotId": "09A",
+      "window": 10,
+      "cap": 65,
+      "profile": "AVANZADO",
+      "anchors": [
+        {
+          "family": "family-019",
+          "species": "SPECIES_RATTATA"
+        },
+        {
+          "family": "family-027",
+          "species": "SPECIES_SANDSHREW"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Crobat abre con presión veloz y confusión. Magneton cubre Agua y Volador, Weezing absorbe Tierra con Levitación, y Sandslash castiga Roca y Eléctrico. Houndoom cierra con sol y cobertura Planta frente a Agua.",
+          "members": [
+            {
+              "species": "SPECIES_CROBAT",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_STEEL_WING"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": null,
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-041"
+            },
+            {
+              "species": "SPECIES_RATICATE",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYPER_FANG",
+                "MOVE_SUPER_FANG",
+                "MOVE_SHADOW_BALL",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_GUTS",
+              "item": null,
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-019"
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_TRI_ATTACK",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_STURDY",
+              "item": null,
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-081"
+            },
+            {
+              "species": "SPECIES_SANDSLASH",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_BRICK_BREAK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SAND_VEIL",
+              "item": "ITEM_SOFT_SAND",
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-027"
+            },
+            {
+              "species": "SPECIES_WEEZING",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SLUDGE",
+                "MOVE_FLAMETHROWER",
+                "MOVE_HAZE",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-109"
+            },
+            {
+              "species": "SPECIES_HOUNDOOM",
+              "level": 66,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_CRUNCH",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SOLAR_BEAM"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_CHARCOAL",
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-228"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Persian abre con velocidad y presión física. Hypno aporta sueño y defensa especial; Muk sostiene el frente tóxico mientras Sandslash cubre Eléctrico. Sharpedo remata con Agua, Siniestro y Hielo.",
+          "members": [
+            {
+              "species": "SPECIES_PERSIAN",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_BODY_SLAM",
+                "MOVE_TAUNT",
+                "MOVE_FAKE_OUT",
+                "MOVE_SCREECH"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_LIMBER",
+              "item": null,
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-052"
+            },
+            {
+              "species": "SPECIES_RATICATE",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYPER_FANG",
+                "MOVE_SUPER_FANG",
+                "MOVE_SHADOW_BALL",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_GUTS",
+              "item": null,
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-019"
+            },
+            {
+              "species": "SPECIES_HYPNO",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_HYPNOSIS",
+                "MOVE_CALM_MIND",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_INSOMNIA",
+              "item": null,
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-096"
+            },
+            {
+              "species": "SPECIES_SANDSLASH",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_BRICK_BREAK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SAND_VEIL",
+              "item": "ITEM_SOFT_SAND",
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-027"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_FLAMETHROWER",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-088"
+            },
+            {
+              "species": "SPECIES_SHARPEDO",
+              "level": 66,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_CRUNCH",
+                "MOVE_ICE_BEAM",
+                "MOVE_SLASH"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_ROUGH_SKIN",
+              "item": "ITEM_MYSTIC_WATER",
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-318"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Electrode abre con parálisis y pantalla. Arbok impone Intimidación y Glare, Cacturne pone Spikes y drena al rival mientras Sandslash cubre Fuego y Eléctrico. Gengar cierra con velocidad, sueño y cobertura especial.",
+          "members": [
+            {
+              "species": "SPECIES_ELECTRODE",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_SCREECH"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_STATIC",
+              "item": null,
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-100"
+            },
+            {
+              "species": "SPECIES_RATICATE",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYPER_FANG",
+                "MOVE_SUPER_FANG",
+                "MOVE_SHADOW_BALL",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_GUTS",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-019"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 64,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BODY_SLAM",
+                "MOVE_GLARE",
+                "MOVE_SCREECH"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": null,
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-023"
+            },
+            {
+              "species": "SPECIES_SANDSLASH",
+              "level": 63,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_BRICK_BREAK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SAND_VEIL",
+              "item": null,
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-027"
+            },
+            {
+              "species": "SPECIES_CACTURNE",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_NEEDLE_ARM",
+                "MOVE_FAINT_ATTACK",
+                "MOVE_LEECH_SEED",
+                "MOVE_SPIKES"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SAND_VEIL",
+              "item": "ITEM_MIRACLE_SEED",
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-331"
+            },
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 66,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HYPNOSIS",
+                "MOVE_SHADOW_BALL"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 20,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-092"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "rocket-grunt-43-ruby",
+      "lotId": "09A",
+      "window": 10,
+      "cap": 65,
+      "profile": "COMÚN",
+      "anchors": [
+        {
+          "family": "family-104",
+          "species": "SPECIES_CUBONE"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Skarmory opens with Spikes and forces switches. Torkoal and Sableye slow the opposition while Starmie and Machamp cover Water, Ice and Dark pressure. Thick Club Marowak closes after Swords Dance.",
+          "members": [
+            {
+              "species": "SPECIES_SKARMORY",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SPIKES",
+                "MOVE_AERIAL_ACE",
+                "MOVE_STEEL_WING",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_STURDY",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-227"
+            },
+            {
+              "species": "SPECIES_TORKOAL",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_BODY_SLAM",
+                "MOVE_TOXIC",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_WHITE_SMOKE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-324"
+            },
+            {
+              "species": "SPECIES_SABLEYE",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_FAINT_ATTACK",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_DETECT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-302"
+            },
+            {
+              "species": "SPECIES_MACHAMP",
+              "level": 63,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_CROSS_CHOP",
+                "MOVE_BRICK_BREAK",
+                "MOVE_BULK_UP",
+                "MOVE_ROCK_TOMB"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_GUTS",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-066"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_THUNDERBOLT",
+                "MOVE_ICE_BEAM"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-120"
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 65,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB",
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-104"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Banette spreads burns before the volcanic Camerupt and Arbok attack. Gyarados checks Ground while Breloom pressures Water and Rock. Thick Club Marowak is the final physical threat.",
+          "members": [
+            {
+              "species": "SPECIES_BANETTE",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_THUNDERBOLT",
+                "MOVE_WILL_O_WISP",
+                "MOVE_SCREECH"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INSOMNIA",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-353"
+            },
+            {
+              "species": "SPECIES_CAMERUPT",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_MAGNITUDE",
+                "MOVE_BODY_SLAM",
+                "MOVE_OVERHEAT"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_MAGMA_ARMOR",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-322"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_GLARE",
+                "MOVE_SCREECH",
+                "MOVE_IRON_TAIL"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-023"
+            },
+            {
+              "species": "SPECIES_BRELOOM",
+              "level": 63,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SKY_UPPERCUT",
+                "MOVE_MACH_PUNCH",
+                "MOVE_BULK_UP",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EFFECT_SPORE",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-285"
+            },
+            {
+              "species": "SPECIES_GYARADOS",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DRAGON_DANCE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_STRENGTH",
+                "MOVE_SURF"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-129"
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 65,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BONEMERANG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB",
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-104"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Seviper opens with Glare and mixed coverage. Magmar and Aggron hold the volcanic route; Electabuzz and Milotic handle Water and Ground threats. Marowak closes with Thick Club and Swords Dance.",
+          "members": [
+            {
+              "species": "SPECIES_SEVIPER",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_CRUNCH",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_RASH",
+              "ability": "ABILITY_SHED_SKIN",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-336"
+            },
+            {
+              "species": "SPECIES_MAGMAR",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_PSYCHIC",
+                "MOVE_BODY_SLAM",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_FLAME_BODY",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-126"
+            },
+            {
+              "species": "SPECIES_AGGRON",
+              "level": 63,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_IRON_TAIL",
+                "MOVE_EARTHQUAKE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-304"
+            },
+            {
+              "species": "SPECIES_ELECTABUZZ",
+              "level": 63,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_BRICK_BREAK",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_LIGHT_SCREEN"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_STATIC",
+              "item": null,
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-125"
+            },
+            {
+              "species": "SPECIES_MILOTIC",
+              "level": 64,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_MARVEL_SCALE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-349"
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 65,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BONEMERANG",
+                "MOVE_AERIAL_ACE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB",
+              "iv": 15,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-104"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": true,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "rocket-grunt-44-ruby": {
+      "actor": "/root/codex-cli/01a0e9aa-46c2-72f1-bbd6-d43e3d9b7c2f",
+      "model": "gpt-6-sol",
+      "effort": "medium"
+    },
+    "rocket-grunt-43-ruby": {
+      "actor": "/root/codex-cli/01a0e9b0-5b02-7be3-b431-a62b2abdae6a",
+      "model": "gpt-6-sol",
+      "effort": "medium"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.22297945339232683,
+      "packetBytes": 2146360,
+      "tokens": null
+    },
+    {
+      "stage": "prepare",
+      "seconds": 0.28154895920306444,
+      "packetBytes": 2151976,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-w10-complete",
+  "supportStatus": "complete-W10-native-review-with-explicit-immutable-imports",
+  "importedTrainerIds": [],
+  "newTrainerIds": [
+    "rocket-grunt-44-ruby",
+    "rocket-grunt-43-ruby"
+  ]
+}

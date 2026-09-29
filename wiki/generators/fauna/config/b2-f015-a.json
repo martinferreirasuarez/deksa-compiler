@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 3,
+  "runId": "B2-F015-A",
+  "datasetId": "deksa-beta2-global-fauna-f015-a",
+  "algorithmVersion": "beta2-global-fauna-v17-wide-random-table-richness",
+  "modelStatus": "official-design",
+  "seed": "deksa-beta2-fauna-window-debut-queue-a",
+  "priorRunArtifacts": [],
+  "spawnSelection": {
+    "unit": "family",
+    "noSpawnChance": 0.1,
+    "roll": "seeded-independent-bernoulli",
+    "stage": "before-debut-allocation"
+  },
+  "inheritanceMode": "C0",
+  "fireRedInheritance": {
+    "scope": "table",
+    "maximumReservationsPerTable": 0,
+    "allowedMethods": ["land", "surf", "rock_smash", "old_rod", "good_rod", "super_rod"],
+    "sourceCriterion": "same-pristine-map-variant-method",
+    "stage": "before-table-fill"
+  },
+  "levelPolicy": {
+    "mode": "cap-relative-wide-evolution-aware",
+    "capSource": {
+      "path": "trainer-authoring/windows/plan.json",
+      "batchField": "effective_access_batch"
+    },
+    "fixedMethods": ["land"],
+    "rangedMethods": ["surf", "rock_smash", "old_rod", "good_rod", "super_rod"],
+    "landSlotOffsets": [-12, -11, -10, -9, -8, -7, -6, -5, -4, -3, -2, 0],
+    "rangeOffsets": { "minimum": -12, "maximum": 0 },
+    "levelMassPercent": [
+      { "offset": -12, "percent": 3 },
+      { "offset": -11, "percent": 5 },
+      { "offset": -10, "percent": 7 },
+      { "offset": -9, "percent": 9 },
+      { "offset": -8, "percent": 11 },
+      { "offset": -7, "percent": 13 },
+      { "offset": -6, "percent": 14 },
+      { "offset": -5, "percent": 12 },
+      { "offset": -4, "percent": 9 },
+      { "offset": -3, "percent": 7 },
+      { "offset": -2, "percent": 5 },
+      { "offset": -1, "percent": 3 },
+      { "offset": 0, "percent": 2 }
+    ],
+    "automaticEvolutionMethods": [
+      "EVO_LEVEL",
+      "EVO_LEVEL_ATK_GT_DEF",
+      "EVO_LEVEL_ATK_EQ_DEF",
+      "EVO_LEVEL_ATK_LT_DEF",
+      "EVO_LEVEL_SILCOON",
+      "EVO_LEVEL_CASCOON",
+      "EVO_LEVEL_NINJASK",
+      "EVO_LEVEL_SHEDINJA"
+    ],
+    "fixedBranchPolicies": {
+      "WURMPLE": {
+        "mode": "preserve-all-branches-across-fixed-slots",
+        "targets": ["SILCOON", "CASCOON"]
+      },
+      "TYROGUE": {
+        "mode": "deterministic-fixed-slots-and-even-ranged-projection",
+        "targets": ["HITMONLEE", "HITMONCHAN", "HITMONTOP"]
+      }
+    },
+    "evolutionExceptions": [
+      {
+        "familyKey": "nincada",
+        "speciesKey": "NINCADA",
+        "behavior": "preserve-source-species",
+        "reason": "Preservar la evolución controlada por el jugador para obtener Ninjask y Shedinja."
+      }
+    ],
+    "evaluatePower": false
+  },
+  "randomization": {
+    "mode": "seeded-window-debut-fill-v1",
+    "allocationUnit": "table",
+    "temporalRoleUnit": "window",
+    "scope": "global-family-and-table-composition",
+    "objectiveOrder": ["freshness-and-ecology", "window-usage", "native-window-distance", "seed"],
+    "diversityAudit": {
+      "comparisonUnit": "unordered-family-membership",
+      "corpusSeedPrefix": "deksa-window-debut-fill-corpus",
+      "minimumChangedTableMembershipPercent": 1
+    }
+  },
+  "timing": {
+    "distanceUnit": "native-gym-window",
+    "allowEarlyDebuts": false,
+    "insideDistance": 0,
+    "adjacentDistance": 1,
+    "outlierMinimumDistance": 2
+  },
+  "debutCoverage": {
+    "mode": "best-effort-through-window-09"
+  },
+  "debutAllocation": {
+    "maximumPerTableByWindow": {
+      "01": 3,
+      "02": 3,
+      "03": 2,
+      "04": 2,
+      "05": 2,
+      "06": 1,
+      "07": 1,
+      "08": 1,
+      "09": 1
+    }
+  },
+  "tableComposition": {
+    "total": { "minimum": 3, "target": 5, "maximum": 7 },
+    "targetDistribution": [
+      { "families": 3, "percent": 10 },
+      { "families": 4, "percent": 20 },
+      { "families": 5, "percent": 40 },
+      { "families": 6, "percent": 20 },
+      { "families": 7, "percent": 10 }
+    ]
+  },
+  "fillAllocation": {
+    "sameLotFreshness": "prefer-unused",
+    "adjacency": "previous-table-same-method-in-window"
+  },
+  "ecologyCompatibility": {
+    "ancient": ["ruins", "cave", "rocky"],
+    "cave": ["rocky", "mountain", "ancient", "ruins", "ice_cave"],
+    "coast": ["freshwater", "wetland", "scrubland"],
+    "forest": ["grassland", "wetland", "nocturnal"],
+    "freshwater": ["coast", "wetland"],
+    "grassland": ["forest", "scrubland", "wetland", "coast", "safari", "nocturnal", "urban"],
+    "haunted": ["ruins", "cave", "nocturnal", "urban"],
+    "ice_cave": ["cave", "mountain"],
+    "industrial": ["urban", "ruins"],
+    "mountain": ["rocky", "scrubland", "volcanic", "cave"],
+    "nocturnal": ["grassland", "forest", "cave", "haunted"],
+    "ruins": ["ancient", "cave", "industrial", "haunted"],
+    "safari": ["grassland", "wetland"],
+    "scrubland": ["grassland", "coast", "mountain"],
+    "volcanic": ["mountain", "rocky"]
+  },
+  "abundanceWeights": {
+    "abundant": 1.4,
+    "frequent": 1,
+    "scarce": 0.7,
+    "exceptional": 0.45
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "planId": "B3-TRAINER-WINDOWS-1",
+  "status": "source-plan",
+  "authoringVersion": 7,
+  "contractVersion": "B2-TRAINER-CONTRACT-7",
+  "generatedFrom": {
+    "planSource": {
+      "path": "trainer-authoring/v7/plan/plan.source.json",
+      "sha256": "fa479c9c77bdf529d10b82fa7c374c332d96e8efc85d78bde0e389b0a6bfb813"
+    },
+    "trainerIdentity": {
+      "path": "app/generated/trainer-identity-evidence.json",
+      "sha256": "67ccd4584a4937d17ae2cdc209c5c579cd043f2f26b008fbf25864602dacb2fa"
+    }
+  },
+  "semantics": {
+    "campaignLots": "Los 47 lotes geográficos permanecen en el plan.",
+    "trainerBatches": "Sólo los lotes con al menos un entrenador factual reciben paquetes A/B/C.",
+    "priorRunArtifacts": [],
+    "materializedFaunaDependencies": []
+  },
+  "summary": {
+    "windows": 12,
+    "campaignLots": 47,
+    "trainerLots": 45,
+    "emptyTrainerLots": [
+      "07C",
+      "09H"
+    ],
+    "logicalTrainers": 453,
+    "physicalTrainerRecords": 471
+  },
+  "campaignLots": [
+    "01A",
+    "02A",
+    "02B",
+    "02C",
+    "02D",
+    "03A",
+    "03B",
+    "03C",
+    "03D",
+    "04A",
+    "04B",
+    "04C",
+    "04D",
+    "04E",
+    "04F",
+    "04G",
+    "05A",
+    "05B",
+    "05C",
+    "05D",
+    "05E",
+    "05F",
+    "05G",
+    "05H",
+    "05I",
+    "05J",
+    "06A",
+    "06B",
+    "06C",
+    "06D",
+    "06E",
+    "07A",
+    "07B",
+    "07C",
+    "07D",
+    "08A",
+    "08B",
+    "08C",
+    "09A",
+    "09B",
+    "09C",
+    "09D",
+    "09E",
+    "09F",
+    "09G",
+    "09H",
+    "09I"
+  ],
+  "trainerLots": [
+    "01A",
+    "02A",
+    "02B",
+    "02C",
+    "02D",
+    "03A",
+    "03B",
+    "03C",
+    "03D",
+    "04A",
+    "04B",
+    "04C",
+    "04D",
+    "04E",
+    "04F",
+    "04G",
+    "05A",
+    "05B",
+    "05C",
+    "05D",
+    "05E",
+    "05F",
+    "05G",
+    "05H",
+    "05I",
+    "05J",
+    "06A",
+    "06B",
+    "06C",
+    "06D",
+    "06E",
+    "07A",
+    "07B",
+    "07D",
+    "08A",
+    "08B",
+    "08C",
+    "09A",
+    "09B",
+    "09C",
+    "09D",
+    "09E",
+    "09F",
+    "09G",
+    "09I"
+  ],
+  "windows": [
+    {
+      "id": "W01-BROCK",
+      "label": "Inicio → Brock",
+      "cap": 14,
+      "entry": "Nueva partida",
+      "exit": "Medalla Roca",
+      "batches": [
+        "01A"
+      ],
+      "ordinal": 1,
+      "trainerBatches": [
+        "01A"
+      ]
+    },
+    {
+      "id": "W02-MISTY",
+      "label": "Brock → Misty",
+      "cap": 21,
+      "entry": "Medalla Roca",
+      "exit": "Medalla Cascada",
+      "batches": [
+        "02A",
+        "02B",
+        "02C",
+        "02D"
+      ],
+      "ordinal": 2,
+      "trainerBatches": [
+        "02A",
+        "02B",
+        "02C",
+        "02D"
+      ]
+    },
+    {
+      "id": "W03-SURGE",
+      "label": "Misty → Lt. Surge",
+      "cap": 24,
+      "entry": "Medalla Cascada",
+      "exit": "Medalla Trueno",
+      "batches": [
+        "03A",
+        "03B",
+        "03C",
+        "03D"
+      ],
+      "ordinal": 3,
+      "trainerBatches": [
+        "03A",
+        "03B",
+        "03C",
+        "03D"
+      ]
+    },
+    {
+      "id": "W04-ERIKA",
+      "label": "Lt. Surge → Erika",
+      "cap": 29,
+      "entry": "Medalla Trueno",
+      "exit": "Medalla Arcoíris",
+      "batches": [
+        "04A",
+        "04B",
+        "04C",
+        "04D",
+        "04E",
+        "04F",
+        "04G"
+      ],
+      "ordinal": 4,
+      "trainerBatches": [
+        "04A",
+        "04B",
+        "04C",
+        "04D",
+        "04E",
+        "04F",
+        "04G"
+      ]
+    },
+    {
+      "id": "W05-KOGA",
+      "label": "Erika → Koga",
+      "cap": 43,
+      "entry": "Medalla Arcoíris",
+      "exit": "Medalla Alma",
+      "batches": [
+        "05A",
+        "05B",
+        "05C",
+        "05D",
+        "05E",
+        "05F"
+      ],
+      "ordinal": 5,
+      "trainerBatches": [
+        "05A",
+        "05B",
+        "05C",
+        "05D",
+        "05E",
+        "05F"
+      ]
+    },
+    {
+      "id": "W06-SABRINA",
+      "label": "Silph → Sabrina",
+      "cap": 43,
+      "entry": "Acceso a Azafrán",
+      "exit": "Medalla Pantano",
+      "batches": [
+        "05G",
+        "05H",
+        "05I",
+        "05J"
+      ],
+      "ordinal": 6,
+      "trainerBatches": [
+        "05G",
+        "05H",
+        "05I",
+        "05J"
+      ]
+    },
+    {
+      "id": "W07-BLAINE",
+      "label": "Koga/Sabrina → Blaine",
+      "cap": 47,
+      "entry": "Surf habilitado",
+      "exit": "Medalla Volcán",
+      "batches": [
+        "06A",
+        "06B",
+        "06C",
+        "06D",
+        "06E"
+      ],
+      "ordinal": 7,
+      "trainerBatches": [
+        "06A",
+        "06B",
+        "06C",
+        "06D",
+        "06E"
+      ]
+    },
+    {
+      "id": "W08-GIOVANNI",
+      "label": "Islas Sete → Giovanni",
+      "cap": 50,
+      "entry": "Viaje a Isla Prima",
+      "exit": "Medalla Tierra",
+      "batches": [
+        "07A",
+        "07B",
+        "07C",
+        "07D"
+      ],
+      "ordinal": 8,
+      "trainerBatches": [
+        "07A",
+        "07B",
+        "07D"
+      ]
+    },
+    {
+      "id": "W09-LEAGUE",
+      "label": "Giovanni → primera Liga",
+      "cap": 60,
+      "entry": "Ocho medallas",
+      "exit": "Primer Hall",
+      "batches": [
+        "08A",
+        "08B",
+        "08C"
+      ],
+      "ordinal": 9,
+      "trainerBatches": [
+        "08A",
+        "08B",
+        "08C"
+      ]
+    },
+    {
+      "id": "W10-RUBY",
+      "label": "Primer Hall → Rubí",
+      "cap": 65,
+      "entry": "Dex Nacional",
+      "exit": "Rubí entregado",
+      "batches": [
+        "09A"
+      ],
+      "ordinal": 10,
+      "trainerBatches": [
+        "09A"
+      ]
+    },
+    {
+      "id": "W11-SAPPHIRE",
+      "label": "Rubí → Zafiro",
+      "cap": 70,
+      "entry": "Rainbow Pass",
+      "exit": "Zafiro entregado",
+      "batches": [
+        "09B",
+        "09C",
+        "09D",
+        "09E",
+        "09F",
+        "09G"
+      ],
+      "ordinal": 11,
+      "trainerBatches": [
+        "09B",
+        "09C",
+        "09D",
+        "09E",
+        "09F",
+        "09G"
+      ]
+    },
+    {
+      "id": "W12-REMATCH",
+      "label": "Zafiro → Liga reforzada",
+      "cap": 75,
+      "entry": "Zafiro entregado",
+      "exit": "Hall terminal COMPLETE",
+      "batches": [
+        "09H",
+        "09I"
+      ],
+      "ordinal": 12,
+      "trainerBatches": [
+        "09I"
+      ]
+    }
+  ]
+}

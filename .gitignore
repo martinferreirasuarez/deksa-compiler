@@ -1,0 +1,9 @@
+# The bundle contains source and rules, never compiled ROMs or save data.
+/pokefirered/
+/agbcc/
+/compiler/output/
+*.gba
+*.sav
+*.state
+*.ss1
+*.ss2
