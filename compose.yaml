@@ -1,0 +1,15 @@
+services:
+  deksa:
+    build: .
+    image: deksa-compiler:local
+    platform: linux/amd64
+    init: true
+    ports:
+      - "127.0.0.1:52655:52655"
+    environment:
+      DEKSA_HOST: 0.0.0.0
+      DEKSA_PORT: 52655
+      DEKSA_BUILD_JOBS: 2
+      DEKSA_ACCESS_KEY: ${DEKSA_ACCESS_KEY:-local}
+    volumes:
+      - ./output:/app/compiler/output

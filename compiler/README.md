@@ -10,6 +10,13 @@ una seed a los 452 encuentros y las 315 tablas. `app/server.mjs` ofrece la
 interfaz de un botón y descarga la ROM terminada. Cada compilación trabaja en
 una copia temporal del código y verifica el resultado antes de ofrecerlo.
 
+**Distribución local:** `compiler/share/` empaqueta el repositorio público con
+Dockerfile, Compose y lanzadores para Windows, macOS y Linux. Cada usuario
+compila en su propia computadora; no depende del servidor de este proyecto.
+La ruta Docker fue probada de punta a punta en Linux x86-64: la descarga HTTP
+entregó 16 MiB con el hash conocido. Windows/macOS aún no están probados en
+máquinas reales.
+
 Para usarla en esta máquina:
 
 ```sh
@@ -25,8 +32,8 @@ No abrir este servicio directamente a Internet público.
 con instalación limpia de los dos repositorios base fijados. El código nuevo de
 `compiler/` está bajo [MIT](LICENSE); esa licencia no se extiende por defecto
 al código base ni a los recursos de FireRed. La instalación limpia y una
-recompilación con hash idéntico se probaron en Linux. macOS como anfitrión y
-Windows como anfitrión aún no están verificados; ambos pueden ser clientes web.
+recompilación con hash idéntico se probaron en Linux. El uso mediante Docker
+también quedó probado en Linux; faltan pruebas reales en Windows y macOS.
 
 Prueba local, sin instalar dependencias del compilador:
 

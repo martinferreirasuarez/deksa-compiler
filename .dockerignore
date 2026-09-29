@@ -1,0 +1,10 @@
+.git
+agbcc
+pokefirered
+compiler/output
+output
+*.gba
+*.sav
+*.state
+*.ss1
+*.ss2

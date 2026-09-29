@@ -2,6 +2,7 @@
 /pokefirered/
 /agbcc/
 /compiler/output/
+/output/
 *.gba
 *.sav
 *.state

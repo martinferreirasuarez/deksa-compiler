@@ -4,7 +4,7 @@
   "agbccCommit": "da598c1d918402c42c0c0d7128ba14567f3175e9",
   "files": {
     "compiler/LICENSE": "f8f65667e666dc7df368cfed39c0bec1ea3a3f81f7eedbed05dbe8c446bd97e2",
-    "compiler/README.md": "fa593e86aa1ff17900b412e20d20d99b539fbdfb6a3d515655d369bc5d6f1601",
+    "compiler/README.md": "ffac3df1cb3cb34126819fdd2bfb3ba928d94918871aac5b0e4eb20c5d5dbfd7",
     "compiler/build-gate.mjs": "4bda75404466df9c91c3dfcc788185e3450274d37d3020ba48d1d2e0407710cd",
     "compiler/compilation-inputs.mjs": "a4412f52a6dc05c0cc8fba5350fe14bbb24c3a62363cd4ae478bf646e4413740",
     "compiler/fauna-beta5.mjs": "72185a0e063972cff47daa1910fe33500bea2ec342e5e1998457b542e616a13c",
@@ -67,10 +67,17 @@
     "overlay/tools/deksa_rebuild/verify_beta5_full_rom.py": "cd407fcef1c5c737471f719218a5d4af00570ee5f7b243dd4a9fb5cf0967daa2",
     "overlay/tools/deksa_rebuild/write_r2_trainers.py": "a9deaf724c45581509afe2c0ef4ab9e162e163ccffc2f2cbfdc51d8e709c9ad9",
     "overlay/tools/deksa_rebuild/write_r4_trainers.py": "d1f2a8435e5e9cbca44b8c5c5ef36c8b3ba716f52685f331727ada8d85c07be2",
-    "README.md": "5659d913c31e40807f8624bc44b9112c43c8ffd266c1c816742bd6f84eb17054",
+    "README.md": "5861f1c199afbc6e5303b789ce35f9924d8ad4188d115ef82ab73eb355329066",
     "setup.sh": "7f06ba3f837aa5a7b7e144bd5a6372d97baefa72faf89c5663ccbabdc3844bda",
     "start.sh": "d59c8d0f1bf1e21a1487c1ee1dd7a0f4978ff163270740fd3bb4944097ab7bd8",
-    ".gitignore": "ced2807762624521fc307dfa62f1d0d9a5b921ae769141fabc251a3b8a835054",
+    ".gitignore": "9043c92059100afc948a62da6c505fd1df6468aae160725605c3f29730a9d163",
+    ".dockerignore": "bd2003c6f8eedd91206664a06d561575b66e132c8e738a55e8dad3dce39505d5",
+    "Dockerfile": "9979c5967c742fdb22033a2b17862f9ac398c4c3cc76a8854d90c67431f72e85",
+    "compose.yaml": "05b51d9cc8afe12f1e04f456b4412acbbccf4d42040fdeb376ef1f17c1e554b1",
+    "iniciar-windows.bat": "b92a5335e361d0d25b8553c5a57cfb0b94cf6f2306d538b2992a7f51ef689bfc",
+    "iniciar-mac.command": "9e0ab569483c4df0fa37a7d262374ffe2a9877f720e95793cf58f38d15031d43",
+    "iniciar-linux.sh": "fc0fd7b3b9fae17066556eb139eb90f74a2e3e29f89d3f5bd1c67daac5df6191",
+    "detener.sh": "0f58608ec429e82459fc217bd9366ad516b9a36a4ea707f677d62e7ead5e5c73",
     "fire-red-changes.patch": "eb4ef95231067ee41a27ca9825d20ef060c332651cc9731a74ce8db8121f8a43"
   }
 }
