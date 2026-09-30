@@ -17,10 +17,11 @@ const FILES = Object.freeze({
   plan: 'wiki/trainer-authoring/v7/plan/windows.generated.json',
 });
 
-// The original games have no ordinary wild witness for these two families.
-// Keep their existing Déksa wild windows until their special acquisition is
-// integrated; do not pretend that Beta 5's wild catalogue certified them.
-const LEGACY_WILD_EXCEPTIONS = new Set(['hitmonlee', 'togepi']);
+// Entire families are acquired through NPC eggs, never ordinary encounters.
+export const EGG_ONLY_FAMILIES = Object.freeze([
+  'pikachu', 'clefairy', 'jigglypuff', 'togepi', 'hitmonlee',
+  'jynx', 'electabuzz', 'magmar', 'marill', 'wobbuffet',
+]);
 
 // Editorial projection of the approved post-League phases from native sources.
 // These per-family assignments are not separately approved or guaranteed spawns.
@@ -62,6 +63,18 @@ export async function prepareBeta5FaunaInputs(masterSeed, projectRoot = PROJECT_
   assert.equal(campaign.axis, 'campaign');
   assert.equal(sources.surfaces.length, 315);
   assert.equal(policy.families.length, 202);
+
+  for (const key of EGG_ONLY_FAMILIES) {
+    const family = policy.families.find(({ familyKey }) => familyKey === key);
+    assert.ok(family?.wildEligible, `Familia de huevo desconocida: ${key}`);
+    family.wildEligible = false;
+    family.acquisition = 'npc-egg-choice';
+    family.exclusionReason = 'npc-egg-only-family';
+  }
+  policy.summary.wildEligibleFamilyCount = policy.families.filter(({ wildEligible }) => wildEligible).length;
+  policy.summary.excludedFamilyCount = policy.families.length - policy.summary.wildEligibleFamilyCount;
+  policy.summary.directSourceOnlyFamilyCount += EGG_ONLY_FAMILIES.length;
+  assert.equal(policy.summary.wildEligibleFamilyCount, 147);
 
   const windowByLot = new Map(plan.windows.flatMap(({ ordinal, batches }) =>
     batches.map((lotId) => [lotId, ordinal])));
@@ -110,10 +123,7 @@ export async function prepareBeta5FaunaInputs(masterSeed, projectRoot = PROJECT_
       window = POSTGAME_MINIMUM[family.familyKey];
       basis = 'editorial-postgame-projection';
     } else {
-      assert.ok(LEGACY_WILD_EXCEPTIONS.has(family.familyKey),
-        `${family.familyKey}: fauna sin mínimo certificado ni excepción`);
-      window = Number(family.window.nativeWindow);
-      basis = 'preserved-editorial-exception-no-native-wild-witness';
+      throw new Error(`${family.familyKey}: fauna sin mínimo certificado ni proyección posliga`);
     }
     assert.ok(window >= 1 && window <= 12);
     family.window = {
@@ -149,13 +159,15 @@ export async function prepareBeta5FaunaInputs(masterSeed, projectRoot = PROJECT_
     policy.families.filter((family) => family.wildEligible && family.window.nativeWindow === window)
       .map((family) => family.familyKey).sort(),
   ]));
-  // The three early Old Rod tables can have only one legal family after the
-  // independent 10% no-spawn roll. Keep the slots; allow one family to recur.
+  // No legal early fishing family may survive no-spawn. An empty Old Rod
+  // table means no bite, not an exception to ecology, windows or the seed.
   config.tableMinimumBySurface = Object.fromEntries(sources.surfaces
     .filter((surface) => surface.method === 'old_rod'
       && config.windowByBatch[surface.access.effective_access_batch] === '01')
-    .map((surface) => [surface.surface_id, 1]));
+    .map((surface) => [surface.surface_id, 0]));
   assert.equal(Object.keys(config.tableMinimumBySurface).length, 3);
+  config.allowEmptyFishingSurfaces = Object.keys(config.tableMinimumBySurface);
+  config.faunaFormSelection = 'seeded-family-forms';
   config.levelPolicy.capSource.path = FILES.plan;
 
   return {

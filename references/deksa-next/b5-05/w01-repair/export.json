@@ -210,7 +210,7 @@
               "moves": [
                 "MOVE_VINE_WHIP",
                 "MOVE_GROWTH",
-                "MOVE_WRAP",
+                "MOVE_CUT",
                 "MOVE_SLEEP_POWDER"
               ],
               "nature": "NATURE_MODEST",
@@ -3167,7 +3167,7 @@
               "moves": [
                 "MOVE_VINE_WHIP",
                 "MOVE_GROWTH",
-                "MOVE_WRAP",
+                "MOVE_CUT",
                 "MOVE_SLEEP_POWDER"
               ],
               "nature": "NATURE_MODEST",

@@ -5,6 +5,8 @@ body { margin: 0; min-height: 100vh; background: #eae8dc; color: #17241d; }
 .topline { display: flex; align-items: center; gap: 11px; letter-spacing: .18em; font-size: 12px; font-weight: 800; }
 .mark { width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: #b8433b; color: white; font: 25px Georgia, serif; letter-spacing: 0; border: 2px solid #f8f3df; box-shadow: 0 0 0 1px #b8433b; }
 .edition { margin-left: auto; color: #557264; letter-spacing: .12em; }
+.wiki-link { margin-left: auto; color: #174c3b; letter-spacing: .03em; text-decoration: none; border-bottom: 1px solid currentColor; }
+.wiki-link + .edition { margin-left: 0; }
 .panel { margin-top: 52px; padding: clamp(28px, 6vw, 64px); border: 1px solid #c9c5b7; background: #f7f5ec; box-shadow: 0 14px 35px #17241d12; }
 .eyebrow { margin: 0 0 18px; color: #aa4036; letter-spacing: .2em; font-size: 11px; font-weight: 800; }
 h1 { margin: 0; font: clamp(44px, 8vw, 68px)/.98 Georgia, "Times New Roman", serif; letter-spacing: -.04em; }
@@ -26,5 +28,8 @@ button:disabled { opacity: .55; cursor: wait; }
 .details { color: #68746b; font-size: 12px; line-height: 1.45; overflow-wrap: anywhere; }
 .download { display: block; margin-top: 16px; color: white; background: #174c3b; text-decoration: none; }
 .download[hidden] { display: none; }
+.login-panel { max-width: 590px; margin-inline: auto; }
+.login-panel input { display: block; width: 100%; margin-bottom: 18px; }
+.login-error { color: #a8382f; font-weight: 700; }
 footer { margin-top: 24px; color: #68746b; font-size: 11px; line-height: 1.4; text-align: center; }
 @media (max-width: 490px) { .shell { padding: 22px 12px; } .panel { margin-top: 34px; padding: 27px 18px; } .seed-row { flex-direction: column; } }

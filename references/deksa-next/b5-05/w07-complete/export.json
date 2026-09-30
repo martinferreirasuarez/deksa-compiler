@@ -2345,7 +2345,7 @@
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_LEVITATE",
-              "item": null
+              "item": "ITEM_MAGNET"
             },
             {
               "species": "SPECIES_GOLDUCK",
@@ -7840,7 +7840,7 @@
               "item": null
             },
             {
-              "species": "SPECIES_GOLBAT",
+              "species": "SPECIES_CROBAT",
               "level": 45,
               "akiRole": "I",
               "moves": [
@@ -8681,7 +8681,7 @@
                 "MOVE_RAIN_DANCE",
                 "MOVE_GIGA_DRAIN",
                 "MOVE_STUN_SPORE",
-                "MOVE_GUST"
+                "MOVE_HIDDEN_POWER"
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_INTIMIDATE",
@@ -12671,7 +12671,7 @@
                 "MOVE_EARTHQUAKE",
                 "MOVE_ROCK_BLAST",
                 "MOVE_STRENGTH",
-                "MOVE_DEFENSE_CURL"
+                "MOVE_FIRE_BLAST"
               ],
               "nature": "NATURE_ADAMANT",
               "ability": "ABILITY_STURDY",
@@ -12834,7 +12834,7 @@
                 "MOVE_WATER_PULSE",
                 "MOVE_GIGA_DRAIN",
                 "MOVE_STUN_SPORE",
-                "MOVE_GUST"
+                "MOVE_HIDDEN_POWER"
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_INTIMIDATE",
@@ -17182,7 +17182,7 @@
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_LEVITATE",
-              "item": null,
+              "item": "ITEM_MAGNET",
               "iv": 20,
               "evs": {
                 "hp": 0,
@@ -26157,7 +26157,7 @@
               "family": "family-023"
             },
             {
-              "species": "SPECIES_GOLBAT",
+              "species": "SPECIES_CROBAT",
               "level": 45,
               "akiRole": "I",
               "moves": [
@@ -27528,7 +27528,7 @@
                 "MOVE_RAIN_DANCE",
                 "MOVE_GIGA_DRAIN",
                 "MOVE_STUN_SPORE",
-                "MOVE_GUST"
+                "MOVE_HIDDEN_POWER"
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_INTIMIDATE",
@@ -34048,7 +34048,7 @@
                 "MOVE_EARTHQUAKE",
                 "MOVE_ROCK_BLAST",
                 "MOVE_STRENGTH",
-                "MOVE_DEFENSE_CURL"
+                "MOVE_FIRE_BLAST"
               ],
               "nature": "NATURE_ADAMANT",
               "ability": "ABILITY_STURDY",
@@ -34311,7 +34311,7 @@
                 "MOVE_WATER_PULSE",
                 "MOVE_GIGA_DRAIN",
                 "MOVE_STUN_SPORE",
-                "MOVE_GUST"
+                "MOVE_HIDDEN_POWER"
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_INTIMIDATE",
@@ -51062,6 +51062,2907 @@
         "06B-tony-B-sableye-nature": {
           "status": "corrected",
           "evidence": "Sableye B cambia únicamente Adamant por Modest: aumenta Ataque Especial para Faint Attack (Siniestro especial en Gen III) y reduce Ataque, que no usa ninguno de sus cuatro movimientos. Night Shade conserva daño por nivel; Confuse Ray y Toxic mantienen su función. Consulta contextual con --trainer swimmer-tony-route19, Sableye nivel 45 y Modest confirma los cuatro movimientos disponibles. Se conservan los 18 miembros, movimientos, recursos, orden, anclas e intents; diff estructural de un solo campo."
+        }
+      }
+    },
+    {
+      "review": "e849af86d4740ade4587d79c74fa24b0bc872ddeb4a0c72ff68493d84135d755",
+      "actor": "/root/optimizer_w07_06b_correct",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "affected": [
+        "swimmer-alice-route19",
+        "swimmer-anya-route19"
+      ],
+      "before": {
+        "swimmer-alice-route19": {
+          "trainerId": "swimmer-alice-route19",
+          "lotId": "06B",
+          "window": 7,
+          "cap": 47,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "goldeen",
+              "species": "SPECIES_SEAKING"
+            }
+          ],
+          "variants": {
+            "A": {
+              "members": [
+                {
+                  "species": "SPECIES_MASQUERAIN",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_GUST"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_SLASH",
+                    "MOVE_AERIAL_ACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_DODRIO",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_TRI_ATTACK",
+                    "MOVE_FLY",
+                    "MOVE_STEEL_WING",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_EARLY_BIRD",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GENGAR",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_PSYCHIC",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BODY_SLAM",
+                    "MOVE_MILK_DRINK",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_IMPISH",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_RAIN_DANCE",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            },
+            "B": {
+              "members": [
+                {
+                  "species": "SPECIES_NINETALES",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_IRON_TAIL"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_CRUSH_CLAW",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_WING_ATTACK",
+                    "MOVE_SLASH",
+                    "MOVE_STEEL_WING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_STEELIX",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_IRON_TAIL",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_ROAR",
+                    "MOVE_DIG"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_REST",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_WATER_VEIL",
+                  "item": null
+                }
+              ]
+            },
+            "C": {
+              "members": [
+                {
+                  "species": "SPECIES_MUK",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ACID_ARMOR",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STICKY_HOLD",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_KANGASKHAN",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_FAKE_OUT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_EARLY_BIRD",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PRIMEAPE",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_CROSS_CHOP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_BULK_UP",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CAMERUPT",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_ERUPTION"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_MAGMA_ARMOR",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_TANGELA",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_GROWTH",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_WATER_VEIL",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            }
+          }
+        },
+        "swimmer-anya-route19": {
+          "trainerId": "swimmer-anya-route19",
+          "lotId": "06B",
+          "window": 7,
+          "cap": 47,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "poliwag",
+              "species": "SPECIES_POLIWAG"
+            },
+            {
+              "family": "goldeen",
+              "species": "SPECIES_GOLDEEN"
+            }
+          ],
+          "variants": {
+            "A": {
+              "members": [
+                {
+                  "species": "SPECIES_ELECTRODE",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SOUNDPROOF",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_ROSELIA",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SWELLOW",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_FACADE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_STEELIX",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_IRON_TAIL",
+                    "MOVE_SCREECH"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_POLIWRATH",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_ICE_BEAM"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATERFALL",
+                    "MOVE_RAIN_DANCE",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            },
+            "B": {
+              "members": [
+                {
+                  "species": "SPECIES_TANGELA",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_GROWTH"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GRUMPIG",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_SHOCK_WAVE",
+                    "MOVE_CONFUSE_RAY"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GOLEM",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_ROCK_BLAST",
+                    "MOVE_STRENGTH",
+                    "MOVE_DEFENSE_CURL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MACHAMP",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_CROSS_CHOP",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BULK_UP",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_BLACK_BELT"
+                },
+                {
+                  "species": "SPECIES_POLIWRATH",
+                  "level": 45,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_ICE_BEAM"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATERFALL",
+                    "MOVE_RAIN_DANCE",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            },
+            "C": {
+              "members": [
+                {
+                  "species": "SPECIES_TROPIUS",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_BODY_SLAM",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PILOSWINE",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_SECRET_POWER"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_OBLIVIOUS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_RAICHU",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_STATIC",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_AGGRON",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_IRON_TAIL",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_STRENGTH",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_POLIWRATH",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_PSYCHIC"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATERFALL",
+                    "MOVE_RAIN_DANCE",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "after": {
+        "swimmer-alice-route19": {
+          "trainerId": "swimmer-alice-route19",
+          "lotId": "06B",
+          "window": 7,
+          "cap": 47,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "goldeen",
+              "species": "SPECIES_SEAKING"
+            }
+          ],
+          "variants": {
+            "A": {
+              "members": [
+                {
+                  "species": "SPECIES_MASQUERAIN",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_SLASH",
+                    "MOVE_AERIAL_ACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_DODRIO",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_TRI_ATTACK",
+                    "MOVE_FLY",
+                    "MOVE_STEEL_WING",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_EARLY_BIRD",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GENGAR",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_PSYCHIC",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BODY_SLAM",
+                    "MOVE_MILK_DRINK",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_IMPISH",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_RAIN_DANCE",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            },
+            "B": {
+              "members": [
+                {
+                  "species": "SPECIES_NINETALES",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_IRON_TAIL"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_CRUSH_CLAW",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_WING_ATTACK",
+                    "MOVE_SLASH",
+                    "MOVE_STEEL_WING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_STEELIX",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_IRON_TAIL",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_ROAR",
+                    "MOVE_DIG"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_REST",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_WATER_VEIL",
+                  "item": null
+                }
+              ]
+            },
+            "C": {
+              "members": [
+                {
+                  "species": "SPECIES_MUK",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ACID_ARMOR",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STICKY_HOLD",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_KANGASKHAN",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_FAKE_OUT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_EARLY_BIRD",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PRIMEAPE",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_CROSS_CHOP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_BULK_UP",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CAMERUPT",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_ERUPTION"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_MAGMA_ARMOR",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_TANGELA",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_GROWTH",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_WATER_VEIL",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            }
+          }
+        },
+        "swimmer-anya-route19": {
+          "trainerId": "swimmer-anya-route19",
+          "lotId": "06B",
+          "window": 7,
+          "cap": 47,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "poliwag",
+              "species": "SPECIES_POLIWAG"
+            },
+            {
+              "family": "goldeen",
+              "species": "SPECIES_GOLDEEN"
+            }
+          ],
+          "variants": {
+            "A": {
+              "members": [
+                {
+                  "species": "SPECIES_ELECTRODE",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SOUNDPROOF",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_ROSELIA",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SWELLOW",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_FACADE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_STEELIX",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_IRON_TAIL",
+                    "MOVE_SCREECH"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_POLIWRATH",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_ICE_BEAM"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATERFALL",
+                    "MOVE_RAIN_DANCE",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            },
+            "B": {
+              "members": [
+                {
+                  "species": "SPECIES_TANGELA",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_GROWTH"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GRUMPIG",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_SHOCK_WAVE",
+                    "MOVE_CONFUSE_RAY"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GOLEM",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_ROCK_BLAST",
+                    "MOVE_STRENGTH",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MACHAMP",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_CROSS_CHOP",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BULK_UP",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_BLACK_BELT"
+                },
+                {
+                  "species": "SPECIES_POLIWRATH",
+                  "level": 45,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_ICE_BEAM"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATERFALL",
+                    "MOVE_RAIN_DANCE",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            },
+            "C": {
+              "members": [
+                {
+                  "species": "SPECIES_TROPIUS",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_BODY_SLAM",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PILOSWINE",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_SECRET_POWER"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_OBLIVIOUS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_RAICHU",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_STATIC",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_AGGRON",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_IRON_TAIL",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_STRENGTH",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_POLIWRATH",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_PSYCHIC"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SEAKING",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATERFALL",
+                    "MOVE_RAIN_DANCE",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "resolutions": {
+        "OPT-W07-swimmer-alice-route19": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: A Masquerain: GUST→HIDDEN_POWER. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
+        },
+        "OPT-W07-swimmer-anya-route19": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: B Golem: DEFENSE_CURL→FIRE_BLAST. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
+        }
+      }
+    },
+    {
+      "review": "dbbf4d827ce61c76ed49ed0f9a6d5515f8956b5cb47619a3a978004ef4e4a822",
+      "actor": "/root/optimizer_w07_06d_correct",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "affected": [
+        "fisherman-claude-route21"
+      ],
+      "before": {
+        "fisherman-claude-route21": {
+          "trainerId": "fisherman-claude-route21",
+          "lotId": "06D",
+          "window": 7,
+          "cap": 47,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "shellder",
+              "species": "SPECIES_CLOYSTER"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Wailord abre con presión acuática y Toxic; Sandslash bloquea Electricidad. Xatu aporta Psychic, Wish, parálisis y Reflect; Tropius cubre Planta y Miltank sostiene el medio. Cloyster cierra con Surf, Hielo y Spikes.",
+              "members": [
+                {
+                  "species": "SPECIES_WAILORD",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_WATER_SPOUT",
+                    "MOVE_REST",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_WATER_VEIL",
+                  "item": "ITEM_MYSTIC_WATER"
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SLASH"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_XATU",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_WISH",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": null,
+                  "intent": "Sustituye a Remoraid, cuya evolución obligatoria exige Octillery sin admisión en W07. Xatu es ave costera y aporta Psychic, Wish y apoyo contra Planta/Lucha."
+                },
+                {
+                  "species": "SPECIES_TROPIUS",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MAGICAL_LEAF",
+                    "MOVE_BODY_SLAM",
+                    "MOVE_WHIRLWIND",
+                    "MOVE_AERIAL_ACE"
+                  ],
+                  "nature": "NATURE_RELAXED",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_BODY_SLAM",
+                    "MOVE_MILK_DRINK",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_ATTRACT"
+                  ],
+                  "nature": "NATURE_IMPISH",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_SPIKES",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Raichu presiona a otros equipos de mar. Masquerain frena con Intimidate y parálisis; Golduck ataca por el lado especial, Girafarig cubre Psíquico y Skarmory resiste Planta. Cloyster remata con Surf y Spikes.",
+              "members": [
+                {
+                  "species": "SPECIES_RAICHU",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_IRON_TAIL",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_STATIC",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_MASQUERAIN",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_RAIN_DANCE",
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_GUST"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GOLDUCK",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_PSYCH_UP",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_CLOUD_NINE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GIRAFARIG",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_INNER_FOCUS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SKARMORY",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_SPIKES",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_IMPISH",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_AURORA_BEAM",
+                    "MOVE_SPIKES",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Swellow abre veloz sobre la costa; Electabuzz castiga Agua y Golem bloquea Electricidad. Claydol da apoyo defensivo y Muk resiste Planta antes del cierre de Cloyster con Spikes.",
+              "members": [
+                {
+                  "species": "SPECIES_SWELLOW",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ELECTABUZZ",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_THUNDER_WAVE"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_STATIC",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_GOLEM",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_STRENGTH",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLAYDOL",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_ANCIENT_POWER",
+                    "MOVE_COSMIC_POWER",
+                    "MOVE_RAPID_SPIN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MUK",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_DIG",
+                    "MOVE_ACID_ARMOR"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STICKY_HOLD",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_SPIKES",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "after": {
+        "fisherman-claude-route21": {
+          "trainerId": "fisherman-claude-route21",
+          "lotId": "06D",
+          "window": 7,
+          "cap": 47,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "shellder",
+              "species": "SPECIES_CLOYSTER"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Wailord abre con presión acuática y Toxic; Sandslash bloquea Electricidad. Xatu aporta Psychic, Wish, parálisis y Reflect; Tropius cubre Planta y Miltank sostiene el medio. Cloyster cierra con Surf, Hielo y Spikes.",
+              "members": [
+                {
+                  "species": "SPECIES_WAILORD",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_WATER_SPOUT",
+                    "MOVE_REST",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_WATER_VEIL",
+                  "item": "ITEM_MYSTIC_WATER"
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SLASH"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_XATU",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_WISH",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": null,
+                  "intent": "Sustituye a Remoraid, cuya evolución obligatoria exige Octillery sin admisión en W07. Xatu es ave costera y aporta Psychic, Wish y apoyo contra Planta/Lucha."
+                },
+                {
+                  "species": "SPECIES_TROPIUS",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MAGICAL_LEAF",
+                    "MOVE_BODY_SLAM",
+                    "MOVE_WHIRLWIND",
+                    "MOVE_AERIAL_ACE"
+                  ],
+                  "nature": "NATURE_RELAXED",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_BODY_SLAM",
+                    "MOVE_MILK_DRINK",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_ATTRACT"
+                  ],
+                  "nature": "NATURE_IMPISH",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_SPIKES",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Raichu presiona a otros equipos de mar. Masquerain frena con Intimidate y parálisis; Golduck ataca por el lado especial, Girafarig cubre Psíquico y Skarmory resiste Planta. Cloyster remata con Surf y Spikes.",
+              "members": [
+                {
+                  "species": "SPECIES_RAICHU",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_IRON_TAIL",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_STATIC",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_MASQUERAIN",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_RAIN_DANCE",
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GOLDUCK",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_PSYCH_UP",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_CLOUD_NINE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GIRAFARIG",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_INNER_FOCUS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SKARMORY",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_SPIKES",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_IMPISH",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_AURORA_BEAM",
+                    "MOVE_SPIKES",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Swellow abre veloz sobre la costa; Electabuzz castiga Agua y Golem bloquea Electricidad. Claydol da apoyo defensivo y Muk resiste Planta antes del cierre de Cloyster con Spikes.",
+              "members": [
+                {
+                  "species": "SPECIES_SWELLOW",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ELECTABUZZ",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_THUNDER_WAVE"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_STATIC",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_GOLEM",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_STRENGTH",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLAYDOL",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_ANCIENT_POWER",
+                    "MOVE_COSMIC_POWER",
+                    "MOVE_RAPID_SPIN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MUK",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_DIG",
+                    "MOVE_ACID_ARMOR"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STICKY_HOLD",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_SPIKES",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "resolutions": {
+        "OPT-W07-fisherman-claude-route21": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: B Masquerain: GUST→HIDDEN_POWER. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
+        }
+      }
+    },
+    {
+      "review": "180751826f32b412aef28ba05f21df5731fdc9b05b984a63def6ce79b44b2e2e",
+      "actor": "/root/optimizer_w07_06e_correct",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "affected": [
+        "burglar-quinn-cinnabar-gym",
+        "youngster-johnson-mansion"
+      ],
+      "before": {
+        "burglar-quinn-cinnabar-gym": {
+          "trainerId": "burglar-quinn-cinnabar-gym",
+          "lotId": "06E",
+          "window": 7,
+          "cap": 47,
+          "profile": "AVANZADO",
+          "anchors": [
+            {
+              "family": "growlithe",
+              "species": "SPECIES_GROWLITHE"
+            },
+            {
+              "family": "vulpix",
+              "species": "SPECIES_NINETALES"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "El Persian abre con hurto y presión física; Arbok aporta Intimidate, parálisis y presión física de Veneno. Gengar y Golduck castigan Agua, Tierra y Roca antes del cierre de Ninetales y Arcanine.",
+              "members": [
+                {
+                  "species": "SPECIES_PERSIAN",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SECRET_POWER",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_THIEF",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_LIMBER",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARBOK",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_STRENGTH",
+                    "MOVE_GLARE",
+                    "MOVE_SCREECH"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GENGAR",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_PSYCHIC",
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_HYPNOSIS"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GOLDUCK",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_CALM_MIND",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLOUD_NINE",
+                  "item": "ITEM_MYSTIC_WATER"
+                },
+                {
+                  "species": "SPECIES_NINETALES",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_IRON_TAIL"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE",
+                    "MOVE_DIG",
+                    "MOVE_AERIAL_ACE"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Banette roba ritmo y objetos; Magmar suma fuego y cobertura. Poliwrath absorbe Agua, responde con Surf y añade sueño con Hypnosis y Raichu responde a Agua antes del cierre de Ninetales y Arcanine.",
+              "members": [
+                {
+                  "species": "SPECIES_BANETTE",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_KNOCK_OFF",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INSOMNIA",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MAGMAR",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_FLAME_BODY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_POLIWRATH",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_BODY_SLAM"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": "ITEM_MYSTIC_WATER"
+                },
+                {
+                  "species": "SPECIES_RAICHU",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_DIG",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_STATIC",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_NINETALES",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_IRON_TAIL"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Magcargo adormece y absorbe golpes; Zangoose presiona físicamente. Sharpedo presiona Tierra y Roca con Surf y añade Crunch y Ice Beam; Marowak castiga Roca y Eléctrico para que Ninetales y Arcanine cierren.",
+              "members": [
+                {
+                  "species": "SPECIES_MAGCARGO",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_YAWN",
+                    "MOVE_AMNESIA"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_FLAME_BODY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_CRUSH_CLAW",
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHARPEDO",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_CRUNCH",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_ROUGH_SKIN",
+                  "item": "ITEM_MYSTIC_WATER"
+                },
+                {
+                  "species": "SPECIES_MAROWAK",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BONEMERANG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_HEADBUTT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_THICK_CLUB"
+                },
+                {
+                  "species": "SPECIES_NINETALES",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE",
+                    "MOVE_DIG",
+                    "MOVE_IRON_TAIL"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                }
+              ]
+            }
+          }
+        },
+        "youngster-johnson-mansion": {
+          "trainerId": "youngster-johnson-mansion",
+          "lotId": "06E",
+          "window": 7,
+          "cap": 47,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "ekans",
+              "species": "SPECIES_EKANS"
+            },
+            {
+              "family": "rattata",
+              "species": "SPECIES_RATICATE"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "La presión veloz de Fearow abre paso a la parálisis de Arbok; Slowbro cubre Roca y Tierra, Primeape rompe muros y Raticate remata con Super Fang.",
+              "members": [
+                {
+                  "species": "SPECIES_FEAROW",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_DRILL_PECK",
+                    "MOVE_STEEL_WING",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_HYPER_BEAM"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARBOK",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_GLARE",
+                    "MOVE_SCREECH",
+                    "MOVE_GIGA_DRAIN"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SLASH",
+                    "MOVE_ROCK_TOMB"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PRIMEAPE",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_CROSS_CHOP",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BULK_UP",
+                    "MOVE_AERIAL_ACE"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SLOWBRO",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_PSYCHIC",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_CALM_MIND"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_MYSTIC_WATER"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_SUPER_FANG"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Ninjask y Golbat desgastan y alteran el ritmo; Manectric contiene Agua, Rhydon absorbe Electricidad y la pareja Arbok-Raticate cierra el asalto.",
+              "members": [
+                {
+                  "species": "SPECIES_NINJASK",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SLASH",
+                    "MOVE_BATON_PASS"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SPEED_BOOST",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARBOK",
+                  "level": 45,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_GLARE",
+                    "MOVE_SCREECH",
+                    "MOVE_GIGA_DRAIN"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GOLBAT",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WING_ATTACK",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_BITE",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INNER_FOCUS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_RHYDON",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_TAKE_DOWN",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MANECTRIC",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_BITE",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_STATIC",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_SUPER_FANG",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Pelipper abre con daño acuático y desgaste mediante Toxic y Protect; Banette hostiga, Scyther amenaza con setup, Nidoking da cobertura amplia y Raticate remata.",
+              "members": [
+                {
+                  "species": "SPECIES_PELIPPER",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_SHOCK_WAVE",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARBOK",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_GLARE",
+                    "MOVE_SCREECH",
+                    "MOVE_GIGA_DRAIN"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_BANETTE",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_SCREECH",
+                    "MOVE_FAINT_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INSOMNIA",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SLASH",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDOKING",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MEGAHORN",
+                    "MOVE_DIG",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SOFT_SAND"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FACADE",
+                    "MOVE_SUPER_FANG",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "after": {
+        "burglar-quinn-cinnabar-gym": {
+          "trainerId": "burglar-quinn-cinnabar-gym",
+          "lotId": "06E",
+          "window": 7,
+          "cap": 47,
+          "profile": "AVANZADO",
+          "anchors": [
+            {
+              "family": "growlithe",
+              "species": "SPECIES_GROWLITHE"
+            },
+            {
+              "family": "vulpix",
+              "species": "SPECIES_NINETALES"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "El Persian abre con hurto y presión física; Arbok aporta Intimidate, parálisis y presión física de Veneno. Gengar y Golduck castigan Agua, Tierra y Roca antes del cierre de Ninetales y Arcanine.",
+              "members": [
+                {
+                  "species": "SPECIES_PERSIAN",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SECRET_POWER",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_THIEF",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_LIMBER",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARBOK",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_STRENGTH",
+                    "MOVE_GLARE",
+                    "MOVE_SCREECH"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GENGAR",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_PSYCHIC",
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_HYPNOSIS"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_GOLDUCK",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_CALM_MIND",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLOUD_NINE",
+                  "item": "ITEM_MYSTIC_WATER"
+                },
+                {
+                  "species": "SPECIES_NINETALES",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_IRON_TAIL"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE",
+                    "MOVE_DIG",
+                    "MOVE_AERIAL_ACE"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Banette roba ritmo y objetos; Magmar suma fuego y cobertura. Poliwrath absorbe Agua, responde con Surf y añade sueño con Hypnosis y Raichu responde a Agua antes del cierre de Ninetales y Arcanine.",
+              "members": [
+                {
+                  "species": "SPECIES_BANETTE",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_KNOCK_OFF",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INSOMNIA",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MAGMAR",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_FLAME_BODY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_POLIWRATH",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_BODY_SLAM"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": "ITEM_MYSTIC_WATER"
+                },
+                {
+                  "species": "SPECIES_RAICHU",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_DIG",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_STATIC",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_NINETALES",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_IRON_TAIL"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Magcargo adormece y absorbe golpes; Zangoose presiona físicamente. Sharpedo presiona Tierra y Roca con Surf y añade Crunch y Ice Beam; Marowak castiga Roca y Eléctrico para que Ninetales y Arcanine cierren.",
+              "members": [
+                {
+                  "species": "SPECIES_MAGCARGO",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_YAWN",
+                    "MOVE_AMNESIA"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_FLAME_BODY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 46,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_CRUSH_CLAW",
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHARPEDO",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_CRUNCH",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_ROUGH_SKIN",
+                  "item": "ITEM_MYSTIC_WATER"
+                },
+                {
+                  "species": "SPECIES_MAROWAK",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BONEMERANG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_HEADBUTT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_THICK_CLUB"
+                },
+                {
+                  "species": "SPECIES_NINETALES",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE",
+                    "MOVE_DIG",
+                    "MOVE_IRON_TAIL"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                }
+              ]
+            }
+          }
+        },
+        "youngster-johnson-mansion": {
+          "trainerId": "youngster-johnson-mansion",
+          "lotId": "06E",
+          "window": 7,
+          "cap": 47,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "ekans",
+              "species": "SPECIES_EKANS"
+            },
+            {
+              "family": "rattata",
+              "species": "SPECIES_RATICATE"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "La presión veloz de Fearow abre paso a la parálisis de Arbok; Slowbro cubre Roca y Tierra, Primeape rompe muros y Raticate remata con Super Fang.",
+              "members": [
+                {
+                  "species": "SPECIES_FEAROW",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_DRILL_PECK",
+                    "MOVE_STEEL_WING",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_HYPER_BEAM"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARBOK",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_GLARE",
+                    "MOVE_SCREECH",
+                    "MOVE_GIGA_DRAIN"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SLASH",
+                    "MOVE_ROCK_TOMB"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PRIMEAPE",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_CROSS_CHOP",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BULK_UP",
+                    "MOVE_AERIAL_ACE"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SLOWBRO",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_PSYCHIC",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_CALM_MIND"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_MYSTIC_WATER"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_SUPER_FANG"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Ninjask y Golbat desgastan y alteran el ritmo; Manectric contiene Agua, Rhydon absorbe Electricidad y la pareja Arbok-Raticate cierra el asalto.",
+              "members": [
+                {
+                  "species": "SPECIES_NINJASK",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SLASH",
+                    "MOVE_BATON_PASS"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SPEED_BOOST",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARBOK",
+                  "level": 45,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_GLARE",
+                    "MOVE_SCREECH",
+                    "MOVE_GIGA_DRAIN"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CROBAT",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WING_ATTACK",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_BITE",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INNER_FOCUS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_RHYDON",
+                  "level": 46,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_TAKE_DOWN",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MANECTRIC",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_BITE",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_STATIC",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_SUPER_FANG",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Pelipper abre con daño acuático y desgaste mediante Toxic y Protect; Banette hostiga, Scyther amenaza con setup, Nidoking da cobertura amplia y Raticate remata.",
+              "members": [
+                {
+                  "species": "SPECIES_PELIPPER",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_SHOCK_WAVE",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARBOK",
+                  "level": 46,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_GLARE",
+                    "MOVE_SCREECH",
+                    "MOVE_GIGA_DRAIN"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_BANETTE",
+                  "level": 45,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_SCREECH",
+                    "MOVE_FAINT_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INSOMNIA",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SLASH",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDOKING",
+                  "level": 45,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MEGAHORN",
+                    "MOVE_DIG",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SOFT_SAND"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 47,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FACADE",
+                    "MOVE_SUPER_FANG",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "resolutions": {
+        "OPT-W07-burglar-quinn-cinnabar-gym": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: A Gengar: objeto MAGNET. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
+        },
+        "OPT-W07-youngster-johnson-mansion": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: B Golbat: evoluciona a Crobat. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
         }
       }
     }

@@ -10,6 +10,7 @@ import {
   buildFormOutcomes,
   buildLevelProfile,
   resolveEvolutionOutcomes,
+  possibleWildForms,
   validateCapLevelPolicy,
 } from './cap-level-policy.mjs';
 
@@ -146,16 +147,39 @@ function assignFixedTyrogueBranches(table, cap, policy, speciesByKey) {
   });
 }
 
-function materializeFixedTable(table, cap, policy, speciesByKey) {
+function seededFormOutcomes(table, slot, levelProfile, policy, speciesByKey, seed) {
+  const forms = possibleWildForms({
+    entrySpecies: entrySpeciesFor(table, slot), familyKey: slot.familyKey,
+    level: levelProfile[0].level, speciesByKey, policy,
+  });
+  const pick = createHash('sha256')
+    .update(JSON.stringify([seed, 'family-form', table.surfaceId, slot.slotIndex, slot.familyKey]))
+    .digest().readUInt32BE(0) % forms.length;
+  slot.possibleSpeciesIds = forms.map((key) => `SPECIES_${key}`);
+  return [{
+    speciesId: `SPECIES_${forms[pick]}`,
+    minLevel: levelProfile[0].level,
+    maxLevel: levelProfile.at(-1).level,
+    probabilityWithinSlotPercent: 100,
+    tableEncounterPercent: slot.weight,
+    levels: levelProfile.map((row) => ({ ...row,
+      tableEncounterPercent: round(slot.weight * row.probabilityWithinSlotPercent / 100),
+    })),
+  }];
+}
+
+function materializeFixedTable(table, cap, policy, speciesByKey, formSeed = null) {
   if (table.slots.length === 0) return [];
   invariant(table.slots.length === policy.landSlotOffsets.length, `${table.surfaceId}: tierra debe conservar doce slots`);
-  assignFixedTyrogueBranches(table, cap, policy, speciesByKey);
-  const branchAdjustments = ensureFixedWurmpleBranches(table, cap, policy, speciesByKey);
+  if (formSeed === null) assignFixedTyrogueBranches(table, cap, policy, speciesByKey);
+  const branchAdjustments = formSeed === null ? ensureFixedWurmpleBranches(table, cap, policy, speciesByKey) : [];
   for (let index = 0; index < table.slots.length; index += 1) {
     const slot = table.slots[index];
     const levelProfile = buildLevelProfile(cap, policy, policy.landSlotOffsets[index]);
     const entrySpecies = entrySpeciesFor(table, slot);
-    const formOutcomes = buildFormOutcomes({
+    const formOutcomes = formSeed !== null
+      ? seededFormOutcomes(table, slot, levelProfile, policy, speciesByKey, formSeed)
+      : buildFormOutcomes({
       entrySpecies,
       familyKey: slot.familyKey,
       slotWeight: slot.weight,
@@ -178,19 +202,21 @@ function materializeFixedTable(table, cap, policy, speciesByKey) {
   return branchAdjustments;
 }
 
-function materializeRangedTable(table, cap, policy, speciesByKey) {
+function materializeRangedTable(table, cap, policy, speciesByKey, formSeed = null) {
   const levelProfile = buildLevelProfile(cap, policy);
   for (const slot of table.slots) {
     const entrySpecies = entrySpeciesFor(table, slot);
     slot.minLevel = cap + policy.rangeOffsets.minimum;
     slot.maxLevel = cap + policy.rangeOffsets.maximum;
     slot.speciesId = `SPECIES_${entrySpecies}`;
-    slot.materialization = 'runtime-level-dependent';
+    slot.materialization = formSeed !== null ? 'static-cap-range' : 'runtime-level-dependent';
     slot.levelProfile = levelProfile.map((row) => ({
       ...row,
       tableEncounterPercent: round(slot.weight * row.probabilityWithinSlotPercent / 100),
     }));
-    slot.formOutcomes = buildFormOutcomes({
+    slot.formOutcomes = formSeed !== null
+      ? seededFormOutcomes(table, slot, levelProfile, policy, speciesByKey, formSeed)
+      : buildFormOutcomes({
       entrySpecies,
       familyKey: slot.familyKey,
       slotWeight: slot.weight,
@@ -198,6 +224,7 @@ function materializeRangedTable(table, cap, policy, speciesByKey) {
       speciesByKey,
       policy,
     });
+    if (formSeed !== null) slot.speciesId = slot.formOutcomes[0].speciesId;
   }
   return [];
 }
@@ -224,7 +251,9 @@ export function validateCapEvolutionDistribution(document) {
     ['seeded-debut-phase-only-v1', 'seeded-window-debut-queue-v1']
       .includes(document.config.randomization?.mode)
       ? document.metrics.coverage.slots <= 2065
-      : document.metrics.coverage.slots === 2065,
+      : document.metrics.coverage.slots === 2065 - document.tables
+        .filter((table) => table.slots.length === 0 && document.config.allowEmptyFishingSurfaces?.includes(table.surfaceId))
+        .reduce((sum, table) => sum + table.nativeCapacity, 0),
     'cantidad de slots inválida',
   );
   check(document.metrics.levelMaterialization.capViolations === 0, 'hay slots por encima del cap');
@@ -248,7 +277,8 @@ export function validateCapEvolutionDistribution(document) {
             && slot.maxLevel === cap + policy.rangeOffsets.maximum,
           `${table.surfaceId}/${slot.slotIndex}: rango incorrecto`,
         );
-        check(slot.materialization === 'runtime-level-dependent', `${table.surfaceId}/${slot.slotIndex}: materialización de rango incorrecta`);
+        check(slot.materialization === (document.config.faunaFormSelection === 'seeded-family-forms'
+          ? 'static-cap-range' : 'runtime-level-dependent'), `${table.surfaceId}/${slot.slotIndex}: materialización de rango incorrecta`);
         check(
           JSON.stringify(slot.levelProfile.map((row) => ({
             offset: row.level - cap,
@@ -288,6 +318,7 @@ export async function buildCapEvolutionDistribution({
   invariant(SUPPORTED_RANDOMIZATION_MODES.has(base.config.randomization?.mode), 'el runner cap/evolución sólo admite generadores aleatorios conocidos');
   invariant(base.config.inheritanceMode === 'C0', 'la variante debe partir de una asignación C0 limpia');
   const policy = validateCapLevelPolicy(base.config);
+  const formSeed = base.config.faunaFormSelection === 'seeded-family-forms' ? base.seed : null;
   const plan = JSON.parse(planText);
   const pokedex = JSON.parse(pokedexText);
   const capByBatch = buildCapByBatch(plan);
@@ -300,8 +331,11 @@ export async function buildCapEvolutionDistribution({
     sha256: sha256(runnerText),
   };
   document.generatedFrom.capLevelPolicy = { path: 'generators/fauna/cap-level-policy.mjs', sha256: sha256(policyText) };
-  document.algorithm.stages = [...document.algorithm.stages, 'cap-level-materialization', 'automatic-level-evolution-projection'];
-  document.algorithm.slotMaterialization = `${policy.rangeOffsets.minimum < 0 ? `C${policy.rangeOffsets.minimum}` : 'C'}..C from effective access cap; fixed land forms materialized statically; ranged methods projected for runtime level-dependent evolution`;
+  document.algorithm.stages = [...document.algorithm.stages, 'cap-level-materialization',
+    formSeed !== null ? 'seeded-family-form-selection' : 'automatic-level-evolution-projection'];
+  document.algorithm.slotMaterialization = formSeed !== null
+    ? 'seeded static species from base and legal level evolutions; ranged species legal at minimum level'
+    : `${policy.rangeOffsets.minimum < 0 ? `C${policy.rangeOffsets.minimum}` : 'C'}..C from effective access cap; fixed land forms materialized statically; ranged methods projected for runtime level-dependent evolution`;
   document.algorithm.powerEvaluationForMaterializedForms = 'not-evaluated';
   document.levelPolicy = {
     mode: policy.mode,
@@ -323,13 +357,13 @@ export async function buildCapEvolutionDistribution({
     invariant(Number.isInteger(cap), `${table.surfaceId}: ${table.effectiveAccessBatch} no tiene cap`);
     table.cap = cap;
     if (policy.fixedMethods.includes(table.method)) {
-      branchAdjustments.push(...materializeFixedTable(table, cap, policy, speciesByKey).map((row) => ({
+      branchAdjustments.push(...materializeFixedTable(table, cap, policy, speciesByKey, formSeed).map((row) => ({
         surfaceId: table.surfaceId,
         ...row,
       })));
     } else {
       invariant(policy.rangedMethods.includes(table.method), `${table.surfaceId}: método ${table.method} fuera de la política`);
-      materializeRangedTable(table, cap, policy, speciesByKey);
+      materializeRangedTable(table, cap, policy, speciesByKey, formSeed);
     }
     addFormSummaries(table);
   }
@@ -342,6 +376,7 @@ export async function buildCapEvolutionDistribution({
       && slot.speciesId !== `SPECIES_${entrySpeciesFor(document.tables.find((table) => table.slots.includes(slot)), slot)}`
     )).length,
     dynamicRangeSlots: allSlots.filter((slot) => slot.materialization === 'runtime-level-dependent').length,
+    staticRangeSlots: allSlots.filter((slot) => slot.materialization === 'static-cap-range').length,
     capViolations: capViolations.length,
     fixedBranchAdjustments: branchAdjustments,
     unresolvedBranches: 0,

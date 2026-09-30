@@ -39,7 +39,7 @@ static const u8 sText_TeamRevived[] = _("All fainted POKéMON were revived\nand 
 static const u8 sText_MonRevived[] = _("{STR_VAR_1} was revived for ¥{STR_VAR_2}\nand fully restored.{PAUSE_UNTIL_PRESS}");
 static const u8 sText_NoPokemon[] = _("There are no POKéMON to heal.{PAUSE_UNTIL_PRESS}");
 static const u8 sText_NoEffect[] = _("It will have no effect.{PAUSE_UNTIL_PRESS}");
-static const u8 sText_PartyHealed[] = _("Your living POKéMON were\nfully healed!{PAUSE_UNTIL_PRESS}");
+static const u8 sText_PartyHealed[] = _("Your conscious POKéMON were\nfully healed!{PAUSE_UNTIL_PRESS}");
 static const u8 sText_MonHealed[] = _("{STR_VAR_1} was fully healed!{PAUSE_UNTIL_PRESS}");
 
 enum

@@ -181,6 +181,26 @@ export function buildLevelProfile(cap, policy, fixedOffset = null) {
   }));
 }
 
+// A level permits evolution; it does not erase earlier forms. Preserve the
+// entry species and every reachable ordinary level evolution, including both
+// Wurmple branches. Nincada's acquisition exception remains unchanged.
+export function possibleWildForms({ entrySpecies, familyKey, level, speciesByKey, policy }) {
+  const methods = new Set(policy.automaticEvolutionMethods);
+  const forms = new Set();
+  const visit = (key, ancestors = new Set()) => {
+    invariant(!ancestors.has(key), `${familyKey}: ciclo evolutivo en ${key}`);
+    const species = speciesByKey.get(key);
+    invariant(species, `${familyKey}: especie desconocida ${key}`);
+    forms.add(key);
+    if (exceptionFor(policy, familyKey, key)?.behavior === 'preserve-source-species') return;
+    for (const edge of eligibleEdges(species, level, methods)) {
+      visit(edge.to, new Set(ancestors).add(key));
+    }
+  };
+  visit(entrySpecies);
+  return [...forms].sort();
+}
+
 export function buildFormOutcomes({ entrySpecies, familyKey, slotWeight, levelProfile, speciesByKey, policy, fixedBranchTarget = null }) {
   const bySpecies = new Map();
   for (const levelRow of levelProfile) {

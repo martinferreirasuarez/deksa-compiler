@@ -2124,7 +2124,7 @@
                 "MOVE_MAGNITUDE",
                 "MOVE_ROCK_TOMB",
                 "MOVE_MEGA_PUNCH",
-                "MOVE_DEFENSE_CURL"
+                "MOVE_FIRE_BLAST"
               ],
               "nature": "NATURE_ADAMANT",
               "ability": "ABILITY_STURDY",
@@ -2984,7 +2984,7 @@
                 "MOVE_MAGNITUDE",
                 "MOVE_ROCK_THROW",
                 "MOVE_SECRET_POWER",
-                "MOVE_DEFENSE_CURL"
+                "MOVE_FIRE_BLAST"
               ],
               "nature": "NATURE_ADAMANT",
               "ability": "ABILITY_STURDY",
@@ -5749,7 +5749,7 @@
                 "MOVE_SECRET_POWER",
                 "MOVE_BITE",
                 "MOVE_DOUBLE_KICK",
-                "MOVE_POISON_STING"
+                "MOVE_THUNDERBOLT"
               ],
               "nature": "NATURE_NAUGHTY",
               "ability": "ABILITY_POISON_POINT",
@@ -6307,7 +6307,7 @@
                 "MOVE_WATER_PULSE",
                 "MOVE_AURORA_BEAM",
                 "MOVE_SUPERSONIC",
-                "MOVE_WITHDRAW"
+                "MOVE_FRUSTRATION"
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_SHELL_ARMOR",
@@ -6396,7 +6396,7 @@
                 "MOVE_WATER_PULSE",
                 "MOVE_AURORA_BEAM",
                 "MOVE_SUPERSONIC",
-                "MOVE_WITHDRAW"
+                "MOVE_FRUSTRATION"
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_SHELL_ARMOR",
@@ -6485,7 +6485,7 @@
                 "MOVE_WATER_PULSE",
                 "MOVE_AURORA_BEAM",
                 "MOVE_SUPERSONIC",
-                "MOVE_WITHDRAW"
+                "MOVE_FRUSTRATION"
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_SHELL_ARMOR",
@@ -8611,7 +8611,7 @@
                 "MOVE_DIG",
                 "MOVE_HORN_ATTACK",
                 "MOVE_DOUBLE_KICK",
-                "MOVE_POISON_STING"
+                "MOVE_THUNDERBOLT"
               ],
               "nature": "NATURE_ADAMANT",
               "ability": "ABILITY_POISON_POINT",
@@ -8733,7 +8733,7 @@
                 "MOVE_ROCK_TOMB",
                 "MOVE_THUNDERBOLT",
                 "MOVE_THUNDER_WAVE",
-                "MOVE_HARDEN"
+                "MOVE_HIDDEN_POWER"
               ],
               "nature": "NATURE_QUIET",
               "ability": "ABILITY_STURDY",
@@ -9360,7 +9360,7 @@
               "moves": [
                 "MOVE_DOUBLE_KICK",
                 "MOVE_BITE",
-                "MOVE_POISON_STING",
+                "MOVE_ICE_BEAM",
                 "MOVE_THUNDERBOLT"
               ],
               "nature": "NATURE_HARDY",
@@ -14548,7 +14548,7 @@
                 "MOVE_MAGNITUDE",
                 "MOVE_ROCK_TOMB",
                 "MOVE_MEGA_PUNCH",
-                "MOVE_DEFENSE_CURL"
+                "MOVE_FIRE_BLAST"
               ],
               "nature": "NATURE_ADAMANT",
               "ability": "ABILITY_STURDY",
@@ -15958,7 +15958,7 @@
                 "MOVE_MAGNITUDE",
                 "MOVE_ROCK_THROW",
                 "MOVE_SECRET_POWER",
-                "MOVE_DEFENSE_CURL"
+                "MOVE_FIRE_BLAST"
               ],
               "nature": "NATURE_ADAMANT",
               "ability": "ABILITY_STURDY",
@@ -20473,7 +20473,7 @@
                 "MOVE_SECRET_POWER",
                 "MOVE_BITE",
                 "MOVE_DOUBLE_KICK",
-                "MOVE_POISON_STING"
+                "MOVE_THUNDERBOLT"
               ],
               "nature": "NATURE_NAUGHTY",
               "ability": "ABILITY_POISON_POINT",
@@ -21381,7 +21381,7 @@
                 "MOVE_WATER_PULSE",
                 "MOVE_AURORA_BEAM",
                 "MOVE_SUPERSONIC",
-                "MOVE_WITHDRAW"
+                "MOVE_FRUSTRATION"
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_SHELL_ARMOR",
@@ -21530,7 +21530,7 @@
                 "MOVE_WATER_PULSE",
                 "MOVE_AURORA_BEAM",
                 "MOVE_SUPERSONIC",
-                "MOVE_WITHDRAW"
+                "MOVE_FRUSTRATION"
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_SHELL_ARMOR",
@@ -21679,7 +21679,7 @@
                 "MOVE_WATER_PULSE",
                 "MOVE_AURORA_BEAM",
                 "MOVE_SUPERSONIC",
-                "MOVE_WITHDRAW"
+                "MOVE_FRUSTRATION"
               ],
               "nature": "NATURE_MODEST",
               "ability": "ABILITY_SHELL_ARMOR",
@@ -25145,7 +25145,7 @@
                 "MOVE_DIG",
                 "MOVE_HORN_ATTACK",
                 "MOVE_DOUBLE_KICK",
-                "MOVE_POISON_STING"
+                "MOVE_THUNDERBOLT"
               ],
               "nature": "NATURE_ADAMANT",
               "ability": "ABILITY_POISON_POINT",
@@ -25347,7 +25347,7 @@
                 "MOVE_ROCK_TOMB",
                 "MOVE_THUNDERBOLT",
                 "MOVE_THUNDER_WAVE",
-                "MOVE_HARDEN"
+                "MOVE_HIDDEN_POWER"
               ],
               "nature": "NATURE_QUIET",
               "ability": "ABILITY_STURDY",
@@ -26374,7 +26374,7 @@
               "moves": [
                 "MOVE_DOUBLE_KICK",
                 "MOVE_BITE",
-                "MOVE_POISON_STING",
+                "MOVE_ICE_BEAM",
                 "MOVE_THUNDERBOLT"
               ],
               "nature": "NATURE_HARDY",
@@ -31142,6 +31142,3488 @@
         "03C-lamar-c-volbeat-tail-glow": {
           "status": "corrected",
           "evidence": "Volbeat C: Tail Glow → Quick Attack y Modest → Adamant; conserva Signal Beam, Moonlight, Confuse Ray, objeto, habilidad y puesto. Quick Attack legal por nivel 17 (consulta contextual W03, AVANZADO, nivel 25). Ambos ataques son físicos Gen III y ahora reciben la mejora de Ataque; se elimina la preparación sin efecto y se actualiza sólo su frase de intent. Resto de la tripleta intacto."
+        }
+      }
+    },
+    {
+      "review": "6e7fc9d19dcd52d0e48cbcd64c648c395173bc788147ea14b7f86182824f8d62",
+      "actor": "/root/optimizer_w03_03b_correct",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "affected": [
+        "gentleman-arthur",
+        "lass-ann",
+        "sailor-duncan",
+        "sailor-leonard"
+      ],
+      "before": {
+        "gentleman-arthur": {
+          "trainerId": "gentleman-arthur",
+          "lotId": "03B",
+          "window": 3,
+          "cap": 24,
+          "profile": "AVANZADO",
+          "anchors": [
+            {
+              "family": "nidoran_m",
+              "species": "SPECIES_NIDORAN_M"
+            },
+            {
+              "family": "nidoran_f",
+              "species": "SPECIES_NIDORAN_F"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Cubierta exterior: Scyther abre con Frustration y Steel Wing bajo Silk Scarf; Vulpix y Wingull, mascotas de a bordo, cubren con fuego, Will-O-Wisp y agua/hielo; Roselia controla con Stun Spore y Leech Seed; la pareja Nidorina/Nidorino cierra el paseo.",
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_STEEL_WING",
+                    "MOVE_AGILITY",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_VULPIX",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_WINGULL",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WING_ATTACK",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ROSELIA",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MAGICAL_LEAF",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_GROWTH"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SECRET_POWER",
+                    "MOVE_BITE",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DIG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Primera clase: Ponyta abre con Flamethrower y Stomp; Meowth, el gato del salón, acosa con Taunt y Frustration; Slowpoke aporta Psychic, Water Pulse, Ice Beam y Yawn; Magnemite castiga agua y voladores con Thunderbolt y Thunder Wave; Nidorina y Nidorino con Silk Scarf cierran.",
+              "members": [
+                {
+                  "species": "SPECIES_PONYTA",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_STOMP",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_MEOWTH",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_BITE",
+                    "MOVE_TAUNT",
+                    "MOVE_PAY_DAY"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_PICKUP",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_YAWN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_STURDY",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SECRET_POWER",
+                    "MOVE_BITE",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DIG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SILK_SCARF"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Cocina y salón: Combusken abre con Brick Break, Flamethrower, Rock Tomb y Bulk Up; Clefairy duerme con Sing y responde con Thunderbolt; Psyduck cubre con Water Pulse, Ice Beam y Confusion; Parasect frena con Stun Spore y Frustration; los Nido cierran.",
+              "members": [
+                {
+                  "species": "SPECIES_COMBUSKEN",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SING",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ENCORE",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PSYDUCK",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_CONFUSION",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLOUD_NINE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PARASECT",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_LEECH_LIFE"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_EFFECT_SPORE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FACADE",
+                    "MOVE_BITE",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DIG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        },
+        "lass-ann": {
+          "trainerId": "lass-ann",
+          "lotId": "03B",
+          "window": 3,
+          "cap": 24,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "pidgey",
+              "species": "SPECIES_PIDGEY"
+            },
+            {
+              "family": "nidoran_f",
+              "species": "SPECIES_NIDORAN_F"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Pasajera de cubierta con tempo: Electrike abre con Thunderbolt y parálisis, Jigglypuff duerme y cubre con Ice Beam, Makuhita castiga con Bulk Up y Brick Break, Vulpix quema y confunde; Pidgeotto con Silk Scarf aporta Frustration y Nidorina cierra como as con Dig y Double Kick.",
+              "members": [
+                {
+                  "species": "SPECIES_ELECTRIKE",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_STATIC",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_JIGGLYPUFF",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SING",
+                    "MOVE_FACADE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MAKUHITA",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_BULK_UP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_FAKE_OUT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_VULPIX",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_STEEL_WING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_BITE",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Salón especial de la Lass: Lombre lidera con Water Pulse e Ice Beam, Clefairy canta y cubre con Thunderbolt y Psychic, Quilava lanza Flamethrower, Illumise sostiene con Wish, Charm y Light Screen; Nidorina golpea con Dig y Pidgeotto cierra como as con Frustration potenciada.",
+              "members": [
+                {
+                  "species": "SPECIES_LOMBRE",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_FAKE_OUT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SING",
+                    "MOVE_ENCORE",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_PSYCHIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_QUILAVA",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY"
+                },
+                {
+                  "species": "SPECIES_ILLUMISE",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WISH",
+                    "MOVE_CHARM",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_FACADE"
+                  ],
+                  "nature": "NATURE_BOLD",
+                  "ability": "ABILITY_OBLIVIOUS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_BITE",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_STEEL_WING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Cocina del barco, resistencia y veneno: Snubbull abre con Intimidate y Bulk Up, Drowzee con Twisted Spoon presiona con Psychic, Grimer con Poison Barb castiga con Sludge y Dig, Meowth hostiga con Taunt; Pidgeotto aporta Secret Power y Gust y Nidorina cierra como as con Double Kick y Thunderbolt.",
+              "members": [
+                {
+                  "species": "SPECIES_SNUBBULL",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_BITE",
+                    "MOVE_BULK_UP",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_DROWZEE",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_HEADBUTT",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_INSOMNIA",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_GRIMER",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLUDGE",
+                    "MOVE_DIG",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STICKY_HOLD",
+                  "item": "ITEM_POISON_BARB"
+                },
+                {
+                  "species": "SPECIES_MEOWTH",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FACADE",
+                    "MOVE_BITE",
+                    "MOVE_TAUNT",
+                    "MOVE_WATER_PULSE"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_PICKUP",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SECRET_POWER",
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_STEEL_WING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 24,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_BITE",
+                    "MOVE_POISON_STING",
+                    "MOVE_THUNDERBOLT"
+                  ],
+                  "nature": "NATURE_HARDY",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": null
+                }
+              ]
+            }
+          }
+        },
+        "sailor-duncan": {
+          "trainerId": "sailor-duncan",
+          "lotId": "03B",
+          "window": 3,
+          "cap": 24,
+          "profile": "AVANZADO",
+          "anchors": [
+            {
+              "family": "horsea",
+              "species": "SPECIES_HORSEA"
+            },
+            {
+              "family": "shellder",
+              "species": "SPECIES_SHELLDER"
+            },
+            {
+              "family": "tentacool",
+              "species": "SPECIES_TENTACOOL"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Bodega anegada: Plusle abre con Thunder Wave y Encore, Poliwag duerme con Hypnosis, Marshtomp cubre Electrico con Tierra y Roca; Horsea, Shellder y Tentacool sostienen el agua y cierra Tentacool.",
+              "members": [
+                {
+                  "species": "SPECIES_PLUSLE",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_ENCORE",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_PLUS",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_POLIWAG",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPNOSIS",
+                    "MOVE_WATER_GUN",
+                    "MOVE_DOUBLE_SLAP",
+                    "MOVE_PSYCHIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_HORSEA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_GUN",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_LEER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_AURORA_BEAM",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_WITHDRAW"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MARSHTOMP",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MUD_SHOT",
+                    "MOVE_DIG",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_PUNCH"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SOFT_SAND"
+                },
+                {
+                  "species": "SPECIES_TENTACOOL",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_BUBBLE_BEAM",
+                    "MOVE_ACID",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Cubierta de carga: Butterfree abre con Sleep Powder y Psychic, Carvanha muerde con Crunch y Taunt, Lickitung aporta Thunderbolt y Flamethrower contra Agua y Planta; el trio marinero cierra con Tentacool.",
+              "members": [
+                {
+                  "species": "SPECIES_BUTTERFREE",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_PSYCHIC",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_COMPOUND_EYES",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_CARVANHA",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_CRUNCH",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_SCARY_FACE",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_ROUGH_SKIN",
+                  "item": "ITEM_BLACK_GLASSES"
+                },
+                {
+                  "species": "SPECIES_HORSEA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_GUN",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_LEER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_AURORA_BEAM",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_WITHDRAW"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_LICKITUNG",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STOMP",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_KNOCK_OFF"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_SITRUS_BERRY"
+                },
+                {
+                  "species": "SPECIES_TENTACOOL",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_BUBBLE_BEAM",
+                    "MOVE_ACID",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": null
+                }
+              ]
+            },
+            "C": {
+              "intent": "Muelle y gaviotas: Scyther presiona con Secret Power y Steel Wing, Wingull acosa desde el aire, Roselia frena con Stun Spore y Leech Seed y castiga Agua y Tierra con Magical Leaf; cierra Tentacool.",
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_AGILITY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_WINGULL",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WING_ATTACK",
+                    "MOVE_WATER_GUN",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_MIST"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_HORSEA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_GUN",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_LEER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_AURORA_BEAM",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_WITHDRAW"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_SITRUS_BERRY"
+                },
+                {
+                  "species": "SPECIES_ROSELIA",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MAGICAL_LEAF",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_MEGA_DRAIN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_TENTACOOL",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_BUBBLE_BEAM",
+                    "MOVE_ACID",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": null
+                }
+              ]
+            }
+          }
+        },
+        "sailor-leonard": {
+          "trainerId": "sailor-leonard",
+          "lotId": "03B",
+          "window": 3,
+          "cap": 24,
+          "profile": "ESPECIALISTA",
+          "anchors": [
+            {
+              "family": "shellder",
+              "species": "SPECIES_SHELLDER"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Guardia de la bodega B1F: Poliwhirl abre de forma autónoma, Carvanha y Makuhita completan la tripulación agua/lucha, Kadabra y Magmar entran como respuesta a Planta, Lucha y Acero que amenazan a Shellder, y Shellder cierra como ancla.",
+              "members": [
+                {
+                  "species": "SPECIES_POLIWHIRL",
+                  "level": 25,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPNOSIS",
+                    "MOVE_WATER_GUN",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_DIG"
+                  ],
+                  "nature": "NATURE_LONELY",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CARVANHA",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_CRUNCH",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_TAUNT",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_ROUGH_SKIN",
+                  "item": "ITEM_BLACK_GLASSES"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER",
+                    "MOVE_REFLECT",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_MAGMAR",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_FLAME_BODY",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_MAKUHITA",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_VITAL_THROW",
+                    "MOVE_FAKE_OUT",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICICLE_SPEAR",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Estiba pesada: Croconaw lidera, Meditite y Slowpoke aportan el lado lucha/psíquico del marinero, Miltank resiste y Graveler corta a los Eléctricos del Vermilion; Shellder cierra como ancla.",
+              "members": [
+                {
+                  "species": "SPECIES_CROCONAW",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_BITE",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_DIG"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_TORRENT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MEDITITE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_CONFUSION",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_PURE_POWER",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STOMP",
+                    "MOVE_MILK_DRINK",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_THUNDERBOLT"
+                  ],
+                  "nature": "NATURE_LONELY",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GRAVELER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MAGNITUDE",
+                    "MOVE_ROCK_THROW",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_DEFENSE_CURL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": "ITEM_SOFT_SAND"
+                },
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_WATER_GUN",
+                    "MOVE_YAWN",
+                    "MOVE_FLAMETHROWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICICLE_SPEAR",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Cubierta mojada: Lombre abre y resiste Eléctrico, Mankey y Wailmer sostienen la identidad lucha/agua, Kecleon y Haunter castigan desde el centro con cobertura amplia; Shellder cierra como ancla.",
+              "members": [
+                {
+                  "species": "SPECIES_LOMBRE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_BULLET_SEED",
+                    "MOVE_FAKE_OUT",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_KECLEON",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_FAINT_ATTACK",
+                    "MOVE_FLAMETHROWER"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_COLOR_CHANGE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_HAUNTER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_SHADOW_PUNCH",
+                    "MOVE_HYPNOSIS"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_MANKEY",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_KARATE_CHOP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_WAILMER",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_ROLLOUT",
+                    "MOVE_FACADE",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_LONELY",
+                  "ability": "ABILITY_WATER_VEIL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICICLE_SPEAR",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "after": {
+        "gentleman-arthur": {
+          "trainerId": "gentleman-arthur",
+          "lotId": "03B",
+          "window": 3,
+          "cap": 24,
+          "profile": "AVANZADO",
+          "anchors": [
+            {
+              "family": "nidoran_m",
+              "species": "SPECIES_NIDORAN_M"
+            },
+            {
+              "family": "nidoran_f",
+              "species": "SPECIES_NIDORAN_F"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Cubierta exterior: Scyther abre con Frustration y Steel Wing bajo Silk Scarf; Vulpix y Wingull, mascotas de a bordo, cubren con fuego, Will-O-Wisp y agua/hielo; Roselia controla con Stun Spore y Leech Seed; la pareja Nidorina/Nidorino cierra el paseo.",
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_STEEL_WING",
+                    "MOVE_AGILITY",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_VULPIX",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_WINGULL",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WING_ATTACK",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ROSELIA",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MAGICAL_LEAF",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_GROWTH"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SECRET_POWER",
+                    "MOVE_BITE",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_THUNDERBOLT"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DIG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Primera clase: Ponyta abre con Flamethrower y Stomp; Meowth, el gato del salón, acosa con Taunt y Frustration; Slowpoke aporta Psychic, Water Pulse, Ice Beam y Yawn; Magnemite castiga agua y voladores con Thunderbolt y Thunder Wave; Nidorina y Nidorino con Silk Scarf cierran.",
+              "members": [
+                {
+                  "species": "SPECIES_PONYTA",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_STOMP",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_MEOWTH",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_BITE",
+                    "MOVE_TAUNT",
+                    "MOVE_PAY_DAY"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_PICKUP",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_YAWN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_STURDY",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SECRET_POWER",
+                    "MOVE_BITE",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DIG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SILK_SCARF"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Cocina y salón: Combusken abre con Brick Break, Flamethrower, Rock Tomb y Bulk Up; Clefairy duerme con Sing y responde con Thunderbolt; Psyduck cubre con Water Pulse, Ice Beam y Confusion; Parasect frena con Stun Spore y Frustration; los Nido cierran.",
+              "members": [
+                {
+                  "species": "SPECIES_COMBUSKEN",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SING",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ENCORE",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PSYDUCK",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_CONFUSION",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLOUD_NINE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PARASECT",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_LEECH_LIFE"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_EFFECT_SPORE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FACADE",
+                    "MOVE_BITE",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DIG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        },
+        "lass-ann": {
+          "trainerId": "lass-ann",
+          "lotId": "03B",
+          "window": 3,
+          "cap": 24,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "pidgey",
+              "species": "SPECIES_PIDGEY"
+            },
+            {
+              "family": "nidoran_f",
+              "species": "SPECIES_NIDORAN_F"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Pasajera de cubierta con tempo: Electrike abre con Thunderbolt y parálisis, Jigglypuff duerme y cubre con Ice Beam, Makuhita castiga con Bulk Up y Brick Break, Vulpix quema y confunde; Pidgeotto con Silk Scarf aporta Frustration y Nidorina cierra como as con Dig y Double Kick.",
+              "members": [
+                {
+                  "species": "SPECIES_ELECTRIKE",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_STATIC",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_JIGGLYPUFF",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SING",
+                    "MOVE_FACADE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MAKUHITA",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_BULK_UP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_FAKE_OUT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_VULPIX",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_WILL_O_WISP",
+                    "MOVE_CONFUSE_RAY",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_STEEL_WING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_BITE",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Salón especial de la Lass: Lombre lidera con Water Pulse e Ice Beam, Clefairy canta y cubre con Thunderbolt y Psychic, Quilava lanza Flamethrower, Illumise sostiene con Wish, Charm y Light Screen; Nidorina golpea con Dig y Pidgeotto cierra como as con Frustration potenciada.",
+              "members": [
+                {
+                  "species": "SPECIES_LOMBRE",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_FAKE_OUT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SING",
+                    "MOVE_ENCORE",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_PSYCHIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_QUILAVA",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY"
+                },
+                {
+                  "species": "SPECIES_ILLUMISE",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WISH",
+                    "MOVE_CHARM",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_FACADE"
+                  ],
+                  "nature": "NATURE_BOLD",
+                  "ability": "ABILITY_OBLIVIOUS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_BITE",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_STEEL_WING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Cocina del barco, resistencia y veneno: Snubbull abre con Intimidate y Bulk Up, Drowzee con Twisted Spoon presiona con Psychic, Grimer con Poison Barb castiga con Sludge y Dig, Meowth hostiga con Taunt; Pidgeotto aporta Secret Power y Gust y Nidorina cierra como as con Double Kick y Thunderbolt.",
+              "members": [
+                {
+                  "species": "SPECIES_SNUBBULL",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_BITE",
+                    "MOVE_BULK_UP",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_DROWZEE",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_HEADBUTT",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_INSOMNIA",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_GRIMER",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLUDGE",
+                    "MOVE_DIG",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STICKY_HOLD",
+                  "item": "ITEM_POISON_BARB"
+                },
+                {
+                  "species": "SPECIES_MEOWTH",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FACADE",
+                    "MOVE_BITE",
+                    "MOVE_TAUNT",
+                    "MOVE_WATER_PULSE"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_PICKUP",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SECRET_POWER",
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_STEEL_WING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINA",
+                  "level": 24,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_BITE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_THUNDERBOLT"
+                  ],
+                  "nature": "NATURE_HARDY",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": null
+                }
+              ]
+            }
+          }
+        },
+        "sailor-duncan": {
+          "trainerId": "sailor-duncan",
+          "lotId": "03B",
+          "window": 3,
+          "cap": 24,
+          "profile": "AVANZADO",
+          "anchors": [
+            {
+              "family": "horsea",
+              "species": "SPECIES_HORSEA"
+            },
+            {
+              "family": "shellder",
+              "species": "SPECIES_SHELLDER"
+            },
+            {
+              "family": "tentacool",
+              "species": "SPECIES_TENTACOOL"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Bodega anegada: Plusle abre con Thunder Wave y Encore, Poliwag duerme con Hypnosis, Marshtomp cubre Electrico con Tierra y Roca; Horsea, Shellder y Tentacool sostienen el agua y cierra Tentacool.",
+              "members": [
+                {
+                  "species": "SPECIES_PLUSLE",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_ENCORE",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_PLUS",
+                  "item": "ITEM_MAGNET"
+                },
+                {
+                  "species": "SPECIES_POLIWAG",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPNOSIS",
+                    "MOVE_WATER_GUN",
+                    "MOVE_DOUBLE_SLAP",
+                    "MOVE_PSYCHIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_HORSEA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_GUN",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_LEER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_AURORA_BEAM",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_FRUSTRATION"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MARSHTOMP",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MUD_SHOT",
+                    "MOVE_DIG",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_PUNCH"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SOFT_SAND"
+                },
+                {
+                  "species": "SPECIES_TENTACOOL",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_BUBBLE_BEAM",
+                    "MOVE_ACID",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Cubierta de carga: Butterfree abre con Sleep Powder y Psychic, Carvanha muerde con Crunch y Taunt, Lickitung aporta Thunderbolt y Flamethrower contra Agua y Planta; el trio marinero cierra con Tentacool.",
+              "members": [
+                {
+                  "species": "SPECIES_BUTTERFREE",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_PSYCHIC",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_COMPOUND_EYES",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_CARVANHA",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_CRUNCH",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_SCARY_FACE",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_ROUGH_SKIN",
+                  "item": "ITEM_BLACK_GLASSES"
+                },
+                {
+                  "species": "SPECIES_HORSEA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_GUN",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_LEER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_AURORA_BEAM",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_FRUSTRATION"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_LICKITUNG",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STOMP",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_KNOCK_OFF"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_SITRUS_BERRY"
+                },
+                {
+                  "species": "SPECIES_TENTACOOL",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_BUBBLE_BEAM",
+                    "MOVE_ACID",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": null
+                }
+              ]
+            },
+            "C": {
+              "intent": "Muelle y gaviotas: Scyther presiona con Secret Power y Steel Wing, Wingull acosa desde el aire, Roselia frena con Stun Spore y Leech Seed y castiga Agua y Tierra con Magical Leaf; cierra Tentacool.",
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_AGILITY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_WINGULL",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WING_ATTACK",
+                    "MOVE_WATER_GUN",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_MIST"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_HORSEA",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_GUN",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_LEER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_AURORA_BEAM",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_FRUSTRATION"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_SITRUS_BERRY"
+                },
+                {
+                  "species": "SPECIES_ROSELIA",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MAGICAL_LEAF",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_MEGA_DRAIN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_TENTACOOL",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_BUBBLE_BEAM",
+                    "MOVE_ACID",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": null
+                }
+              ]
+            }
+          }
+        },
+        "sailor-leonard": {
+          "trainerId": "sailor-leonard",
+          "lotId": "03B",
+          "window": 3,
+          "cap": 24,
+          "profile": "ESPECIALISTA",
+          "anchors": [
+            {
+              "family": "shellder",
+              "species": "SPECIES_SHELLDER"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Guardia de la bodega B1F: Poliwhirl abre de forma autónoma, Carvanha y Makuhita completan la tripulación agua/lucha, Kadabra y Magmar entran como respuesta a Planta, Lucha y Acero que amenazan a Shellder, y Shellder cierra como ancla.",
+              "members": [
+                {
+                  "species": "SPECIES_POLIWHIRL",
+                  "level": 25,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPNOSIS",
+                    "MOVE_WATER_GUN",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_DIG"
+                  ],
+                  "nature": "NATURE_LONELY",
+                  "ability": "ABILITY_WATER_ABSORB",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CARVANHA",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_CRUNCH",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_TAUNT",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_ROUGH_SKIN",
+                  "item": "ITEM_BLACK_GLASSES"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER",
+                    "MOVE_REFLECT",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_MAGMAR",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_FLAME_BODY",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_MAKUHITA",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_VITAL_THROW",
+                    "MOVE_FAKE_OUT",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICICLE_SPEAR",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Estiba pesada: Croconaw lidera, Meditite y Slowpoke aportan el lado lucha/psíquico del marinero, Miltank resiste y Graveler corta a los Eléctricos del Vermilion; Shellder cierra como ancla.",
+              "members": [
+                {
+                  "species": "SPECIES_CROCONAW",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_BITE",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_DIG"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_TORRENT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MEDITITE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_CONFUSION",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_PURE_POWER",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STOMP",
+                    "MOVE_MILK_DRINK",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_THUNDERBOLT"
+                  ],
+                  "nature": "NATURE_LONELY",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GRAVELER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MAGNITUDE",
+                    "MOVE_ROCK_THROW",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": "ITEM_SOFT_SAND"
+                },
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_WATER_GUN",
+                    "MOVE_YAWN",
+                    "MOVE_FLAMETHROWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICICLE_SPEAR",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Cubierta mojada: Lombre abre y resiste Eléctrico, Mankey y Wailmer sostienen la identidad lucha/agua, Kecleon y Haunter castigan desde el centro con cobertura amplia; Shellder cierra como ancla.",
+              "members": [
+                {
+                  "species": "SPECIES_LOMBRE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_BULLET_SEED",
+                    "MOVE_FAKE_OUT",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_SWIFT_SWIM",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_KECLEON",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_FAINT_ATTACK",
+                    "MOVE_FLAMETHROWER"
+                  ],
+                  "nature": "NATURE_NAUGHTY",
+                  "ability": "ABILITY_COLOR_CHANGE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_HAUNTER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_SHADOW_PUNCH",
+                    "MOVE_HYPNOSIS"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_MANKEY",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_KARATE_CHOP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_WAILMER",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_ROLLOUT",
+                    "MOVE_FACADE",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_LONELY",
+                  "ability": "ABILITY_WATER_VEIL",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICICLE_SPEAR",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "resolutions": {
+        "OPT-W03-gentleman-arthur": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: A Nidorina: POISON_STING→THUNDERBOLT. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
+        },
+        "OPT-W03-lass-ann": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: C Nidorina: POISON_STING→ICE_BEAM. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
+        },
+        "OPT-W03-sailor-duncan": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: A Shellder: WITHDRAW→FRUSTRATION; B Shellder: WITHDRAW→FRUSTRATION; C Shellder: WITHDRAW→FRUSTRATION. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
+        },
+        "OPT-W03-sailor-leonard": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: B Graveler: DEFENSE_CURL→FIRE_BLAST. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
+        }
+      }
+    },
+    {
+      "review": "f3f4f5e4a58802e20302b69b01466d8c8fd73d9f83e645b78c3cd3d91cc830b5",
+      "actor": "/root/optimizer_w03_03d_correct",
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "affected": [
+        "gamer-dirk",
+        "youngster-dave"
+      ],
+      "before": {
+        "gamer-dirk": {
+          "trainerId": "gamer-dirk",
+          "lotId": "03D",
+          "window": 3,
+          "cap": 24,
+          "profile": "ESPECIALISTA",
+          "anchors": [
+            {
+              "family": "voltorb",
+              "species": "SPECIES_VOLTORB"
+            },
+            {
+              "family": "magnemite",
+              "species": "SPECIES_MAGNEMITE"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Premios de la Game Corner y farol: Voltorb abre con Light Screen, Taunt y Sonic Boom; Mightyena intimida y fuerza cambios con Roar. Kadabra, premio canjeado, pega con Psychic y se recupera; Magmar quema Planta y Acero y Marshtomp castiga Tierra con Dig e Ice Beam. Magnemite cierra con Metal Sound y Thunderbolt.",
+              "members": [
+                {
+                  "species": "SPECIES_VOLTORB",
+                  "level": 23,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SPARK",
+                    "MOVE_TAUNT",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_SONIC_BOOM"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_STATIC",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MIGHTYENA",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_BITE",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_HOWL",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER",
+                    "MOVE_REFLECT",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_MAGMAR",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_FIRE_PUNCH",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MEGA_PUNCH"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_FLAME_BODY",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_MARSHTOMP",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_ROCK_TOMB"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SOFT_SAND"
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 24,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_MAGNET"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Todo o nada: Voltorb carga Spark y usa Screech/Taunt para abrir paso; Swellow apuesta con Guts y Facade; Graveler tira los dados con Magnitude y absorbe Eléctrico. Zangoose sube con Swords Dance; Starmie cubre Tierra y Planta con Water Pulse/Ice Beam y Recover. Magnemite cobra con Thunderbolt.",
+              "members": [
+                {
+                  "species": "SPECIES_VOLTORB",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_CHARGE",
+                    "MOVE_SPARK",
+                    "MOVE_SCREECH",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_STATIC",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SWELLOW",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WING_ATTACK",
+                    "MOVE_FACADE",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_STEEL_WING"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GRAVELER",
+                  "level": 25,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MAGNITUDE",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_DEFENSE_CURL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": "ITEM_SOFT_SAND"
+                },
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_SLASH",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_DIG"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_STARMIE",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_MAGNET"
+                }
+              ]
+            },
+            "C": {
+              "intent": "El tahúr y la ruleta: Voltorb abre con Light Screen y Torment; Kecleon engaña con Faint Attack y cobertura física; Skarmory, inmune a Tierra, acelera con Agility y fuerza cambios con Roar. Clefable, premio de la Game Corner, gira la ruleta con Metronome, duerme con Sing y cubre con Ice Beam/Flamethrower; Haunter levita y controla con Hypnosis y Psychic. Magnemite cierra.",
+              "members": [
+                {
+                  "species": "SPECIES_VOLTORB",
+                  "level": 23,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SPARK",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_TORMENT",
+                    "MOVE_SONIC_BOOM"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_STATIC",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_KECLEON",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_FAINT_ATTACK",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_DIG"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_COLOR_CHANGE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_SKARMORY",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STEEL_WING",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AGILITY",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLEFABLE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_SING",
+                    "MOVE_METRONOME"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_SITRUS_BERRY"
+                },
+                {
+                  "species": "SPECIES_HAUNTER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_SHADOW_PUNCH",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_NIGHT_SHADE"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_MAGNET"
+                }
+              ]
+            }
+          }
+        },
+        "youngster-dave": {
+          "trainerId": "youngster-dave",
+          "lotId": "03D",
+          "window": 3,
+          "cap": 24,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "nidoran_m",
+              "species": "SPECIES_NIDORINO"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Ruta 11 a campo abierto: Pidgeotto abre con Frustration potenciada, Slowpoke frena con Yawn y cobertura especial, Aron y Machop encajan golpes físicos, Quilava quema con Flamethrower y Nidorino cierra con Dig.",
+              "members": [
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_GUST",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_YAWN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARON",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_HEADBUTT",
+                    "MOVE_IRON_DEFENSE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MACHOP",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_SEISMIC_TOSS",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_QUILAVA",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_BLAZE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SOFT_SAND"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Juego de estados: Butterfree duerme y golpea con Psychic, Shellder y Onix aguantan con hielo y roca, Clefairy canta y cubre con Thunderbolt y Flamethrower, Mankey rompe con Brick Break y Nidorino remata.",
+              "members": [
+                {
+                  "species": "SPECIES_BUTTERFREE",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_PSYCHIC",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_COMPOUND_EYES",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICICLE_SPEAR",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ONIX",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_ROCK_THROW",
+                    "MOVE_SCREECH",
+                    "MOVE_BIND"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SING",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_ENCORE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MANKEY",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_BULK_UP",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SOFT_SAND"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Presión y desgaste: Scyther abre con Frustration y Steel Wing, Nosepass paraliza con Thunder Wave, Tentacool y Shroomish desgastan con hielo, Acid y Leech Seed, Snubbull intimida y Nidorino cierra.",
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_AGILITY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_NOSEPASS",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_HARDEN"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_TENTACOOL",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_ACID",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHROOMISH",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_DRAIN",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_HEADBUTT"
+                  ],
+                  "nature": "NATURE_RELAXED",
+                  "ability": "ABILITY_EFFECT_SPORE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SNUBBULL",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_BITE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_CHARM"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SOFT_SAND"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "after": {
+        "gamer-dirk": {
+          "trainerId": "gamer-dirk",
+          "lotId": "03D",
+          "window": 3,
+          "cap": 24,
+          "profile": "ESPECIALISTA",
+          "anchors": [
+            {
+              "family": "voltorb",
+              "species": "SPECIES_VOLTORB"
+            },
+            {
+              "family": "magnemite",
+              "species": "SPECIES_MAGNEMITE"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Premios de la Game Corner y farol: Voltorb abre con Light Screen, Taunt y Sonic Boom; Mightyena intimida y fuerza cambios con Roar. Kadabra, premio canjeado, pega con Psychic y se recupera; Magmar quema Planta y Acero y Marshtomp castiga Tierra con Dig e Ice Beam. Magnemite cierra con Metal Sound y Thunderbolt.",
+              "members": [
+                {
+                  "species": "SPECIES_VOLTORB",
+                  "level": 23,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SPARK",
+                    "MOVE_TAUNT",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_SONIC_BOOM"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_STATIC",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MIGHTYENA",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_BITE",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_HOWL",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER",
+                    "MOVE_REFLECT",
+                    "MOVE_DISABLE"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_MAGMAR",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_FIRE_PUNCH",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MEGA_PUNCH"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_FLAME_BODY",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_MARSHTOMP",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_ROCK_TOMB"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SOFT_SAND"
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 24,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_MAGNET"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Todo o nada: Voltorb carga Spark y usa Screech/Taunt para abrir paso; Swellow apuesta con Guts y Facade; Graveler tira los dados con Magnitude y absorbe Eléctrico. Zangoose sube con Swords Dance; Starmie cubre Tierra y Planta con Water Pulse/Ice Beam y Recover. Magnemite cobra con Thunderbolt.",
+              "members": [
+                {
+                  "species": "SPECIES_VOLTORB",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_CHARGE",
+                    "MOVE_SPARK",
+                    "MOVE_SCREECH",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_STATIC",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SWELLOW",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WING_ATTACK",
+                    "MOVE_FACADE",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_STEEL_WING"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_GRAVELER",
+                  "level": 25,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MAGNITUDE",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": "ITEM_SOFT_SAND"
+                },
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_SLASH",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_DIG"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_STARMIE",
+                  "level": 23,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_MAGNET"
+                }
+              ]
+            },
+            "C": {
+              "intent": "El tahúr y la ruleta: Voltorb abre con Light Screen y Torment; Kecleon engaña con Faint Attack y cobertura física; Skarmory, inmune a Tierra, acelera con Agility y fuerza cambios con Roar. Clefable, premio de la Game Corner, gira la ruleta con Metronome, duerme con Sing y cubre con Ice Beam/Flamethrower; Haunter levita y controla con Hypnosis y Psychic. Magnemite cierra.",
+              "members": [
+                {
+                  "species": "SPECIES_VOLTORB",
+                  "level": 23,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SPARK",
+                    "MOVE_LIGHT_SCREEN",
+                    "MOVE_TORMENT",
+                    "MOVE_SONIC_BOOM"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_STATIC",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_KECLEON",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_FAINT_ATTACK",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_DIG"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_COLOR_CHANGE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_SKARMORY",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STEEL_WING",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AGILITY",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLEFABLE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_SING",
+                    "MOVE_METRONOME"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_SITRUS_BERRY"
+                },
+                {
+                  "species": "SPECIES_HAUNTER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_SHADOW_PUNCH",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_NIGHT_SHADE"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_MAGNET"
+                }
+              ]
+            }
+          }
+        },
+        "youngster-dave": {
+          "trainerId": "youngster-dave",
+          "lotId": "03D",
+          "window": 3,
+          "cap": 24,
+          "profile": "COMÚN",
+          "anchors": [
+            {
+              "family": "nidoran_m",
+              "species": "SPECIES_NIDORINO"
+            }
+          ],
+          "variants": {
+            "A": {
+              "intent": "Ruta 11 a campo abierto: Pidgeotto abre con Frustration potenciada, Slowpoke frena con Yawn y cobertura especial, Aron y Machop encajan golpes físicos, Quilava quema con Flamethrower y Nidorino cierra con Dig.",
+              "members": [
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_GUST",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_YAWN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ARON",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_HEADBUTT",
+                    "MOVE_IRON_DEFENSE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MACHOP",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_SEISMIC_TOSS",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_QUILAVA",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_BLAZE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_THUNDERBOLT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SOFT_SAND"
+                }
+              ]
+            },
+            "B": {
+              "intent": "Juego de estados: Butterfree duerme y golpea con Psychic, Shellder y Onix aguantan con hielo y roca, Clefairy canta y cubre con Thunderbolt y Flamethrower, Mankey rompe con Brick Break y Nidorino remata.",
+              "members": [
+                {
+                  "species": "SPECIES_BUTTERFREE",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_PSYCHIC",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_COMPOUND_EYES",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_SHELLDER",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_ICE_BEAM",
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICICLE_SPEAR",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_RASH",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_ONIX",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_ROCK_THROW",
+                    "MOVE_SCREECH",
+                    "MOVE_BIND"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SING",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_ENCORE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_MANKEY",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_FRUSTRATION",
+                    "MOVE_BULK_UP",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SOFT_SAND"
+                }
+              ]
+            },
+            "C": {
+              "intent": "Presión y desgaste: Scyther abre con Frustration y Steel Wing, Nosepass paraliza con Thunder Wave, Tentacool y Shroomish desgastan con hielo, Acid y Leech Seed, Snubbull intimida y Nidorino cierra.",
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_AGILITY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_NOSEPASS",
+                  "level": 22,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_STURDY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_TENTACOOL",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_ACID",
+                    "MOVE_SUPERSONIC"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SHROOMISH",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_DRAIN",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_STUN_SPORE",
+                    "MOVE_HEADBUTT"
+                  ],
+                  "nature": "NATURE_RELAXED",
+                  "ability": "ABILITY_EFFECT_SPORE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_SNUBBULL",
+                  "level": 22,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_BITE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_CHARM"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": null
+                },
+                {
+                  "species": "SPECIES_NIDORINO",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_HORN_ATTACK",
+                    "MOVE_DOUBLE_KICK",
+                    "MOVE_POISON_STING"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_POISON_POINT",
+                  "item": "ITEM_SOFT_SAND"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "resolutions": {
+        "OPT-W03-gamer-dirk": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: B Graveler: DEFENSE_CURL→FIRE_BLAST. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
+        },
+        "OPT-W03-youngster-dave": {
+          "status": "corrected",
+          "evidence": "Optimización automática 2026-09-30: corrector y revisor reales claude-opus-5-5 (optimizador de alternativas legales + validador completo del motor), por pedido del usuario. El campo model del registro nativo está fijo en gpt-6-astra. Mejora de fuerza dentro de las reglas: C Nosepass: HARDEN→HIDDEN_POWER; A Nidorino: POISON_STING→THUNDERBOLT. Cada cambio sustituye relleno por un ataque legal fiable o usa una evolución/objeto legal; validado con el validador completo del motor sobre el equipo entero."
         }
       }
     }

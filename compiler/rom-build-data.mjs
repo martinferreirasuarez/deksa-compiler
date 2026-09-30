@@ -71,7 +71,10 @@ export async function buildRomData(seed, root = projectRoot) {
     mapId: table.mapId,
     method: table.method,
     encounterRate: table.encounterRate,
-    slots: table.slots.map((slot) => ({
+    slots: (table.slots.length === 0 ? [
+      { speciesId: 'SPECIES_NONE', minLevel: 1, maxLevel: 1 },
+      { speciesId: 'SPECIES_NONE', minLevel: 1, maxLevel: 1 },
+    ] : table.slots).map((slot) => ({
       species: slot.speciesId,
       minLevel: slot.minLevel,
       maxLevel: slot.maxLevel,

@@ -30,7 +30,11 @@ export async function buildCompilationInputs(seed, {
   assert.equal(fauna.inputs.seedPlan.fingerprint, seedPlan.fingerprint);
   assert.equal(fauna.inputs.seedPlan.faunaSeed, seedPlan.faunaSeed);
   assert.equal(fauna.distribution.tables.length, 315);
-  assert.equal(fauna.distribution.metrics.coverage.slots, 2065);
+  const disabled = fauna.distribution.tables.filter((table) => table.slots.length === 0);
+  assert.ok(disabled.every((table) => table.method === 'old_rod'
+    && fauna.inputs.config.allowEmptyFishingSurfaces.includes(table.surfaceId)));
+  assert.equal(fauna.distribution.metrics.coverage.slots,
+    2065 - disabled.reduce((sum, table) => sum + table.nativeCapacity, 0));
   assert.deepEqual(fauna.distribution.metrics.coverage.unassignedWildFamilies, []);
   assert.equal(fauna.distribution.metrics.levelMaterialization.capViolations, 0);
 

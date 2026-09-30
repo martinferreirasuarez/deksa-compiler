@@ -601,9 +601,15 @@ function buildContext(inputs) {
     const surfaceById = new Map(sources.surfaces.map((surface) => [surface.surface_id, surface]));
     invariant(Object.entries(config.tableMinimumBySurface).every(([surfaceId, minimum]) =>
       surfaceById.has(surfaceId) && Number.isInteger(minimum)
-      && minimum >= 1 && minimum <= config.tableComposition.total.minimum),
+      && minimum >= 0 && minimum <= config.tableComposition.total.minimum
+      && (minimum > 0 || (surfaceById.get(surfaceId).method === 'old_rod'
+        && config.allowEmptyFishingSurfaces?.includes(surfaceId)))),
     'tableMinimumBySurface contiene una excepción inválida');
   }
+  invariant((config.allowEmptyFishingSurfaces ?? []).every((surfaceId) =>
+    sources.surfaces.some((surface) => surface.surface_id === surfaceId && surface.method === 'old_rod')
+      && config.tableMinimumBySurface?.[surfaceId] === 0),
+  'allowEmptyFishingSurfaces contiene una superficie inválida');
   const speciesByKey = new Map(pokedex.species.map((species) => [species.key, species]));
   const policyWildFamilies = policy.families.filter((family) => family.wildEligible).map((family) => {
     const species = speciesByKey.get(family.entrySpecies);
@@ -2726,7 +2732,9 @@ function buildTables(context, candidates, allocation) {
   for (const surface of context.surfaces) {
     const selected = selectedBySurface.get(surface.surface_id);
     invariant(
-      selected.length > 0 || usesDebutPhaseOnly(context),
+      selected.length > 0 || usesDebutPhaseOnly(context)
+        || (context.config.allowEmptyFishingSurfaces?.includes(surface.surface_id)
+          && candidates.bySurface.get(surface.surface_id).length === 0),
       `${surface.surface_id}: la tabla quedó vacía`,
     );
     const desired = new Map(selected.map((candidate) => [
@@ -3210,7 +3218,9 @@ export function validateDistribution(document) {
   check(
     debutPhaseOnly
       ? document.metrics.coverage.slots <= 2065
-      : document.metrics.coverage.slots === 2065,
+      : document.metrics.coverage.slots === 2065 - document.tables
+        .filter((table) => table.slots.length === 0 && document.config.allowEmptyFishingSurfaces?.includes(table.surfaceId))
+        .reduce((sum, table) => sum + table.nativeCapacity, 0),
     debutPhaseOnly ? 'la fase de debuts supera 2.065 slots' : 'debe haber 2.065 slots',
   );
   if (windowDebutAllocation) {
@@ -3229,7 +3239,8 @@ export function validateDistribution(document) {
     );
   }
   check(document.metrics.coverage.excludedFamiliesInWild === 0, 'una familia excluida entró en tablas');
-  if (!debutPhaseOnly) check(document.metrics.coverage.emptyTables === 0, 'hay tablas vacías');
+  if (!debutPhaseOnly) check(document.tables.every((table) => table.slots.length > 0
+    || document.config.allowEmptyFishingSurfaces?.includes(table.surfaceId)), 'hay tablas vacías no autorizadas');
   if (tableOnly) check(!Object.hasOwn(document.metrics, 'pools'), 'el modo por tabla conserva métricas de pools');
   else check(document.metrics.pools.withinContract === 102 && document.metrics.pools.violations.length === 0, 'hay pools fuera de contrato');
   check(document.metrics.ecology.invalid === 0, 'hay asignaciones ecológicas inválidas');
@@ -3297,7 +3308,8 @@ export function validateDistribution(document) {
     check(
       debutPhaseOnly
         ? table.slots.length === 0 || table.slots.length === source.nativeSlots.length
-        : table.slots.length === source.nativeSlots.length,
+        : table.slots.length === source.nativeSlots.length
+          || (table.slots.length === 0 && document.config.allowEmptyFishingSurfaces?.includes(table.surfaceId)),
       `${table.surfaceId}: cambió la capacidad`,
     );
     check(table.encounterRate === source.encounterRate, `${table.surfaceId}: cambió el encounter rate`);
