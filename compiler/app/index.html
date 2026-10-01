@@ -1,35 +1,51 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Déksa · Compilador</title>
+  <title>Pokémon FireRed Déksa · Build game</title>
+  <meta name="description" content="Build Pokémon FireRed Déksa with your own seed.">
+  <link rel="canonical" href="https://pokemondeksa.com/build">
+  <meta property="og:title" content="Pokémon FireRed Déksa · Build your game">
+  <meta property="og:description" content="Choose a seed and create your game using your own original FireRed ROM.">
+  <meta property="og:image" content="https://pokemondeksa.com/share-card.png">
+  <meta property="og:url" content="https://pokemondeksa.com/build">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="/brand-mark.svg">
   <link rel="stylesheet" href="/style.css">
-  <script src="/app.js" defer></script>
+  <script src="/app.js" type="module"></script>
 </head>
 <body>
   <main class="shell">
-    <header class="topline"><span class="mark">D</span><span>DÉKSA</span><!-- DEKSA_WIKI_LINK --><span class="edition">FIRERED</span></header>
+    <header class="topline"><a class="brand" href="/" aria-label="Pokémon Déksa home"><i class="brand-symbol" aria-hidden="true"></i><span class="brand-wordmark"><small>Pokémon</small><strong>Déksa</strong></span></a><!-- DEKSA_WIKI_LINK --><span class="edition">FIRERED</span></header>
     <section class="panel" aria-labelledby="title">
-      <p class="eyebrow">TU PARTIDA · TU MUNDO</p>
-      <h1 id="title">Una seed.<br>Una aventura.</h1>
-      <p class="intro">Elegí una seed o generá una al azar. La fauna y los equipos de entrenadores quedarán fijos para esa partida.</p>
+      <p class="eyebrow">POKÉMON FIRERED · DÉKSA</p>
+      <h1 id="title">Build your game</h1>
+      <p class="intro">You need your own original English FireRed 1.0 ROM. Choose a seed, then download a game ready to open in your emulator. <a href="/play">How to play →</a></p>
       <form id="build-form">
-        <label for="seed">Seed</label>
+        <label for="original-rom"><span class="step-number">1</span> Select your original FireRed ROM</label>
+        <input id="original-rom" type="file" accept=".gba" required aria-describedby="rom-hint">
+        <p id="rom-hint" class="hint">Unmodified English FireRed, version 1.0. Your ROM stays on your device and is not uploaded.</p>
+        <p id="rom-status" class="details" aria-live="polite">Select the original .gba file.</p>
+        <label for="seed"><span class="step-number">2</span> Choose a seed</label>
         <div class="seed-row">
-          <input id="seed" name="seed" type="text" maxlength="64" required spellcheck="false" autocomplete="off" autocapitalize="off" pattern="[A-Za-z0-9][A-Za-z0-9._-]{0,63}" placeholder="Por ejemplo: aventura-01">
-          <button type="button" id="random" class="secondary">Al azar</button>
+          <input id="seed" name="seed" type="text" maxlength="64" required spellcheck="false" autocomplete="off" autocapitalize="off" pattern="[A-Za-z0-9][A-Za-z0-9._-]{0,63}" placeholder="Example: adventure-01">
+          <button type="button" id="random" class="secondary">Random</button>
         </div>
-        <p class="hint">Guardá la seed si querés volver a generar exactamente el mismo mundo.</p>
-        <button type="submit" id="build" class="primary">Compilar ROM</button>
+        <p class="hint">The same seed and game version generate the same Pokémon and trainer teams.</p>
+        <button type="submit" id="build" class="primary" disabled>Build game</button>
       </form>
       <section class="result" aria-live="polite">
-        <div id="status" class="status">Comprobando el compilador…</div>
-        <a id="download" class="download" hidden>Descargar ROM lista</a>
+        <div id="status" class="status">Connecting…</div>
+        <a id="download" class="download" hidden>Download game</a>
         <p id="details" class="details"></p>
+        <button id="retry" class="secondary" type="button" hidden>Reconnect</button>
       </section>
     </section>
-    <footer>La ROM se genera en este equipo. La seed no se envía a ningún servicio externo.</footer>
+    <noscript><p>This page needs JavaScript to prepare your game. Enable it and reload.</p></noscript>
+    <footer>Game version <span id="game-version">{{VERSION}}</span><br>
+      <nav aria-label="Help and project links"><a href="/play">How to play</a> · <a id="report-problem" href="https://github.com/martinferreirasuarez/deksa-compiler/issues/new">Report a problem</a> · <a href="https://github.com/martinferreirasuarez/deksa-compiler">Source code</a> · <a href="/play#credits">Credits</a></nav>
+    </footer>
   </main>
 </body>
 </html>

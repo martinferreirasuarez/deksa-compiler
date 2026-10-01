@@ -2,19 +2,33 @@
 import { createReadStream } from 'node:fs';
 import { readFile, stat } from 'node:fs/promises';
 import http from 'node:http';
-import { createHmac, randomBytes, randomUUID, timingSafeEqual } from 'node:crypto';
+import { isIP } from 'node:net';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { inspectBuildEnvironment, runSeedBuild, DEFAULT_ROOT } from './build-service.mjs';
+import { inspectBuildEnvironment, runSeedPatchBuild, DEFAULT_ROOT } from './build-service.mjs';
+import { BASE_ROM } from './rom-base.mjs';
 import { validateSeed } from '../seed-plan.mjs';
 import { isPublicWikiRequest, servePublicWiki } from './public-wiki.mjs';
+import { createBuildQueue } from './build-queue.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
-const SESSION_SECONDS = 30 * 24 * 60 * 60;
+const RELEASE = JSON.parse(await readFile(path.join(HERE, 'release.json'), 'utf8'));
+const BUILD_LIMIT = 3;
+const BUILD_PERIOD_MS = 10 * 60 * 1000;
+const MAX_RATE_ENTRIES = 10000;
 const ASSETS = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
+  ['/build', ['index.html', 'text/html; charset=utf-8']],
+  ['/play', ['play.html', 'text/html; charset=utf-8']],
+  ['/share-card.png', ['share-card.png', 'image/png']],
   ['/app.js', ['app.js', 'text/javascript; charset=utf-8']],
   ['/style.css', ['style.css', 'text/css; charset=utf-8']],
+  ['/brand-mark.svg', ['brand-mark.svg', 'image/svg+xml']],
+  ['/rom-base.mjs', ['rom-base.mjs', 'text/javascript; charset=utf-8']],
+  ['/patch-worker.js', ['patch-worker.js', 'text/javascript; charset=utf-8']],
+  ...['BinFile.js', 'HashCalculator.js', 'RomPatcher.format.bps.js'].map(name =>
+    [`/vendor/rom-patcher-js/${name}`, [`vendor/rom-patcher-js/${name}`, 'text/javascript; charset=utf-8']]),
+  ['/vendor/rom-patcher-js/LICENSE', ['vendor/rom-patcher-js/LICENSE', 'text/plain; charset=utf-8']],
 ]);
 
 function json(response, status, value) {
@@ -28,46 +42,15 @@ function json(response, status, value) {
 
 async function requestJson(request) {
   if (!request.headers['content-type']?.startsWith('application/json')) {
-    throw Object.assign(new Error('Se requiere JSON.'), { status: 415 });
+    throw Object.assign(new Error('JSON is required.'), { status: 415 });
   }
   let raw = '';
   for await (const chunk of request) {
     raw += chunk.toString('utf8');
-    if (raw.length > 4096) throw Object.assign(new Error('Solicitud demasiado grande.'), { status: 413 });
+    if (raw.length > 4096) throw Object.assign(new Error('Request too large.'), { status: 413 });
   }
   try { return JSON.parse(raw); }
-  catch { throw Object.assign(new Error('JSON inválido.'), { status: 400 }); }
-}
-
-function authorized(request, accessKey) {
-  if (!accessKey) return true;
-  const value = request.headers.authorization;
-  if (value?.startsWith('Basic ')) {
-    const actual = Buffer.from(value.slice(6), 'base64');
-    if (equalSecret(actual, Buffer.from(`deksa:${accessKey}`))) return true;
-  }
-  const cookie = request.headers.cookie?.match(/(?:^|;\s*)deksa_session=([^;]+)/)?.[1];
-  if (!cookie) return false;
-  const [version, expiry, nonce, signature] = cookie.split('.');
-  if (version !== 'v1' || !/^\d{10}$/.test(expiry || '')
-      || !/^[0-9a-f]{32}$/.test(nonce || '') || !/^[0-9a-f]{64}$/.test(signature || '')
-      || Number(expiry) <= Math.floor(Date.now() / 1000)) return false;
-  const signed = `${version}.${expiry}.${nonce}`;
-  return equalSecret(Buffer.from(signature, 'hex'), Buffer.from(sessionSignature(signed, accessKey), 'hex'));
-}
-
-function equalSecret(actual, expected) {
-  return actual.length === expected.length && timingSafeEqual(actual, expected);
-}
-
-function sessionSignature(value, accessKey) {
-  return createHmac('sha256', accessKey).update(`deksa-session:${value}`).digest('hex');
-}
-
-function newSession(accessKey) {
-  const expiry = Math.floor(Date.now() / 1000) + SESSION_SECONDS;
-  const signed = `v1.${expiry}.${randomBytes(16).toString('hex')}`;
-  return `${signed}.${sessionSignature(signed, accessKey)}`;
+  catch { throw Object.assign(new Error('Invalid JSON.'), { status: 400 }); }
 }
 
 function safeNext(value) {
@@ -75,94 +58,54 @@ function safeNext(value) {
     && !value.includes('\\') && !/[\r\n]/.test(value) ? value : '/';
 }
 
-function escapeHtml(value) {
-  return value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-}
-
-function loginPage(next, invalid = false) {
-  return `<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Déksa · Ingresar</title><link rel="stylesheet" href="/style.css"></head><body><main class="shell"><header class="topline"><span class="mark">D</span><span>DÉKSA</span></header><section class="panel login-panel"><p class="eyebrow">ACCESO</p><h1>Bienvenido.</h1><p class="intro">Ingresá una vez en este dispositivo. La sesión dura 30 días.</p><form method="post" action="/login"><input type="hidden" name="next" value="${escapeHtml(next)}"><label for="username">Usuario</label><input id="username" name="username" autocomplete="username" required value="deksa"><label for="password">Contraseña</label><input id="password" name="password" type="password" autocomplete="current-password" required autofocus>${invalid ? '<p class="login-error" role="alert">Usuario o contraseña incorrectos.</p>' : ''}<button class="primary" type="submit">Entrar</button></form></section></main></body></html>`;
-}
-
-async function requestForm(request) {
-  if (!request.headers['content-type']?.startsWith('application/x-www-form-urlencoded')) {
-    throw Object.assign(new Error('Formulario inválido.'), { status: 415 });
-  }
-  let raw = '';
-  for await (const chunk of request) {
-    raw += chunk.toString('utf8');
-    if (raw.length > 4096) throw Object.assign(new Error('Formulario demasiado grande.'), { status: 413 });
-  }
-  return new URLSearchParams(raw);
+function clientAddress(request) {
+  const address = request.socket.remoteAddress || 'unknown';
+  const forwarded = request.headers['cf-connecting-ip'];
+  // Only the local Cloudflare connector may supply a visitor address.
+  return ['127.0.0.1', '::1', '::ffff:127.0.0.1'].includes(address)
+    && typeof forwarded === 'string' && isIP(forwarded) ? forwarded : address;
 }
 
 export function createApp({
   projectRoot = DEFAULT_ROOT,
-  accessKey = '',
-  build = runSeedBuild,
+  build = runSeedPatchBuild,
   wikiOrigin = '',
+  now = Date.now,
+  jobDirectory = build === runSeedPatchBuild ? path.join(projectRoot, 'compiler/private/build-jobs') : null,
+  buildTimeoutMs = 10 * 60 * 1000,
 } = {}) {
-  const jobs = new Map();
-  let active = null;
+  const queue = createBuildQueue({ build, projectRoot, now, directory: jobDirectory,
+    version: RELEASE.version, timeoutMs: buildTimeoutMs });
+  const { jobs } = queue;
+  const buildRates = new Map();
   const server = http.createServer(async (request, response) => {
     try {
       const url = new URL(request.url, `http://${request.headers.host || 'localhost'}`);
-      if (accessKey && url.pathname === '/login') {
-        if (request.method === 'POST') {
-          const form = await requestForm(request);
-          const username = form.get('username') || '';
-          const password = form.get('password') || '';
-          const next = safeNext(form.get('next'));
-          if (username === 'deksa' && equalSecret(Buffer.from(password), Buffer.from(accessKey))) {
-            response.writeHead(303, {
-              Location: next,
-              'Set-Cookie': `deksa_session=${newSession(accessKey)}; Path=/; Max-Age=${SESSION_SECONDS}; HttpOnly; Secure; SameSite=Lax`,
-              'Cache-Control': 'no-store',
-            });
-            response.end();
-          } else {
-            response.writeHead(401, { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' });
-            response.end(loginPage(next, true));
-          }
-          return;
-        }
-        if (request.method === 'GET') {
-          const next = safeNext(url.searchParams.get('next'));
-          if (authorized(request, accessKey)) {
-            response.writeHead(303, { Location: next, 'Cache-Control': 'no-store' });
-            response.end();
-          } else {
-            response.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' });
-            response.end(loginPage(next));
-          }
-          return;
-        }
+      // Trust proxy protocol information only from the local tunnel connector.
+      const local = ['127.0.0.1', '::1', '::ffff:127.0.0.1'].includes(request.socket.remoteAddress);
+      const publicHost = ['pokemondeksa.com', 'www.pokemondeksa.com'].includes(request.headers.host);
+      if (local && publicHost && (request.headers['x-forwarded-proto'] === 'http' || request.headers.host.startsWith('www.'))) {
+        response.writeHead(308, { Location: `https://pokemondeksa.com${url.pathname}${url.search}` });
+        response.end(); return;
       }
-      if (request.method === 'GET' && url.pathname === '/style.css') {
-        response.writeHead(200, { 'Content-Type': 'text/css; charset=utf-8', 'Cache-Control': 'no-store' });
-        response.end(await readFile(path.join(HERE, 'style.css')));
+      // Old sign-in bookmarks lead straight to the public page.
+      if (request.method === 'GET' && url.pathname === '/login') {
+        response.writeHead(303, { Location: safeNext(url.searchParams.get('next')), 'Cache-Control': 'no-store' });
+        response.end();
         return;
       }
-      if (!authorized(request, accessKey)) {
-        if (url.pathname.startsWith('/api/')) {
-          json(response, 401, { error: 'Iniciá sesión para continuar.' });
-        } else if (request.method === 'GET' || request.method === 'HEAD') {
-          response.writeHead(303, {
-            Location: `/login?next=${encodeURIComponent(safeNext(url.pathname + url.search))}`,
-            'Cache-Control': 'no-store',
-          });
-          response.end();
-        } else {
-          json(response, 401, { error: 'Iniciá sesión para continuar.' });
-        }
+      if (request.method === 'GET' && url.pathname === '/build/') {
+        response.writeHead(308, { Location: '/build' + url.search, 'Cache-Control': 'no-store' });
+        response.end();
         return;
       }
       if (wikiOrigin && isPublicWikiRequest(url.pathname)) {
         if (!await servePublicWiki(request, response, url, wikiOrigin)) {
-          json(response, 404, { error: 'Página no encontrada.' });
+          json(response, 404, { error: 'Page not found.' });
         }
         return;
       }
-      if (request.method === 'GET' && ASSETS.has(url.pathname)) {
+      if (['GET', 'HEAD'].includes(request.method) && ASSETS.has(url.pathname)) {
         const [name, type] = ASSETS.get(url.pathname);
         response.writeHead(200, {
           'Content-Type': type,
@@ -171,56 +114,77 @@ export function createApp({
           'Content-Security-Policy': "default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'",
         });
         const asset = await readFile(path.join(HERE, name));
-        response.end(name === 'index.html'
-          ? asset.toString('utf8').replace('<!-- DEKSA_WIKI_LINK -->', wikiOrigin
-            ? '<a class="wiki-link" href="/wiki/">Explorar el juego</a>' : '')
+        if (request.method === 'HEAD') { response.end(); return; }
+        response.end(name.endsWith('.html')
+          ? asset.toString('utf8').replaceAll('{{VERSION}}', RELEASE.version).replace('<!-- DEKSA_WIKI_LINK -->', wikiOrigin
+            ? '<nav class="landing-nav" aria-label="Main navigation"><a class="wiki-link" href="/">Guide</a><a class="wiki-link" href="/wiki/changes">Changes</a></nav>' : '')
           : asset);
         return;
       }
       if (request.method === 'GET' && url.pathname === '/api/status') {
-        json(response, 200, { environment: await inspectBuildEnvironment(projectRoot), busy: active !== null });
+        await queue.ready;
+        json(response, 200, { environment: await inspectBuildEnvironment(projectRoot), busy: queue.busy(),
+          waiting: queue.waiting(), version: RELEASE.version, baseRom: BASE_ROM });
         return;
       }
       if (request.method === 'POST' && url.pathname === '/api/build') {
         const origin = request.headers.origin;
         if (origin && origin !== `http://${request.headers.host}` && origin !== `https://${request.headers.host}`) {
-          json(response, 403, { error: 'Origen no permitido.' });
-          return;
-        }
-        if (active) {
-          json(response, 409, { error: 'Ya hay una compilación en curso.' });
+          json(response, 403, { error: 'Origin not allowed.' });
           return;
         }
         const body = await requestJson(request);
-        const seed = validateSeed(body?.seed);
-        const id = randomUUID();
-        const job = { id, seed, state: 'running', phase: 'En espera', result: null, error: null };
-        jobs.set(id, job);
-        active = id;
-        json(response, 202, { id, seed });
-        build(seed, { projectRoot, onPhase: (phase) => { job.phase = phase; } })
-          .then((result) => { job.result = result; job.state = 'complete'; job.phase = 'ROM lista'; })
-          .catch((error) => { job.state = 'failed'; job.error = error.message.slice(-1800); job.phase = 'No se pudo compilar'; })
-          .finally(() => { active = null; });
-        while (jobs.size > 8) jobs.delete(jobs.keys().next().value);
+        if (!body || Object.keys(body).some(key => key !== 'seed')) {
+          throw Object.assign(new Error('Only the seed is accepted. Your original ROM stays on your device.'), { status: 400 });
+        }
+        let seed;
+        try { seed = validateSeed(body?.seed); }
+        catch (error) { throw Object.assign(error, { status: 400 }); }
+        const existing = await queue.find(seed);
+        if (existing) return json(response, 202, { id: existing.id, seed, version: RELEASE.version });
+        const timestamp = now();
+        for (const [key, value] of buildRates) {
+          if (value.expires <= timestamp) buildRates.delete(key);
+        }
+        const address = clientAddress(request);
+        const rate = buildRates.get(address);
+        if (rate?.count >= BUILD_LIMIT || (!rate && buildRates.size >= MAX_RATE_ENTRIES)) {
+          response.setHeader('Retry-After', String(Math.max(1, Math.ceil(((rate?.expires ?? timestamp + BUILD_PERIOD_MS) - timestamp) / 1000))));
+          return json(response, 429, { error: 'Build limit reached. Please wait a few minutes and try again.' });
+        }
+        buildRates.set(address, { count: (rate?.count ?? 0) + 1, expires: rate?.expires ?? timestamp + BUILD_PERIOD_MS });
+        let job;
+        try { job = await queue.submit(seed); }
+        catch (error) {
+          const reserved = buildRates.get(address);
+          if (reserved?.count === 1) buildRates.delete(address);
+          else if (reserved) reserved.count--;
+          throw error;
+        }
+        json(response, 202, { id: job.id, seed, version: RELEASE.version });
         return;
       }
       const match = url.pathname.match(/^\/api\/build\/([0-9a-f-]{36})$/);
       if (request.method === 'GET' && match) {
+        await queue.ready;
         const job = jobs.get(match[1]);
-        if (!job) return json(response, 404, { error: 'Compilación no encontrada.' });
+        if (!job) return json(response, 404, { error: 'Build not found.' });
         json(response, 200, {
-          id: job.id, seed: job.seed, state: job.state, phase: job.phase,
+          id: job.id, seed: job.seed, state: job.state, position: queue.position(job.id), version: job.version,
           error: job.error,
           sha256: job.result?.sha256,
+          patchSha256: job.result?.patchSha256,
+          romName: job.result?.romName,
+          baseRom: BASE_ROM,
           download: job.state === 'complete' ? `/download/${job.id}` : null,
         });
         return;
       }
       const download = url.pathname.match(/^\/download\/([0-9a-f-]{36})$/);
       if (request.method === 'GET' && download) {
+        await queue.ready;
         const job = jobs.get(download[1]);
-        if (job?.state !== 'complete') return json(response, 404, { error: 'ROM no disponible.' });
+        if (job?.state !== 'complete') return json(response, 404, { error: 'Patch unavailable.' });
         const size = (await stat(job.result.path)).size;
         response.writeHead(200, {
           'Content-Type': 'application/octet-stream',
@@ -232,23 +196,42 @@ export function createApp({
         createReadStream(job.result.path).pipe(response);
         return;
       }
-      json(response, 404, { error: 'Página no encontrada.' });
+      if (request.method === 'GET' && url.pathname === '/sitemap.xml') {
+        const urls = ['/', '/build', '/play', '/wiki/changes'];
+        if (wikiOrigin) {
+          try {
+            const home = await fetch(new URL('/', wikiOrigin), { signal: AbortSignal.timeout(10000) });
+            if (home.ok) {
+              const html = await home.text();
+              for (const match of html.matchAll(/href="\/beta5\/lotes\/([0-9]{2}[a-z])(?:["?])/g)) urls.push(`/wiki/guide/${match[1]}`);
+            }
+          } catch { /* The main pages remain discoverable if the guide is restarting. */ }
+        }
+        response.writeHead(200, { 'Content-Type': 'application/xml; charset=utf-8', 'Cache-Control': 'public, max-age=3600' });
+        response.end(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${[...new Set(urls)].map(route => `<url><loc>https://pokemondeksa.com${route}</loc></url>`).join('')}</urlset>`);
+        return;
+      }
+      if (request.method === 'GET' && url.pathname === '/robots.txt') {
+        response.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
+        response.end('User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /download/\nSitemap: https://pokemondeksa.com/sitemap.xml\n');
+        return;
+      }
+      json(response, 404, { error: 'Page not found.' });
     } catch (error) {
-      if (!response.headersSent) json(response, error.status || 400, { error: error.message });
+      if (!error.status) console.error('Déksa request failed:', error);
+      if (!response.headersSent) json(response, error.status || 500, { error: error.status ? error.message : 'The server is unavailable. Please try again later.' });
       else response.destroy(error);
     }
   });
+  server.requestTimeout = 30000;
+  server.headersTimeout = 15000;
   return { server, jobs };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const host = process.env.DEKSA_HOST || '127.0.0.1';
   const port = Number(process.env.DEKSA_PORT || 52655);
-  const accessKey = process.env.DEKSA_ACCESS_KEY || '';
   const wikiOrigin = process.env.DEKSA_WIKI_ORIGIN || '';
-  if (!['127.0.0.1', 'localhost', '::1'].includes(host) && !accessKey) {
-    throw new Error('Para abrir el compilador en la red, definí DEKSA_ACCESS_KEY.');
-  }
-  const { server } = createApp({ accessKey, wikiOrigin });
+  const { server } = createApp({ wikiOrigin });
   server.listen(port, host, () => process.stdout.write(`Déksa Compiler: http://${host}:${port}\n`));
 }

@@ -3,8 +3,10 @@
 /agbcc/
 /compiler/output/
 /output/
+/private/
 *.gba
 *.sav
 *.state
 *.ss1
 *.ss2
+compiler/private/

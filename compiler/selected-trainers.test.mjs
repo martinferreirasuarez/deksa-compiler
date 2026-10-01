@@ -16,7 +16,7 @@ test('proyecta W01–W08 sin alterar los exports ni inventar entrenadores', asyn
   assert.equal(selected.trainerDigest, repeated.trainerDigest);
   assert.equal(new Set(selected.trainers.map(({ trainerId }) => trainerId)).size, 358);
   for (const trainer of selected.trainers) {
-    assert.equal(trainer.variant, seedPlan.lots.find(({ lotId }) => lotId === trainer.lotId).variant);
+    assert.equal(trainer.variant, seedPlan.lots.find(({ lotId }) => lotId === trainer.lotId).trainerVariants[trainer.trainerId]);
   }
   const otherSeed = await createSeedPlan('otra-seed');
   assert.notEqual(selected.trainerDigest, selectReviewedTrainers(otherSeed, exports).trainerDigest);

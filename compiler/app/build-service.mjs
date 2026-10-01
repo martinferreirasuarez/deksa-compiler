@@ -1,18 +1,27 @@
 import { createHash } from 'node:crypto';
 import { spawn } from 'node:child_process';
-import { cp, mkdtemp, mkdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
+import { cp, mkdtemp, mkdir, readFile, rm, stat, statfs, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { validateSeed } from '../seed-plan.mjs';
+import { ensureBaseRom } from './base-rom.mjs';
+import { BASE_ROM } from './rom-base.mjs';
 
 const DEFAULT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const ROM_NAME = 'Pokemon-FireRed-Deksa.gba';
 const COPY_EXCLUDE = new Set(['.git', 'pokefirered.gba', 'pokefirered.elf', 'pokefirered.map', 'pokefirered.sym']);
 
-function command(program, args, cwd, onOutput = () => {}) {
+export function command(program, args, cwd, onOutput = () => {}, signal) {
   return new Promise((resolve, reject) => {
-    const child = spawn(program, args, { cwd, stdio: ['ignore', 'pipe', 'pipe'], env: process.env });
+    signal?.throwIfAborted();
+    const grouped = process.platform !== 'win32';
+    const child = spawn(program, args, { cwd, stdio: ['ignore', 'pipe', 'pipe'], env: process.env, detached: grouped });
+    const abort = () => {
+      try { if (grouped) process.kill(-child.pid, 'SIGKILL'); else child.kill('SIGKILL'); }
+      catch (error) { if (error.code !== 'ESRCH') console.error('Unable to stop build:', error); }
+    };
+    signal?.addEventListener('abort', abort, { once: true });
     let recent = '';
     const collect = (chunk) => {
       const value = chunk.toString('utf8');
@@ -21,9 +30,13 @@ function command(program, args, cwd, onOutput = () => {}) {
     };
     child.stdout.on('data', collect);
     child.stderr.on('data', collect);
-    child.on('error', reject);
-    child.on('close', (code) => code === 0 ? resolve(recent) : reject(new Error(
-      `${program} terminó con código ${code}.\n${recent.slice(-3000)}`)));
+    child.on('error', error => { signal?.removeEventListener('abort', abort); reject(error); });
+    child.on('close', (code) => {
+      signal?.removeEventListener('abort', abort);
+      if (signal?.aborted) reject(new Error('Build cancelled'));
+      else if (code === 0) resolve(recent);
+      else reject(new Error(`${program} terminó con código ${code}.\n${recent.slice(-3000)}`));
+    });
   });
 }
 
@@ -36,8 +49,12 @@ export async function runSeedBuild(seed, {
   outputRoot = path.join(projectRoot, 'compiler/output'),
   onPhase = () => {},
   commands = command,
+  signal,
 } = {}) {
+  const run = (...args) => { signal?.throwIfAborted(); return commands(...args, undefined, signal); };
   const safeSeed = validateSeed(seed);
+  const disk = await statfs(projectRoot);
+  if (disk.bavail * disk.bsize < 1024 * 1024 * 1024) throw new Error('Not enough free space to build safely');
   const sourceRoot = path.join(projectRoot, 'pokefirered');
   const temporary = await mkdtemp(path.join(tmpdir(), 'deksa-compiler-'));
   const workRoot = path.join(temporary, 'pokefirered');
@@ -49,15 +66,15 @@ export async function runSeedBuild(seed, {
       filter: (source) => source === sourceRoot || !COPY_EXCLUDE.has(path.basename(source)),
     });
     onPhase('Aplicando la seed a entrenadores y fauna');
-    await commands('python3', [
+    await run('python3', [
       'tools/deksa_rebuild/write_beta5_full.py', '--seed', safeSeed,
       '--project-root', projectRoot, '--write',
     ], workRoot);
     onPhase('Compilando FireRed Déksa');
     const parallel = Math.max(1, Math.min(4, Number(process.env.DEKSA_BUILD_JOBS) || 4));
-    await commands('make', [`-j${parallel}`], workRoot);
+    await run('make', [`-j${parallel}`], workRoot);
     onPhase('Verificando la ROM compilada');
-    await commands('python3', [
+    await run('python3', [
       'tools/deksa_rebuild/verify_beta5_full_rom.py', '--seed', safeSeed,
       '--project-root', projectRoot,
     ], workRoot);
@@ -89,6 +106,36 @@ export async function inspectBuildEnvironment(projectRoot = DEFAULT_ROOT) {
     stat(path.join(projectRoot, 'references/deksa-next/b5-05/w12-league-rematch/export.json')).then(() => true, () => false),
   ]);
   return { ready: checks.every(Boolean), source: checks[0], agbcc: checks[1], roster: checks[2] };
+}
+
+export async function runSeedPatchBuild(seed, options = {}) {
+  const projectRoot = options.projectRoot ?? DEFAULT_ROOT;
+  const underlying = options.commands ?? command;
+  const commands = (...args) => { options.signal?.throwIfAborted(); return underlying(...args, undefined, options.signal); };
+  const onPhase = options.onPhase ?? (() => {});
+  const base = await ensureBaseRom(projectRoot, commands, onPhase);
+  const result = await runSeedBuild(seed, options);
+  const temporary = await mkdtemp(path.join(tmpdir(), 'deksa-patch-'));
+  try {
+    onPhase('Preparando y comprobando el parche');
+    const patch = path.join(temporary, 'game.bps');
+    await commands(process.execPath, [
+      path.join(projectRoot, 'compiler/app/create-patch.mjs'), base, result.path, patch, result.seed,
+    ], projectRoot);
+    const bytes = await readFile(patch);
+    const destination = result.path.replace(/\.gba$/, '.bps');
+    await writeFile(destination, bytes, { flag: 'wx' }).catch(async error => {
+      if (error.code !== 'EEXIST') throw error;
+      if (!(await readFile(destination)).equals(bytes)) throw new Error('El parche existente no coincide.');
+    });
+    const manifest = { ...result, path: destination, name: path.basename(destination),
+      format: 'bps', patchBytes: bytes.length, patchSha256: createHash('sha256').update(bytes).digest('hex'),
+      baseRom: BASE_ROM, romName: path.basename(result.path) };
+    await writeFile(destination.replace(/\.bps$/, '.patch.json'), `${JSON.stringify(manifest, null, 2)}\n`);
+    return manifest;
+  } finally {
+    await rm(temporary, { recursive: true, force: true });
+  }
 }
 
 export { DEFAULT_ROOT, ROM_NAME };

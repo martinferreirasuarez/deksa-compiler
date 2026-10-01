@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { exportPathForWindow } from './build-gate.mjs';
+import { trainerSourceDigest } from './trainer-packages.mjs';
 
 function canonicalJson(value) {
   return JSON.stringify(value, (_key, item) => {
@@ -28,7 +29,7 @@ function checkParty(party, trainerId, variant) {
 }
 
 export function selectReviewedTrainers(seedPlan, windowExports) {
-  const variants = new Map(seedPlan.lots.map(({ lotId, variant }) => [lotId, variant]));
+  const variants = new Map(seedPlan.lots.map(lot => [lot.lotId, lot]));
   assert.equal(variants.size, seedPlan.lots.length, 'El plan repite lotes');
   const seen = new Set();
   const trainers = [];
@@ -36,12 +37,17 @@ export function selectReviewedTrainers(seedPlan, windowExports) {
   for (const source of windowExports) {
     assert.equal(source.reviewed, true, 'No se puede seleccionar de una ventana sin revisar');
     assert.ok(Array.isArray(source.materializedTeams), 'Export sin materializedTeams');
+    const sourceDigest = trainerSourceDigest(source);
+    assert.ok(seedPlan.trainerPackageSources?.some(({ digest }) => digest === sourceDigest),
+      'Trainer data changed: refresh the approved package library before compiling');
     for (const trainer of source.materializedTeams) {
       assert.equal(typeof trainer.trainerId, 'string');
       assert.ok(!seen.has(trainer.trainerId), `Entrenador duplicado: ${trainer.trainerId}`);
       seen.add(trainer.trainerId);
-      const variant = variants.get(trainer.lotId);
-      assert.ok(variant, `${trainer.trainerId}: lote ${trainer.lotId} desconocido`);
+      const lot = variants.get(trainer.lotId);
+      assert.ok(lot, `${trainer.trainerId}: lote ${trainer.lotId} desconocido`);
+      const variant = lot.trainerVariants?.[trainer.trainerId];
+      assert.ok(['A', 'B', 'C'].includes(variant), `${trainer.trainerId}: missing packaged team selection`);
       assert.deepEqual(Object.keys(trainer.variants).sort(), ['A', 'B', 'C']);
       const party = trainer.variants[variant];
       checkParty(party, trainer.trainerId, variant);
@@ -49,6 +55,7 @@ export function selectReviewedTrainers(seedPlan, windowExports) {
         trainerId: trainer.trainerId,
         lotId: trainer.lotId,
         variant,
+        packageId: lot.packageId,
         profile: trainer.profile,
         cap: trainer.cap,
         party,

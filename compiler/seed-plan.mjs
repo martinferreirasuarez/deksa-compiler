@@ -3,17 +3,18 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildWorldSeedPlan } from '../wiki/trainer-authoring/v7/world-seed.mjs';
+import { canonicalDigest, readTrainerPackages, selectTrainerPackage, TRAINER_PACKAGE_FILE } from './trainer-packages.mjs';
 
 const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CAMPAIGN_PLAN = 'wiki/trainer-authoring/v7/plan/windows.generated.json';
 const CAMPAIGN_GRAPHS = 'wiki/trainer-authoring/v7/graphs/graphs.generated.json';
 
-export const SEED_PLAN_VERSION = 1;
+export const SEED_PLAN_VERSION = 2;
 const SEED_PATTERN = /^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$/u;
 
 export function validateSeed(seed) {
   if (typeof seed !== 'string' || !SEED_PATTERN.test(seed)) {
-    throw new TypeError('La seed debe tener entre 1 y 64 caracteres: letras, números, punto, guion o guion bajo; debe comenzar con letra o número.');
+    throw new TypeError('The seed must contain 1–64 letters, numbers, dots, hyphens or underscores, and start with a letter or number.');
   }
   return seed;
 }
@@ -55,19 +56,29 @@ export async function createSeedPlan(seed, projectRoot = PROJECT_ROOT) {
     lotContinuityBindings: bindings,
   });
   const sourceFiles = files.map(({ path: relative, sha256 }) => ({ path: relative, sha256 }));
-  const lots = plan.trainers.lots.map(({ lotId, variant, selectionScope, selectionId }) => ({
+  const packages = await readTrainerPackages(projectRoot, trainerLotIds);
+  sourceFiles.push({ path: TRAINER_PACKAGE_FILE, sha256: `sha256:${packages.digest}` });
+  const lots = plan.trainers.lots.map(({ lotId, variant, selectionScope, selectionId }) => selectTrainerPackage(masterSeed, {
     lotId,
     variant,
     selectionScope,
     selectionId,
-  }));
+  }, packages.data.library));
+  for (const lot of lots) {
+    if (bindings[lot.lotId]) {
+      const banks = packages.data.library[lot.lotId].banks;
+      if (banks.some(bank => bank.length !== 1)) throw new Error(`${lot.lotId}: mixed package breaks campaign continuity`);
+    }
+  }
 
   return {
     schemaVersion: SEED_PLAN_VERSION,
     masterSeed,
-    fingerprint: plan.fingerprint,
+    fingerprint: canonicalDigest({ world: plan.fingerprint, selector: packages.data.selectorId, packages: packages.digest, lots }),
     faunaSeed: plan.fauna.seed,
-    selectorId: plan.trainers.selectorId,
+    selectorId: packages.data.selectorId,
+    packageDigest: packages.digest,
+    trainerPackageSources: packages.data.windowSources,
     lots,
     emptyTrainerLots,
     sourceFiles,

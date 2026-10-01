@@ -8,3 +8,4 @@ output
 *.state
 *.ss1
 *.ss2
+compiler/private/

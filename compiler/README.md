@@ -1,8 +1,21 @@
 # Compilador Déksa
 
-La app local genera una ROM `.gba` lista para jugar a partir de una seed.
-El selector es el mismo que usa el taller: una seed determina la fauna y un
-paquete A/B/C por lote, respetando la continuidad de personajes recurrentes.
+La app prepara una ROM `.gba` lista para jugar a partir de una seed y del
+FireRed original del usuario (inglés, versión 1.0). El archivo original se
+valida y procesa en un worker del navegador; nunca se sube al servidor.
+El servidor compila la seed, genera un parche BPS y comprueba que reconstruya
+exactamente la ROM. Sólo publica el parche; el navegador aplica los cambios,
+verifica el resultado y ofrece la descarga `.gba`. ROM Patcher JS se incluye
+localmente, con su licencia MIT y revisión fijada; no se cargan scripts remotos.
+La seed determina la fauna y un paquete guardado por lote. Los paquetes
+equilibrados mezclan equipos A/B/C completos de distintos entrenadores;
+los lotes ligados por continuidad conservan una misma letra A/B/C.
+Las mezclas y sus probabilidades se preparan una sola vez: el compilador sólo
+las sortea, sin generar equipos ni optimizarlos durante la compilación. Cada
+entrenador conserva aproximadamente un tercio de probabilidad para A/B/C
+(25–41,7 %); ninguna variante queda favorecida con probabilidades de 75–83 %.
+La biblioteca guarda hasta 24 paquetes distintos por lote cuando son legales,
+sin duplicarlos para inflar el número. Los originales siguen disponibles.
 
 El motor ya prepara conjuntamente los doce tramos revisados y la fauna Beta 5.
 El writer de `pokefirered/tools/deksa_rebuild/write_beta5_full.py` aplica
@@ -23,10 +36,37 @@ Para usarla en esta máquina:
 node compiler/app/server.mjs
 ```
 
-Abrir `http://127.0.0.1:52655`. Para compartirla dentro de Tailscale, definir
-`DEKSA_HOST` con la IP privada y `DEKSA_ACCESS_KEY` con una contraseña larga.
-El navegador remoto solo recibe el `.gba`: no necesita compiladores ni parches.
-No abrir este servicio directamente a Internet público.
+Abrir `http://127.0.0.1:52655`. La wiki y el compilador son públicos: no tienen
+login, contraseñas ni sesiones. `pokemondeksa.com` usa Cloudflare Tunnel hacia
+este servicio local; conservar el enlace al servidor en loopback y publicar
+mediante un proxy HTTPS. `DEKSA_HOST` permite cambiar la dirección de escucha.
+Con `DEKSA_WIKI_ORIGIN` configurado, `/` es la portada de la guía y `/build` el
+compilador. `/wiki/` y los enlaces de etapas/cambios siguen funcionando; sin
+origen de wiki, el servicio local conserva el compilador también en `/`.
+El navegador recibe únicamente el BPS y crea el `.gba` en el dispositivo:
+no necesita instalar compiladores ni manejar el parche manualmente. La API
+no sirve ROMs completas ni acepta archivos originales; `/api/build` sólo
+recibe la seed. La base interna queda en `compiler/private/`, sin ruta pública.
+Si no existe, se reconstruye desde upstream limpio y se valida por SHA-1;
+`DEKSA_BASE_ROM` permite indicar una copia local con el mismo hash.
+Se ejecuta una compilación a la vez, con hasta 20 pedidos en espera. Las seeds
+de la misma versión reutilizan pedidos/resultados existentes; los nuevos pedidos
+tienen un límite de tres por visitante cada diez minutos. La cola se conserva
+en `compiler/private/build-jobs/jobs.json`, con hasta 200 resultados durante
+siete días. Un reinicio retoma los pedidos pendientes. Una compilación tiene
+un máximo de diez minutos: se abortan también los subprocesos del compilador.
+Los límites no afectan la lectura de la wiki. La dirección
+del visitante enviada por Cloudflare sólo se acepta desde el conector local.
+Los archivos internos, históricos y ROMs no tienen rutas públicas. Los errores
+detallados se guardan en el registro local y no se envían al navegador.
+
+`app/release.json` fija la versión pública del juego. Cambiarla al modificar la
+ROM, el plantel o las reglas de selección; una seed se reproduce junto con su
+versión, no a través de distintas versiones. La caché no cruza versiones.
+El navegador conserva sólo ID, seed y versión, nunca la ROM, para recuperar
+pedidos después de recargar. `/play` contiene instrucciones, soporte y créditos.
+La versión local no fuerza HTTPS; el dominio público y `www` se redirigen al
+dominio canónico HTTPS desde el conector local de Cloudflare.
 
 `compiler/share/create-source.mjs` prepara un paquete fuente mínimo sin ROMs,
 con instalación limpia de los dos repositorios base fijados. El código nuevo de
@@ -46,8 +86,12 @@ node compiler/preview-cli.mjs --seed mi-seed-01
 
 `build-gate.mjs` comprueba por separado que W01–W12 tengan exportaciones
 revisadas. Una ventana parcial o faltante impide anunciar una ROM completa.
-`selected-trainers.mjs` proyecta el paquete A/B/C elegido sin modificar los
-exports. `rom-build-data.mjs` lo vincula a los registros físicos FireRed.
+`data/trainer-packages.json` contiene los paquetes equilibrados guardados.
+`trainer-packages.mjs` hace el sorteo determinista y `selected-trainers.mjs`
+selecciona la variante individual de cada entrenador sin modificar los exports.
+Si los datos de combate cambian, se exige actualizar los paquetes para evitar
+usar mezclas evaluadas con equipos anteriores. `rom-build-data.mjs` vincula
+la selección a los registros físicos FireRed.
 `fauna-beta5.mjs` reutiliza el generador ecológico existente con la clasificación
 por campaña y los caps de las doce ventanas Beta 5. Produce las 315 tablas y
 2.065 slots determinísticamente; el writer local los escribe en la ROM.
