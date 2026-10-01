@@ -1,0 +1,1604 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "scientist-gideon-warehouse",
+      "lotId": "09G",
+      "window": 11,
+      "cap": 70,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "voltorb",
+          "species": "SPECIES_VOLTORB"
+        },
+        {
+          "family": "magnemite",
+          "species": "SPECIES_MAGNEMITE"
+        },
+        {
+          "family": "porygon",
+          "species": "SPECIES_PORYGON"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Salamence abre con Intimidate y cobertura especial y física. Metagross representa la máquina de cálculo del científico y rompe defensas con Choice Band; Snorlax sostiene el flanco especial y continúa atacando al dormir. Electrode protege y frena preparación, Magneton atrapa Acero y Porygon2 conserva el cierre informático con Trace y recuperación.",
+          "members": [
+            {
+              "species": "SPECIES_SALAMENCE",
+              "level": 71,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DRAGON_CLAW",
+                "MOVE_FLAMETHROWER",
+                "MOVE_AERIAL_ACE",
+                "MOVE_CRUNCH"
+              ],
+              "nature": "NATURE_NAIVE",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_ELECTRODE",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SPARK",
+                "MOVE_TAUNT",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_MIRROR_COAT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Spark natural conserva STAB y parálisis sin consumir Thunderbolt de Magneton. La velocidad facilita Taunt y Light Screen; Mirror Coat castiga presión especial si sobrevive."
+            },
+            {
+              "species": "SPECIES_SNORLAX",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BODY_SLAM",
+                "MOVE_SHADOW_BALL",
+                "MOVE_REST",
+                "MOVE_SLEEP_TALK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_METAGROSS",
+              "level": 70,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_METEOR_MASH",
+                "MOVE_EARTHQUAKE",
+                "MOVE_PSYCHIC",
+                "MOVE_ROCK_SLIDE"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHOICE_BAND",
+              "intent": "Cuerpo artificial y cálculo del científico. Choice Band potencia tres ataques físicos; Psychic natural cubre Lucha por el lado especial y Brave conserva ambos ataques."
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_METAL_SOUND",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_MAGNET",
+              "intent": "Hidden Power Siniestro70 deriva de IV31; Metal Sound permite romper resistencia especial, Substitute protege de estados. Sin STAB Acero útil en este repertorio."
+            },
+            {
+              "species": "SPECIES_PORYGON2",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_TRI_ATTACK",
+                "MOVE_RECOVER",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Ice Beam cubre Tierra y dragones; Tri Attack es físico en Gen III. Relaxed mejora Defensa sin reducir ninguno de los dos ataques; parálisis y Recover sostienen el cierre."
+            }
+          ]
+        },
+        "B": {
+          "intent": "Gengar abre con sueño e inmunidades y expresa la experimentación gaseosa del científico. Heracross rompe muros por el lado físico; Kingdra monta lluvia autónoma y resiste Fuego/Agua. Electrode controla, Magneton presiona con Thunderbolt y Porygon2 mantiene cobertura Hielo y recuperación.",
+          "members": [
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 71,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Experimento gaseoso del científico. Omite STAB físico de Ataque65 para explotar Ataque Especial130; Hidden Power Siniestro70 cubre Psíquico/Fantasma y Giga Drain cubre Tierra/Agua."
+            },
+            {
+              "species": "SPECIES_ELECTRODE",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SPARK",
+                "MOVE_TAUNT",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_MIRROR_COAT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Spark natural libera Thunderbolt para Magneton; Taunt y Light Screen aprovechan Velocidad140, Mirror Coat castiga daño especial si sobrevive."
+            },
+            {
+              "species": "SPECIES_HERACROSS",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_MEGAHORN",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_FACADE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_GUTS",
+              "item": "ITEM_CHOICE_BAND"
+            },
+            {
+              "species": "SPECIES_KINGDRA",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_HYDRO_PUMP",
+                "MOVE_RAIN_DANCE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_CHESTO_BERRY",
+              "intent": "Lluvia propia acelera Swift Swim y potencia Agua; Surf mantiene precisión y Hydro Pump añade potencia. Rest/Chesto restaura el atacante; omite Twister débil y deja Ice Beam para Porygon2."
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_METAL_SOUND",
+                "MOVE_SUBSTITUTE",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_MAGNET",
+              "intent": "Hidden Power queda en Gengar. Reflect protege frente a ataques físicos; Metal Sound y Substitute permiten presionar con Thunderbolt. Sin STAB Acero útil en este repertorio."
+            },
+            {
+              "species": "SPECIES_PORYGON2",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_TRI_ATTACK",
+                "MOVE_RECOVER",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Cobertura Hielo y STAB Normal físico, con naturaleza que conserva ambos ataques; Trace, parálisis y Recover sostienen el núcleo."
+            }
+          ]
+        },
+        "C": {
+          "intent": "Starmie abre con velocidad, presión Agua/Psíquico y recuperación. Claydol representa un cuerpo artificial sometido al estudio del científico y aporta inmunidad Tierra, Reflect y Rapid Spin; Marowak rompe defensas con Thick Club. Electrode protege, Magneton atrapa y Porygon2 conserva la identidad informática del cierre.",
+          "members": [
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 71,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_HYDRO_PUMP",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_MYSTIC_WATER",
+              "intent": "Surf mantiene daño fiable y Hydro Pump retenido añade potencia; Psychic cubre Lucha y Recover preserva al atacante."
+            },
+            {
+              "species": "SPECIES_ELECTRODE",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SPARK",
+                "MOVE_TAUNT",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_MIRROR_COAT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Spark natural libera Thunderbolt para Magneton. Taunt limita preparación y Light Screen protege al núcleo; Mirror Coat es castigo situacional al daño especial."
+            },
+            {
+              "species": "SPECIES_CLAYDOL",
+              "level": 70,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_SHADOW_BALL",
+                "MOVE_RAPID_SPIN",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Cuerpo artificial y objeto de investigación. Inmunidad Tierra y defensa; Earthquake y Shadow Ball físicos, Rapid Spin y Reflect apoyan al núcleo. Psychic queda en Starmie, omitiendo el débil Psybeam especial."
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BONEMERANG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SWORDS_DANCE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB"
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_METAL_SOUND",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_MAGNET",
+              "intent": "Hidden Power Siniestro70, Metal Sound y Substitute para romper defensas especiales; sin STAB Acero útil en este repertorio."
+            },
+            {
+              "species": "SPECIES_PORYGON2",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_TRI_ATTACK",
+                "MOVE_RECOVER",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Cobertura Hielo y STAB Normal físico; parálisis ayuda especialmente a Marowak y al núcleo lento, Recover y Trace conservan el cierre."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "rocket-admin-female-warehouse",
+      "lotId": "09G",
+      "window": 11,
+      "cap": 70,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "grimer",
+          "species": "SPECIES_GRIMER"
+        },
+        {
+          "family": "ekans",
+          "species": "SPECIES_EKANS"
+        },
+        {
+          "family": "oddish",
+          "species": "SPECIES_ODDISH"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Persian abre con velocidad y Choice Band: la autoridad y el felino de Team Rocket. Gyarados ofrece Intimidate e inmunidad Tierra; Scizor resiste Psíquico y amenaza con Swords Dance. Arbok controla velocidad y Muk amortigua ataques especiales. Vileplume sostiene el núcleo venenoso con sueño, drenaje y recuperación.",
+          "members": [
+            {
+              "species": "SPECIES_PERSIAN",
+              "level": 71,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SHADOW_BALL",
+                "MOVE_IRON_TAIL",
+                "MOVE_AERIAL_ACE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_LIMBER",
+              "item": "ITEM_CHOICE_BAND"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_DIG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB"
+            },
+            {
+              "species": "SPECIES_SCIZOR",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STEEL_WING",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_SLASH",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SWARM",
+              "item": "ITEM_METAL_COAT",
+              "intent": "Steel Wing y Slash aprovechan Ataque130 con Swords Dance; Quick Attack remata. Silver Wind queda excluido por cría sin excepción y Fury Cutter no reemplaza una cobertura inmediata útil. Swarm es su única habilidad real legal."
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_MOONLIGHT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Hidden Power es Siniestro70, especial con IV31. Se conserva Sleep Powder y Moonlight por aprendizaje previo; Giga Drain aporta STAB especial. Sludge Bomb por recurso corresponde a Arbok y el de Muk es natural."
+            },
+            {
+              "species": "SPECIES_GYARADOS",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_DRAGON_DANCE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_NAUGHTY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LUM_BERRY"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Manectric abre con presión eléctrica y control de velocidad. Tentacruel representa el veneno y las operaciones insulares Rocket con Hydro Pump/Hielo, Toxic y Barrier. Slowbro absorbe golpes físicos y resiste Psíquico, con Calm Mind y cobertura Fuego. Muk y Arbok mantienen presión física; Vileplume cura su propio desgaste y amenaza Tierra con Giga Drain.",
+          "members": [
+            {
+              "species": "SPECIES_MANECTRIC",
+              "level": 71,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_BITE",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET",
+              "intent": "Bite natural evita repetir la MT Hidden Power de Vileplume. Thunder Wave facilita al núcleo lento; Roar corta acumulación de boosts."
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB"
+            },
+            {
+              "species": "SPECIES_TENTACRUEL",
+              "level": 70,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_ICE_BEAM",
+                "MOVE_TOXIC",
+                "MOVE_BARRIER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_LIQUID_OOZE",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Hydro Pump natural evita duplicar Surf de Slowbro; Ice Beam cubre Tierra. Se omite STAB Veneno físico para conservar Toxic y Barrier: la copia de Sludge Bomb corresponde a Arbok, mientras Muk lo aprende naturalmente."
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_MOONLIGHT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED",
+              "intent": "Hidden Power Siniestro70 conserva cobertura Psíquico/Fantasma y Moonlight recuperación. Giga Drain presiona Tierra, que es una debilidad compartida del conjunto; Slowbro y el agua/hielo de Tentacruel complementan esa respuesta."
+            },
+            {
+              "species": "SPECIES_SLOWBRO",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_FLAMETHROWER",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OWN_TEMPO",
+              "item": "ITEM_LEFTOVERS"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Dodrio abre con Choice Band y aporta inmunidad Tierra. Absol encarna la amenaza siniestra de la administradora y cubre Psíquico con inmunidad y Shadow Ball físico amplificable. Lanturn absorbe Eléctrico y ofrece Surf, Hielo y parálisis. Las anclas conservan Intimidate, presión Veneno y la recuperación de Vileplume.",
+          "members": [
+            {
+              "species": "SPECIES_DODRIO",
+              "level": 71,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_DRILL_PECK",
+                "MOVE_STEEL_WING",
+                "MOVE_TRI_ATTACK"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_CHOICE_BAND"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB"
+            },
+            {
+              "species": "SPECIES_LANTURN",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_THUNDERBOLT",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_VOLT_ABSORB",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_MOONLIGHT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED",
+              "intent": "Giga Drain y Moonlight sostienen al ancla Planta; Hidden Power Siniestro70 cubre Psíquico/Fantasma. Sleep Powder facilita el avance físico de Absol y Dodrio."
+            },
+            {
+              "species": "SPECIES_ABSOL",
+              "level": 70,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_STRENGTH",
+                "MOVE_BITE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Swords Dance amplifica Shadow Ball y Strength desde Ataque130. Bite conserva STAB Siniestro natural; la MT Hidden Power queda en Vileplume. Inmunidad Psíquico y Lum Berry permiten amenazar a ese flanco del núcleo venenoso."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "scientist-gideon-warehouse",
+      "lotId": "09G",
+      "window": 11,
+      "cap": 70,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "voltorb",
+          "species": "SPECIES_VOLTORB"
+        },
+        {
+          "family": "magnemite",
+          "species": "SPECIES_MAGNEMITE"
+        },
+        {
+          "family": "porygon",
+          "species": "SPECIES_PORYGON"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Salamence abre con Intimidate y cobertura especial y física. Metagross representa la máquina de cálculo del científico y rompe defensas con Choice Band; Snorlax sostiene el flanco especial y continúa atacando al dormir. Electrode protege y frena preparación, Magneton atrapa Acero y Porygon2 conserva el cierre informático con Trace y recuperación.",
+          "members": [
+            {
+              "species": "SPECIES_SALAMENCE",
+              "level": 71,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DRAGON_CLAW",
+                "MOVE_FLAMETHROWER",
+                "MOVE_AERIAL_ACE",
+                "MOVE_CRUNCH"
+              ],
+              "nature": "NATURE_NAIVE",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-371"
+            },
+            {
+              "species": "SPECIES_ELECTRODE",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SPARK",
+                "MOVE_TAUNT",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_MIRROR_COAT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Spark natural conserva STAB y parálisis sin consumir Thunderbolt de Magneton. La velocidad facilita Taunt y Light Screen; Mirror Coat castiga presión especial si sobrevive.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-100"
+            },
+            {
+              "species": "SPECIES_SNORLAX",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BODY_SLAM",
+                "MOVE_SHADOW_BALL",
+                "MOVE_REST",
+                "MOVE_SLEEP_TALK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-143"
+            },
+            {
+              "species": "SPECIES_METAGROSS",
+              "level": 70,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_METEOR_MASH",
+                "MOVE_EARTHQUAKE",
+                "MOVE_PSYCHIC",
+                "MOVE_ROCK_SLIDE"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHOICE_BAND",
+              "intent": "Cuerpo artificial y cálculo del científico. Choice Band potencia tres ataques físicos; Psychic natural cubre Lucha por el lado especial y Brave conserva ambos ataques.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-374"
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_METAL_SOUND",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_MAGNET",
+              "intent": "Hidden Power Siniestro70 deriva de IV31; Metal Sound permite romper resistencia especial, Substitute protege de estados. Sin STAB Acero útil en este repertorio.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-081"
+            },
+            {
+              "species": "SPECIES_PORYGON2",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_TRI_ATTACK",
+                "MOVE_RECOVER",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Ice Beam cubre Tierra y dragones; Tri Attack es físico en Gen III. Relaxed mejora Defensa sin reducir ninguno de los dos ataques; parálisis y Recover sostienen el cierre.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-137"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Gengar abre con sueño e inmunidades y expresa la experimentación gaseosa del científico. Heracross rompe muros por el lado físico; Kingdra monta lluvia autónoma y resiste Fuego/Agua. Electrode controla, Magneton presiona con Thunderbolt y Porygon2 mantiene cobertura Hielo y recuperación.",
+          "members": [
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 71,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Experimento gaseoso del científico. Omite STAB físico de Ataque65 para explotar Ataque Especial130; Hidden Power Siniestro70 cubre Psíquico/Fantasma y Giga Drain cubre Tierra/Agua.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-092"
+            },
+            {
+              "species": "SPECIES_ELECTRODE",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SPARK",
+                "MOVE_TAUNT",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_MIRROR_COAT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Spark natural libera Thunderbolt para Magneton; Taunt y Light Screen aprovechan Velocidad140, Mirror Coat castiga daño especial si sobrevive.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-100"
+            },
+            {
+              "species": "SPECIES_HERACROSS",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_MEGAHORN",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_FACADE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_GUTS",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-214"
+            },
+            {
+              "species": "SPECIES_KINGDRA",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_HYDRO_PUMP",
+                "MOVE_RAIN_DANCE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_CHESTO_BERRY",
+              "intent": "Lluvia propia acelera Swift Swim y potencia Agua; Surf mantiene precisión y Hydro Pump añade potencia. Rest/Chesto restaura el atacante; omite Twister débil y deja Ice Beam para Porygon2.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-116"
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_METAL_SOUND",
+                "MOVE_SUBSTITUTE",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_MAGNET",
+              "intent": "Hidden Power queda en Gengar. Reflect protege frente a ataques físicos; Metal Sound y Substitute permiten presionar con Thunderbolt. Sin STAB Acero útil en este repertorio.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-081"
+            },
+            {
+              "species": "SPECIES_PORYGON2",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_TRI_ATTACK",
+                "MOVE_RECOVER",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Cobertura Hielo y STAB Normal físico, con naturaleza que conserva ambos ataques; Trace, parálisis y Recover sostienen el núcleo.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-137"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Starmie abre con velocidad, presión Agua/Psíquico y recuperación. Claydol representa un cuerpo artificial sometido al estudio del científico y aporta inmunidad Tierra, Reflect y Rapid Spin; Marowak rompe defensas con Thick Club. Electrode protege, Magneton atrapa y Porygon2 conserva la identidad informática del cierre.",
+          "members": [
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 71,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_HYDRO_PUMP",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_MYSTIC_WATER",
+              "intent": "Surf mantiene daño fiable y Hydro Pump retenido añade potencia; Psychic cubre Lucha y Recover preserva al atacante.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-120"
+            },
+            {
+              "species": "SPECIES_ELECTRODE",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SPARK",
+                "MOVE_TAUNT",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_MIRROR_COAT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Spark natural libera Thunderbolt para Magneton. Taunt limita preparación y Light Screen protege al núcleo; Mirror Coat es castigo situacional al daño especial.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-100"
+            },
+            {
+              "species": "SPECIES_CLAYDOL",
+              "level": 70,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_SHADOW_BALL",
+                "MOVE_RAPID_SPIN",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Cuerpo artificial y objeto de investigación. Inmunidad Tierra y defensa; Earthquake y Shadow Ball físicos, Rapid Spin y Reflect apoyan al núcleo. Psychic queda en Starmie, omitiendo el débil Psybeam especial.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-343"
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BONEMERANG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SWORDS_DANCE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-104"
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_METAL_SOUND",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_MAGNET",
+              "intent": "Hidden Power Siniestro70, Metal Sound y Substitute para romper defensas especiales; sin STAB Acero útil en este repertorio.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-081"
+            },
+            {
+              "species": "SPECIES_PORYGON2",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_TRI_ATTACK",
+                "MOVE_RECOVER",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Cobertura Hielo y STAB Normal físico; parálisis ayuda especialmente a Marowak y al núcleo lento, Recover y Trace conservan el cierre.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-137"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "rocket-admin-female-warehouse",
+      "lotId": "09G",
+      "window": 11,
+      "cap": 70,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "grimer",
+          "species": "SPECIES_GRIMER"
+        },
+        {
+          "family": "ekans",
+          "species": "SPECIES_EKANS"
+        },
+        {
+          "family": "oddish",
+          "species": "SPECIES_ODDISH"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Persian abre con velocidad y Choice Band: la autoridad y el felino de Team Rocket. Gyarados ofrece Intimidate e inmunidad Tierra; Scizor resiste Psíquico y amenaza con Swords Dance. Arbok controla velocidad y Muk amortigua ataques especiales. Vileplume sostiene el núcleo venenoso con sueño, drenaje y recuperación.",
+          "members": [
+            {
+              "species": "SPECIES_PERSIAN",
+              "level": 71,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SHADOW_BALL",
+                "MOVE_IRON_TAIL",
+                "MOVE_AERIAL_ACE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_LIMBER",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-052"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_DIG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-023"
+            },
+            {
+              "species": "SPECIES_SCIZOR",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STEEL_WING",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_SLASH",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SWARM",
+              "item": "ITEM_METAL_COAT",
+              "intent": "Steel Wing y Slash aprovechan Ataque130 con Swords Dance; Quick Attack remata. Silver Wind queda excluido por cría sin excepción y Fury Cutter no reemplaza una cobertura inmediata útil. Swarm es su única habilidad real legal.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-123"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-088"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_MOONLIGHT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Hidden Power es Siniestro70, especial con IV31. Se conserva Sleep Powder y Moonlight por aprendizaje previo; Giga Drain aporta STAB especial. Sludge Bomb por recurso corresponde a Arbok y el de Muk es natural.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-043"
+            },
+            {
+              "species": "SPECIES_GYARADOS",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_DRAGON_DANCE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_NAUGHTY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-129"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Manectric abre con presión eléctrica y control de velocidad. Tentacruel representa el veneno y las operaciones insulares Rocket con Hydro Pump/Hielo, Toxic y Barrier. Slowbro absorbe golpes físicos y resiste Psíquico, con Calm Mind y cobertura Fuego. Muk y Arbok mantienen presión física; Vileplume cura su propio desgaste y amenaza Tierra con Giga Drain.",
+          "members": [
+            {
+              "species": "SPECIES_MANECTRIC",
+              "level": 71,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_BITE",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET",
+              "intent": "Bite natural evita repetir la MT Hidden Power de Vileplume. Thunder Wave facilita al núcleo lento; Roar corta acumulación de boosts.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-309"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-023"
+            },
+            {
+              "species": "SPECIES_TENTACRUEL",
+              "level": 70,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_ICE_BEAM",
+                "MOVE_TOXIC",
+                "MOVE_BARRIER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_LIQUID_OOZE",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Hydro Pump natural evita duplicar Surf de Slowbro; Ice Beam cubre Tierra. Se omite STAB Veneno físico para conservar Toxic y Barrier: la copia de Sludge Bomb corresponde a Arbok, mientras Muk lo aprende naturalmente.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-072"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-088"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_MOONLIGHT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED",
+              "intent": "Hidden Power Siniestro70 conserva cobertura Psíquico/Fantasma y Moonlight recuperación. Giga Drain presiona Tierra, que es una debilidad compartida del conjunto; Slowbro y el agua/hielo de Tentacruel complementan esa respuesta.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-043"
+            },
+            {
+              "species": "SPECIES_SLOWBRO",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_FLAMETHROWER",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OWN_TEMPO",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-079"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Dodrio abre con Choice Band y aporta inmunidad Tierra. Absol encarna la amenaza siniestra de la administradora y cubre Psíquico con inmunidad y Shadow Ball físico amplificable. Lanturn absorbe Eléctrico y ofrece Surf, Hielo y parálisis. Las anclas conservan Intimidate, presión Veneno y la recuperación de Vileplume.",
+          "members": [
+            {
+              "species": "SPECIES_DODRIO",
+              "level": 71,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_DRILL_PECK",
+                "MOVE_STEEL_WING",
+                "MOVE_TRI_ATTACK"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-084"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 69,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-023"
+            },
+            {
+              "species": "SPECIES_LANTURN",
+              "level": 70,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_THUNDERBOLT",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_VOLT_ABSORB",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-170"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-088"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 70,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_MOONLIGHT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED",
+              "intent": "Giga Drain y Moonlight sostienen al ancla Planta; Hidden Power Siniestro70 cubre Psíquico/Fantasma. Sleep Powder facilita el avance físico de Absol y Dodrio.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-043"
+            },
+            {
+              "species": "SPECIES_ABSOL",
+              "level": 70,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_STRENGTH",
+                "MOVE_BITE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Swords Dance amplifica Shadow Ball y Strength desde Ataque130. Bite conserva STAB Siniestro natural; la MT Hidden Power queda en Vileplume. Inmunidad Psíquico y Lum Berry permiten amenazar a ese flanco del núcleo venenoso.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-359"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "scientist-gideon-warehouse": {
+      "actor": "/root/additional_gideon_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    },
+    "rocket-admin-female-warehouse": {
+      "actor": "/root/additional_admin_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.11372396070510149,
+      "packetBytes": 492833,
+      "tokens": null
+    },
+    {
+      "stage": "prepare",
+      "seconds": 0.122638707049191,
+      "packetBytes": 501638,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-additional-bosses-w11-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

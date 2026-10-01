@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "leader-sabrina",
+      "lotId": "05J",
+      "window": 6,
+      "cap": 43,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "abra",
+          "species": "SPECIES_ALAKAZAM",
+          "ace": true
+        },
+        {
+          "family": "mr_mime",
+          "species": "SPECIES_MR_MIME"
+        },
+        {
+          "family": "venonat",
+          "species": "SPECIES_VENONAT"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Starmie abre con velocidad y cobertura Agua/Hielo/Eléctrico. Skarmory resiste Bicho, Fantasma y Siniestro en Gen III, y combina Spikes con Roar; Breloom presiona Siniestro con prioridad y drenaje. Mime aporta Encore y Reflect; Venomoth controla estados y Alakazam cierra con Calm Mind y recuperación.",
+          "members": [
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDERBOLT",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_SKARMORY",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_STEEL_WING",
+                "MOVE_SPIKES",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_BRELOOM",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SKY_UPPERCUT",
+                "MOVE_MACH_PUNCH",
+                "MOVE_BULK_UP",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EFFECT_SPORE",
+              "item": "ITEM_BLACK_BELT"
+            },
+            {
+              "species": "SPECIES_MR_MIME",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_MAGICAL_LEAF",
+                "MOVE_REFLECT",
+                "MOVE_ENCORE"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SOUNDPROOF",
+              "item": "ITEM_TWISTED_SPOON"
+            },
+            {
+              "species": "SPECIES_VENOMOTH",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_PSYCHIC",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_SILVER_WIND"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_SHIELD_DUST",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Silver Wind natural aporta STAB Bicho fiable contra Psíquico y Siniestro; conserva Sludge Bomb, cobertura Psychic y sueño."
+            },
+            {
+              "species": "SPECIES_ALAKAZAM",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER",
+                "MOVE_HIDDEN_POWER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SYNCHRONIZE",
+              "item": "ITEM_LUM_BERRY"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Scyther abre con presión física veloz y Swords Dance. Girafarig mantiene identidad Psíquico e inmunidad Fantasma, con Shadow Ball físico y doble STAB. Lanturn absorbe Eléctrico y cubre Agua/Hielo; Mime facilita el avance con Reflect y Encore. Alakazam conserva el mismo cierre fuerte.",
+          "members": [
+            {
+              "species": "SPECIES_SCYTHER",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_STEEL_WING",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_SWARM",
+              "item": "ITEM_SHARP_BEAK"
+            },
+            {
+              "species": "SPECIES_GIRAFARIG",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF",
+              "intent": "Recibe la única TM Psychic para aprovechar STAB; Thunder Wave natural de Lanturn no consume el tutor de Girafarig. Parálisis ayuda a toda la formación; naturaleza Mild potencia Psychic sin reducir los dos ataques físicos."
+            },
+            {
+              "species": "SPECIES_LANTURN",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_THUNDERBOLT",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_VOLT_ABSORB",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_MR_MIME",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_MAGICAL_LEAF",
+                "MOVE_REFLECT",
+                "MOVE_ENCORE"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SOUNDPROOF",
+              "item": "ITEM_TWISTED_SPOON"
+            },
+            {
+              "species": "SPECIES_VENOMOTH",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_PSYBEAM",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_SILVER_WIND"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_SHIELD_DUST",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Psybeam natural libera la única TM Psychic para el STAB de Girafarig. Silver Wind refuerza Bicho contra Psíquico/Siniestro y Sleep Powder conserva el control."
+            },
+            {
+              "species": "SPECIES_ALAKAZAM",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER",
+                "MOVE_HIDDEN_POWER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SYNCHRONIZE",
+              "item": "ITEM_LUM_BERRY"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Zangoose abre con inmunidad Fantasma, potencia física y cobertura Lucha. Grumpig sostiene identidad Psíquico y resiste Fuego/Hielo con Thick Fat; Camerupt ofrece doble STAB potente y Rock Slide contra Bicho/Volador. Mime protege al núcleo, Venomoth duerme y Alakazam remata con Hidden Power Siniestro70.",
+          "members": [
+            {
+              "species": "SPECIES_ZANGOOSE",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_IMMUNITY",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_GRUMPIG",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_CALM_MIND",
+                "MOVE_SHOCK_WAVE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_CAMERUPT",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_FLAMETHROWER",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_AMNESIA"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_MAGMA_ARMOR",
+              "item": "ITEM_QUICK_CLAW"
+            },
+            {
+              "species": "SPECIES_MR_MIME",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_MAGICAL_LEAF",
+                "MOVE_REFLECT",
+                "MOVE_ENCORE"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SOUNDPROOF",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_VENOMOTH",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_PSYCHIC",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_SILVER_WIND"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_SHIELD_DUST",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Silver Wind natural aporta STAB Bicho fiable contra Psíquico y Siniestro; conserva Sludge Bomb, cobertura Psychic y sueño."
+            },
+            {
+              "species": "SPECIES_ALAKAZAM",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER",
+                "MOVE_HIDDEN_POWER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SYNCHRONIZE",
+              "item": "ITEM_LUM_BERRY"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "leader-sabrina",
+      "lotId": "05J",
+      "window": 6,
+      "cap": 43,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "abra",
+          "species": "SPECIES_ALAKAZAM",
+          "ace": true
+        },
+        {
+          "family": "mr_mime",
+          "species": "SPECIES_MR_MIME"
+        },
+        {
+          "family": "venonat",
+          "species": "SPECIES_VENONAT"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Starmie abre con velocidad y cobertura Agua/Hielo/Eléctrico. Skarmory resiste Bicho, Fantasma y Siniestro en Gen III, y combina Spikes con Roar; Breloom presiona Siniestro con prioridad y drenaje. Mime aporta Encore y Reflect; Venomoth controla estados y Alakazam cierra con Calm Mind y recuperación.",
+          "members": [
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDERBOLT",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-120"
+            },
+            {
+              "species": "SPECIES_SKARMORY",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_STEEL_WING",
+                "MOVE_SPIKES",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-227"
+            },
+            {
+              "species": "SPECIES_BRELOOM",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SKY_UPPERCUT",
+                "MOVE_MACH_PUNCH",
+                "MOVE_BULK_UP",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EFFECT_SPORE",
+              "item": "ITEM_BLACK_BELT",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-285"
+            },
+            {
+              "species": "SPECIES_MR_MIME",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_MAGICAL_LEAF",
+                "MOVE_REFLECT",
+                "MOVE_ENCORE"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SOUNDPROOF",
+              "item": "ITEM_TWISTED_SPOON",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-122"
+            },
+            {
+              "species": "SPECIES_VENOMOTH",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_PSYCHIC",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_SILVER_WIND"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_SHIELD_DUST",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Silver Wind natural aporta STAB Bicho fiable contra Psíquico y Siniestro; conserva Sludge Bomb, cobertura Psychic y sueño.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-048"
+            },
+            {
+              "species": "SPECIES_ALAKAZAM",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER",
+                "MOVE_HIDDEN_POWER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SYNCHRONIZE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-063"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Scyther abre con presión física veloz y Swords Dance. Girafarig mantiene identidad Psíquico e inmunidad Fantasma, con Shadow Ball físico y doble STAB. Lanturn absorbe Eléctrico y cubre Agua/Hielo; Mime facilita el avance con Reflect y Encore. Alakazam conserva el mismo cierre fuerte.",
+          "members": [
+            {
+              "species": "SPECIES_SCYTHER",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_STEEL_WING",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_SWARM",
+              "item": "ITEM_SHARP_BEAK",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-123"
+            },
+            {
+              "species": "SPECIES_GIRAFARIG",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF",
+              "intent": "Recibe la única TM Psychic para aprovechar STAB; Thunder Wave natural de Lanturn no consume el tutor de Girafarig. Parálisis ayuda a toda la formación; naturaleza Mild potencia Psychic sin reducir los dos ataques físicos.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-203"
+            },
+            {
+              "species": "SPECIES_LANTURN",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_THUNDERBOLT",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_VOLT_ABSORB",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-170"
+            },
+            {
+              "species": "SPECIES_MR_MIME",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_MAGICAL_LEAF",
+                "MOVE_REFLECT",
+                "MOVE_ENCORE"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SOUNDPROOF",
+              "item": "ITEM_TWISTED_SPOON",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-122"
+            },
+            {
+              "species": "SPECIES_VENOMOTH",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_PSYBEAM",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_SILVER_WIND"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_SHIELD_DUST",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Psybeam natural libera la única TM Psychic para el STAB de Girafarig. Silver Wind refuerza Bicho contra Psíquico/Siniestro y Sleep Powder conserva el control.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-048"
+            },
+            {
+              "species": "SPECIES_ALAKAZAM",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER",
+                "MOVE_HIDDEN_POWER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SYNCHRONIZE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-063"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Zangoose abre con inmunidad Fantasma, potencia física y cobertura Lucha. Grumpig sostiene identidad Psíquico y resiste Fuego/Hielo con Thick Fat; Camerupt ofrece doble STAB potente y Rock Slide contra Bicho/Volador. Mime protege al núcleo, Venomoth duerme y Alakazam remata con Hidden Power Siniestro70.",
+          "members": [
+            {
+              "species": "SPECIES_ZANGOOSE",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_IMMUNITY",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-335"
+            },
+            {
+              "species": "SPECIES_GRUMPIG",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_CALM_MIND",
+                "MOVE_SHOCK_WAVE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-325"
+            },
+            {
+              "species": "SPECIES_CAMERUPT",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_FLAMETHROWER",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_AMNESIA"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_MAGMA_ARMOR",
+              "item": "ITEM_QUICK_CLAW",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-322"
+            },
+            {
+              "species": "SPECIES_MR_MIME",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_MAGICAL_LEAF",
+                "MOVE_REFLECT",
+                "MOVE_ENCORE"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SOUNDPROOF",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-122"
+            },
+            {
+              "species": "SPECIES_VENOMOTH",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_PSYCHIC",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_SILVER_WIND"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_SHIELD_DUST",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Silver Wind natural aporta STAB Bicho fiable contra Psíquico y Siniestro; conserva Sludge Bomb, cobertura Psychic y sueño.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-048"
+            },
+            {
+              "species": "SPECIES_ALAKAZAM",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER",
+                "MOVE_HIDDEN_POWER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SYNCHRONIZE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-063"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "leader-sabrina": {
+      "actor": "/root/remaining_gyms_coordinator/sabrina_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.08340776013210416,
+      "packetBytes": 222783,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-w06-leader-sabrina-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

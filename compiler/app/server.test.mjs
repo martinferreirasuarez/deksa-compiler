@@ -5,6 +5,28 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { createApp } from './server.mjs';
 
+test('builder and player instructions share navigation, footer and header styling', async () => {
+  const { server } = createApp();
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+  const base = `http://127.0.0.1:${server.address().port}`;
+  try {
+    const pages = await Promise.all(['/build', '/play'].map(async pathname => (await fetch(base + pathname)).text()));
+    const headers = pages.map(html => html.match(/<header class="site-header"[\s\S]*?<\/header>/)?.[0]);
+    assert.ok(headers.every(Boolean));
+    assert.equal(headers[0].replace(' aria-current="page"', ''), headers[1].replace(' aria-current="page"', ''));
+    assert.match(headers[0], /href="\/build" aria-current="page"/);
+    assert.match(headers[1], /href="\/play" aria-current="page"/);
+    assert.equal(pages[0].match(/<footer[\s\S]*?<\/footer>/)?.[0], pages[1].match(/<footer[\s\S]*?<\/footer>/)?.[0]);
+    assert.match(pages[0], /id="game-version"/);
+    assert.match(pages[0], /id="report-problem"/);
+    assert.ok(pages.every(html => !html.includes('<!-- DEKSA_SITE_')));
+    const stylesheet = await fetch(base + '/site.css');
+    assert.equal(stylesheet.status, 200);
+    assert.match(stylesheet.headers.get('content-type'), /text\/css/);
+    assert.match(await stylesheet.text(), /background: #172b22/);
+  } finally { await new Promise(resolve => server.close(resolve)); }
+});
+
 test('la app es pública, valida seed y entrega únicamente un parche BPS', async () => {
   const temporary = await mkdtemp(path.join(tmpdir(), 'deksa-app-test-'));
   const romPath = path.join(temporary, 'test.bps');

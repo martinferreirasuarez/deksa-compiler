@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "workspace": "beta-3",
+  "visibility": "private-workbench",
+  "contentState": "authoring",
+  "contentRevision": "B2-F015",
+  "activeFaunaModel": "B2-F015",
+  "activeFaunaPublication": null,
+  "activeTrainerPublication": null,
+  "experiments": [
+    {
+      "id": "B2-F015-A",
+      "title": "Fauna por ventanas · tablas 3/4/5/6/7 · no spawn 10% · semilla A",
+      "status": "review",
+      "artifact": "generators/fauna/experiments/B2-F015-A/distribution.generated.json"
+    },
+    {
+      "id": "B2-F015-B",
+      "title": "Fauna por ventanas · tablas 3/4/5/6/7 · no spawn 10% · semilla B",
+      "status": "review",
+      "artifact": "generators/fauna/experiments/B2-F015-B/distribution.generated.json"
+    }
+  ],
+  "trainerExperiments": [],
+  "lots": [
+    {
+      "id": "01A",
+      "arc": "01",
+      "title": "Inicio → Brock",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "02A",
+      "arc": "02",
+      "title": "Plateada → Monte Moon",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "02B",
+      "arc": "02",
+      "title": "Monte Moon",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "02C",
+      "arc": "02",
+      "title": "Celeste y Puente Pepita",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "02D",
+      "arc": "02",
+      "title": "Ruta 25 y Misty",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "03A",
+      "arc": "03",
+      "title": "Llegada a Carmín",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "03B",
+      "arc": "03",
+      "title": "S.S. Anne 1F y B1F",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "03C",
+      "arc": "03",
+      "title": "S.S. Anne 2F y rival",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "03D",
+      "arc": "03",
+      "title": "Ruta 11 y Lt. Surge",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "04A",
+      "arc": "04",
+      "title": "Ruta 9",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "04B",
+      "arc": "04",
+      "title": "Túnel Roca",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "04C",
+      "arc": "04",
+      "title": "Lavanda y Torre Pokémon",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "04D",
+      "arc": "04",
+      "title": "Ruta 8 y llegada a Azulona",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "04E",
+      "arc": "04",
+      "title": "Guarida Rocket superior",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "04F",
+      "arc": "04",
+      "title": "Giovanni y Silph Scope",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "04G",
+      "arc": "04",
+      "title": "Gimnasio Azulona y Erika",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "05A",
+      "arc": "05",
+      "title": "Marowak, Torre 7F y Sr. Fuji",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "05B",
+      "arc": "05",
+      "title": "Rutas 12–13",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "05C",
+      "arc": "05",
+      "title": "Rutas 14–15",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "05D",
+      "arc": "05",
+      "title": "Ruta 16 y acceso a Cycling Road",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "05E",
+      "arc": "05",
+      "title": "Rutas 17–18 y llegada a Fucsia",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "05F",
+      "arc": "05",
+      "title": "Zona Safari, Gimnasio Fucsia y Koga",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "05G",
+      "arc": "05",
+      "title": "Silph S.A. 1F–5F y Card Key",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "05H",
+      "arc": "05",
+      "title": "Silph S.A. sectores laterales",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "05I",
+      "arc": "05",
+      "title": "Rival, Giovanni y liberación de Azafrán",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "05J",
+      "arc": "05",
+      "title": "Dojo, Gimnasio Azafrán y Sabrina",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "06A",
+      "arc": "06",
+      "title": "Ruta 10 y Central de Energía",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "06B",
+      "arc": "06",
+      "title": "Ruta 19",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "06C",
+      "arc": "06",
+      "title": "Ruta 20 e Islas Espuma",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "06D",
+      "arc": "06",
+      "title": "Ruta 21, Canela y Laboratorio",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "06E",
+      "arc": "06",
+      "title": "Mansión Pokémon, Gimnasio Canela y Blaine",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "07A",
+      "arc": "07",
+      "title": "Isla Prima, Camino Candente y Monte Ascuas",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "07B",
+      "arc": "07",
+      "title": "Isla Inta, banda de Isla Tera y Puente Unión",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "07C",
+      "arc": "07",
+      "title": "Bosque Baya, Lostelle y regreso",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "07D",
+      "arc": "07",
+      "title": "Gimnasio Verde y Giovanni",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "08A",
+      "arc": "08",
+      "title": "Rival final y Ruta 23",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "08B",
+      "arc": "08",
+      "title": "Calle Victoria",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "08C",
+      "arc": "08",
+      "title": "Primera Liga",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "09A",
+      "arc": "09",
+      "title": "Dex Nacional, Rubí y Rainbow Pass",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "09B",
+      "arc": "09",
+      "title": "Isla Quarta, Cueva Glaciada y Lorelei",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "09C",
+      "arc": "09",
+      "title": "Desvíos de Isla Quinta",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "09D",
+      "arc": "09",
+      "title": "Isla Sesta norte, Bosquejo e Isla Extrema",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "09E",
+      "arc": "09",
+      "title": "Isla Sétima, Cañón Sétano y Tanoby",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "09F",
+      "arc": "09",
+      "title": "Valle Ruinas, Cueva Punteada y robo del Zafiro",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "09G",
+      "arc": "09",
+      "title": "Pradera Isla Inta, Almacén Rocket y Zafiro",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "09H",
+      "arc": "09",
+      "title": "Cueva Celeste y fuentes especiales",
+      "status": "draft",
+      "artifact": null
+    },
+    {
+      "id": "09I",
+      "arc": "09",
+      "title": "Liga reforzada y cierre COMPLETE",
+      "status": "draft",
+      "artifact": null
+    }
+  ]
+}

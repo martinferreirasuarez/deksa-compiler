@@ -1,0 +1,795 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "leader-erika",
+      "lotId": "04G",
+      "window": 4,
+      "cap": 29,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "oddish",
+          "species": "SPECIES_VILEPLUME",
+          "ace": true
+        },
+        {
+          "family": "bellsprout",
+          "species": "SPECIES_BELLSPROUT"
+        },
+        {
+          "family": "tangela",
+          "species": "SPECIES_TANGELA"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Grovyle abre con Leaf Blade, velocidad y cobertura; Hypno cubre Veneno y ofrece pantallas, Gyarados aporta Intimidate, resistencia a Fuego y cobertura Hielo. Las anclas controlan con sueño; Vileplume remata y cura estados.",
+          "members": [
+            {
+              "species": "SPECIES_GROVYLE",
+              "level": 29,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_LEAF_BLADE",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_TOMB",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_OVERGROW",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_TANGELA",
+              "level": 28,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_VINE_WHIP",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_GROWTH",
+                "MOVE_THIEF"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED"
+            },
+            {
+              "species": "SPECIES_HYPNO",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_SHADOW_BALL",
+                "MOVE_REFLECT",
+                "MOVE_LIGHT_SCREEN"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_INSOMNIA",
+              "item": "ITEM_TWISTED_SPOON"
+            },
+            {
+              "species": "SPECIES_GYARADOS",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_STRENGTH",
+                "MOVE_ICE_BEAM",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_VICTREEBEL",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_RAZOR_LEAF",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_REST",
+                "MOVE_SECRET_POWER"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_STUN_SPORE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Cierre con Giga Drain y Hidden Power Siniestro70; Sleep Powder y Stun Spore controlan rivales. Sustituye la frase inicial de la variante sobre curar estados: Aromatherapy se retiró por cronología incompatible."
+            }
+          ]
+        },
+        "B": {
+          "intent": "Vigoroth abre con presión física y Bulk Up; Cloyster frena atacantes Volador con defensa e Ice Beam. Roselia prolonga el desgaste con Leech Seed y parálisis, manteniendo el jardín floral de Erika. Vileplume cierra con cobertura Siniestro contra Psíquico.",
+          "members": [
+            {
+              "species": "SPECIES_VIGOROTH",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_BULK_UP"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_VITAL_SPIRIT",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_ROSELIA",
+              "level": 29,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_MAGICAL_LEAF",
+                "MOVE_LEECH_SEED",
+                "MOVE_STUN_SPORE",
+                "MOVE_GROWTH"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_MIRACLE_SEED"
+            },
+            {
+              "species": "SPECIES_CLOYSTER",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_PROTECT",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SHELL_ARMOR",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_TANGELA",
+              "level": 28,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_VINE_WHIP",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_GROWTH",
+                "MOVE_THIEF"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_QUICK_CLAW"
+            },
+            {
+              "species": "SPECIES_VICTREEBEL",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_RAZOR_LEAF",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_REST",
+                "MOVE_SECRET_POWER"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_STUN_SPORE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Flareon abre con presión mixta, Flash Fire y prioridad, cubriendo Fuego, Bicho y Hielo. Marowak castiga Veneno y Volador con Thick Club; Lombre conserva identidad Planta y aporta Surf/Hielo sin debilidad a Fuego. Sueño prepara el cierre de Vileplume.",
+          "members": [
+            {
+              "species": "SPECIES_FLAREON",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_SHADOW_BALL",
+                "MOVE_DIG",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_CHARCOAL"
+            },
+            {
+              "species": "SPECIES_LOMBRE",
+              "level": 29,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_BULLET_SEED",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_TANGELA",
+              "level": 28,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_VINE_WHIP",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_GROWTH",
+                "MOVE_THIEF"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED"
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BONEMERANG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_BRICK_BREAK",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB"
+            },
+            {
+              "species": "SPECIES_VICTREEBEL",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_RAZOR_LEAF",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_REST",
+                "MOVE_SECRET_POWER"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_STUN_SPORE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_LEFTOVERS"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "leader-erika",
+      "lotId": "04G",
+      "window": 4,
+      "cap": 29,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "oddish",
+          "species": "SPECIES_VILEPLUME",
+          "ace": true
+        },
+        {
+          "family": "bellsprout",
+          "species": "SPECIES_BELLSPROUT"
+        },
+        {
+          "family": "tangela",
+          "species": "SPECIES_TANGELA"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Grovyle abre con Leaf Blade, velocidad y cobertura; Hypno cubre Veneno y ofrece pantallas, Gyarados aporta Intimidate, resistencia a Fuego y cobertura Hielo. Las anclas controlan con sueño; Vileplume remata y cura estados.",
+          "members": [
+            {
+              "species": "SPECIES_GROVYLE",
+              "level": 29,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_LEAF_BLADE",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_TOMB",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_OVERGROW",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-252"
+            },
+            {
+              "species": "SPECIES_TANGELA",
+              "level": 28,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_VINE_WHIP",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_GROWTH",
+                "MOVE_THIEF"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-114"
+            },
+            {
+              "species": "SPECIES_HYPNO",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_SHADOW_BALL",
+                "MOVE_REFLECT",
+                "MOVE_LIGHT_SCREEN"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_INSOMNIA",
+              "item": "ITEM_TWISTED_SPOON",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-096"
+            },
+            {
+              "species": "SPECIES_GYARADOS",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_STRENGTH",
+                "MOVE_ICE_BEAM",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-129"
+            },
+            {
+              "species": "SPECIES_VICTREEBEL",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_RAZOR_LEAF",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_REST",
+                "MOVE_SECRET_POWER"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-069"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_STUN_SPORE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Cierre con Giga Drain y Hidden Power Siniestro70; Sleep Powder y Stun Spore controlan rivales. Sustituye la frase inicial de la variante sobre curar estados: Aromatherapy se retiró por cronología incompatible.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-043"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Vigoroth abre con presión física y Bulk Up; Cloyster frena atacantes Volador con defensa e Ice Beam. Roselia prolonga el desgaste con Leech Seed y parálisis, manteniendo el jardín floral de Erika. Vileplume cierra con cobertura Siniestro contra Psíquico.",
+          "members": [
+            {
+              "species": "SPECIES_VIGOROTH",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_BULK_UP"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_VITAL_SPIRIT",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-287"
+            },
+            {
+              "species": "SPECIES_ROSELIA",
+              "level": 29,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_MAGICAL_LEAF",
+                "MOVE_LEECH_SEED",
+                "MOVE_STUN_SPORE",
+                "MOVE_GROWTH"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_MIRACLE_SEED",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-315"
+            },
+            {
+              "species": "SPECIES_CLOYSTER",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_PROTECT",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SHELL_ARMOR",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-090"
+            },
+            {
+              "species": "SPECIES_TANGELA",
+              "level": 28,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_VINE_WHIP",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_GROWTH",
+                "MOVE_THIEF"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_QUICK_CLAW",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-114"
+            },
+            {
+              "species": "SPECIES_VICTREEBEL",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_RAZOR_LEAF",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_REST",
+                "MOVE_SECRET_POWER"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-069"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_STUN_SPORE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-043"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Flareon abre con presión mixta, Flash Fire y prioridad, cubriendo Fuego, Bicho y Hielo. Marowak castiga Veneno y Volador con Thick Club; Lombre conserva identidad Planta y aporta Surf/Hielo sin debilidad a Fuego. Sueño prepara el cierre de Vileplume.",
+          "members": [
+            {
+              "species": "SPECIES_FLAREON",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_SHADOW_BALL",
+                "MOVE_DIG",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_CHARCOAL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-133"
+            },
+            {
+              "species": "SPECIES_LOMBRE",
+              "level": 29,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_BULLET_SEED",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-270"
+            },
+            {
+              "species": "SPECIES_TANGELA",
+              "level": 28,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_VINE_WHIP",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_GROWTH",
+                "MOVE_THIEF"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-114"
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BONEMERANG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_BRICK_BREAK",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-104"
+            },
+            {
+              "species": "SPECIES_VICTREEBEL",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_RAZOR_LEAF",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_REST",
+                "MOVE_SECRET_POWER"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-069"
+            },
+            {
+              "species": "SPECIES_VILEPLUME",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_STUN_SPORE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-043"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "leader-erika": {
+      "actor": "/root/erika_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.06866622203961015,
+      "packetBytes": 207298,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-w04-erika-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

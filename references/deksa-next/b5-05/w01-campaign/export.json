@@ -1,0 +1,793 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "leader-brock",
+      "lotId": "01A",
+      "window": 1,
+      "cap": 14,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "geodude",
+          "species": "SPECIES_GEODUDE"
+        },
+        {
+          "family": "omanyte",
+          "species": "SPECIES_OMANYTE"
+        },
+        {
+          "family": "onix",
+          "species": "SPECIES_ONIX",
+          "ace": true
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Presión rápida de Scyther; Shroomish cubre Agua y Tierra mediante drenaje y parálisis. Sandshrew representa la defensa terrestre del gimnasio. Onix cierra con Screech y daño Roca.",
+          "members": [
+            {
+              "species": "SPECIES_SCYTHER",
+              "level": 15,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_CUT",
+                "MOVE_QUICK_ATTACK",
+                "MOVE_LEER",
+                "MOVE_FOCUS_ENERGY"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SWARM",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_GEODUDE",
+              "level": 14,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_MEGA_PUNCH",
+                "MOVE_DEFENSE_CURL",
+                "MOVE_MUD_SPORT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_SHROOMISH",
+              "level": 14,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BULLET_SEED",
+                "MOVE_ABSORB",
+                "MOVE_STUN_SPORE",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_EFFECT_SPORE",
+              "item": "ITEM_MIRACLE_SEED"
+            },
+            {
+              "species": "SPECIES_SANDSHREW",
+              "level": 13,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SCRATCH",
+                "MOVE_SAND_ATTACK",
+                "MOVE_DEFENSE_CURL"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SAND_VEIL",
+              "item": "ITEM_ORAN_BERRY"
+            },
+            {
+              "species": "SPECIES_OMANYTE",
+              "level": 13,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_BITE",
+                "MOVE_CONSTRICT",
+                "MOVE_WITHDRAW"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SHELL_ARMOR",
+              "item": "ITEM_QUICK_CLAW"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 15,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_SCREECH",
+                "MOVE_BIND",
+                "MOVE_TACKLE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Poliwag abre con presión Agua y sueño, y absorbe Agua contra la estructura mineral. Meditite aporta ataque físico amplificado y Confusion; Nosepass conserva la identidad Roca y el aguante especial.",
+          "members": [
+            {
+              "species": "SPECIES_POLIWAG",
+              "level": 14,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_HYPNOSIS",
+                "MOVE_BUBBLE",
+                "MOVE_THIEF"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_CHERI_BERRY"
+            },
+            {
+              "species": "SPECIES_GEODUDE",
+              "level": 14,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_TACKLE",
+                "MOVE_DEFENSE_CURL",
+                "MOVE_MUD_SPORT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_ORAN_BERRY"
+            },
+            {
+              "species": "SPECIES_MEDITITE",
+              "level": 15,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_MEGA_PUNCH",
+                "MOVE_MEGA_KICK",
+                "MOVE_CONFUSION",
+                "MOVE_MEDITATE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_PURE_POWER",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_NOSEPASS",
+              "level": 13,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_TACKLE",
+                "MOVE_HARDEN"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_OMANYTE",
+              "level": 13,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_BITE",
+                "MOVE_CONSTRICT",
+                "MOVE_WITHDRAW"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SHELL_ARMOR",
+              "item": "ITEM_QUICK_CLAW"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 15,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_SCREECH",
+                "MOVE_BIND",
+                "MOVE_TACKLE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Bellsprout abre con sueño y ataque Planta escalable. Torkoal representa carbón y caparazón mineral, y castiga Planta; Spearow añade velocidad y STAB Volador contra Planta y Lucha. Las tres anclas conservan el núcleo Roca.",
+          "members": [
+            {
+              "species": "SPECIES_BELLSPROUT",
+              "level": 15,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_VINE_WHIP",
+                "MOVE_GROWTH",
+                "MOVE_CUT",
+                "MOVE_SLEEP_POWDER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED"
+            },
+            {
+              "species": "SPECIES_GEODUDE",
+              "level": 14,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_MEGA_PUNCH",
+                "MOVE_DEFENSE_CURL",
+                "MOVE_MUD_SPORT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_TORKOAL",
+              "level": 14,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_EMBER",
+                "MOVE_SMOG",
+                "MOVE_SMOKESCREEN",
+                "MOVE_CURSE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_WHITE_SMOKE",
+              "item": "ITEM_QUICK_CLAW"
+            },
+            {
+              "species": "SPECIES_SPEAROW",
+              "level": 13,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PECK",
+                "MOVE_FURY_ATTACK",
+                "MOVE_LEER",
+                "MOVE_GROWL"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_CHERI_BERRY"
+            },
+            {
+              "species": "SPECIES_OMANYTE",
+              "level": 13,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_BITE",
+                "MOVE_CONSTRICT",
+                "MOVE_WITHDRAW"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SHELL_ARMOR",
+              "item": "ITEM_ORAN_BERRY"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 15,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_SCREECH",
+                "MOVE_BIND",
+                "MOVE_TACKLE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": false,
+  "materializedTeams": [
+    {
+      "trainerId": "leader-brock",
+      "lotId": "01A",
+      "window": 1,
+      "cap": 14,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "geodude",
+          "species": "SPECIES_GEODUDE"
+        },
+        {
+          "family": "omanyte",
+          "species": "SPECIES_OMANYTE"
+        },
+        {
+          "family": "onix",
+          "species": "SPECIES_ONIX",
+          "ace": true
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Presión rápida de Scyther; Shroomish cubre Agua y Tierra mediante drenaje y parálisis. Sandshrew representa la defensa terrestre del gimnasio. Onix cierra con Screech y daño Roca.",
+          "members": [
+            {
+              "species": "SPECIES_SCYTHER",
+              "level": 15,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_CUT",
+                "MOVE_QUICK_ATTACK",
+                "MOVE_LEER",
+                "MOVE_FOCUS_ENERGY"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SWARM",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-123"
+            },
+            {
+              "species": "SPECIES_GEODUDE",
+              "level": 14,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_MEGA_PUNCH",
+                "MOVE_DEFENSE_CURL",
+                "MOVE_MUD_SPORT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-074"
+            },
+            {
+              "species": "SPECIES_SHROOMISH",
+              "level": 14,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BULLET_SEED",
+                "MOVE_ABSORB",
+                "MOVE_STUN_SPORE",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_EFFECT_SPORE",
+              "item": "ITEM_MIRACLE_SEED",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-285"
+            },
+            {
+              "species": "SPECIES_SANDSHREW",
+              "level": 13,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SCRATCH",
+                "MOVE_SAND_ATTACK",
+                "MOVE_DEFENSE_CURL"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SAND_VEIL",
+              "item": "ITEM_ORAN_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-027"
+            },
+            {
+              "species": "SPECIES_OMANYTE",
+              "level": 13,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_BITE",
+                "MOVE_CONSTRICT",
+                "MOVE_WITHDRAW"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SHELL_ARMOR",
+              "item": "ITEM_QUICK_CLAW",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-138"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 15,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_SCREECH",
+                "MOVE_BIND",
+                "MOVE_TACKLE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-095"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Poliwag abre con presión Agua y sueño, y absorbe Agua contra la estructura mineral. Meditite aporta ataque físico amplificado y Confusion; Nosepass conserva la identidad Roca y el aguante especial.",
+          "members": [
+            {
+              "species": "SPECIES_POLIWAG",
+              "level": 14,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_HYPNOSIS",
+                "MOVE_BUBBLE",
+                "MOVE_THIEF"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_CHERI_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-060"
+            },
+            {
+              "species": "SPECIES_GEODUDE",
+              "level": 14,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_TACKLE",
+                "MOVE_DEFENSE_CURL",
+                "MOVE_MUD_SPORT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_ORAN_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-074"
+            },
+            {
+              "species": "SPECIES_MEDITITE",
+              "level": 15,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_MEGA_PUNCH",
+                "MOVE_MEGA_KICK",
+                "MOVE_CONFUSION",
+                "MOVE_MEDITATE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_PURE_POWER",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-307"
+            },
+            {
+              "species": "SPECIES_NOSEPASS",
+              "level": 13,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_TACKLE",
+                "MOVE_HARDEN"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-299"
+            },
+            {
+              "species": "SPECIES_OMANYTE",
+              "level": 13,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_BITE",
+                "MOVE_CONSTRICT",
+                "MOVE_WITHDRAW"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SHELL_ARMOR",
+              "item": "ITEM_QUICK_CLAW",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-138"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 15,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_SCREECH",
+                "MOVE_BIND",
+                "MOVE_TACKLE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-095"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Bellsprout abre con sueño y ataque Planta escalable. Torkoal representa carbón y caparazón mineral, y castiga Planta; Spearow añade velocidad y STAB Volador contra Planta y Lucha. Las tres anclas conservan el núcleo Roca.",
+          "members": [
+            {
+              "species": "SPECIES_BELLSPROUT",
+              "level": 15,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_VINE_WHIP",
+                "MOVE_GROWTH",
+                "MOVE_CUT",
+                "MOVE_SLEEP_POWDER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-069"
+            },
+            {
+              "species": "SPECIES_GEODUDE",
+              "level": 14,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_MEGA_PUNCH",
+                "MOVE_DEFENSE_CURL",
+                "MOVE_MUD_SPORT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-074"
+            },
+            {
+              "species": "SPECIES_TORKOAL",
+              "level": 14,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_EMBER",
+                "MOVE_SMOG",
+                "MOVE_SMOKESCREEN",
+                "MOVE_CURSE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_WHITE_SMOKE",
+              "item": "ITEM_QUICK_CLAW",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-324"
+            },
+            {
+              "species": "SPECIES_SPEAROW",
+              "level": 13,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PECK",
+                "MOVE_FURY_ATTACK",
+                "MOVE_LEER",
+                "MOVE_GROWL"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_CHERI_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-021"
+            },
+            {
+              "species": "SPECIES_OMANYTE",
+              "level": 13,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_BITE",
+                "MOVE_CONSTRICT",
+                "MOVE_WITHDRAW"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SHELL_ARMOR",
+              "item": "ITEM_ORAN_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-138"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 15,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_THROW",
+                "MOVE_SCREECH",
+                "MOVE_BIND",
+                "MOVE_TACKLE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-095"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "58cec60f7483ba73d66cbdca0363982624389f2d5f55e349943689d5629187a0",
+  "provenance": {
+    "leader-brock": {
+      "actor": "/root/b505_campaign_brock",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.0033429008908569813,
+      "packetBytes": 33905,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-w01-approved",
+  "exportAdapter": {
+    "id": "campaign-w01-export:4eab37c5d7c464d57096ddf0360238f7b4122e0eb59d122541ac1e5d341338bd",
+    "approvedConfigSha256": "9b979ca4833ac85e12cddb697c14d149f45e74d673a62e96129c3a9cfa11fcf8",
+    "classificationOnly": true
+  }
+}

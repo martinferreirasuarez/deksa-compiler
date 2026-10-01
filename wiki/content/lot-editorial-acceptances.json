@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "lots": {
+    "01A": {
+      "acceptedAt": "2026-09-07",
+      "decision": "D-255",
+      "status": "EDITORIALLY_ACCEPTED",
+      "authorization": "excelente. acepta el lote, marcalo como verde y compila esa rom",
+      "packagePermutation": "D-248",
+      "technicalGateStatus": "Separate from editorial acceptance; v25 final campaign certificates remain pending.",
+      "publications": {
+        "leader-brock": "31dc287d4f2d0fe637f2cd61e42a202807f305ab5e23ba5e170b6bbe5b9e9c67",
+        "rival-route-22": "068704bcfe6ad6414720021c269d19e858f75b5a9c2f3f1f5c79c43574309944",
+        "bug-catcher-charlie": "a3533f19e20b77aedb04110bf2ec28734d06e64436f5630068657fad60d86b4b",
+        "bug-catcher-anthony": "f10e64a76e5f8291970b447471ed642d05dba32f21066da4d95e377217d548d2",
+        "bug-catcher-doug": "2e4fd726ca180df9fc6b4b4f6c77701e97ed0a97321c9a993467561cd94cf74b",
+        "bug-catcher-rick": "ac095e79ccf25853c48ef987b6a051c2fe364222357074241875006d7a3e712f",
+        "bug-catcher-sammy": "623e3f945874a7de0c3047193b2ce08d15a266ab7bda9a978ef70e60732540f5",
+        "camper-liam": "39d7df9c8bb1aaca54525f011daa67ecf6193aaf5db2a2798d460d727771bff1"
+      }
+    }
+  }
+}

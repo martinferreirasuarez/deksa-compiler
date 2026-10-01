@@ -1,3 +1,4 @@
+@import './site.css';
 :root { color-scheme: light; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 * { box-sizing: border-box; }
 body { margin: 0; min-height: 100vh; background: #f3f5f2; color: #1b2923; font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
@@ -13,9 +14,9 @@ body { margin: 0; min-height: 100vh; background: #f3f5f2; color: #1b2923; font-s
 .wiki-link { color: #174c3b; letter-spacing: .03em; text-decoration: none; border-bottom: 1px solid transparent; padding-block: 7px; }
 .wiki-link:hover { border-color: currentColor; }
 .wiki-link + .edition { margin-left: 0; }
-.panel { margin-top: 28px; padding: clamp(28px, 6vw, 48px); border: 1px solid #dde4dd; border-radius: 16px; background: white; box-shadow: 0 3px 12px #1b292306; }
+.panel { margin-top: 0; padding: 38px 42px; border: 1px solid #dde4dd; border-radius: 16px; background: white; box-shadow: 0 2px 6px #1b292304; }
 .eyebrow { margin: 0 0 12px; color: #65716a; letter-spacing: .1em; font-size: 11px; font-weight: 650; }
-h1 { margin: 0; font-size: clamp(32px, 4vw, 44px); font-weight: 700; line-height: 1.15; letter-spacing: -.035em; }
+h1 { margin: 0; font-size: clamp(34px, 4vw, 52px); font-weight: 700; line-height: 1.1; letter-spacing: -.04em; }
 .intro { max-width: 550px; margin: 24px 0 18px; color: #4f5d53; line-height: 1.65; }
 .game-pillars { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 30px; }
 .game-pillars span { background: #e8eddf; color: #355341; font-size: 11px; padding: 7px 9px; }
@@ -59,9 +60,9 @@ footer nav { margin-top: 8px; line-height: 2; }
 #retry { margin-top: 14px; }
 @media (max-width: 760px) { .shell { padding: 24px 16px 60px; } }
 @media (max-width: 760px) { .brand-symbol { width: 34px; height: 34px; } .brand-wordmark small { font-size: 9px; } .brand-wordmark strong { font-size: 21px; } .brand { gap: 7px; } }
-@media (max-width: 490px) { .panel { margin-top: 25px; padding: 28px 20px; } .seed-row { flex-direction: column; } h1 { font-size: 32px; } .edition { display: none; } .landing-nav { gap: 12px; font-size: 12px; } .hint, .details { font-size: 13px; } label { font-size: 14px; } }
+@media (max-width: 490px) { .panel { padding: 28px 20px; } .seed-row { flex-direction: column; } h1 { font-size: 32px; } .edition { display: none; } .landing-nav { gap: 12px; font-size: 12px; } .hint, .details { font-size: 13px; } label { font-size: 14px; } }
 @media (min-width: 901px) {
   .topline { font-size: 14px; gap: 14px; }
-  .panel { padding: 42px 48px; }
+  .panel { padding: 38px 42px; }
   .hint, .details { font-size: 14px; }
 }

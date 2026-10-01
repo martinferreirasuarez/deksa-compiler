@@ -1,0 +1,40 @@
+import {createHash} from 'node:crypto';
+export {digest} from '../v32/workflow.mjs';
+export const FROZEN_WORKFLOW='ed47de9aafa13cfd1abb98f62b18588bd49a32fe781842540596fc91c6c5bf6a';
+export const KENT_POLICY_TRANSITION=Object.freeze({decisionId:'D-261',trainerId:'bug-catcher-kent',previousRunId:'b4-astra-resume-kent-001',runId:'b4-v33-kent-001',reason:'USER_APPROVED_IDENTITY_QUOTA_EXCEPTION_NEW_FRESH_AUTHOR_NO_PRIOR_DRAFT_OR_SUBMISSION',openingDigest:'2729e6b18506573f9ef5a1c5d0e8331f7b8d8fc9b0ffe62f89a17f0d895940af',contextDigest:'83d911eac3258f300068fb277321f99bca93c19a4204a94c7f1b534d4224c959',envelopeDigest:'a76d9f0a69637f6157048009c0202e2b82b2fd9bc05ca608f2c7c952502a37a3'});
+export function deriveWorkflow(source,evidence){
+  if(createHash('sha256').update(source).digest('hex')!==FROZEN_WORKFLOW)throw new Error('IDENTITY_FROZEN_WORKFLOW_CHANGED');
+  let result=source;
+  const once=(from,to)=>{if(result.split(from).length!==2)throw new Error(`IDENTITY_TRANSFORM_ANCHOR_CHANGED: ${from.slice(0,60)}`);result=result.replace(from,to);};
+  const originalURL=new URL('../v32/workflow.mjs',import.meta.url);
+  // Resolve inherited imports before inserting the new policy's own modules.
+  result=result.replace(/from (['"])(\.\.?\/[^'"]+)\1/g,(_,q,s)=>`from ${q}${new URL(s,originalURL).href}${q}`);
+  once(new URL('../v32/window-recurrence.mjs',import.meta.url).href,new URL('./window-recurrence.mjs',import.meta.url).href);
+  result=result.replaceAll('import.meta.url',JSON.stringify(originalURL.href));
+  result=`import {cachedBaseline} from '${new URL('../experiments/astra-resume-v1/cache.mjs',import.meta.url).href}';\nimport {inheritedEvidence} from '${new URL('./snapshot.mjs',import.meta.url).href}';\n`+result;
+  once("export const GENERATOR_ID = 'beta4-v32';","export const GENERATOR_ID = 'beta4-v33';");
+  const transition=source.slice(source.indexOf('export const SHANE_POLICY_TRANSITION='),source.indexOf('export const AUTHORIZED_REVISIONS'));
+  once(transition,`export const SHANE_POLICY_TRANSITION=Object.freeze(${JSON.stringify(KENT_POLICY_TRANSITION)});\n`);
+  once("const BASE = 'wiki/trainer-authoring/v32';",`const IDENTITY=${JSON.stringify(evidence)};\nconst BASE = 'wiki/trainer-authoring/v33';`);
+  once("const BASE=`wiki/trainer-authoring/${referenceVersion??'v32'}`;","const BASE='wiki/trainer-authoring/v33';");
+  once("const GENERATOR_ID=`beta4-${referenceVersion??'v32'}`;","const GENERATOR_ID='beta4-v33';");
+  once('const hashes = {};',"const hashes = {identityAdapter:digest(IDENTITY)};");
+  once('const file=await checked(`${BASE}/${source}`);',"const file=await checked(`${['engine.mjs','workflow.mjs','query.mjs','policy.json','window-recurrence.mjs'].includes(source)||source.startsWith('skills/')?BASE:'wiki/trainer-authoring/v32'}/${source}`);");
+  once("['operation-cache.mjs',`${BASE}/operation-cache.mjs`],","['operation-cache.mjs','wiki/trainer-authoring/v32/operation-cache.mjs'],\n      ['D261:TRAINER_IDENTITY_QUOTA_EXCEPTION.md','TRAINER_IDENTITY_QUOTA_EXCEPTION.md'],");
+  once('return historicalEvidence(root);','return inheritedEvidence(root);');
+  once("generatorId:`beta4-${entry.artifactPath.split('/')[2]}`","generatorId:entry.artifactPath.startsWith('wiki/trainer-authoring/experiments/astra-resume-v1/')?'beta4-astra-resume-v1':`beta4-${entry.artifactPath.split('/')[2]}`");
+  once("kind: `${(referenceVersion??'v32').toUpperCase()}_TRAINER_ACCEPTANCE`","kind: 'V33_TRAINER_ACCEPTANCE'");
+  once("const cached=(name,fn)=>(...args)=>memo(`${root}:${BASE}:${name}:${digest(args)}`,()=>fn(...args));","const cached=(name,fn)=>(...args)=>memo(`${root}:${BASE}:${name}:${digest(args)}`,()=>['audited','externalReviews'].includes(name)?cachedBaseline(root,`v33-workflow-${name}:${digest(args)}`,()=>fn(...args)):fn(...args));");
+  result=result.replaceAll('wiki/trainer-authoring/v31/runs/${t.previousRunId}','wiki/trainer-authoring/experiments/astra-resume-v1/runs/${t.previousRunId}').replaceAll('wiki/trainer-authoring/v31/published/${t.previousRunId}','wiki/trainer-authoring/experiments/astra-resume-v1/published/${t.previousRunId}');
+  once("['author-record.json','corrector-record.json','corrector-envelope.json']","['author-submission.json','corrector-submission.json','author-record.json','corrector-record.json','corrector-envelope.json']");
+  once('bajo D260','bajo D261');once('Conservar V31 intacto.','Conservar Astra-resume intacto.');
+  once('authorizedRevision: revision, productionScope: scope,','authorizedRevision: revision, productionScope: scope, identityPolicy: IDENTITY,');
+  once('const context = await unseal(`${directory}/context.json`);',"if(digest(opening.payload.identityPolicy)!==digest(IDENTITY))fail('IDENTITY_POLICY_CHANGED');\n    const context = await unseal(`${directory}/context.json`);");
+  once('productionScope: run.opening.payload.productionScope ?? null,','productionScope: run.opening.payload.productionScope ?? null, identityPolicy: run.opening.payload.identityPolicy,');
+  once("'warningResponses', 'bossIdentityReview'","'warningResponses', 'bossIdentityReview', 'identityQuotaReview'");
+  once('errors.push(...window.errors);',"errors.push(...window.errors);\n        for(const warning of window.warnings??[])if(!validation.warnings.some(existing=>digest(existing)===digest(warning)))validation.warnings.push(warning);");
+  once("if (!nonempty(review.crossVariantEquivalence))",`for(const [branch,variant] of Object.entries(input.submission?.variants??{}))if(variant.identityQuotaException&&!nonempty(review.identityQuotaReview?.[branch]))error('IDENTITY_QUOTA_REVIEW_REQUIRED',\x60review.identityQuotaReview.\x24{branch}\x60);
+      if (!nonempty(review.crossVariantEquivalence))`);
+  once('const workflow = await checked(`${BASE}/workflow.mjs`);','const workflow = await checked(`${BASE}/cli.mjs`);');
+  return result;
+}

@@ -1,0 +1,793 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "leader-blaine",
+      "lotId": "06E",
+      "window": 7,
+      "cap": 47,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "growlithe",
+          "species": "SPECIES_ARCANINE",
+          "ace": true
+        },
+        {
+          "family": "ponyta",
+          "species": "SPECIES_PONYTA"
+        },
+        {
+          "family": "magmar",
+          "species": "SPECIES_MAGMAR"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Houndoom abre con STAB Fuego y Siniestro70, Taunt y protección. Exeggutor resiste Agua/Tierra, duerme y drena; Gyarados añade Intimidate e inmunidad Tierra. Rapidash y Magmar activan sol, que acelera Exeggutor y amortigua Agua. Arcanine cierra con Overheat e Intimidate.",
+          "members": [
+            {
+              "species": "SPECIES_HOUNDOOM",
+              "level": 47,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_FIRE_BLAST",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_TAUNT",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_BLACK_GLASSES"
+            },
+            {
+              "species": "SPECIES_EXEGGUTOR",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_PSYCHIC",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_GYARADOS",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_EARTHQUAKE",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_RAPIDASH",
+              "level": 46,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SOLAR_BEAM",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_CHARCOAL"
+            },
+            {
+              "species": "SPECIES_MAGMAR",
+              "level": 47,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_BRICK_BREAK",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SMOKESCREEN"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLAME_BODY",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_ARCANINE",
+              "level": 48,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_OVERHEAT",
+                "MOVE_FLAME_WHEEL",
+                "MOVE_BITE",
+                "MOVE_DIG"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Dugtrio abre con velocidad, Arena Trap y cobertura física. Ludicolo resiste Agua y Tierra y ofrece cobertura Hielo; Torkoal sostiene defensa física y recuperación con Chesto. Rapidash aporta sol y Solar Beam; Magmar cubre con Psychic y Arcanine cierra.",
+          "members": [
+            {
+              "species": "SPECIES_DUGTRIO",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_AERIAL_ACE",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_ARENA_TRAP",
+              "item": "ITEM_SOFT_SAND"
+            },
+            {
+              "species": "SPECIES_LUDICOLO",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_ICE_BEAM",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_TORKOAL",
+              "level": 47,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_BODY_SLAM",
+                "MOVE_AMNESIA",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_WHITE_SMOKE",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_RAPIDASH",
+              "level": 46,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SOLAR_BEAM",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_CHARCOAL"
+            },
+            {
+              "species": "SPECIES_MAGMAR",
+              "level": 47,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_PSYCHIC",
+                "MOVE_BRICK_BREAK",
+                "MOVE_SUNNY_DAY"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLAME_BODY",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_ARCANINE",
+              "level": 48,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_OVERHEAT",
+                "MOVE_FLAME_WHEEL",
+                "MOVE_BITE",
+                "MOVE_DIG"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Manectric abre con presión eléctrica y parálisis. Solrock representa el sol y calor de Blaine, coloca pantallas y aporta inmunidad Tierra. Altaria resiste Agua y es inmune a Tierra, con Dragon Dance y recuperación; las tres anclas sostienen presión Fuego y cierre de Arcanine.",
+          "members": [
+            {
+              "species": "SPECIES_MANECTRIC",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET"
+            },
+            {
+              "species": "SPECIES_SOLROCK",
+              "level": 47,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_PSYCHIC",
+                "MOVE_REFLECT",
+                "MOVE_LIGHT_SCREEN"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_ALTARIA",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DRAGON_DANCE",
+                "MOVE_AERIAL_ACE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_RAPIDASH",
+              "level": 46,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SOLAR_BEAM",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_CHARCOAL"
+            },
+            {
+              "species": "SPECIES_MAGMAR",
+              "level": 47,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_BRICK_BREAK",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SMOKESCREEN"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLAME_BODY",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_ARCANINE",
+              "level": 48,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_OVERHEAT",
+                "MOVE_FLAME_WHEEL",
+                "MOVE_BITE",
+                "MOVE_DIG"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "leader-blaine",
+      "lotId": "06E",
+      "window": 7,
+      "cap": 47,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "growlithe",
+          "species": "SPECIES_ARCANINE",
+          "ace": true
+        },
+        {
+          "family": "ponyta",
+          "species": "SPECIES_PONYTA"
+        },
+        {
+          "family": "magmar",
+          "species": "SPECIES_MAGMAR"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Houndoom abre con STAB Fuego y Siniestro70, Taunt y protección. Exeggutor resiste Agua/Tierra, duerme y drena; Gyarados añade Intimidate e inmunidad Tierra. Rapidash y Magmar activan sol, que acelera Exeggutor y amortigua Agua. Arcanine cierra con Overheat e Intimidate.",
+          "members": [
+            {
+              "species": "SPECIES_HOUNDOOM",
+              "level": 47,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_FIRE_BLAST",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_TAUNT",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_BLACK_GLASSES",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-228"
+            },
+            {
+              "species": "SPECIES_EXEGGUTOR",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_PSYCHIC",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-102"
+            },
+            {
+              "species": "SPECIES_GYARADOS",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_EARTHQUAKE",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-129"
+            },
+            {
+              "species": "SPECIES_RAPIDASH",
+              "level": 46,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SOLAR_BEAM",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_CHARCOAL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-077"
+            },
+            {
+              "species": "SPECIES_MAGMAR",
+              "level": 47,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_BRICK_BREAK",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SMOKESCREEN"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLAME_BODY",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-126"
+            },
+            {
+              "species": "SPECIES_ARCANINE",
+              "level": 48,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_OVERHEAT",
+                "MOVE_FLAME_WHEEL",
+                "MOVE_BITE",
+                "MOVE_DIG"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-058"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Dugtrio abre con velocidad, Arena Trap y cobertura física. Ludicolo resiste Agua y Tierra y ofrece cobertura Hielo; Torkoal sostiene defensa física y recuperación con Chesto. Rapidash aporta sol y Solar Beam; Magmar cubre con Psychic y Arcanine cierra.",
+          "members": [
+            {
+              "species": "SPECIES_DUGTRIO",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_AERIAL_ACE",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_ARENA_TRAP",
+              "item": "ITEM_SOFT_SAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-050"
+            },
+            {
+              "species": "SPECIES_LUDICOLO",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_ICE_BEAM",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-270"
+            },
+            {
+              "species": "SPECIES_TORKOAL",
+              "level": 47,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_BODY_SLAM",
+                "MOVE_AMNESIA",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_WHITE_SMOKE",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-324"
+            },
+            {
+              "species": "SPECIES_RAPIDASH",
+              "level": 46,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SOLAR_BEAM",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_CHARCOAL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-077"
+            },
+            {
+              "species": "SPECIES_MAGMAR",
+              "level": 47,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_PSYCHIC",
+                "MOVE_BRICK_BREAK",
+                "MOVE_SUNNY_DAY"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLAME_BODY",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-126"
+            },
+            {
+              "species": "SPECIES_ARCANINE",
+              "level": 48,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_OVERHEAT",
+                "MOVE_FLAME_WHEEL",
+                "MOVE_BITE",
+                "MOVE_DIG"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-058"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Manectric abre con presión eléctrica y parálisis. Solrock representa el sol y calor de Blaine, coloca pantallas y aporta inmunidad Tierra. Altaria resiste Agua y es inmune a Tierra, con Dragon Dance y recuperación; las tres anclas sostienen presión Fuego y cierre de Arcanine.",
+          "members": [
+            {
+              "species": "SPECIES_MANECTRIC",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-309"
+            },
+            {
+              "species": "SPECIES_SOLROCK",
+              "level": 47,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_PSYCHIC",
+                "MOVE_REFLECT",
+                "MOVE_LIGHT_SCREEN"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-338"
+            },
+            {
+              "species": "SPECIES_ALTARIA",
+              "level": 47,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DRAGON_DANCE",
+                "MOVE_AERIAL_ACE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-333"
+            },
+            {
+              "species": "SPECIES_RAPIDASH",
+              "level": 46,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SOLAR_BEAM",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_CHARCOAL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-077"
+            },
+            {
+              "species": "SPECIES_MAGMAR",
+              "level": 47,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_BRICK_BREAK",
+                "MOVE_SUNNY_DAY",
+                "MOVE_SMOKESCREEN"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_FLAME_BODY",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-126"
+            },
+            {
+              "species": "SPECIES_ARCANINE",
+              "level": 48,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_OVERHEAT",
+                "MOVE_FLAME_WHEEL",
+                "MOVE_BITE",
+                "MOVE_DIG"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-058"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "leader-blaine": {
+      "actor": "/root/remaining_gyms_coordinator/blaine_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.09063007775694132,
+      "packetBytes": 234948,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-w07-leader-blaine-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

@@ -1,0 +1,1925 @@
+[
+  {
+    "exportPath": "references/deksa-next/b5-05/additional-bosses/w11/export.json",
+    "policyId": "deksa-b5-campaign-additional-bosses-w11-approved",
+    "window": 11,
+    "trainers": [
+      {
+        "trainerId": "scientist-gideon-warehouse",
+        "lotId": "09G"
+      },
+      {
+        "trainerId": "rocket-admin-female-warehouse",
+        "lotId": "09G"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/additional-bosses/w05/export.json",
+    "policyId": "deksa-b5-campaign-additional-bosses-w05-approved",
+    "window": 5,
+    "trainers": [
+      {
+        "trainerId": "rocket-grunt-21",
+        "lotId": "05A"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w01-repair/export.json",
+    "resolverPath": "references/deksa-next/b5-05/w01-repair/cli.py",
+    "policyId": "deksa-b5-w01-complete",
+    "window": 1,
+    "trainers": [
+      {
+        "trainerId": "bug-catcher-charlie",
+        "lotId": "01A"
+      },
+      {
+        "trainerId": "bug-catcher-sammy",
+        "lotId": "01A"
+      },
+      {
+        "trainerId": "bug-catcher-anthony",
+        "lotId": "01A"
+      },
+      {
+        "trainerId": "camper-liam",
+        "lotId": "01A"
+      },
+      {
+        "trainerId": "bug-catcher-rick",
+        "lotId": "01A"
+      },
+      {
+        "trainerId": "bug-catcher-doug",
+        "lotId": "01A"
+      }
+    ],
+    "importedTrainers": [
+      {
+        "trainerId": "leader-brock",
+        "exportPath": "references/deksa-next/b5-05/w01-campaign/export.json"
+      },
+      {
+        "trainerId": "rival-route-22",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w01/export.json"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w02-complete/export.json",
+    "resolverPath": "references/deksa-next/b5-05/w02-complete/cli.py",
+    "policyId": "deksa-b5-w02-complete",
+    "window": 2,
+    "trainers": [
+      {
+        "trainerId": "rocket-recruiter",
+        "lotId": "02C"
+      },
+      {
+        "trainerId": "picnicker-kelsey",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "rocket-cerulean",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "picnicker-diana",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "lass-iris",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "rocket-grunt-4",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "lass-robin",
+        "lotId": "02A"
+      },
+      {
+        "trainerId": "youngster-timmy",
+        "lotId": "02C"
+      },
+      {
+        "trainerId": "lass-reli",
+        "lotId": "02C"
+      },
+      {
+        "trainerId": "camper-ethan",
+        "lotId": "02C"
+      },
+      {
+        "trainerId": "camper-shane",
+        "lotId": "02C"
+      },
+      {
+        "trainerId": "hiker-wayne",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "hiker-nob",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "camper-flint",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "youngster-chad",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "lass-haley",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "swimmer-luis",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "hiker-marcos",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "super-nerd-jovan",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "rocket-grunt-2",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "rocket-grunt-3",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "youngster-calvin",
+        "lotId": "02A"
+      },
+      {
+        "trainerId": "lass-sally",
+        "lotId": "02A"
+      },
+      {
+        "trainerId": "bug-catcher-james",
+        "lotId": "02A"
+      },
+      {
+        "trainerId": "bug-catcher-cale",
+        "lotId": "02C"
+      },
+      {
+        "trainerId": "lass-ali",
+        "lotId": "02C"
+      },
+      {
+        "trainerId": "hiker-franklin",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "youngster-joey",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "youngster-dan",
+        "lotId": "02D"
+      },
+      {
+        "trainerId": "youngster-josh",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "lass-miriam",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "bug-catcher-kent",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "bug-catcher-robby",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "rocket-grunt-1",
+        "lotId": "02B"
+      },
+      {
+        "trainerId": "bug-catcher-colton",
+        "lotId": "02A"
+      },
+      {
+        "trainerId": "youngster-ben",
+        "lotId": "02A"
+      },
+      {
+        "trainerId": "lass-janice",
+        "lotId": "02A"
+      },
+      {
+        "trainerId": "bug-catcher-greg",
+        "lotId": "02A"
+      }
+    ],
+    "importedTrainers": [
+      {
+        "trainerId": "leader-misty",
+        "exportPath": "references/deksa-next/b5-05/w02-campaign/export.json"
+      },
+      {
+        "trainerId": "rival-cerulean",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w02/export.json"
+      },
+      {
+        "trainerId": "super-nerd-miguel",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w02/export.json"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w03-complete/export.json",
+    "resolverPath": "references/deksa-next/b5-05/production/w03.py",
+    "policyId": "deksa-b5-w03-complete",
+    "window": 3,
+    "trainers": [
+      {
+        "trainerId": "gentleman-brooks",
+        "lotId": "03C"
+      },
+      {
+        "trainerId": "sailor-edmond",
+        "lotId": "03C"
+      },
+      {
+        "trainerId": "engineer-bernie",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "gamer-dirk",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "gentleman-tucker",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "gentleman-thomas",
+        "lotId": "03B"
+      },
+      {
+        "trainerId": "sailor-leonard",
+        "lotId": "03B"
+      },
+      {
+        "trainerId": "bug-catcher-elijah",
+        "lotId": "03A"
+      },
+      {
+        "trainerId": "gentleman-lamar",
+        "lotId": "03C"
+      },
+      {
+        "trainerId": "lass-dawn",
+        "lotId": "03C"
+      },
+      {
+        "trainerId": "gamer-jasper",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "engineer-braxton",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "youngster-yasu",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "sailor-dwayne",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "engineer-baily",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "youngster-tyler",
+        "lotId": "03B"
+      },
+      {
+        "trainerId": "gentleman-arthur",
+        "lotId": "03B"
+      },
+      {
+        "trainerId": "sailor-phillip",
+        "lotId": "03B"
+      },
+      {
+        "trainerId": "sailor-duncan",
+        "lotId": "03B"
+      },
+      {
+        "trainerId": "camper-ricky",
+        "lotId": "03A"
+      },
+      {
+        "trainerId": "camper-jeff",
+        "lotId": "03A"
+      },
+      {
+        "trainerId": "fisherman-dale",
+        "lotId": "03C"
+      },
+      {
+        "trainerId": "sailor-trevor",
+        "lotId": "03C"
+      },
+      {
+        "trainerId": "youngster-eddie",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "gamer-hugo",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "youngster-dillon",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "youngster-dave",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "gamer-darian",
+        "lotId": "03D"
+      },
+      {
+        "trainerId": "lass-ann",
+        "lotId": "03B"
+      },
+      {
+        "trainerId": "fisherman-barny",
+        "lotId": "03B"
+      },
+      {
+        "trainerId": "sailor-huey",
+        "lotId": "03B"
+      },
+      {
+        "trainerId": "sailor-dylan",
+        "lotId": "03B"
+      },
+      {
+        "trainerId": "bug-catcher-keigo",
+        "lotId": "03A"
+      },
+      {
+        "trainerId": "picnicker-nancy",
+        "lotId": "03A"
+      },
+      {
+        "trainerId": "picnicker-isabelle",
+        "lotId": "03A"
+      }
+    ],
+    "importedTrainers": [
+      {
+        "trainerId": "rival-ss-anne",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w03/export.json"
+      },
+      {
+        "trainerId": "leader-lt-surge",
+        "exportPath": "references/deksa-next/b5-05/w03-campaign/export.json"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w04-complete/export.json",
+    "resolverPath": "references/deksa-next/b5-05/production/w04.py",
+    "policyId": "deksa-b5-w04-complete",
+    "window": 4,
+    "trainers": [
+      {
+        "trainerId": "rocket-grunt-18",
+        "lotId": "04F"
+      },
+      {
+        "trainerId": "cooltrainer-mary-celadon",
+        "lotId": "04G"
+      },
+      {
+        "trainerId": "rocket-grunt-7",
+        "lotId": "04E"
+      },
+      {
+        "trainerId": "rocket-grunt-12",
+        "lotId": "04E"
+      },
+      {
+        "trainerId": "twins-eli-anne",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "channeler-tammy",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "channeler-emilia",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "pokemaniac-ashton",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "pokemaniac-winston",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "hiker-trent",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "picnicker-caitlin",
+        "lotId": "04A"
+      },
+      {
+        "trainerId": "rocket-grunt-15",
+        "lotId": "04F"
+      },
+      {
+        "trainerId": "rocket-grunt-16",
+        "lotId": "04F"
+      },
+      {
+        "trainerId": "rocket-grunt-17",
+        "lotId": "04F"
+      },
+      {
+        "trainerId": "lass-kay-celadon",
+        "lotId": "04G"
+      },
+      {
+        "trainerId": "beauty-bridget-celadon",
+        "lotId": "04G"
+      },
+      {
+        "trainerId": "picnicker-tina-celadon",
+        "lotId": "04G"
+      },
+      {
+        "trainerId": "beauty-tamia-celadon",
+        "lotId": "04G"
+      },
+      {
+        "trainerId": "beauty-lori-celadon",
+        "lotId": "04G"
+      },
+      {
+        "trainerId": "lass-lisa-celadon",
+        "lotId": "04G"
+      },
+      {
+        "trainerId": "rocket-grunt-11",
+        "lotId": "04E"
+      },
+      {
+        "trainerId": "rocket-grunt-13",
+        "lotId": "04E"
+      },
+      {
+        "trainerId": "super-nerd-leslie",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "gamer-stan",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "gamer-rich",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "biker-ricardo",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "biker-jaren",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "channeler-ruth",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "channeler-karina",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "channeler-janae",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "channeler-angelica",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "channeler-jennifer",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "hiker-oliver",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "picnicker-ariana",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "picnicker-martha",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "hiker-allen",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "pokemaniac-steve",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "hiker-clark",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "bug-catcher-conner",
+        "lotId": "04A"
+      },
+      {
+        "trainerId": "camper-drew",
+        "lotId": "04A"
+      },
+      {
+        "trainerId": "hiker-jeremy",
+        "lotId": "04A"
+      },
+      {
+        "trainerId": "rocket-grunt-14",
+        "lotId": "04F"
+      },
+      {
+        "trainerId": "rocket-grunt-8",
+        "lotId": "04E"
+      },
+      {
+        "trainerId": "rocket-grunt-9",
+        "lotId": "04E"
+      },
+      {
+        "trainerId": "rocket-grunt-10",
+        "lotId": "04E"
+      },
+      {
+        "trainerId": "lass-paige",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "lass-andrea",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "lass-megan",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "lass-julia",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "super-nerd-aidan",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "super-nerd-glenn",
+        "lotId": "04D"
+      },
+      {
+        "trainerId": "channeler-patricia",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "channeler-carly",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "channeler-hope",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "channeler-paula",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "channeler-laurel",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "channeler-jody",
+        "lotId": "04C"
+      },
+      {
+        "trainerId": "hiker-lenny",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "hiker-lucas",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "picnicker-leah",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "picnicker-dana",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "picnicker-sofia",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "hiker-dudley",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "hiker-eric",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "pokemaniac-cooper",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "picnicker-carol",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "pokemaniac-herman",
+        "lotId": "04B"
+      },
+      {
+        "trainerId": "bug-catcher-brent",
+        "lotId": "04A"
+      },
+      {
+        "trainerId": "camper-chris",
+        "lotId": "04A"
+      },
+      {
+        "trainerId": "picnicker-alicia",
+        "lotId": "04A"
+      },
+      {
+        "trainerId": "hiker-alan",
+        "lotId": "04A"
+      },
+      {
+        "trainerId": "hiker-brice",
+        "lotId": "04A"
+      }
+    ],
+    "importedTrainers": [
+      {
+        "trainerId": "rival-pokemon-tower",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w04/export.json"
+      },
+      {
+        "trainerId": "boss-giovanni-hideout",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w04/export.json"
+      },
+      {
+        "trainerId": "leader-erika",
+        "exportPath": "references/deksa-next/b5-05/w04-campaign/export.json"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w05-complete/export.json",
+    "resolverPath": "references/deksa-next/b5-05/production/future_entry.py",
+    "policyId": "deksa-b5-w05-complete",
+    "window": 5,
+    "trainers": [
+      {
+        "trainerId": "juggler-kirk-fuchsia",
+        "lotId": "05F"
+      },
+      {
+        "trainerId": "biker-jaxon-route17",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "biker-hideo",
+        "lotId": "05D"
+      },
+      {
+        "trainerId": "bird-keeper-chester",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "young-couple-gia-jes",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "juggler-kayden-fuchsia",
+        "lotId": "05F"
+      },
+      {
+        "trainerId": "juggler-shawn-fuchsia",
+        "lotId": "05F"
+      },
+      {
+        "trainerId": "tamer-edgar-fuchsia",
+        "lotId": "05F"
+      },
+      {
+        "trainerId": "tamer-phil-fuchsia",
+        "lotId": "05F"
+      },
+      {
+        "trainerId": "juggler-nate-fuchsia",
+        "lotId": "05F"
+      },
+      {
+        "trainerId": "cue-ball-raul-route17",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "biker-billy-route17",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "cue-ball-zeek-route17",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "biker-william-route17",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "bird-keeper-ramiro-route18",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "biker-ruben",
+        "lotId": "05D"
+      },
+      {
+        "trainerId": "young-couple-lea-jed",
+        "lotId": "05D"
+      },
+      {
+        "trainerId": "bird-keeper-mitch",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "bird-keeper-carter",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "biker-lukas",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "bird-keeper-benny",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "twins-kiri-jan",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "picnicker-becky",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "beauty-grace",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "picnicker-celia",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "crush-kin-ron-mya",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "fisherman-elliot",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "rocker-luca",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "camper-justin",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "bird-keeper-sebastian",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "beauty-sheila",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "picnicker-valerie",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "bird-keeper-robert",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "rocket-grunt-19",
+        "lotId": "05A"
+      },
+      {
+        "trainerId": "rocket-grunt-20",
+        "lotId": "05A"
+      },
+      {
+        "trainerId": "biker-virgil-route17",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "cue-ball-isaiah-route17",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "biker-nikolas-route17",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "cue-ball-jamal-route17",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "cue-ball-corey-route17",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "bird-keeper-jacob-route18",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "bird-keeper-wilton-route18",
+        "lotId": "05E"
+      },
+      {
+        "trainerId": "biker-lao",
+        "lotId": "05D"
+      },
+      {
+        "trainerId": "cue-ball-koji",
+        "lotId": "05D"
+      },
+      {
+        "trainerId": "cue-ball-luke",
+        "lotId": "05D"
+      },
+      {
+        "trainerId": "cue-ball-camron",
+        "lotId": "05D"
+      },
+      {
+        "trainerId": "biker-gerald",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "bird-keeper-donald",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "bird-keeper-beck",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "bird-keeper-marlon",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "biker-isaac",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "biker-malik",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "picnicker-yazmin",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "bird-keeper-edwin",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "picnicker-kindra",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "beauty-olivia",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "biker-alex",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "biker-ernest",
+        "lotId": "05C"
+      },
+      {
+        "trainerId": "fisherman-ned",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "fisherman-chip",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "fisherman-hank",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "fisherman-andrew",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "picnicker-alma",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "picnicker-susie",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "beauty-lola",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "picnicker-gwen",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "bird-keeper-perry",
+        "lotId": "05B"
+      },
+      {
+        "trainerId": "biker-jared",
+        "lotId": "05B"
+      }
+    ],
+    "importedTrainers": [
+      {
+        "trainerId": "rocket-grunt-21",
+        "exportPath": "references/deksa-next/b5-05/additional-bosses/w05/export.json"
+      },
+      {
+        "trainerId": "leader-koga",
+        "exportPath": "references/deksa-next/b5-05/w05-campaign/export.json"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w06-complete/export.json",
+    "resolverPath": "references/deksa-next/b5-05/production/future_entry.py",
+    "policyId": "deksa-b5-w06-complete",
+    "window": 6,
+    "trainers": [
+      {
+        "trainerId": "channeler-tasha-saffron",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "scientist-taylor-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "scientist-jerry-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "black-belt-aaron-dojo",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "psychic-johan-saffron",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "psychic-tyron-saffron",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "psychic-cameron-saffron",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "psychic-preston-saffron",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "channeler-amanda-saffron",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "channeler-stacy-saffron",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "scientist-joshua-silph",
+        "lotId": "05I"
+      },
+      {
+        "trainerId": "rocket-grunt-35-silph",
+        "lotId": "05I"
+      },
+      {
+        "trainerId": "rocket-grunt-41-silph",
+        "lotId": "05I"
+      },
+      {
+        "trainerId": "scientist-parker-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "scientist-ed-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "scientist-travis-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "scientist-connor-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "scientist-jose-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "scientist-rodney-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "scientist-beau-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "juggler-dalton-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "black-belt-hitoshi-dojo",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "black-belt-hideki-dojo",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "black-belt-mike-dojo",
+        "lotId": "05J"
+      },
+      {
+        "trainerId": "rocket-grunt-33-silph",
+        "lotId": "05I"
+      },
+      {
+        "trainerId": "rocket-grunt-34-silph",
+        "lotId": "05I"
+      },
+      {
+        "trainerId": "rocket-grunt-40-silph",
+        "lotId": "05I"
+      },
+      {
+        "trainerId": "rocket-grunt-30-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "rocket-grunt-31-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "rocket-grunt-32-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "rocket-grunt-36-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "rocket-grunt-37-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "rocket-grunt-38-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "rocket-grunt-39-silph",
+        "lotId": "05H"
+      },
+      {
+        "trainerId": "rocket-grunt-23-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "rocket-grunt-24-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "rocket-grunt-25-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "rocket-grunt-26-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "rocket-grunt-27-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "rocket-grunt-28-silph",
+        "lotId": "05G"
+      },
+      {
+        "trainerId": "rocket-grunt-29-silph",
+        "lotId": "05G"
+      }
+    ],
+    "importedTrainers": [
+      {
+        "trainerId": "rival-silph",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w06/export.json"
+      },
+      {
+        "trainerId": "boss-giovanni-silph",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w06/export.json"
+      },
+      {
+        "trainerId": "black-belt-koichi-dojo",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w06/export.json"
+      },
+      {
+        "trainerId": "leader-sabrina",
+        "exportPath": "references/deksa-next/b5-05/w06-campaign/export.json"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w07-complete/export.json",
+    "resolverPath": "references/deksa-next/b5-05/production/future_entry.py",
+    "policyId": "deksa-b5-w07-complete",
+    "window": 7,
+    "trainers": [
+      {
+        "trainerId": "scientist-ivan-mansion",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "super-nerd-zac-cinnabar-gym",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "sis-bro-lil-ian-route21",
+        "lotId": "06D"
+      },
+      {
+        "trainerId": "bird-keeper-roger-route20",
+        "lotId": "06C"
+      },
+      {
+        "trainerId": "sis-bro-lia-luc-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "burglar-arnie-mansion",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "scientist-braydon-mansion",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "burglar-quinn-cinnabar-gym",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "super-nerd-erik-cinnabar-gym",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "super-nerd-avery-cinnabar-gym",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "burglar-ramon-cinnabar-gym",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "super-nerd-derek-cinnabar-gym",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "burglar-dusty-cinnabar-gym",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "swimmer-jack-route21",
+        "lotId": "06D"
+      },
+      {
+        "trainerId": "swimmer-roland-route21",
+        "lotId": "06D"
+      },
+      {
+        "trainerId": "swimmer-spencer-route21",
+        "lotId": "06D"
+      },
+      {
+        "trainerId": "swimmer-melissa-route20",
+        "lotId": "06C"
+      },
+      {
+        "trainerId": "swimmer-barry-route20",
+        "lotId": "06C"
+      },
+      {
+        "trainerId": "swimmer-darrin-route20",
+        "lotId": "06C"
+      },
+      {
+        "trainerId": "swimmer-tiffany-route20",
+        "lotId": "06C"
+      },
+      {
+        "trainerId": "swimmer-matthew-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "swimmer-david-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "swimmer-axle-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "swimmer-connie-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "pokemaniac-mark-route10-surf",
+        "lotId": "06A"
+      },
+      {
+        "trainerId": "scientist-ted-mansion",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "youngster-johnson-mansion",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "burglar-simon-mansion",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "burglar-lewis-mansion",
+        "lotId": "06E"
+      },
+      {
+        "trainerId": "fisherman-claude-route21",
+        "lotId": "06D"
+      },
+      {
+        "trainerId": "fisherman-nolan-route21",
+        "lotId": "06D"
+      },
+      {
+        "trainerId": "swimmer-jerome-route21",
+        "lotId": "06D"
+      },
+      {
+        "trainerId": "fisherman-ronald-route21",
+        "lotId": "06D"
+      },
+      {
+        "trainerId": "fisherman-wade-route21",
+        "lotId": "06D"
+      },
+      {
+        "trainerId": "picnicker-missy-route20",
+        "lotId": "06C"
+      },
+      {
+        "trainerId": "swimmer-nora-route20",
+        "lotId": "06C"
+      },
+      {
+        "trainerId": "swimmer-dean-route20",
+        "lotId": "06C"
+      },
+      {
+        "trainerId": "picnicker-irene-route20",
+        "lotId": "06C"
+      },
+      {
+        "trainerId": "swimmer-shirley-route20",
+        "lotId": "06C"
+      },
+      {
+        "trainerId": "swimmer-reece-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "swimmer-richard-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "swimmer-tony-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "swimmer-douglas-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "swimmer-anya-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "swimmer-alice-route19",
+        "lotId": "06B"
+      },
+      {
+        "trainerId": "picnicker-heidi-route10-surf",
+        "lotId": "06A"
+      }
+    ],
+    "importedTrainers": [
+      {
+        "trainerId": "leader-blaine",
+        "exportPath": "references/deksa-next/b5-05/w07-campaign/export.json"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w08-complete/export.json",
+    "resolverPath": "references/deksa-next/b5-05/production/future_entry.py",
+    "policyId": "deksa-b5-w08-complete",
+    "window": 8,
+    "trainers": [
+      {
+        "trainerId": "twins-joy-meg-bond-bridge",
+        "lotId": "07B"
+      },
+      {
+        "trainerId": "cooltrainer-warren-viridian",
+        "lotId": "07D"
+      },
+      {
+        "trainerId": "crush-girl-jocelyn-mt-ember",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "biker-goon-3-three-island",
+        "lotId": "07B"
+      },
+      {
+        "trainerId": "tuber-alexis-bond-bridge",
+        "lotId": "07B"
+      },
+      {
+        "trainerId": "swimmer-tisha-bond-bridge",
+        "lotId": "07B"
+      },
+      {
+        "trainerId": "tamer-jason-viridian",
+        "lotId": "07D"
+      },
+      {
+        "trainerId": "tamer-cole-viridian",
+        "lotId": "07D"
+      },
+      {
+        "trainerId": "black-belt-atsushi-viridian",
+        "lotId": "07D"
+      },
+      {
+        "trainerId": "black-belt-kiyo-viridian",
+        "lotId": "07D"
+      },
+      {
+        "trainerId": "black-belt-takashi-viridian",
+        "lotId": "07D"
+      },
+      {
+        "trainerId": "cooltrainer-samuel-viridian",
+        "lotId": "07D"
+      },
+      {
+        "trainerId": "cooltrainer-yuji-viridian",
+        "lotId": "07D"
+      },
+      {
+        "trainerId": "swimmer-finn-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "crush-girl-tanya-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "black-belt-shea-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "crush-kin-mik-kia-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "ranger-logan-mt-ember",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "ranger-beth-mt-ember",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "biker-goon-1-three-island",
+        "lotId": "07B"
+      },
+      {
+        "trainerId": "biker-goon-2-three-island",
+        "lotId": "07B"
+      },
+      {
+        "trainerId": "aroma-lady-nikki-bond-bridge",
+        "lotId": "07B"
+      },
+      {
+        "trainerId": "aroma-lady-violet-bond-bridge",
+        "lotId": "07B"
+      },
+      {
+        "trainerId": "tuber-amira-bond-bridge",
+        "lotId": "07B"
+      },
+      {
+        "trainerId": "swimmer-maria-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "swimmer-abigail-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "swimmer-garrett-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "fisherman-tommy-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "crush-girl-sharon-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "black-belt-hugh-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "camper-bryce-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "picnicker-claire-kindle",
+        "lotId": "07A"
+      },
+      {
+        "trainerId": "swimmer-amara-treasure-beach",
+        "lotId": "07A"
+      }
+    ],
+    "importedTrainers": [
+      {
+        "trainerId": "cue-ball-paxton-three-island",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w08/export.json"
+      },
+      {
+        "trainerId": "leader-giovanni-viridian",
+        "exportPath": "references/deksa-next/b5-05/w08-campaign/export.json"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w09-complete/export.json",
+    "resolverPath": "references/deksa-next/b5-05/production/future_entry.py",
+    "policyId": "deksa-b5-w09-complete",
+    "window": 9,
+    "trainers": [
+      {
+        "trainerId": "juggler-gregory-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "cooltrainer-alexa-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "cool-couple-ray-tyra-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "cooltrainer-naomi-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "cooltrainer-rolando-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "black-belt-daisuke-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "tamer-vincent-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "cooltrainer-george-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "cooltrainer-colby-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "pokemaniac-dawson-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "juggler-nelson-victory-road",
+        "lotId": "08B"
+      },
+      {
+        "trainerId": "cooltrainer-caroline-victory-road",
+        "lotId": "08B"
+      }
+    ],
+    "importedTrainers": [
+      {
+        "trainerId": "rival-route22-late-deksa",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses-v2/w09/export.json"
+      },
+      {
+        "trainerId": "elite-four-lorelei-first",
+        "exportPath": "references/deksa-next/b5-05/w09-league-first/export.json"
+      },
+      {
+        "trainerId": "elite-four-bruno-first",
+        "exportPath": "references/deksa-next/b5-05/w09-league-first/export.json"
+      },
+      {
+        "trainerId": "elite-four-agatha-first",
+        "exportPath": "references/deksa-next/b5-05/w09-league-first/export.json"
+      },
+      {
+        "trainerId": "elite-four-lance-first",
+        "exportPath": "references/deksa-next/b5-05/w09-league-first/export.json"
+      },
+      {
+        "trainerId": "champion-rival-first-deksa",
+        "exportPath": "references/deksa-next/b5-05/w09-league-first/export.json"
+      }
+    ]
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w10-complete/export.json",
+    "resolverPath": "references/deksa-next/b5-05/production/future_entry.py",
+    "policyId": "deksa-b5-w10-complete",
+    "window": 10,
+    "trainers": [
+      {
+        "trainerId": "rocket-grunt-44-ruby",
+        "lotId": "09A"
+      },
+      {
+        "trainerId": "rocket-grunt-43-ruby",
+        "lotId": "09A"
+      }
+    ],
+    "importedTrainers": []
+  },
+  {
+    "exportPath": "references/deksa-next/b5-05/w11-complete/export.json",
+    "resolverPath": "references/deksa-next/b5-05/production/future_entry.py",
+    "policyId": "deksa-b5-w11-complete",
+    "window": 11,
+    "trainers": [
+      {
+        "trainerId": "cooltrainer-leroy-sevault",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "psychic-jaclyn-green-path",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "painter-rayna-resort",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "lady-selphy-lost-cave",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "rocket-grunt-45-icefall",
+        "lotId": "09B"
+      },
+      {
+        "trainerId": "rocket-grunt-51-five-isle-meadow",
+        "lotId": "09G"
+      },
+      {
+        "trainerId": "rocket-grunt-47-warehouse",
+        "lotId": "09G"
+      },
+      {
+        "trainerId": "ruin-maniac-foster-ruin-valley",
+        "lotId": "09F"
+      },
+      {
+        "trainerId": "pokemaniac-hector-ruin-valley",
+        "lotId": "09F"
+      },
+      {
+        "trainerId": "young-couple-eve-jon-canyon-entrance",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "ranger-nicolas-canyon-entrance",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "ranger-madeline-canyon-entrance",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "crush-girl-cyndy-sevault",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "ranger-jackson-sevault",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "cooltrainer-michelle-sevault",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "cool-couple-lex-nya-sevault",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "gentleman-clifford-tanoby",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "juggler-edward-water-path",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "twins-miu-mia-water-path",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "breeder-allison-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "bug-catcher-vance-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "camper-riley-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "picnicker-marcy-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "ruin-maniac-layton-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "rocket-grunt-46-outcast",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "sis-bro-ava-geb-outcast",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "breeder-alize-water-labyrinth",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "lady-gillian-resort",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "swimmer-toby-resort",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "psychic-laura-lost-cave",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "bird-keeper-harold-memorial",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "rocket-grunt-49-five-isle-meadow",
+        "lotId": "09G"
+      },
+      {
+        "trainerId": "rocket-grunt-50-five-isle-meadow",
+        "lotId": "09G"
+      },
+      {
+        "trainerId": "rocket-grunt-42-warehouse",
+        "lotId": "09G"
+      },
+      {
+        "trainerId": "rocket-grunt-48-warehouse",
+        "lotId": "09G"
+      },
+      {
+        "trainerId": "ruin-maniac-stanly-ruin-valley",
+        "lotId": "09F"
+      },
+      {
+        "trainerId": "ruin-maniac-larry-ruin-valley",
+        "lotId": "09F"
+      },
+      {
+        "trainerId": "hiker-daryl-ruin-valley",
+        "lotId": "09F"
+      },
+      {
+        "trainerId": "aroma-lady-miah-canyon-entrance",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "juggler-mason-canyon-entrance",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "tamer-evan-sevault",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "ranger-katelyn-sevault",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "ruin-maniac-brandon-tanoby",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "ruin-maniac-benjamin-tanoby",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "painter-edna-tanoby",
+        "lotId": "09E"
+      },
+      {
+        "trainerId": "aroma-lady-rose-water-path",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "swimmer-samir-water-path",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "swimmer-denise-water-path",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "hiker-earl-water-path",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "breeder-bethany-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "bug-catcher-garret-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "bug-catcher-jonah-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "youngster-nash-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "youngster-cordell-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "lass-dalia-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "lass-joana-pattern-bush",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "fisherman-tylor-outcast",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "swimmer-mymo-outcast",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "swimmer-nicole-outcast",
+        "lotId": "09D"
+      },
+      {
+        "trainerId": "painter-daisy-resort",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "painter-celina-resort",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "lady-jacki-resort",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "youngster-destin-resort",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "ruin-maniac-lawson-lost-cave",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "bird-keeper-milo-memorial",
+        "lotId": "09C"
+      },
+      {
+        "trainerId": "bird-keeper-chaz-memorial",
+        "lotId": "09C"
+      }
+    ],
+    "importedTrainers": [
+      {
+        "trainerId": "rocket-admin-female-warehouse",
+        "exportPath": "references/deksa-next/b5-05/additional-bosses/w11/export.json"
+      },
+      {
+        "trainerId": "rocket-admin-male-warehouse",
+        "exportPath": "references/deksa-next/b5-05/remaining-bosses/w11/export.json"
+      },
+      {
+        "trainerId": "scientist-gideon-warehouse",
+        "exportPath": "references/deksa-next/b5-05/additional-bosses/w11/export.json"
+      }
+    ]
+  }
+]

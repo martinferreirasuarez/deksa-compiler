@@ -5,7 +5,8 @@ The website includes the game guide, changes from FireRed and [playing instructi
 
 Bring your own unmodified English FireRed 1.0 ROM. The original file stays on
 your device; your browser prepares and downloads the finished `.gba` game.
-This repository contains source code and rules, **not ROMs or save files**.
+This repository contains the game's source changes, website and game builder,
+**not ROMs or save files**.
 
 ## Run the builder on your own computer
 
@@ -39,9 +40,33 @@ Déksa's source changes. It does not overwrite existing source directories.
 The builder runs one job at a time with a bounded, persistent waiting list.
 Repeated seeds reuse prepared results for the same game version.
 
+## Website source
+
+The public guide, changes page, walkthrough, artwork and published team data
+are in `wiki/`. The builder website and shared navigation are in `compiler/app/`.
+The bundle includes the public guide's dependencies, not private authoring logs.
+
+To run the guide with Node.js 22.13+:
+
+```sh
+cd wiki
+npm ci
+npm run build
+npm start
+```
+
+In a second terminal at the repository root, start the builder with the guide:
+
+```sh
+DEKSA_WIKI_ORIGIN=http://127.0.0.1:3001 bash ./start.sh
+```
+
+Open `http://127.0.0.1:52655` for the integrated site. Game builds also require
+the setup described above. Website source is independent of a ROM upload.
+
 ## Report a problem
 
-[Open an issue](https://github.com/martinferreirasuarez/deksa-compiler/issues/new)
+[Open an issue](https://github.com/martinferreirasuarez/firereddeksa/issues/new)
 with the game version, seed, emulator, device and steps to reproduce it.
 Screenshots help. Do not upload original ROMs or generated ROMs.
 
@@ -50,7 +75,7 @@ Screenshots help. Do not upload original ROMs or generated ROMs.
 - [pret/pokefirered](https://github.com/pret/pokefirered): FireRed source foundation.
 - [pret/agbcc](https://github.com/pret/agbcc): compiler.
 - [ROM Patcher JS](https://github.com/marcrobledo/RomPatcher.js): browser patch processing.
-- New compiler code uses [MIT](compiler/LICENSE). That license does not cover
+- New website and compiler code use [MIT](compiler/LICENSE). That license does not cover
   the original game's code or assets; their notices and provenance are separate.
 
 Déksa is a fan-made FireRed modification, not affiliated with Nintendo,

@@ -1,0 +1,1904 @@
+{
+  "schemaVersion": 1,
+  "status": "seed-independent-eligibility-not-guaranteed-spawns",
+  "windows": [
+    {
+      "number": 1,
+      "id": "W01-BROCK",
+      "label": "Inicio → Brock",
+      "lots": [
+        "01A"
+      ]
+    },
+    {
+      "number": 2,
+      "id": "W02-MISTY",
+      "label": "Brock → Misty",
+      "lots": [
+        "02A",
+        "02B",
+        "02C",
+        "02D"
+      ]
+    },
+    {
+      "number": 3,
+      "id": "W03-SURGE",
+      "label": "Misty → Lt. Surge",
+      "lots": [
+        "03A",
+        "03B",
+        "03C",
+        "03D"
+      ]
+    },
+    {
+      "number": 4,
+      "id": "W04-ERIKA",
+      "label": "Lt. Surge → Erika",
+      "lots": [
+        "04A",
+        "04B",
+        "04C",
+        "04D",
+        "04E",
+        "04F",
+        "04G"
+      ]
+    },
+    {
+      "number": 5,
+      "id": "W05-KOGA",
+      "label": "Erika → Koga",
+      "lots": [
+        "05A",
+        "05B",
+        "05C",
+        "05D",
+        "05E",
+        "05F"
+      ]
+    },
+    {
+      "number": 6,
+      "id": "W06-SABRINA",
+      "label": "Silph → Sabrina",
+      "lots": [
+        "05G",
+        "05H",
+        "05I",
+        "05J"
+      ]
+    },
+    {
+      "number": 7,
+      "id": "W07-BLAINE",
+      "label": "Koga/Sabrina → Blaine",
+      "lots": [
+        "06A",
+        "06B",
+        "06C",
+        "06D",
+        "06E"
+      ]
+    },
+    {
+      "number": 8,
+      "id": "W08-GIOVANNI",
+      "label": "Islas Sete → Giovanni",
+      "lots": [
+        "07A",
+        "07B",
+        "07C",
+        "07D"
+      ]
+    },
+    {
+      "number": 9,
+      "id": "W09-LEAGUE",
+      "label": "Giovanni → primera Liga",
+      "lots": [
+        "08A",
+        "08B",
+        "08C"
+      ]
+    },
+    {
+      "number": 10,
+      "id": "W10-RUBY",
+      "label": "Primer Hall → Rubí",
+      "lots": [
+        "09A"
+      ]
+    },
+    {
+      "number": 11,
+      "id": "W11-SAPPHIRE",
+      "label": "Rubí → Zafiro",
+      "lots": [
+        "09B",
+        "09C",
+        "09D",
+        "09E",
+        "09F",
+        "09G"
+      ]
+    },
+    {
+      "number": 12,
+      "id": "W12-REMATCH",
+      "label": "Zafiro → Liga reforzada",
+      "lots": [
+        "09H",
+        "09I"
+      ]
+    }
+  ],
+  "families": [
+    {
+      "familyKey": "bellsprout",
+      "name": "Bellsprout",
+      "slug": "bellsprout",
+      "region": "kanto",
+      "speciesKeys": [
+        "BELLSPROUT",
+        "WEEPINBELL",
+        "VICTREEBEL"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "caterpie",
+      "name": "Caterpie",
+      "slug": "caterpie",
+      "region": "kanto",
+      "speciesKeys": [
+        "CATERPIE",
+        "METAPOD",
+        "BUTTERFREE"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "gastly",
+      "name": "Gastly",
+      "slug": "gastly",
+      "region": "kanto",
+      "speciesKeys": [
+        "GASTLY",
+        "HAUNTER",
+        "GENGAR"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "hoothoot",
+      "name": "Hoothoot",
+      "slug": "hoothoot",
+      "region": "johto",
+      "speciesKeys": [
+        "HOOTHOOT",
+        "NOCTOWL"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "lotad",
+      "name": "Lotad",
+      "slug": "lotad",
+      "region": "hoenn",
+      "speciesKeys": [
+        "LOTAD",
+        "LOMBRE",
+        "LUDICOLO"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "mankey",
+      "name": "Mankey",
+      "slug": "mankey",
+      "region": "kanto",
+      "speciesKeys": [
+        "MANKEY",
+        "PRIMEAPE"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "pidgey",
+      "name": "Pidgey",
+      "slug": "pidgey",
+      "region": "kanto",
+      "speciesKeys": [
+        "PIDGEY",
+        "PIDGEOTTO",
+        "PIDGEOT"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "poochyena",
+      "name": "Poochyena",
+      "slug": "poochyena",
+      "region": "hoenn",
+      "speciesKeys": [
+        "POOCHYENA",
+        "MIGHTYENA"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "ralts",
+      "name": "Ralts",
+      "slug": "ralts",
+      "region": "hoenn",
+      "speciesKeys": [
+        "RALTS",
+        "KIRLIA",
+        "GARDEVOIR"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "rattata",
+      "name": "Rattata",
+      "slug": "rattata",
+      "region": "kanto",
+      "speciesKeys": [
+        "RATTATA",
+        "RATICATE"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "seedot",
+      "name": "Seedot",
+      "slug": "seedot",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SEEDOT",
+        "NUZLEAF",
+        "SHIFTRY"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "sentret",
+      "name": "Sentret",
+      "slug": "sentret",
+      "region": "johto",
+      "speciesKeys": [
+        "SENTRET",
+        "FURRET"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "shroomish",
+      "name": "Shroomish",
+      "slug": "shroomish",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SHROOMISH",
+        "BRELOOM"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "slakoth",
+      "name": "Slakoth",
+      "slug": "slakoth",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SLAKOTH",
+        "VIGOROTH",
+        "SLAKING"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "spearow",
+      "name": "Spearow",
+      "slug": "spearow",
+      "region": "kanto",
+      "speciesKeys": [
+        "SPEAROW",
+        "FEAROW"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "spinarak",
+      "name": "Spinarak",
+      "slug": "spinarak",
+      "region": "johto",
+      "speciesKeys": [
+        "SPINARAK",
+        "ARIADOS"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "taillow",
+      "name": "Taillow",
+      "slug": "taillow",
+      "region": "hoenn",
+      "speciesKeys": [
+        "TAILLOW",
+        "SWELLOW"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "weedle",
+      "name": "Weedle",
+      "slug": "weedle",
+      "region": "kanto",
+      "speciesKeys": [
+        "WEEDLE",
+        "KAKUNA",
+        "BEEDRILL"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "wingull",
+      "name": "Wingull",
+      "slug": "wingull",
+      "region": "hoenn",
+      "speciesKeys": [
+        "WINGULL",
+        "PELIPPER"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "wurmple",
+      "name": "Wurmple",
+      "slug": "wurmple",
+      "region": "hoenn",
+      "speciesKeys": [
+        "WURMPLE",
+        "SILCOON",
+        "BEAUTIFLY",
+        "CASCOON",
+        "DUSTOX"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "zigzagoon",
+      "name": "Zigzagoon",
+      "slug": "zigzagoon",
+      "region": "hoenn",
+      "speciesKeys": [
+        "ZIGZAGOON",
+        "LINOONE"
+      ],
+      "window": 1,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "abra",
+      "name": "Abra",
+      "slug": "abra",
+      "region": "kanto",
+      "speciesKeys": [
+        "ABRA",
+        "KADABRA",
+        "ALAKAZAM"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "aipom",
+      "name": "Aipom",
+      "slug": "aipom",
+      "region": "johto",
+      "speciesKeys": [
+        "AIPOM"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "ekans",
+      "name": "Ekans",
+      "slug": "ekans",
+      "region": "kanto",
+      "speciesKeys": [
+        "EKANS",
+        "ARBOK"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "exeggcute",
+      "name": "Exeggcute",
+      "slug": "exeggcute",
+      "region": "kanto",
+      "speciesKeys": [
+        "EXEGGCUTE",
+        "EXEGGUTOR"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "geodude",
+      "name": "Geodude",
+      "slug": "geodude",
+      "region": "kanto",
+      "speciesKeys": [
+        "GEODUDE",
+        "GRAVELER",
+        "GOLEM"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "goldeen",
+      "name": "Goldeen",
+      "slug": "goldeen",
+      "region": "kanto",
+      "speciesKeys": [
+        "GOLDEEN",
+        "SEAKING"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "heracross",
+      "name": "Heracross",
+      "slug": "heracross",
+      "region": "johto",
+      "speciesKeys": [
+        "HERACROSS"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "hoppip",
+      "name": "Hoppip",
+      "slug": "hoppip",
+      "region": "johto",
+      "speciesKeys": [
+        "HOPPIP",
+        "SKIPLOOM",
+        "JUMPLUFF"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "krabby",
+      "name": "Krabby",
+      "slug": "krabby",
+      "region": "kanto",
+      "speciesKeys": [
+        "KRABBY",
+        "KINGLER"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "magikarp",
+      "name": "Magikarp",
+      "slug": "magikarp",
+      "region": "kanto",
+      "speciesKeys": [
+        "MAGIKARP",
+        "GYARADOS"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "mareep",
+      "name": "Mareep",
+      "slug": "mareep",
+      "region": "johto",
+      "speciesKeys": [
+        "MAREEP",
+        "FLAAFFY",
+        "AMPHAROS"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "nidoran_f",
+      "name": "Nidoran♀",
+      "slug": "nidoran_f",
+      "region": "kanto",
+      "speciesKeys": [
+        "NIDORAN_F",
+        "NIDORINA",
+        "NIDOQUEEN"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "nidoran_m",
+      "name": "Nidoran♂",
+      "slug": "nidoran_m",
+      "region": "kanto",
+      "speciesKeys": [
+        "NIDORAN_M",
+        "NIDORINO",
+        "NIDOKING"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "nincada",
+      "name": "Nincada",
+      "slug": "nincada",
+      "region": "hoenn",
+      "speciesKeys": [
+        "NINCADA",
+        "NINJASK",
+        "SHEDINJA"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "onix",
+      "name": "Onix",
+      "slug": "onix",
+      "region": "kanto",
+      "speciesKeys": [
+        "ONIX",
+        "STEELIX"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "paras",
+      "name": "Paras",
+      "slug": "paras",
+      "region": "kanto",
+      "speciesKeys": [
+        "PARAS",
+        "PARASECT"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "pineco",
+      "name": "Pineco",
+      "slug": "pineco",
+      "region": "johto",
+      "speciesKeys": [
+        "PINECO",
+        "FORRETRESS"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "poliwag",
+      "name": "Poliwag",
+      "slug": "poliwag",
+      "region": "kanto",
+      "speciesKeys": [
+        "POLIWAG",
+        "POLIWHIRL",
+        "POLIWRATH",
+        "POLITOED"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "sandshrew",
+      "name": "Sandshrew",
+      "slug": "sandshrew",
+      "region": "kanto",
+      "speciesKeys": [
+        "SANDSHREW",
+        "SANDSLASH"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "skitty",
+      "name": "Skitty",
+      "slug": "skitty",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SKITTY",
+        "DELCATTY"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "slowpoke",
+      "name": "Slowpoke",
+      "slug": "slowpoke",
+      "region": "kanto",
+      "speciesKeys": [
+        "SLOWPOKE",
+        "SLOWBRO",
+        "SLOWKING"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "tentacool",
+      "name": "Tentacool",
+      "slug": "tentacool",
+      "region": "kanto",
+      "speciesKeys": [
+        "TENTACOOL",
+        "TENTACRUEL"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "unown",
+      "name": "Unown",
+      "slug": "unown",
+      "region": "johto",
+      "speciesKeys": [
+        "UNOWN"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "whismur",
+      "name": "Whismur",
+      "slug": "whismur",
+      "region": "hoenn",
+      "speciesKeys": [
+        "WHISMUR",
+        "LOUDRED",
+        "EXPLOUD"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "wooper",
+      "name": "Wooper",
+      "slug": "wooper",
+      "region": "johto",
+      "speciesKeys": [
+        "WOOPER",
+        "QUAGSIRE"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "zubat",
+      "name": "Zubat",
+      "slug": "zubat",
+      "region": "kanto",
+      "speciesKeys": [
+        "ZUBAT",
+        "GOLBAT",
+        "CROBAT"
+      ],
+      "window": 2,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "aron",
+      "name": "Aron",
+      "slug": "aron",
+      "region": "hoenn",
+      "speciesKeys": [
+        "ARON",
+        "LAIRON",
+        "AGGRON"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "ditto",
+      "name": "Ditto",
+      "slug": "ditto",
+      "region": "kanto",
+      "speciesKeys": [
+        "DITTO"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "drowzee",
+      "name": "Drowzee",
+      "slug": "drowzee",
+      "region": "kanto",
+      "speciesKeys": [
+        "DROWZEE",
+        "HYPNO"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "electrike",
+      "name": "Electrike",
+      "slug": "electrike",
+      "region": "hoenn",
+      "speciesKeys": [
+        "ELECTRIKE",
+        "MANECTRIC"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "gulpin",
+      "name": "Gulpin",
+      "slug": "gulpin",
+      "region": "hoenn",
+      "speciesKeys": [
+        "GULPIN",
+        "SWALOT"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "makuhita",
+      "name": "Makuhita",
+      "slug": "makuhita",
+      "region": "hoenn",
+      "speciesKeys": [
+        "MAKUHITA",
+        "HARIYAMA"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "meowth",
+      "name": "Meowth",
+      "slug": "meowth",
+      "region": "kanto",
+      "speciesKeys": [
+        "MEOWTH",
+        "PERSIAN"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "minun",
+      "name": "Minun",
+      "slug": "minun",
+      "region": "hoenn",
+      "speciesKeys": [
+        "MINUN"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "oddish",
+      "name": "Oddish",
+      "slug": "oddish",
+      "region": "kanto",
+      "speciesKeys": [
+        "ODDISH",
+        "GLOOM",
+        "VILEPLUME",
+        "BELLOSSOM"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "plusle",
+      "name": "Plusle",
+      "slug": "plusle",
+      "region": "hoenn",
+      "speciesKeys": [
+        "PLUSLE"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "sableye",
+      "name": "Sableye",
+      "slug": "sableye",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SABLEYE"
+      ],
+      "window": 3,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "diglett",
+      "name": "Diglett",
+      "slug": "diglett",
+      "region": "kanto",
+      "speciesKeys": [
+        "DIGLETT",
+        "DUGTRIO"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "grimer",
+      "name": "Grimer",
+      "slug": "grimer",
+      "region": "kanto",
+      "speciesKeys": [
+        "GRIMER",
+        "MUK"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "growlithe",
+      "name": "Growlithe",
+      "slug": "growlithe",
+      "region": "kanto",
+      "speciesKeys": [
+        "GROWLITHE",
+        "ARCANINE"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "illumise",
+      "name": "Illumise",
+      "slug": "illumise",
+      "region": "hoenn",
+      "speciesKeys": [
+        "ILLUMISE"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "koffing",
+      "name": "Koffing",
+      "slug": "koffing",
+      "region": "kanto",
+      "speciesKeys": [
+        "KOFFING",
+        "WEEZING"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "machop",
+      "name": "Machop",
+      "slug": "machop",
+      "region": "kanto",
+      "speciesKeys": [
+        "MACHOP",
+        "MACHOKE",
+        "MACHAMP"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "nosepass",
+      "name": "Nosepass",
+      "slug": "nosepass",
+      "region": "hoenn",
+      "speciesKeys": [
+        "NOSEPASS"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "numel",
+      "name": "Numel",
+      "slug": "numel",
+      "region": "hoenn",
+      "speciesKeys": [
+        "NUMEL",
+        "CAMERUPT"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "pinsir",
+      "name": "Pinsir",
+      "slug": "pinsir",
+      "region": "kanto",
+      "speciesKeys": [
+        "PINSIR"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "scyther",
+      "name": "Scyther",
+      "slug": "scyther",
+      "region": "kanto",
+      "speciesKeys": [
+        "SCYTHER",
+        "SCIZOR"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "seviper",
+      "name": "Seviper",
+      "slug": "seviper",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SEVIPER"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "skarmory",
+      "name": "Skarmory",
+      "slug": "skarmory",
+      "region": "johto",
+      "speciesKeys": [
+        "SKARMORY"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "slugma",
+      "name": "Slugma",
+      "slug": "slugma",
+      "region": "johto",
+      "speciesKeys": [
+        "SLUGMA",
+        "MAGCARGO"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "solrock",
+      "name": "Solrock",
+      "slug": "solrock",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SOLROCK"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "spinda",
+      "name": "Spinda",
+      "slug": "spinda",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SPINDA"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "spoink",
+      "name": "Spoink",
+      "slug": "spoink",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SPOINK",
+        "GRUMPIG"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "stantler",
+      "name": "Stantler",
+      "slug": "stantler",
+      "region": "johto",
+      "speciesKeys": [
+        "STANTLER"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "sunkern",
+      "name": "Sunkern",
+      "slug": "sunkern",
+      "region": "johto",
+      "speciesKeys": [
+        "SUNKERN",
+        "SUNFLORA"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "swablu",
+      "name": "Swablu",
+      "slug": "swablu",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SWABLU",
+        "ALTARIA"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "torkoal",
+      "name": "Torkoal",
+      "slug": "torkoal",
+      "region": "hoenn",
+      "speciesKeys": [
+        "TORKOAL"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "venonat",
+      "name": "Venonat",
+      "slug": "venonat",
+      "region": "kanto",
+      "speciesKeys": [
+        "VENONAT",
+        "VENOMOTH"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "volbeat",
+      "name": "Volbeat",
+      "slug": "volbeat",
+      "region": "hoenn",
+      "speciesKeys": [
+        "VOLBEAT"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "voltorb",
+      "name": "Voltorb",
+      "slug": "voltorb",
+      "region": "kanto",
+      "speciesKeys": [
+        "VOLTORB",
+        "ELECTRODE"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "yanma",
+      "name": "Yanma",
+      "slug": "yanma",
+      "region": "johto",
+      "speciesKeys": [
+        "YANMA"
+      ],
+      "window": 4,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "baltoy",
+      "name": "Baltoy",
+      "slug": "baltoy",
+      "region": "hoenn",
+      "speciesKeys": [
+        "BALTOY",
+        "CLAYDOL"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "cacnea",
+      "name": "Cacnea",
+      "slug": "cacnea",
+      "region": "hoenn",
+      "speciesKeys": [
+        "CACNEA",
+        "CACTURNE"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "chinchou",
+      "name": "Chinchou",
+      "slug": "chinchou",
+      "region": "johto",
+      "speciesKeys": [
+        "CHINCHOU",
+        "LANTURN"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "corsola",
+      "name": "Corsola",
+      "slug": "corsola",
+      "region": "johto",
+      "speciesKeys": [
+        "CORSOLA"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "cubone",
+      "name": "Cubone",
+      "slug": "cubone",
+      "region": "kanto",
+      "speciesKeys": [
+        "CUBONE",
+        "MAROWAK"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "horsea",
+      "name": "Horsea",
+      "slug": "horsea",
+      "region": "kanto",
+      "speciesKeys": [
+        "HORSEA",
+        "SEADRA",
+        "KINGDRA"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "magnemite",
+      "name": "Magnemite",
+      "slug": "magnemite",
+      "region": "kanto",
+      "speciesKeys": [
+        "MAGNEMITE",
+        "MAGNETON"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "mantine",
+      "name": "Mantine",
+      "slug": "mantine",
+      "region": "johto",
+      "speciesKeys": [
+        "MANTINE"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "miltank",
+      "name": "Miltank",
+      "slug": "miltank",
+      "region": "johto",
+      "speciesKeys": [
+        "MILTANK"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "natu",
+      "name": "Natu",
+      "slug": "natu",
+      "region": "johto",
+      "speciesKeys": [
+        "NATU",
+        "XATU"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "psyduck",
+      "name": "Psyduck",
+      "slug": "psyduck",
+      "region": "kanto",
+      "speciesKeys": [
+        "PSYDUCK",
+        "GOLDUCK"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "qwilfish",
+      "name": "Qwilfish",
+      "slug": "qwilfish",
+      "region": "johto",
+      "speciesKeys": [
+        "QWILFISH"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "shellder",
+      "name": "Shellder",
+      "slug": "shellder",
+      "region": "kanto",
+      "speciesKeys": [
+        "SHELLDER",
+        "CLOYSTER"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "shuckle",
+      "name": "Shuckle",
+      "slug": "shuckle",
+      "region": "johto",
+      "speciesKeys": [
+        "SHUCKLE"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "smeargle",
+      "name": "Smeargle",
+      "slug": "smeargle",
+      "region": "johto",
+      "speciesKeys": [
+        "SMEARGLE"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "snubbull",
+      "name": "Snubbull",
+      "slug": "snubbull",
+      "region": "johto",
+      "speciesKeys": [
+        "SNUBBULL",
+        "GRANBULL"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "staryu",
+      "name": "Staryu",
+      "slug": "staryu",
+      "region": "kanto",
+      "speciesKeys": [
+        "STARYU",
+        "STARMIE"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "tauros",
+      "name": "Tauros",
+      "slug": "tauros",
+      "region": "kanto",
+      "speciesKeys": [
+        "TAUROS"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "trapinch",
+      "name": "Trapinch",
+      "slug": "trapinch",
+      "region": "hoenn",
+      "speciesKeys": [
+        "TRAPINCH",
+        "VIBRAVA",
+        "FLYGON"
+      ],
+      "window": 5,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "absol",
+      "name": "Absol",
+      "slug": "absol",
+      "region": "hoenn",
+      "speciesKeys": [
+        "ABSOL"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "barboach",
+      "name": "Barboach",
+      "slug": "barboach",
+      "region": "hoenn",
+      "speciesKeys": [
+        "BARBOACH",
+        "WHISCASH"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "carvanha",
+      "name": "Carvanha",
+      "slug": "carvanha",
+      "region": "hoenn",
+      "speciesKeys": [
+        "CARVANHA",
+        "SHARPEDO"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "chansey",
+      "name": "Chansey",
+      "slug": "chansey",
+      "region": "kanto",
+      "speciesKeys": [
+        "CHANSEY",
+        "BLISSEY"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "corphish",
+      "name": "Corphish",
+      "slug": "corphish",
+      "region": "hoenn",
+      "speciesKeys": [
+        "CORPHISH",
+        "CRAWDAUNT"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "doduo",
+      "name": "Doduo",
+      "slug": "doduo",
+      "region": "kanto",
+      "speciesKeys": [
+        "DODUO",
+        "DODRIO"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "dratini",
+      "name": "Dratini",
+      "slug": "dratini",
+      "region": "kanto",
+      "speciesKeys": [
+        "DRATINI",
+        "DRAGONAIR",
+        "DRAGONITE"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "feebas",
+      "name": "Feebas",
+      "slug": "feebas",
+      "region": "hoenn",
+      "speciesKeys": [
+        "FEEBAS",
+        "MILOTIC"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "girafarig",
+      "name": "Girafarig",
+      "slug": "girafarig",
+      "region": "johto",
+      "speciesKeys": [
+        "GIRAFARIG"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "kangaskhan",
+      "name": "Kangaskhan",
+      "slug": "kangaskhan",
+      "region": "kanto",
+      "speciesKeys": [
+        "KANGASKHAN"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "larvitar",
+      "name": "Larvitar",
+      "slug": "larvitar",
+      "region": "johto",
+      "speciesKeys": [
+        "LARVITAR",
+        "PUPITAR",
+        "TYRANITAR"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "misdreavus",
+      "name": "Misdreavus",
+      "slug": "misdreavus",
+      "region": "johto",
+      "speciesKeys": [
+        "MISDREAVUS"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "murkrow",
+      "name": "Murkrow",
+      "slug": "murkrow",
+      "region": "johto",
+      "speciesKeys": [
+        "MURKROW"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "rhyhorn",
+      "name": "Rhyhorn",
+      "slug": "rhyhorn",
+      "region": "kanto",
+      "speciesKeys": [
+        "RHYHORN",
+        "RHYDON"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "seel",
+      "name": "Seel",
+      "slug": "seel",
+      "region": "kanto",
+      "speciesKeys": [
+        "SEEL",
+        "DEWGONG"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "tropius",
+      "name": "Tropius",
+      "slug": "tropius",
+      "region": "hoenn",
+      "speciesKeys": [
+        "TROPIUS"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "wailmer",
+      "name": "Wailmer",
+      "slug": "wailmer",
+      "region": "hoenn",
+      "speciesKeys": [
+        "WAILMER",
+        "WAILORD"
+      ],
+      "window": 6,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "chimecho",
+      "name": "Chimecho",
+      "slug": "chimecho",
+      "region": "hoenn",
+      "speciesKeys": [
+        "CHIMECHO"
+      ],
+      "window": 7,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "duskull",
+      "name": "Duskull",
+      "slug": "duskull",
+      "region": "hoenn",
+      "speciesKeys": [
+        "DUSKULL",
+        "DUSCLOPS"
+      ],
+      "window": 7,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "phanpy",
+      "name": "Phanpy",
+      "slug": "phanpy",
+      "region": "johto",
+      "speciesKeys": [
+        "PHANPY",
+        "DONPHAN"
+      ],
+      "window": 7,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "shuppet",
+      "name": "Shuppet",
+      "slug": "shuppet",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SHUPPET",
+        "BANETTE"
+      ],
+      "window": 7,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "vulpix",
+      "name": "Vulpix",
+      "slug": "vulpix",
+      "region": "kanto",
+      "speciesKeys": [
+        "VULPIX",
+        "NINETALES"
+      ],
+      "window": 7,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "clamperl",
+      "name": "Clamperl",
+      "slug": "clamperl",
+      "region": "hoenn",
+      "speciesKeys": [
+        "CLAMPERL",
+        "HUNTAIL",
+        "GOREBYSS"
+      ],
+      "window": 8,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "luvdisc",
+      "name": "Luvdisc",
+      "slug": "luvdisc",
+      "region": "hoenn",
+      "speciesKeys": [
+        "LUVDISC"
+      ],
+      "window": 8,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "ponyta",
+      "name": "Ponyta",
+      "slug": "ponyta",
+      "region": "kanto",
+      "speciesKeys": [
+        "PONYTA",
+        "RAPIDASH"
+      ],
+      "window": 8,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "relicanth",
+      "name": "Relicanth",
+      "slug": "relicanth",
+      "region": "hoenn",
+      "speciesKeys": [
+        "RELICANTH"
+      ],
+      "window": 8,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "remoraid",
+      "name": "Remoraid",
+      "slug": "remoraid",
+      "region": "johto",
+      "speciesKeys": [
+        "REMORAID",
+        "OCTILLERY"
+      ],
+      "window": 8,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "snorunt",
+      "name": "Snorunt",
+      "slug": "snorunt",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SNORUNT",
+        "GLALIE"
+      ],
+      "window": 8,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "spheal",
+      "name": "Spheal",
+      "slug": "spheal",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SPHEAL",
+        "SEALEO",
+        "WALREIN"
+      ],
+      "window": 8,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "swinub",
+      "name": "Swinub",
+      "slug": "swinub",
+      "region": "johto",
+      "speciesKeys": [
+        "SWINUB",
+        "PILOSWINE"
+      ],
+      "window": 8,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "tangela",
+      "name": "Tangela",
+      "slug": "tangela",
+      "region": "kanto",
+      "speciesKeys": [
+        "TANGELA"
+      ],
+      "window": 8,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "bagon",
+      "name": "Bagon",
+      "slug": "bagon",
+      "region": "hoenn",
+      "speciesKeys": [
+        "BAGON",
+        "SHELGON",
+        "SALAMENCE"
+      ],
+      "window": 9,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "dunsparce",
+      "name": "Dunsparce",
+      "slug": "dunsparce",
+      "region": "johto",
+      "speciesKeys": [
+        "DUNSPARCE"
+      ],
+      "window": 9,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "gligar",
+      "name": "Gligar",
+      "slug": "gligar",
+      "region": "johto",
+      "speciesKeys": [
+        "GLIGAR"
+      ],
+      "window": 9,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "mawile",
+      "name": "Mawile",
+      "slug": "mawile",
+      "region": "hoenn",
+      "speciesKeys": [
+        "MAWILE"
+      ],
+      "window": 9,
+      "basis": "certified-campaign-fauna-minimum"
+    },
+    {
+      "familyKey": "beldum",
+      "name": "Beldum",
+      "slug": "beldum",
+      "region": "hoenn",
+      "speciesKeys": [
+        "BELDUM",
+        "METANG",
+        "METAGROSS"
+      ],
+      "window": 10,
+      "basis": "editorial-postgame-projection"
+    },
+    {
+      "familyKey": "houndour",
+      "name": "Houndour",
+      "slug": "houndour",
+      "region": "johto",
+      "speciesKeys": [
+        "HOUNDOUR",
+        "HOUNDOOM"
+      ],
+      "window": 10,
+      "basis": "editorial-postgame-projection"
+    },
+    {
+      "familyKey": "ledyba",
+      "name": "Ledyba",
+      "slug": "ledyba",
+      "region": "johto",
+      "speciesKeys": [
+        "LEDYBA",
+        "LEDIAN"
+      ],
+      "window": 10,
+      "basis": "editorial-postgame-projection"
+    },
+    {
+      "familyKey": "lunatone",
+      "name": "Lunatone",
+      "slug": "lunatone",
+      "region": "hoenn",
+      "speciesKeys": [
+        "LUNATONE"
+      ],
+      "window": 10,
+      "basis": "editorial-postgame-projection"
+    },
+    {
+      "familyKey": "meditite",
+      "name": "Meditite",
+      "slug": "meditite",
+      "region": "hoenn",
+      "speciesKeys": [
+        "MEDITITE",
+        "MEDICHAM"
+      ],
+      "window": 10,
+      "basis": "editorial-postgame-projection"
+    },
+    {
+      "familyKey": "roselia",
+      "name": "Roselia",
+      "slug": "roselia",
+      "region": "hoenn",
+      "speciesKeys": [
+        "ROSELIA"
+      ],
+      "window": 10,
+      "basis": "editorial-postgame-projection"
+    },
+    {
+      "familyKey": "surskit",
+      "name": "Surskit",
+      "slug": "surskit",
+      "region": "hoenn",
+      "speciesKeys": [
+        "SURSKIT",
+        "MASQUERAIN"
+      ],
+      "window": 10,
+      "basis": "editorial-postgame-projection"
+    },
+    {
+      "familyKey": "teddiursa",
+      "name": "Teddiursa",
+      "slug": "teddiursa",
+      "region": "johto",
+      "speciesKeys": [
+        "TEDDIURSA",
+        "URSARING"
+      ],
+      "window": 10,
+      "basis": "editorial-postgame-projection"
+    },
+    {
+      "familyKey": "zangoose",
+      "name": "Zangoose",
+      "slug": "zangoose",
+      "region": "hoenn",
+      "speciesKeys": [
+        "ZANGOOSE"
+      ],
+      "window": 10,
+      "basis": "editorial-postgame-projection"
+    },
+    {
+      "familyKey": "delibird",
+      "name": "Delibird",
+      "slug": "delibird",
+      "region": "johto",
+      "speciesKeys": [
+        "DELIBIRD"
+      ],
+      "window": 11,
+      "basis": "editorial-postgame-projection"
+    },
+    {
+      "familyKey": "sneasel",
+      "name": "Sneasel",
+      "slug": "sneasel",
+      "region": "johto",
+      "speciesKeys": [
+        "SNEASEL"
+      ],
+      "window": 12,
+      "basis": "editorial-postgame-projection"
+    }
+  ],
+  "sourceHashes": {
+    "wiki/generators/fauna/sources/catalog.generated.json": "8a147ea4fb946ae4e45a80a0cdde30954d5a13f20c7a047b7ca6ef0241eed215",
+    "wiki/generators/fauna/policy/family-policy.generated.json": "86fcb995e85a686f948344228968a4e7447169070c7297423a3aa689b80f52a3",
+    "wiki/generators/fauna/config/b2-f015-a.json": "5427bb48c953b81f30d74e1fd369ea0cfcc9ab70fd2827b9be57e20c86ff6d0c",
+    "wiki/app/generated/pokedex.json": "4e538cb6b266eae74da33b7d30f95f59f8310ddd609f4e126117ce6286681737",
+    "references/deksa-next/b5-campaign/species/campaign.json": "0902df0328e4129babe7098201505237c1bf91739c826647370bf48b04a4cded",
+    "wiki/trainer-authoring/v7/plan/windows.generated.json": "60064eab31359091013d53da921ce6e64528fb3a83a85569f4b9549364ab7b49"
+  }
+}

@@ -1,0 +1,2245 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "rival-ss-anne",
+      "lotId": "03C",
+      "window": 3,
+      "cap": 24,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "$starter",
+          "species": "$starter",
+          "ace": true
+        },
+        {
+          "family": "pidgey",
+          "species": "SPECIES_PIDGEY"
+        },
+        {
+          "family": "abra",
+          "species": "SPECIES_ABRA"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Haunter abre con velocidad, sueño y cobertura eléctrica; Raticate conserva la especie factual del rival en el barco. Torkoal amortigua ataques físicos y recupera con Chesto. Pidgeotto aporta prioridad, Kadabra presión y Reflect; el inicial cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_HAUNTER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_NIGHT_SHADE",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_CONFUSE_RAY"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BODY_SLAM",
+                    "MOVE_CURSE",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_RELAXED",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_CHESTO_BERRY"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_HAUNTER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_NIGHT_SHADE",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_CONFUSE_RAY"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BODY_SLAM",
+                    "MOVE_CURSE",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_RELAXED",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_CHESTO_BERRY"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_BITE",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_HAUNTER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_NIGHT_SHADE",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_CONFUSE_RAY"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BODY_SLAM",
+                    "MOVE_CURSE",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_RELAXED",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_CHESTO_BERRY"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_RAZOR_LEAF",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        },
+        "B": {
+          "intent": "Miltank abre con presión física y recuperación. Growlithe anticipa el perro del rival y aporta Intimidate; Kecleon sostiene el flanco especial y cubre Agua/Volador/Tierra con Hielo/Eléctrico. Pidgeotto y Kadabra conservan el núcleo, con el inicial al final.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STOMP",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MILK_DRINK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 24,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_DIG",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_KECLEON",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_SCREECH"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_COLOR_CHANGE",
+                  "item": "ITEM_QUICK_CLAW"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_MEGA_PUNCH"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STOMP",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MILK_DRINK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 24,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_DIG",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_KECLEON",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_SCREECH"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_COLOR_CHANGE",
+                  "item": "ITEM_QUICK_CLAW"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_BITE",
+                    "MOVE_RAPID_SPIN",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_CHESTO_BERRY"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STOMP",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MILK_DRINK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 24,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_DIG",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_KECLEON",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_SCREECH"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_COLOR_CHANGE",
+                  "item": "ITEM_QUICK_CLAW"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_RAZOR_LEAF",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        },
+        "C": {
+          "intent": "Combusken abre con doble STAB y Bulk Up; Exeggcute anticipa el árbol del rival con sueño y drenaje. Seviper añade presión mixta, inmunidad a veneno por tipo y parálisis. Pidgeotto aporta prioridad, Kadabra recupera y coloca Reflect, y el inicial cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLASH",
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": "ITEM_LUM_BERRY",
+                  "intent": "Zangoose abre con presión física y Swords Dance; sustituye Combusken por el veto de otra familia inicial dentro del rival. Mantiene nivel24 y rol K; no altera anclas."
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_EXEGGCUTE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_HYPNOSIS"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_SEVIPER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_POISON_TAIL",
+                    "MOVE_DIG",
+                    "MOVE_BITE",
+                    "MOVE_GLARE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SHED_SKIN",
+                  "item": "ITEM_SHELL_BELL",
+                  "intent": "Potencia Poison Tail y Dig físicos; Bite conserva cobertura contra Psíquico y Glare controla velocidad."
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYBEAM",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_MEGA_PUNCH"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLASH",
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": "ITEM_LUM_BERRY",
+                  "intent": "Zangoose abre con presión física y Swords Dance; sustituye Combusken por el veto de otra familia inicial dentro del rival. Mantiene nivel24 y rol K; no altera anclas."
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_EXEGGCUTE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_HYPNOSIS"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_SEVIPER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_POISON_TAIL",
+                    "MOVE_DIG",
+                    "MOVE_BITE",
+                    "MOVE_GLARE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SHED_SKIN",
+                  "item": "ITEM_SHELL_BELL",
+                  "intent": "Potencia Poison Tail y Dig físicos; Bite conserva cobertura contra Psíquico y Glare controla velocidad."
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYBEAM",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_BITE",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLASH",
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": "ITEM_LUM_BERRY",
+                  "intent": "Zangoose abre con presión física y Swords Dance; sustituye Combusken por el veto de otra familia inicial dentro del rival. Mantiene nivel24 y rol K; no altera anclas."
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_EXEGGCUTE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_HYPNOSIS"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_SEVIPER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_POISON_TAIL",
+                    "MOVE_DIG",
+                    "MOVE_BITE",
+                    "MOVE_GLARE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SHED_SKIN",
+                  "item": "ITEM_SHELL_BELL",
+                  "intent": "Potencia Poison Tail y Dig físicos; Bite conserva cobertura contra Psíquico y Glare controla velocidad."
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYBEAM",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_RAZOR_LEAF",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "rival-ss-anne",
+      "lotId": "03C",
+      "window": 3,
+      "cap": 24,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "$starter",
+          "species": "$starter",
+          "ace": true
+        },
+        {
+          "family": "pidgey",
+          "species": "SPECIES_PIDGEY"
+        },
+        {
+          "family": "abra",
+          "species": "SPECIES_ABRA"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Haunter abre con velocidad, sueño y cobertura eléctrica; Raticate conserva la especie factual del rival en el barco. Torkoal amortigua ataques físicos y recupera con Chesto. Pidgeotto aporta prioridad, Kadabra presión y Reflect; el inicial cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_HAUNTER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_NIGHT_SHADE",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_CONFUSE_RAY"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-092"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BODY_SLAM",
+                    "MOVE_CURSE",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_RELAXED",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_CHESTO_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-324"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_HAUNTER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_NIGHT_SHADE",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_CONFUSE_RAY"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-092"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BODY_SLAM",
+                    "MOVE_CURSE",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_RELAXED",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_CHESTO_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-324"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_BITE",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_HAUNTER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_NIGHT_SHADE",
+                    "MOVE_HYPNOSIS",
+                    "MOVE_CONFUSE_RAY"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_LEVITATE",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-092"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BODY_SLAM",
+                    "MOVE_CURSE",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_RELAXED",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_CHESTO_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-324"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_RAZOR_LEAF",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        },
+        "B": {
+          "intent": "Miltank abre con presión física y recuperación. Growlithe anticipa el perro del rival y aporta Intimidate; Kecleon sostiene el flanco especial y cubre Agua/Volador/Tierra con Hielo/Eléctrico. Pidgeotto y Kadabra conservan el núcleo, con el inicial al final.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STOMP",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MILK_DRINK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-241"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 24,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_DIG",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-058"
+                },
+                {
+                  "species": "SPECIES_KECLEON",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_SCREECH"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_COLOR_CHANGE",
+                  "item": "ITEM_QUICK_CLAW",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-352"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_MEGA_PUNCH"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STOMP",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MILK_DRINK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-241"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 24,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_DIG",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-058"
+                },
+                {
+                  "species": "SPECIES_KECLEON",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_SCREECH"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_COLOR_CHANGE",
+                  "item": "ITEM_QUICK_CLAW",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-352"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_BITE",
+                    "MOVE_RAPID_SPIN",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_CHESTO_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_MILTANK",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STOMP",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_MILK_DRINK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-241"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 24,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_DIG",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-058"
+                },
+                {
+                  "species": "SPECIES_KECLEON",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_STRENGTH",
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_SCREECH"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_COLOR_CHANGE",
+                  "item": "ITEM_QUICK_CLAW",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-352"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_RAZOR_LEAF",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        },
+        "C": {
+          "intent": "Combusken abre con doble STAB y Bulk Up; Exeggcute anticipa el árbol del rival con sueño y drenaje. Seviper añade presión mixta, inmunidad a veneno por tipo y parálisis. Pidgeotto aporta prioridad, Kadabra recupera y coloca Reflect, y el inicial cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLASH",
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": "ITEM_LUM_BERRY",
+                  "intent": "Zangoose abre con presión física y Swords Dance; sustituye Combusken por el veto de otra familia inicial dentro del rival. Mantiene nivel24 y rol K; no altera anclas.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-335"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_EXEGGCUTE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_HYPNOSIS"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-102"
+                },
+                {
+                  "species": "SPECIES_SEVIPER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_POISON_TAIL",
+                    "MOVE_DIG",
+                    "MOVE_BITE",
+                    "MOVE_GLARE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SHED_SKIN",
+                  "item": "ITEM_SHELL_BELL",
+                  "intent": "Potencia Poison Tail y Dig físicos; Bite conserva cobertura contra Psíquico y Glare controla velocidad.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-336"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYBEAM",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_MEGA_PUNCH"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLASH",
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": "ITEM_LUM_BERRY",
+                  "intent": "Zangoose abre con presión física y Swords Dance; sustituye Combusken por el veto de otra familia inicial dentro del rival. Mantiene nivel24 y rol K; no altera anclas.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-335"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_EXEGGCUTE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_HYPNOSIS"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-102"
+                },
+                {
+                  "species": "SPECIES_SEVIPER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_POISON_TAIL",
+                    "MOVE_DIG",
+                    "MOVE_BITE",
+                    "MOVE_GLARE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SHED_SKIN",
+                  "item": "ITEM_SHELL_BELL",
+                  "intent": "Potencia Poison Tail y Dig físicos; Bite conserva cobertura contra Psíquico y Glare controla velocidad.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-336"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYBEAM",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_BITE",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_ZANGOOSE",
+                  "level": 24,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SLASH",
+                    "MOVE_SWORDS_DANCE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SHADOW_BALL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_IMMUNITY",
+                  "item": "ITEM_LUM_BERRY",
+                  "intent": "Zangoose abre con presión física y Swords Dance; sustituye Combusken por el veto de otra familia inicial dentro del rival. Mantiene nivel24 y rol K; no altera anclas.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-335"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 22,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_EXEGGCUTE",
+                  "level": 23,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_BULLET_SEED",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_HYPNOSIS"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-102"
+                },
+                {
+                  "species": "SPECIES_SEVIPER",
+                  "level": 25,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_POISON_TAIL",
+                    "MOVE_DIG",
+                    "MOVE_BITE",
+                    "MOVE_GLARE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SHED_SKIN",
+                  "item": "ITEM_SHELL_BELL",
+                  "intent": "Potencia Poison Tail y Dig físicos; Bite conserva cobertura contra Psíquico y Glare controla velocidad.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-336"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYBEAM",
+                    "MOVE_THIEF",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 25,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_RAZOR_LEAF",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "rival-ss-anne": {
+      "actor": "/root/remaining_boss_coordinator/ss_anne_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.07165636215358973,
+      "packetBytes": 369378,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-remaining-v2-w03-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

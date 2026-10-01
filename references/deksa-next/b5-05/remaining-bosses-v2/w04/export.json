@@ -1,0 +1,3022 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "boss-giovanni-hideout",
+      "lotId": "04F",
+      "window": 4,
+      "cap": 29,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "onix",
+          "species": "SPECIES_ONIX"
+        },
+        {
+          "family": "rhyhorn",
+          "species": "SPECIES_RHYHORN"
+        },
+        {
+          "family": "kangaskhan",
+          "species": "SPECIES_KANGASKHAN",
+          "ace": true
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Scyther abre con velocidad y presión física; Persian conserva el felino del jefe Rocket y aporta Taunt y cobertura. Starmie cubre Agua/Tierra/Lucha; Onix desgasta, Rhyhorn presiona y Kangaskhan cierra.",
+          "members": [
+            {
+              "species": "SPECIES_SCYTHER",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_STEEL_WING",
+                "MOVE_QUICK_ATTACK",
+                "MOVE_HIDDEN_POWER"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SWARM",
+              "item": "ITEM_SHARP_BEAK"
+            },
+            {
+              "species": "SPECIES_PERSIAN",
+              "level": 29,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SECRET_POWER",
+                "MOVE_THUNDERBOLT",
+                "MOVE_WATER_PULSE",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_LIMBER",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 28,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_TOXIC",
+                "MOVE_SCREECH",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_RHYHORN",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_STOMP",
+                "MOVE_SCARY_FACE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_SITRUS_BERRY"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Manectric abre con velocidad y parálisis. Tentacruel conserva el veneno Rocket y cubre Agua/Tierra; Butterfree aporta sueño preciso e inmunidad Tierra. Onix desgasta, Rhyhorn castiga y Kangaskhan remata.",
+          "members": [
+            {
+              "species": "SPECIES_MANECTRIC",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET"
+            },
+            {
+              "species": "SPECIES_TENTACRUEL",
+              "level": 30,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_LIQUID_OOZE",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Omite Acid físico de potencia40 para concentrar daño especial, cobertura y drenaje; Protect permite recuperar con Leftovers. Liquid Ooze castiga drenaje rival y conserva identidad Veneno Rocket."
+            },
+            {
+              "species": "SPECIES_BUTTERFREE",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_STUN_SPORE",
+                "MOVE_AERIAL_ACE"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_COMPOUND_EYES",
+              "item": "ITEM_TWISTED_SPOON"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 27,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_TOXIC",
+                "MOVE_SCREECH",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_RHYHORN",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_STOMP",
+                "MOVE_SCARY_FACE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_SITRUS_BERRY"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Girafarig abre con cobertura especial, STAB Normal y Reflect. Seviper conserva el veneno y la amenaza reptiliana de Rocket; Miltank sostiene con recuperación y Toxic. Onix fuerza cambios, Rhyhorn presiona y Kangaskhan cierra.",
+          "members": [
+            {
+              "species": "SPECIES_GIRAFARIG",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_THUNDERBOLT",
+                "MOVE_STOMP",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_MAGNET"
+            },
+            {
+              "species": "SPECIES_SEVIPER",
+              "level": 29,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_POISON_TAIL",
+                "MOVE_CRUNCH",
+                "MOVE_FLAMETHROWER",
+                "MOVE_GIGA_DRAIN"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SHED_SKIN",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_MILTANK",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STOMP",
+                "MOVE_MILK_DRINK",
+                "MOVE_TOXIC",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 28,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_ROAR",
+                "MOVE_SCREECH",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_RHYHORN",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_STOMP",
+                "MOVE_SCARY_FACE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_SITRUS_BERRY"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "rival-pokemon-tower",
+      "lotId": "04C",
+      "window": 4,
+      "cap": 29,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "$starter",
+          "species": "$starter",
+          "ace": true
+        },
+        {
+          "family": "pidgey",
+          "species": "SPECIES_PIDGEY"
+        },
+        {
+          "family": "abra",
+          "species": "SPECIES_ABRA"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Jolteon abre con velocidad e inmunidad Eléctrico. Gyarados conserva la bestia acuática del rival e Intimidate; Marowak añade potencia con Thick Club y cubre Eléctrico/Roca. Pidgeotto aporta prioridad y Kadabra recuperación y Reflect; el inicial cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_JOLTEON",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_TOXIC",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_VOLT_ABSORB",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_GYARADOS",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_STRENGTH",
+                    "MOVE_DRAGON_RAGE",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_MAROWAK",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BONEMERANG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SECRET_POWER"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_THICK_CLUB"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_JOLTEON",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_TOXIC",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_VOLT_ABSORB",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_GYARADOS",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_STRENGTH",
+                    "MOVE_DRAGON_RAGE",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_MAROWAK",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BONEMERANG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SECRET_POWER"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_THICK_CLUB"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_BITE",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_JOLTEON",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_TOXIC",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_VOLT_ABSORB",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_GYARADOS",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_STRENGTH",
+                    "MOVE_DRAGON_RAGE",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_MAROWAK",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BONEMERANG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SECRET_POWER"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_THICK_CLUB"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_PROTECT",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Protect aprovecha Leech Seed y evita duplicar un segundo ataque Planta; Giga Drain conserva STAB y recuperación."
+                }
+              ]
+            }
+          }
+        },
+        "B": {
+          "intent": "Primeape abre con presión física y Bulk Up. Raticate conserva la continuidad del rival temprano y presiona Fantasma; Cloyster protege el flanco físico y desgasta. Pidgeotto aporta prioridad y Kadabra sostiene la presión especial antes del inicial final.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_PRIMEAPE",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_STRENGTH",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": "ITEM_BLACK_BELT"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_PRIMEAPE",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_STRENGTH",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": "ITEM_BLACK_BELT"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_BITE",
+                    "MOVE_RAPID_SPIN",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_CHESTO_BERRY"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_PRIMEAPE",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_STRENGTH",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": "ITEM_BLACK_BELT"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Secret Power aporta daño neutro frente a resistencias a Planta; Mild conserva Ataque físico y potencia Giga Drain. Protect queda en Cloyster."
+                }
+              ]
+            }
+          }
+        },
+        "C": {
+          "intent": "Growlithe conserva el perro de fuego del rival y abre con Intimidate. Clefable aporta cobertura Hielo/Eléctrico y recuperación; Sandslash absorbe Eléctrico y presiona Roca. Pidgeotto y Kadabra mantienen el núcleo antes del inicial final.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_CLEFABLE",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_STRENGTH",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_CHESTO_BERRY"
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_SLASH",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": "ITEM_LEFTOVERS",
+                  "intent": "Brick Break sustituye Sand Attack y aporta cobertura inmediata contra Normal, Roca, Acero y Siniestro."
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_SCARY_FACE",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Brick Break queda en Sandslash, cuyo Ataque100 lo aprovecha mejor; Scary Face facilita superar al rival y conserva el cierre de Fuego."
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_CLEFABLE",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_STRENGTH",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_CHESTO_BERRY"
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_SLASH",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": "ITEM_LEFTOVERS",
+                  "intent": "Brick Break sustituye Sand Attack y aporta cobertura inmediata contra Normal, Roca, Acero y Siniestro."
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_BITE",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_CLEFABLE",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_STRENGTH",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_CHESTO_BERRY"
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_SLASH",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": "ITEM_LEFTOVERS",
+                  "intent": "Brick Break sustituye Sand Attack y aporta cobertura inmediata contra Normal, Roca, Acero y Siniestro."
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_PROTECT",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Protect aprovecha Leech Seed y evita duplicar un segundo ataque Planta; Giga Drain conserva STAB y recuperación."
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "boss-giovanni-hideout",
+      "lotId": "04F",
+      "window": 4,
+      "cap": 29,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "onix",
+          "species": "SPECIES_ONIX"
+        },
+        {
+          "family": "rhyhorn",
+          "species": "SPECIES_RHYHORN"
+        },
+        {
+          "family": "kangaskhan",
+          "species": "SPECIES_KANGASKHAN",
+          "ace": true
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Scyther abre con velocidad y presión física; Persian conserva el felino del jefe Rocket y aporta Taunt y cobertura. Starmie cubre Agua/Tierra/Lucha; Onix desgasta, Rhyhorn presiona y Kangaskhan cierra.",
+          "members": [
+            {
+              "species": "SPECIES_SCYTHER",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_STEEL_WING",
+                "MOVE_QUICK_ATTACK",
+                "MOVE_HIDDEN_POWER"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SWARM",
+              "item": "ITEM_SHARP_BEAK",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-123"
+            },
+            {
+              "species": "SPECIES_PERSIAN",
+              "level": 29,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SECRET_POWER",
+                "MOVE_THUNDERBOLT",
+                "MOVE_WATER_PULSE",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_LIMBER",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-052"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-120"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 28,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_TOXIC",
+                "MOVE_SCREECH",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-095"
+            },
+            {
+              "species": "SPECIES_RHYHORN",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_STOMP",
+                "MOVE_SCARY_FACE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-111"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-115"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Manectric abre con velocidad y parálisis. Tentacruel conserva el veneno Rocket y cubre Agua/Tierra; Butterfree aporta sueño preciso e inmunidad Tierra. Onix desgasta, Rhyhorn castiga y Kangaskhan remata.",
+          "members": [
+            {
+              "species": "SPECIES_MANECTRIC",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-309"
+            },
+            {
+              "species": "SPECIES_TENTACRUEL",
+              "level": 30,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_LIQUID_OOZE",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Omite Acid físico de potencia40 para concentrar daño especial, cobertura y drenaje; Protect permite recuperar con Leftovers. Liquid Ooze castiga drenaje rival y conserva identidad Veneno Rocket.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-072"
+            },
+            {
+              "species": "SPECIES_BUTTERFREE",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_STUN_SPORE",
+                "MOVE_AERIAL_ACE"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_COMPOUND_EYES",
+              "item": "ITEM_TWISTED_SPOON",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-010"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 27,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_TOXIC",
+                "MOVE_SCREECH",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-095"
+            },
+            {
+              "species": "SPECIES_RHYHORN",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_STOMP",
+                "MOVE_SCARY_FACE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-111"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-115"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Girafarig abre con cobertura especial, STAB Normal y Reflect. Seviper conserva el veneno y la amenaza reptiliana de Rocket; Miltank sostiene con recuperación y Toxic. Onix fuerza cambios, Rhyhorn presiona y Kangaskhan cierra.",
+          "members": [
+            {
+              "species": "SPECIES_GIRAFARIG",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_THUNDERBOLT",
+                "MOVE_STOMP",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_MAGNET",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-203"
+            },
+            {
+              "species": "SPECIES_SEVIPER",
+              "level": 29,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_POISON_TAIL",
+                "MOVE_CRUNCH",
+                "MOVE_FLAMETHROWER",
+                "MOVE_GIGA_DRAIN"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SHED_SKIN",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-336"
+            },
+            {
+              "species": "SPECIES_MILTANK",
+              "level": 29,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STOMP",
+                "MOVE_MILK_DRINK",
+                "MOVE_TOXIC",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-241"
+            },
+            {
+              "species": "SPECIES_ONIX",
+              "level": 28,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_TOMB",
+                "MOVE_ROAR",
+                "MOVE_SCREECH",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-095"
+            },
+            {
+              "species": "SPECIES_RHYHORN",
+              "level": 29,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_STOMP",
+                "MOVE_SCARY_FACE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-111"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 30,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-115"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "rival-pokemon-tower",
+      "lotId": "04C",
+      "window": 4,
+      "cap": 29,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "$starter",
+          "species": "$starter",
+          "ace": true
+        },
+        {
+          "family": "pidgey",
+          "species": "SPECIES_PIDGEY"
+        },
+        {
+          "family": "abra",
+          "species": "SPECIES_ABRA"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Jolteon abre con velocidad e inmunidad Eléctrico. Gyarados conserva la bestia acuática del rival e Intimidate; Marowak añade potencia con Thick Club y cubre Eléctrico/Roca. Pidgeotto aporta prioridad y Kadabra recuperación y Reflect; el inicial cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_JOLTEON",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_TOXIC",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_VOLT_ABSORB",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-133"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_GYARADOS",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_STRENGTH",
+                    "MOVE_DRAGON_RAGE",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-129"
+                },
+                {
+                  "species": "SPECIES_MAROWAK",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BONEMERANG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SECRET_POWER"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_THICK_CLUB",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-104"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_JOLTEON",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_TOXIC",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_VOLT_ABSORB",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-133"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_GYARADOS",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_STRENGTH",
+                    "MOVE_DRAGON_RAGE",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-129"
+                },
+                {
+                  "species": "SPECIES_MAROWAK",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BONEMERANG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SECRET_POWER"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_THICK_CLUB",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-104"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_BITE",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_JOLTEON",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_TOXIC",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_VOLT_ABSORB",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-133"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_GYARADOS",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_STRENGTH",
+                    "MOVE_DRAGON_RAGE",
+                    "MOVE_TAUNT"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-129"
+                },
+                {
+                  "species": "SPECIES_MAROWAK",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BONEMERANG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SECRET_POWER"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_THICK_CLUB",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-104"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_PROTECT",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Protect aprovecha Leech Seed y evita duplicar un segundo ataque Planta; Giga Drain conserva STAB y recuperación.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        },
+        "B": {
+          "intent": "Primeape abre con presión física y Bulk Up. Raticate conserva la continuidad del rival temprano y presiona Fantasma; Cloyster protege el flanco físico y desgasta. Pidgeotto aporta prioridad y Kadabra sostiene la presión especial antes del inicial final.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_PRIMEAPE",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_STRENGTH",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": "ITEM_BLACK_BELT",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-056"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-090"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_PRIMEAPE",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_STRENGTH",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": "ITEM_BLACK_BELT",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-056"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-090"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_PULSE",
+                    "MOVE_BITE",
+                    "MOVE_RAPID_SPIN",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_CHESTO_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_PRIMEAPE",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_STRENGTH",
+                    "MOVE_BULK_UP"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_VITAL_SPIRIT",
+                  "item": "ITEM_BLACK_BELT",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-056"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATICATE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_SCARY_FACE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_CLOYSTER",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_SHELL_ARMOR",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-090"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Secret Power aporta daño neutro frente a resistencias a Planta; Mild conserva Ataque físico y potencia Giga Drain. Protect queda en Cloyster.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        },
+        "C": {
+          "intent": "Growlithe conserva el perro de fuego del rival y abre con Intimidate. Clefable aporta cobertura Hielo/Eléctrico y recuperación; Sandslash absorbe Eléctrico y presiona Roca. Pidgeotto y Kadabra mantienen el núcleo antes del inicial final.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-058"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_CLEFABLE",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_STRENGTH",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_CHESTO_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-035"
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_SLASH",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": "ITEM_LEFTOVERS",
+                  "intent": "Brick Break sustituye Sand Attack y aporta cobertura inmediata contra Normal, Roca, Acero y Siniestro.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-027"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_CHARMELEON",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_SCARY_FACE",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_SMOKESCREEN"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Brick Break queda en Sandslash, cuyo Ataque100 lo aprovecha mejor; Scary Face facilita superar al rival y conserva el cierre de Fuego.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-058"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_CLEFABLE",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_STRENGTH",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_CHESTO_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-035"
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_SLASH",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": "ITEM_LEFTOVERS",
+                  "intent": "Brick Break sustituye Sand Attack y aporta cobertura inmediata contra Normal, Roca, Acero y Siniestro.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-027"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_WARTORTLE",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_BITE",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_GROWLITHE",
+                  "level": 29,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FIRE_BLAST",
+                    "MOVE_BITE",
+                    "MOVE_SECRET_POWER",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-058"
+                },
+                {
+                  "species": "SPECIES_PIDGEOTTO",
+                  "level": 27,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FRUSTRATION",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_STEEL_WING",
+                    "MOVE_QUICK_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_CLEFABLE",
+                  "level": 29,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_STRENGTH",
+                    "MOVE_REST"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_CHESTO_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-035"
+                },
+                {
+                  "species": "SPECIES_SANDSLASH",
+                  "level": 30,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DIG",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_SLASH",
+                    "MOVE_BRICK_BREAK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SAND_VEIL",
+                  "item": "ITEM_LEFTOVERS",
+                  "intent": "Brick Break sustituye Sand Attack y aporta cobertura inmediata contra Normal, Roca, Acero y Siniestro.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-027"
+                },
+                {
+                  "species": "SPECIES_KADABRA",
+                  "level": 29,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_HIDDEN_POWER",
+                    "MOVE_REFLECT",
+                    "MOVE_RECOVER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_IVYSAUR",
+                  "level": 30,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_PROTECT",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Protect aprovecha Leech Seed y evita duplicar un segundo ataque Planta; Giga Drain conserva STAB y recuperación.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "boss-giovanni-hideout": {
+      "actor": "/root/remaining_giovanni_hideout_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    },
+    "rival-pokemon-tower": {
+      "actor": "/root/remaining_rival_tower_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.07570891361683607,
+      "packetBytes": 388106,
+      "tokens": null
+    },
+    {
+      "stage": "prepare",
+      "seconds": 0.08277876395732164,
+      "packetBytes": 393718,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-remaining-v2-w04-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

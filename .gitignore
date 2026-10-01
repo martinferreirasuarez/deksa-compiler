@@ -10,3 +10,11 @@
 *.ss1
 *.ss2
 compiler/private/
+node_modules/
+wiki/dist/
+wiki/.next/
+wiki/.wrangler/
+wiki/.cache/
+*.tsbuildinfo
+.env
+.env.*

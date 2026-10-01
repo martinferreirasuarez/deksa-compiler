@@ -1,0 +1,6138 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": [
+    "public/maps/*.png",
+    "public/trainers/*.png",
+    "public/items/*.png",
+    "public/pokemon/*.png"
+  ],
+  "contentDigest": "479a28e959c0036c1bb200d3b15a1a79b1965d404b941dd87b5615c3054c4349",
+  "counts": {
+    "maps": 178,
+    "trainers": 61,
+    "items": 139,
+    "pokemon": 386
+  },
+  "assets": {
+    "maps": [
+      {
+        "slug": "altering-cave",
+        "file": "altering-cave.png",
+        "width": 512,
+        "height": 384,
+        "bytes": 24557,
+        "sha256": "e0531df9d7624883738ce8de9113ffbdb122c7a7f3709c99ffe6045cc2356cb6"
+      },
+      {
+        "slug": "birth-island",
+        "file": "birth-island.png",
+        "width": 480,
+        "height": 480,
+        "bytes": 33197,
+        "sha256": "dd1b16aba0fb3608b7e283b9d73c21e12d8ba619dd942e6fde2aa5828d71a921"
+      },
+      {
+        "slug": "canyon-entrance",
+        "file": "canyon-entrance.png",
+        "width": 384,
+        "height": 640,
+        "bytes": 49542,
+        "sha256": "4543b0ff1494301840cc2734afcdb36ae0ac33db5886db6043749530c84cd712"
+      },
+      {
+        "slug": "celadon-city",
+        "file": "celadon-city.png",
+        "width": 960,
+        "height": 640,
+        "bytes": 81331,
+        "sha256": "736aece6b8b26aaf81b7c2a3cc646385a96954e5bea543f66404aeb627ffec65"
+      },
+      {
+        "slug": "celadon-game-corner",
+        "file": "celadon-game-corner.png",
+        "width": 288,
+        "height": 240,
+        "bytes": 7409,
+        "sha256": "837c0e4d42d38977b96f1e49ac896418974f52972ba54619740b852410837788"
+      },
+      {
+        "slug": "celadon-gym",
+        "file": "celadon-gym.png",
+        "width": 208,
+        "height": 308,
+        "bytes": 5134,
+        "sha256": "87f67548c6a253f35e8f592a5eee492193c6ba1c13b03be7b9457cfff9c67e0c"
+      },
+      {
+        "slug": "cerulean-cave-1f",
+        "file": "cerulean-cave-1f.png",
+        "width": 640,
+        "height": 368,
+        "bytes": 47390,
+        "sha256": "b3a94bc373a0cb7155b7cd9a36a2b120cf2d63c27834214eda84a37eacc4c811"
+      },
+      {
+        "slug": "cerulean-cave-2f",
+        "file": "cerulean-cave-2f.png",
+        "width": 640,
+        "height": 368,
+        "bytes": 38063,
+        "sha256": "a5dc53fd3c9fe861540e9b56b43d763e325310b4eb6cd556b35866fd8de22a6c"
+      },
+      {
+        "slug": "cerulean-cave-b1f",
+        "file": "cerulean-cave-b1f.png",
+        "width": 640,
+        "height": 368,
+        "bytes": 44441,
+        "sha256": "c0a280800e7f7fcdd700b6d5b015606d783fc23021b6671cd2b6ae9a5543023f"
+      },
+      {
+        "slug": "cerulean-city",
+        "file": "cerulean-city.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 20327,
+        "sha256": "f98a1990db66f68b54729783fb18b41427fe37faa2795f7be5bb1070a26c11ba"
+      },
+      {
+        "slug": "cerulean-gym",
+        "file": "cerulean-gym.png",
+        "width": 256,
+        "height": 308,
+        "bytes": 3154,
+        "sha256": "ee7b17b6de8af974bd46034b03608feebf73e1c795bfb65a07a13f1b34684fe2"
+      },
+      {
+        "slug": "cinnabar-gym",
+        "file": "cinnabar-gym.png",
+        "width": 480,
+        "height": 388,
+        "bytes": 7175,
+        "sha256": "a4999f4ea8e373c16129b9771dbd2d2c28d155fdd175c2b455407f03c174ceeb"
+      },
+      {
+        "slug": "cinnabar-island",
+        "file": "cinnabar-island.png",
+        "width": 384,
+        "height": 320,
+        "bytes": 23493,
+        "sha256": "cefe1133a3ebd8c01b28975d6d20e91213764f2093f0d51f4e80c04f54efbd99"
+      },
+      {
+        "slug": "cinnabar-lab-entrance",
+        "file": "cinnabar-lab-entrance.png",
+        "width": 448,
+        "height": 176,
+        "bytes": 5164,
+        "sha256": "8e033b87508cc3ae7e1bb4315e82911f7a5c8eb2c7c0c5f0716fbc49c98dd5a2"
+      },
+      {
+        "slug": "cinnabar-lab-experiment",
+        "file": "cinnabar-lab-experiment.png",
+        "width": 240,
+        "height": 176,
+        "bytes": 6516,
+        "sha256": "e3f6e0a456090e529beb9512fc7adfe1db35938ee75b3a2bcfb5f27947379467"
+      },
+      {
+        "slug": "cinnabar-lab-lounge",
+        "file": "cinnabar-lab-lounge.png",
+        "width": 240,
+        "height": 176,
+        "bytes": 4180,
+        "sha256": "031da1c5cf4b25b234590efceeb344c06e6fbd2e5be778ca93eefbba87312334"
+      },
+      {
+        "slug": "cinnabar-lab-research",
+        "file": "cinnabar-lab-research.png",
+        "width": 240,
+        "height": 176,
+        "bytes": 5126,
+        "sha256": "de66704274c5e5b448174550ac815bafc39bd2acf14b65c008e5d4355c6ca2c8"
+      },
+      {
+        "slug": "diglett-cave-route-11",
+        "file": "diglett-cave-route-11.png",
+        "width": 160,
+        "height": 128,
+        "bytes": 4808,
+        "sha256": "77da468ffc3b9229bfa17d21d4256466fd387ae2032e4ce50b3f859887a6dd3d"
+      },
+      {
+        "slug": "diglett-cave-route-2",
+        "file": "diglett-cave-route-2.png",
+        "width": 160,
+        "height": 128,
+        "bytes": 4629,
+        "sha256": "0fd851293ca138891822fbc59ea0996dbc6c3fd57cb751a5171b510966d753e4"
+      },
+      {
+        "slug": "diglett-cave",
+        "file": "diglett-cave.png",
+        "width": 1360,
+        "height": 1280,
+        "bytes": 180320,
+        "sha256": "78e13e95a36768991eadd6561cecf9dc49c78ae6390c467bda7d354cf54567f4"
+      },
+      {
+        "slug": "dotted-hole-1f",
+        "file": "dotted-hole-1f.png",
+        "width": 256,
+        "height": 176,
+        "bytes": 8778,
+        "sha256": "cd5b61ff27238a06f44151557c3cd290b321deac996c99d14f9fb4441d7386da"
+      },
+      {
+        "slug": "dotted-hole-b1f",
+        "file": "dotted-hole-b1f.png",
+        "width": 208,
+        "height": 176,
+        "bytes": 5991,
+        "sha256": "843b68a458c19d4f854e89d6146efac6ca2dd9341ffcbb45b6d2fbaf704207b9"
+      },
+      {
+        "slug": "dotted-hole-b2f",
+        "file": "dotted-hole-b2f.png",
+        "width": 208,
+        "height": 176,
+        "bytes": 5909,
+        "sha256": "9aa34fd9424cc78599cfc93c4b39831a9ce11e14d5513f39d329fd9e4419fbe1"
+      },
+      {
+        "slug": "dotted-hole-b3f",
+        "file": "dotted-hole-b3f.png",
+        "width": 208,
+        "height": 176,
+        "bytes": 5866,
+        "sha256": "a3bb97e65566193f956f374de08516e3e81872802b087c31062df1fb3ab1b21f"
+      },
+      {
+        "slug": "dotted-hole-b4f",
+        "file": "dotted-hole-b4f.png",
+        "width": 208,
+        "height": 176,
+        "bytes": 5906,
+        "sha256": "4305a3a4945e25b4a7f694bf8dab56d4eaf856c13ae4e4abb8d806e917e376b8"
+      },
+      {
+        "slug": "dotted-hole-sapphire",
+        "file": "dotted-hole-sapphire.png",
+        "width": 256,
+        "height": 240,
+        "bytes": 10789,
+        "sha256": "007f5bbc6b9525e78e2102666e6fdd6d157b744f450871dcb9e3b72eacc172ab"
+      },
+      {
+        "slug": "five-island",
+        "file": "five-island.png",
+        "width": 384,
+        "height": 320,
+        "bytes": 22225,
+        "sha256": "5546915e5038664ab6b6d9038c2bd2eb5cfdb131d7d581a1cfbb5f7ed2ddf4a4"
+      },
+      {
+        "slug": "five-isle-meadow",
+        "file": "five-isle-meadow.png",
+        "width": 384,
+        "height": 640,
+        "bytes": 64347,
+        "sha256": "7bf5756116a54ce908692eb649ece88f4974405b214bc76c9cb493991a7ddaf8"
+      },
+      {
+        "slug": "four-island",
+        "file": "four-island.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 97070,
+        "sha256": "950c71cea7ad76792fa740ea97ac64cc0bfc2c5a186a832db627c6bdef970a20"
+      },
+      {
+        "slug": "fuchsia-city",
+        "file": "fuchsia-city.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 22107,
+        "sha256": "816e9efacbf3b22d81ed0bc8f71d61f5cee6681d5dc2886682ef362276714fa2"
+      },
+      {
+        "slug": "fuchsia-gym",
+        "file": "fuchsia-gym.png",
+        "width": 240,
+        "height": 356,
+        "bytes": 2862,
+        "sha256": "9456bb9956cb6609956d0bf691bb32ee63e00c96d8af3d2cfca8833ef6b74b66"
+      },
+      {
+        "slug": "green-path",
+        "file": "green-path.png",
+        "width": 1152,
+        "height": 320,
+        "bytes": 59291,
+        "sha256": "804f4c47055479f93f606e2a21f7862ddac35d0269f89dcbf5ddaad1b76781b7"
+      },
+      {
+        "slug": "icefall-cave-1f",
+        "file": "icefall-cave-1f.png",
+        "width": 320,
+        "height": 320,
+        "bytes": 25416,
+        "sha256": "70f7a199c119925d643f67ed47ed840ffddb5dbef985d7ba458f7d2acd44ca02"
+      },
+      {
+        "slug": "icefall-cave-b1f",
+        "file": "icefall-cave-b1f.png",
+        "width": 384,
+        "height": 320,
+        "bytes": 22112,
+        "sha256": "56ee0a77c37720b012179ffc33902597dc38dd7b2aaeb695f91978d1aec335b0"
+      },
+      {
+        "slug": "icefall-cave-back",
+        "file": "icefall-cave-back.png",
+        "width": 400,
+        "height": 416,
+        "bytes": 18688,
+        "sha256": "38f257c5ede1d6405cf4d72feac4e115b5a569a392182f021a1c9e0cbf7f28f4"
+      },
+      {
+        "slug": "icefall-cave-entrance",
+        "file": "icefall-cave-entrance.png",
+        "width": 480,
+        "height": 576,
+        "bytes": 36605,
+        "sha256": "de4d6cc788c205ace649a370623f5748a7f23af409a548e323e951616a10ffd8"
+      },
+      {
+        "slug": "indigo-center",
+        "file": "indigo-center.png",
+        "width": 400,
+        "height": 276,
+        "bytes": 11866,
+        "sha256": "4aa2be44428e06584b39b49e62eaf8186d6381553b4e00e4eeaeead65319604c"
+      },
+      {
+        "slug": "indigo-plateau",
+        "file": "indigo-plateau.png",
+        "width": 384,
+        "height": 320,
+        "bytes": 24204,
+        "sha256": "671324cd66a879bfbe0ada5e6bf0aa15a3dd99455f893b93e4c8877ab55e5baf"
+      },
+      {
+        "slug": "lavender-town",
+        "file": "lavender-town.png",
+        "width": 384,
+        "height": 320,
+        "bytes": 8373,
+        "sha256": "fca88366947670e88fa561e864abdcf3b967f78c9bae4d224dba9bc3e38d14fd"
+      },
+      {
+        "slug": "lavender-volunteer-house",
+        "file": "lavender-volunteer-house.png",
+        "width": 192,
+        "height": 144,
+        "bytes": 3634,
+        "sha256": "c56236a15bb3ddef345765d84d00645e4ee6f7827715bc56cd2649c8648d9d6c"
+      },
+      {
+        "slug": "league-agatha",
+        "file": "league-agatha.png",
+        "width": 208,
+        "height": 203,
+        "bytes": 4472,
+        "sha256": "1bcd55d4ddbb5b38ee9aa90c65e03cc5a92f9296d35aea056d8b4775a1b03bd8"
+      },
+      {
+        "slug": "league-bruno",
+        "file": "league-bruno.png",
+        "width": 208,
+        "height": 203,
+        "bytes": 4545,
+        "sha256": "ba76a3d9ca1fc638511413138ff3f9b5568ccfc830d8e12eb5afc0bd82adc539"
+      },
+      {
+        "slug": "league-champion",
+        "file": "league-champion.png",
+        "width": 208,
+        "height": 320,
+        "bytes": 15872,
+        "sha256": "8990b7ced663cf42aeef3d723cce4eed11a3d28002dd15c54678d73faf770442"
+      },
+      {
+        "slug": "league-hall",
+        "file": "league-hall.png",
+        "width": 176,
+        "height": 208,
+        "bytes": 7276,
+        "sha256": "5d61d123dc96cd74ba508ccfc72ba6e11ab6416fedb44cc9ac731b333e3af506"
+      },
+      {
+        "slug": "league-lance",
+        "file": "league-lance.png",
+        "width": 432,
+        "height": 331,
+        "bytes": 4589,
+        "sha256": "f0180b3afc7c0bbe104bf5799505d86ff17a9fa9f152dcadf4fb2419f8fda0c3"
+      },
+      {
+        "slug": "league-lorelei",
+        "file": "league-lorelei.png",
+        "width": 208,
+        "height": 203,
+        "bytes": 3962,
+        "sha256": "74f640950f2a781836827f9b82f1505db3bf9a99917d4bc8ce7406c9a0d3b5d8"
+      },
+      {
+        "slug": "lost-cave",
+        "file": "lost-cave.png",
+        "width": 176,
+        "height": 176,
+        "bytes": 3855,
+        "sha256": "0b8bccb6b918d24fae21c5371d82350e79d39d382f81da94019e9d12c704b4fa"
+      },
+      {
+        "slug": "memorial-pillar",
+        "file": "memorial-pillar.png",
+        "width": 384,
+        "height": 960,
+        "bytes": 65252,
+        "sha256": "470230432f9c4d0deba7ccb7a76dfea2564d7bcb1e71aa8d7c3b4f7d4d1bff1a"
+      },
+      {
+        "slug": "mt-ember-exterior",
+        "file": "mt-ember-exterior.png",
+        "width": 912,
+        "height": 864,
+        "bytes": 45254,
+        "sha256": "4d46dc8f6a06adbac0a2853959252b2a95645b767622d0dc27b36638b800f1c5"
+      },
+      {
+        "slug": "mt-ember-summit-path-1f",
+        "file": "mt-ember-summit-path-1f.png",
+        "width": 240,
+        "height": 288,
+        "bytes": 10746,
+        "sha256": "4ef5bef68918f8bd2ed367e9b545444e8d4177306b5f83bd841f20766aafa5fe"
+      },
+      {
+        "slug": "mt-ember-summit-path-2f",
+        "file": "mt-ember-summit-path-2f.png",
+        "width": 768,
+        "height": 736,
+        "bytes": 105071,
+        "sha256": "fab6ad7257df746bd29db6d8a8e31b46558a16122c09e91361ae1e9278a6f5ef"
+      },
+      {
+        "slug": "mt-ember-summit-path-3f",
+        "file": "mt-ember-summit-path-3f.png",
+        "width": 240,
+        "height": 176,
+        "bytes": 8197,
+        "sha256": "de2a2cb3a6d511d025588347348107f8ef21f916e17dcec75394619397a93308"
+      },
+      {
+        "slug": "mt-ember-summit",
+        "file": "mt-ember-summit.png",
+        "width": 304,
+        "height": 352,
+        "bytes": 16400,
+        "sha256": "20f59db39ab384bdca907c7ae7546fcd53c1dfc9ea0d9161454c616069dfcb3a"
+      },
+      {
+        "slug": "mt-moon-1f",
+        "file": "mt-moon-1f.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 80104,
+        "sha256": "6cb2b50e0dbe8073bf440a88adb7954ef9edff25b07fac69614846c2011370e9"
+      },
+      {
+        "slug": "mt-moon-b1f",
+        "file": "mt-moon-b1f.png",
+        "width": 784,
+        "height": 640,
+        "bytes": 30082,
+        "sha256": "39f0cd7b0b0191a1714a7a04499169c27147feea89ba47f3dcfb979f3aca32ab"
+      },
+      {
+        "slug": "mt-moon-b2f",
+        "file": "mt-moon-b2f.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 21252,
+        "sha256": "a641d696f1d7e30533aac151c64eb78498685326968e9f1807b8e8d549ff2c4d"
+      },
+      {
+        "slug": "navel-rock-base",
+        "file": "navel-rock-base.png",
+        "width": 336,
+        "height": 368,
+        "bytes": 22684,
+        "sha256": "06895d7d8d7ac6b9cd1db949fcc24f7a82deea4b2c006f8cdc311b9987ef99a2"
+      },
+      {
+        "slug": "navel-rock-summit",
+        "file": "navel-rock-summit.png",
+        "width": 304,
+        "height": 400,
+        "bytes": 15811,
+        "sha256": "f7dd99af57cc7df72ae1e1001b04930b6e13be423b818355093031de01364dad"
+      },
+      {
+        "slug": "navel-rock",
+        "file": "navel-rock.png",
+        "width": 320,
+        "height": 368,
+        "bytes": 11706,
+        "sha256": "26edd8358586a18d3982942d1ea47af6c26c6ebd7a398a3ffc0bbfe898827618"
+      },
+      {
+        "slug": "oak-lab",
+        "file": "oak-lab.png",
+        "width": 208,
+        "height": 224,
+        "bytes": 2824,
+        "sha256": "8f878150c3219a262b2152c3f6d06f2a25a85b88264653a816ca62eda7ae8d4a"
+      },
+      {
+        "slug": "one-island-kindle-road",
+        "file": "one-island-kindle-road.png",
+        "width": 384,
+        "height": 2240,
+        "bytes": 153774,
+        "sha256": "77e23df537c8e8ed61a9acee1d0d7f2ec525166a7c2180045a52a65e224260f6"
+      },
+      {
+        "slug": "one-island-treasure-beach",
+        "file": "one-island-treasure-beach.png",
+        "width": 384,
+        "height": 640,
+        "bytes": 43146,
+        "sha256": "1e8208ca29c09746e1faeb04ba2078a7a03caa3ea43470c7d487dd79ce63d733"
+      },
+      {
+        "slug": "one-island",
+        "file": "one-island.png",
+        "width": 384,
+        "height": 320,
+        "bytes": 28495,
+        "sha256": "5e535d7369a95f29d9c1c2f2edec4ffb091d8ece9ef5104cda55aa0a84d47d3f"
+      },
+      {
+        "slug": "outcast-island",
+        "file": "outcast-island.png",
+        "width": 384,
+        "height": 1280,
+        "bytes": 74554,
+        "sha256": "80f45923ed79f78e7b6c9d63a6d87002c82b13b9e09d296ab6d66dda1cf28da8"
+      },
+      {
+        "slug": "pallet-town",
+        "file": "pallet-town.png",
+        "width": 384,
+        "height": 320,
+        "bytes": 24366,
+        "sha256": "adbffb5542f6c6b5b3f8c95e44d6147c83b87d96de1600559e5a2a73d67f1667"
+      },
+      {
+        "slug": "pattern-bush",
+        "file": "pattern-bush.png",
+        "width": 960,
+        "height": 512,
+        "bytes": 44434,
+        "sha256": "af044a83aa30ae17a26294fbf57c08935973510ac00fd20344b3b3bacfd872f3"
+      },
+      {
+        "slug": "pewter-city",
+        "file": "pewter-city.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 73847,
+        "sha256": "0db167b8d386457dd7c0c6749067c4ae5dd5a05eac44c34f5db61255bd1950c2"
+      },
+      {
+        "slug": "pewter-gym",
+        "file": "pewter-gym.png",
+        "width": 192,
+        "height": 244,
+        "bytes": 3204,
+        "sha256": "5dc81f6cc4b2219e589dcc333ff6902ac5c3f9a20e3e38c6983ac1ac55ab00ea"
+      },
+      {
+        "slug": "pokemon-mansion-1f",
+        "file": "pokemon-mansion-1f.png",
+        "width": 608,
+        "height": 560,
+        "bytes": 27277,
+        "sha256": "e5f3ad709cdc87e62aa3789469499e8ab26f3630fdb643e23ce62fa9b291f847"
+      },
+      {
+        "slug": "pokemon-mansion-2f",
+        "file": "pokemon-mansion-2f.png",
+        "width": 608,
+        "height": 608,
+        "bytes": 27299,
+        "sha256": "f914afac9c014e6b72feecfe5860ed670d4f48debb54d2175f34bd6af69969af"
+      },
+      {
+        "slug": "pokemon-mansion-3f",
+        "file": "pokemon-mansion-3f.png",
+        "width": 608,
+        "height": 400,
+        "bytes": 15873,
+        "sha256": "3170741a26b53483147130d5c9c397a050d78e2da9ab34e47c0bbb1682063c1f"
+      },
+      {
+        "slug": "pokemon-mansion-b1f",
+        "file": "pokemon-mansion-b1f.png",
+        "width": 608,
+        "height": 560,
+        "bytes": 15653,
+        "sha256": "358eea4300fbac41e885b05914823058ecf37f33f5baf5b5377134a3ddb07c9b"
+      },
+      {
+        "slug": "pokemon-network-center",
+        "file": "pokemon-network-center.png",
+        "width": 175,
+        "height": 133,
+        "bytes": 4650,
+        "sha256": "4c68981d0ec6e37493835c5e1d2e09b252cfb45c5ba848cf22705825053d6468"
+      },
+      {
+        "slug": "pokemon-tower-1f",
+        "file": "pokemon-tower-1f.png",
+        "width": 304,
+        "height": 312,
+        "bytes": 3722,
+        "sha256": "4bc018adc625f0da06e4994b25ff32c868f6bfb0e1d609cd1f28c258229a10b5"
+      },
+      {
+        "slug": "pokemon-tower-2f",
+        "file": "pokemon-tower-2f.png",
+        "width": 304,
+        "height": 288,
+        "bytes": 4254,
+        "sha256": "ba7376d6cbc9edf05f3d2f1c6596d44a18945e93ae42607269389e3342f2a4ae"
+      },
+      {
+        "slug": "pokemon-tower-3f",
+        "file": "pokemon-tower-3f.png",
+        "width": 304,
+        "height": 288,
+        "bytes": 4401,
+        "sha256": "a91af8e86b8e9f3e2a48ebf88d9f803525b50f002614197acef2cf61919908dd"
+      },
+      {
+        "slug": "pokemon-tower-4f",
+        "file": "pokemon-tower-4f.png",
+        "width": 304,
+        "height": 288,
+        "bytes": 4601,
+        "sha256": "ef98861b38db205b8260c93f1b365ffb7b39322e83d618379f2e4bd5e4881b6e"
+      },
+      {
+        "slug": "pokemon-tower-5f",
+        "file": "pokemon-tower-5f.png",
+        "width": 304,
+        "height": 288,
+        "bytes": 4805,
+        "sha256": "e321d3263d1794ac401978666ab43ca4c90e0a72a74ae87ee407c6e88c65613e"
+      },
+      {
+        "slug": "pokemon-tower-6f",
+        "file": "pokemon-tower-6f.png",
+        "width": 304,
+        "height": 288,
+        "bytes": 4557,
+        "sha256": "ac959fac76303bab5cb22874f96fc4949bd13ba20deb7c678855e0f0f06ae126"
+      },
+      {
+        "slug": "pokemon-tower-7f",
+        "file": "pokemon-tower-7f.png",
+        "width": 304,
+        "height": 288,
+        "bytes": 4946,
+        "sha256": "8fec6acdf7618d5d666c22582b3ea1efb2d47672bc3b46e3a3dedce83fb15c02"
+      },
+      {
+        "slug": "power-plant",
+        "file": "power-plant.png",
+        "width": 784,
+        "height": 640,
+        "bytes": 47876,
+        "sha256": "23cf4b223ec9a31b6ddb3a14e07625bbf92802d4ec4a2aeaac8b6930ae64ccd3"
+      },
+      {
+        "slug": "resort-gorgeous",
+        "file": "resort-gorgeous.png",
+        "width": 1152,
+        "height": 320,
+        "bytes": 49125,
+        "sha256": "28d6dc975a77e7ab4ec68667093754e322812ee17c49555c507b642f04092951"
+      },
+      {
+        "slug": "rock-tunnel-1f",
+        "file": "rock-tunnel-1f.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 76291,
+        "sha256": "19da8a2c3b492ce2421dbe33fab5440e1cea1ad4386739a6e648d4f81d433003"
+      },
+      {
+        "slug": "rock-tunnel-b1f",
+        "file": "rock-tunnel-b1f.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 80075,
+        "sha256": "0372dfb195eb4c09a9aa85b4b87768feafd8d3a3b8f26aa88050795fbf394c3f"
+      },
+      {
+        "slug": "rocket-hideout-b1f",
+        "file": "rocket-hideout-b1f.png",
+        "width": 448,
+        "height": 544,
+        "bytes": 19369,
+        "sha256": "c50435a921327e8cfe0618530ed036fcb5afa5f7acbfdfc317ec979699e1425f"
+      },
+      {
+        "slug": "rocket-hideout-b2f",
+        "file": "rocket-hideout-b2f.png",
+        "width": 512,
+        "height": 352,
+        "bytes": 18185,
+        "sha256": "6adff7be61dc97248f4c070c30ada14bc014b4155c998d8ed27058ca86e51550"
+      },
+      {
+        "slug": "rocket-hideout-b3f",
+        "file": "rocket-hideout-b3f.png",
+        "width": 352,
+        "height": 432,
+        "bytes": 14760,
+        "sha256": "0c0a8ee5eb2ae1d69d4ccf65a6b0da82b73d6d2dc1ff7787843fc120ba04bc32"
+      },
+      {
+        "slug": "rocket-hideout-b4f",
+        "file": "rocket-hideout-b4f.png",
+        "width": 384,
+        "height": 432,
+        "bytes": 7444,
+        "sha256": "6baba6b26055b7b72fd677940d5053ec4b1a5698a8cfcefd22e9afc030d3c1e0"
+      },
+      {
+        "slug": "rocket-warehouse",
+        "file": "rocket-warehouse.png",
+        "width": 464,
+        "height": 432,
+        "bytes": 18921,
+        "sha256": "740908fd76cd626817c23b57fa5acfb94469a6a635aa46206dad2385a49307f8"
+      },
+      {
+        "slug": "route-1",
+        "file": "route-1.png",
+        "width": 384,
+        "height": 640,
+        "bytes": 46910,
+        "sha256": "54f02af9af75a420b0550d054cb1362781f021873024c78c7d5d23396e2ebe25"
+      },
+      {
+        "slug": "route-10",
+        "file": "route-10.png",
+        "width": 384,
+        "height": 1280,
+        "bytes": 74267,
+        "sha256": "8850540ea80132706117fd64c11f8111706ed6f445ec359c658a6807fc9be397"
+      },
+      {
+        "slug": "route-11",
+        "file": "route-11.png",
+        "width": 1152,
+        "height": 320,
+        "bytes": 48045,
+        "sha256": "adbcd307df97fd4dfb3b592998947de0428aff1ff1352acdde055aa7a3fb216a"
+      },
+      {
+        "slug": "route-12",
+        "file": "route-12.png",
+        "width": 384,
+        "height": 1920,
+        "bytes": 138515,
+        "sha256": "fd4558eae44f8ca5b94c2032ab658410fdc718e0b2bb1e864e381d176971bb94"
+      },
+      {
+        "slug": "route-13",
+        "file": "route-13.png",
+        "width": 1152,
+        "height": 320,
+        "bytes": 40621,
+        "sha256": "90dcdc4777846ebbd8a1457cc9efe3d097e84d9b044f98b062b355c991904aa8"
+      },
+      {
+        "slug": "route-14",
+        "file": "route-14.png",
+        "width": 384,
+        "height": 960,
+        "bytes": 66598,
+        "sha256": "08703291bc779692fc3675121744f3d0b79285948894c0526497f9e161f25ab5"
+      },
+      {
+        "slug": "route-15",
+        "file": "route-15.png",
+        "width": 1152,
+        "height": 320,
+        "bytes": 27647,
+        "sha256": "13bcf3a61bb1c2492929f27714a5d927ccbdcb07e09391873a83a430bd355ee0"
+      },
+      {
+        "slug": "route-16",
+        "file": "route-16.png",
+        "width": 768,
+        "height": 320,
+        "bytes": 30657,
+        "sha256": "8d2c0e9ae12ea515304272ac00749743de728dd830e08d9c48b94de256cd0973"
+      },
+      {
+        "slug": "route-17",
+        "file": "route-17.png",
+        "width": 384,
+        "height": 2560,
+        "bytes": 112402,
+        "sha256": "544bcb01d16a366dc682da921328ce18211a2108801e4b6d9449c8e01dbb444c"
+      },
+      {
+        "slug": "route-18",
+        "file": "route-18.png",
+        "width": 960,
+        "height": 320,
+        "bytes": 48445,
+        "sha256": "af41c17499735a3cd8bb0367fb874edce2c04093995f5d67715412b2eb91a7e8"
+      },
+      {
+        "slug": "route-19",
+        "file": "route-19.png",
+        "width": 384,
+        "height": 960,
+        "bytes": 40782,
+        "sha256": "522aa2799a6014e0c88c5d322373b4fdadc57d02f751942d5fe91ec66a050dc9"
+      },
+      {
+        "slug": "route-2",
+        "file": "route-2.png",
+        "width": 384,
+        "height": 1280,
+        "bytes": 94782,
+        "sha256": "cd43f0dddfba4dc7ab791cad6385c3391f6e457289c352e3a1934e96d272c56c"
+      },
+      {
+        "slug": "route-20",
+        "file": "route-20.png",
+        "width": 1920,
+        "height": 320,
+        "bytes": 63964,
+        "sha256": "12ade89d69d5224c1c3551bb9b044c41270f446aa4a1672d28c9fca711eae6f7"
+      },
+      {
+        "slug": "route-21",
+        "file": "route-21.png",
+        "width": 384,
+        "height": 1600,
+        "bytes": 41330,
+        "sha256": "7e99071be4817eb2357f01d6745363e76d69616a96511cd8584a2653dd0c8f27"
+      },
+      {
+        "slug": "route-22-north-entrance",
+        "file": "route-22-north-entrance.png",
+        "width": 240,
+        "height": 180,
+        "bytes": 6421,
+        "sha256": "f5bb6a8fdad7fa4f99c43635f38f82cb455c04dc32603a42f5e7f1b5f143bcc4"
+      },
+      {
+        "slug": "route-22",
+        "file": "route-22.png",
+        "width": 768,
+        "height": 384,
+        "bytes": 42452,
+        "sha256": "48dfaba1e6cdd02d1a8f2ec4e7e910b76e3052eb38a37292df89249680bd2b19"
+      },
+      {
+        "slug": "route-23",
+        "file": "route-23.png",
+        "width": 384,
+        "height": 2560,
+        "bytes": 185687,
+        "sha256": "1e27c4c80752fa24eaf77b06d278bd3cbe2fb12642fcfc0eab93fb4098da4efb"
+      },
+      {
+        "slug": "route-24",
+        "file": "route-24.png",
+        "width": 384,
+        "height": 640,
+        "bytes": 34364,
+        "sha256": "f12923031738825b514fe64246e641de6595b544d3312136c721d76663f5d7de"
+      },
+      {
+        "slug": "route-25",
+        "file": "route-25.png",
+        "width": 1152,
+        "height": 320,
+        "bytes": 40602,
+        "sha256": "f87a4cb5560f9798ab916c15a0669dfe4502a619838fe591ab67b77b7d1a1b0e"
+      },
+      {
+        "slug": "route-3",
+        "file": "route-3.png",
+        "width": 1344,
+        "height": 320,
+        "bytes": 55390,
+        "sha256": "04791e9e53106988d2e50b990ea928f27f16166eb24ccbea614ada6d140acba5"
+      },
+      {
+        "slug": "route-4",
+        "file": "route-4.png",
+        "width": 1728,
+        "height": 320,
+        "bytes": 78247,
+        "sha256": "9a7f245cb84d68df990d73c9fb550594d05a6c84e0bf567650315bda5a20c9d5"
+      },
+      {
+        "slug": "route-5",
+        "file": "route-5.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 60028,
+        "sha256": "3193241bc159b5a3990b2460c41b80ab545586f0c222ad05a3b73e521548fc72"
+      },
+      {
+        "slug": "route-6",
+        "file": "route-6.png",
+        "width": 384,
+        "height": 640,
+        "bytes": 40936,
+        "sha256": "25c4f51a817108703197e695c2c814d41871374a8d189d0c85e16d6046825cd8"
+      },
+      {
+        "slug": "route-7",
+        "file": "route-7.png",
+        "width": 384,
+        "height": 320,
+        "bytes": 22112,
+        "sha256": "3164a17240e9eae81d966381bfdc9f4076bbe824543b111d545c60739c0f3b75"
+      },
+      {
+        "slug": "route-8",
+        "file": "route-8.png",
+        "width": 1152,
+        "height": 320,
+        "bytes": 55619,
+        "sha256": "d5c00c7d3ba6b0faa3c119448a3ebe16329cc484dd8af112f1ad91bf33aaa433"
+      },
+      {
+        "slug": "route-9",
+        "file": "route-9.png",
+        "width": 1152,
+        "height": 320,
+        "bytes": 17043,
+        "sha256": "c6b43764d13902289aeea6f2d8131007ebee3db2e6fc80a9cc0cc8af4fd92910"
+      },
+      {
+        "slug": "ruby-path-1f",
+        "file": "ruby-path-1f.png",
+        "width": 432,
+        "height": 304,
+        "bytes": 15807,
+        "sha256": "8d9296f3934581f2842de963d8d111717f009e35773c6b6c5cc1927a2516b0e7"
+      },
+      {
+        "slug": "ruby-path-b1f",
+        "file": "ruby-path-b1f.png",
+        "width": 305,
+        "height": 368,
+        "bytes": 24768,
+        "sha256": "a9d273338c0ddd8bbc2d67da0c7f346da085bd9643f305b603728335f532d733"
+      },
+      {
+        "slug": "ruby-path-b2f",
+        "file": "ruby-path-b2f.png",
+        "width": 353,
+        "height": 176,
+        "bytes": 18345,
+        "sha256": "fb1b32601bebce1df100a219a200a1c3690deb0ce81bd0ef6ca57a2b48fbc99b"
+      },
+      {
+        "slug": "ruby-path-b3f",
+        "file": "ruby-path-b3f.png",
+        "width": 496,
+        "height": 368,
+        "bytes": 28669,
+        "sha256": "248526f3b426f581a4ce10c95a2bffc7a145055caf85ffa777f8bddeecdae21c"
+      },
+      {
+        "slug": "ruby-path-b4f",
+        "file": "ruby-path-b4f.png",
+        "width": 319,
+        "height": 272,
+        "bytes": 4156,
+        "sha256": "3c37f215b3e636696feb19635187e91bc4fdc3a2a82c9ab2cb832f8c13cb8bbf"
+      },
+      {
+        "slug": "ruby-path-b5f",
+        "file": "ruby-path-b5f.png",
+        "width": 256,
+        "height": 240,
+        "bytes": 5749,
+        "sha256": "17bdefb2f8fe251989fe77673f0cb86d4ece3777d94214ffe8fa35e15502bd9b"
+      },
+      {
+        "slug": "ruin-valley",
+        "file": "ruin-valley.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 95539,
+        "sha256": "4507c289ebdf9d3c58c6e759f82e6849433e03d203f8d7dc1bc8d4fb0f8ad81a"
+      },
+      {
+        "slug": "safari-zone-center",
+        "file": "safari-zone-center.png",
+        "width": 816,
+        "height": 576,
+        "bytes": 66282,
+        "sha256": "daaa91c12e4820fa10903b3e0a900926f083ffe97e0a2511b34e4035f90f7e78"
+      },
+      {
+        "slug": "safari-zone-east",
+        "file": "safari-zone-east.png",
+        "width": 864,
+        "height": 560,
+        "bytes": 74447,
+        "sha256": "975123272d4b16166514707895558418e54bec7613d5365954438fe94658c325"
+      },
+      {
+        "slug": "safari-zone-north",
+        "file": "safari-zone-north.png",
+        "width": 912,
+        "height": 640,
+        "bytes": 93323,
+        "sha256": "c363ba332ab39c4f214f8817397072f0d7d51c58afa4f6d743f6e2b29fc3d0a7"
+      },
+      {
+        "slug": "safari-zone-west",
+        "file": "safari-zone-west.png",
+        "width": 768,
+        "height": 576,
+        "bytes": 69391,
+        "sha256": "6b40be4f9ac5fa90196e668bfba069e732b7add424e742119df55f9c6d49e006"
+      },
+      {
+        "slug": "saffron-city",
+        "file": "saffron-city.png",
+        "width": 1056,
+        "height": 880,
+        "bytes": 76123,
+        "sha256": "4d64bd1a7de9a21cb1b14f6690190173aec2e037508ec9bd59fd44befadea6af"
+      },
+      {
+        "slug": "saffron-copycat-house-2f",
+        "file": "saffron-copycat-house-2f.png",
+        "width": 176,
+        "height": 144,
+        "bytes": 6094,
+        "sha256": "a69363c996bebdabfec00d72120cb89ae3ef1ed1469791ec87bd709537a3f912"
+      },
+      {
+        "slug": "saffron-dojo",
+        "file": "saffron-dojo.png",
+        "width": 208,
+        "height": 256,
+        "bytes": 2445,
+        "sha256": "0ccac6ce3b9c13a24b42e8dee02bd8cd871e4055c00cf2ad031a6307a64a2cbe"
+      },
+      {
+        "slug": "saffron-gym",
+        "file": "saffron-gym.png",
+        "width": 464,
+        "height": 388,
+        "bytes": 5961,
+        "sha256": "4822995f86d80c367900dba643a1c5c420afaed34a526cca5b31e6eb2c38c46a"
+      },
+      {
+        "slug": "saffron-mr-psychic",
+        "file": "saffron-mr-psychic.png",
+        "width": 176,
+        "height": 144,
+        "bytes": 2356,
+        "sha256": "232d074796002132ec7add4538ecbe394a7a556f0783ef895958455de4433e46"
+      },
+      {
+        "slug": "seafoam-islands-1f",
+        "file": "seafoam-islands-1f.png",
+        "width": 608,
+        "height": 384,
+        "bytes": 46471,
+        "sha256": "0a84a7269e34a081078057e486932338e01a1774e58d3f1d02788d09d8da08f4"
+      },
+      {
+        "slug": "seafoam-islands-b1f",
+        "file": "seafoam-islands-b1f.png",
+        "width": 608,
+        "height": 368,
+        "bytes": 45320,
+        "sha256": "8d7d78d878a09bcd7a47280f6f3a76e422b771b04923df9a75e4a02a3f453318"
+      },
+      {
+        "slug": "seafoam-islands-b2f",
+        "file": "seafoam-islands-b2f.png",
+        "width": 608,
+        "height": 384,
+        "bytes": 47047,
+        "sha256": "3fa8e5834042f40ad5e405a9a32d2ad0e296c643fcf6a1dcae2f1b1d15dbed6a"
+      },
+      {
+        "slug": "seafoam-islands-b3f",
+        "file": "seafoam-islands-b3f.png",
+        "width": 608,
+        "height": 384,
+        "bytes": 47739,
+        "sha256": "5df03bf1098181040627031bf15dea8ba1cb63809035164b82bc65fc6604adc1"
+      },
+      {
+        "slug": "seafoam-islands-b4f",
+        "file": "seafoam-islands-b4f.png",
+        "width": 608,
+        "height": 384,
+        "bytes": 39308,
+        "sha256": "d572926221f837572d043da22da284f2d8668a92a637c2d5d31ffaa6ca2e6321"
+      },
+      {
+        "slug": "sevault-canyon-postgame",
+        "file": "sevault-canyon-postgame.png",
+        "width": 384,
+        "height": 1280,
+        "bytes": 112279,
+        "sha256": "01226758ca6b6e53ecdd16ef322bf9a948b3e986c64fc2c64e0b62a87d9b5a3f"
+      },
+      {
+        "slug": "sevault-canyon",
+        "file": "sevault-canyon.png",
+        "width": 384,
+        "height": 1280,
+        "bytes": 112279,
+        "sha256": "01226758ca6b6e53ecdd16ef322bf9a948b3e986c64fc2c64e0b62a87d9b5a3f"
+      },
+      {
+        "slug": "seven-island",
+        "file": "seven-island.png",
+        "width": 384,
+        "height": 320,
+        "bytes": 27340,
+        "sha256": "12c18b38b8cc091b2c7c627ba301de9628a0dec1c55165b43120f5a216ba9171"
+      },
+      {
+        "slug": "silph-co-10f",
+        "file": "silph-co-10f.png",
+        "width": 272,
+        "height": 304,
+        "bytes": 8024,
+        "sha256": "74dd60f9c49a0345360a29586bb048f51bb9fbd9bf9b0fc54851cf92eeea5c07"
+      },
+      {
+        "slug": "silph-co-11f",
+        "file": "silph-co-11f.png",
+        "width": 272,
+        "height": 320,
+        "bytes": 6985,
+        "sha256": "df0f85446e3de828c2f80d6910c478e2a2e6d39a60bba55a07bbea88bdc18a7d"
+      },
+      {
+        "slug": "silph-co-1f",
+        "file": "silph-co-1f.png",
+        "width": 576,
+        "height": 352,
+        "bytes": 13852,
+        "sha256": "ad504d7ec042853c4d238ad6bdb5e38fbb502d55d509fc593f2c8e79c8861e51"
+      },
+      {
+        "slug": "silph-co-2f",
+        "file": "silph-co-2f.png",
+        "width": 576,
+        "height": 352,
+        "bytes": 12962,
+        "sha256": "2d0959c461d0756fee5a5353aa18f7274061f1d4930e8a88ecc2bf8eec5ab722"
+      },
+      {
+        "slug": "silph-co-3f",
+        "file": "silph-co-3f.png",
+        "width": 576,
+        "height": 352,
+        "bytes": 11487,
+        "sha256": "2e6d725379d1640cdb0c548fce49ef65d1b1d4b8a168126f7c270762bbb72417"
+      },
+      {
+        "slug": "silph-co-4f",
+        "file": "silph-co-4f.png",
+        "width": 576,
+        "height": 352,
+        "bytes": 14649,
+        "sha256": "884901c47a2ff27c4bcc1f45277ef371e73782efca48908724b2274d5d9bacd9"
+      },
+      {
+        "slug": "silph-co-5f",
+        "file": "silph-co-5f.png",
+        "width": 576,
+        "height": 352,
+        "bytes": 15796,
+        "sha256": "c95a7a02daca242b53ba4486286a59b7678cb06861bb74ab8933d18d3c275b7b"
+      },
+      {
+        "slug": "silph-co-6f",
+        "file": "silph-co-6f.png",
+        "width": 496,
+        "height": 304,
+        "bytes": 11840,
+        "sha256": "5b4e3dd1b6de411ebc8efd5ad07b168cca044d1dc6a53ae286976192d033c7c3"
+      },
+      {
+        "slug": "silph-co-7f",
+        "file": "silph-co-7f.png",
+        "width": 496,
+        "height": 304,
+        "bytes": 12868,
+        "sha256": "28543dc041d21deb3f300ce7856b3d0fce3b48af129aaf3f39f7b883dc30814f"
+      },
+      {
+        "slug": "silph-co-8f",
+        "file": "silph-co-8f.png",
+        "width": 496,
+        "height": 304,
+        "bytes": 12911,
+        "sha256": "6294e28986155bdeb3d21915f1f6edd7e7ed341aa6fea4cc44d4e1a5e055dc7d"
+      },
+      {
+        "slug": "silph-co-9f",
+        "file": "silph-co-9f.png",
+        "width": 496,
+        "height": 304,
+        "bytes": 11059,
+        "sha256": "f3b631e376902399c90ee8f0839091343321b61b5d6cb48ea114d1ba74b0893e"
+      },
+      {
+        "slug": "six-island",
+        "file": "six-island.png",
+        "width": 384,
+        "height": 480,
+        "bytes": 35313,
+        "sha256": "11a4d1159345fef6d3ccfb396f1a5667a64c69d4710696ed26b5e37b03d388f7"
+      },
+      {
+        "slug": "ss-anne-1f-rooms",
+        "file": "ss-anne-1f-rooms.png",
+        "width": 880,
+        "height": 144,
+        "bytes": 4353,
+        "sha256": "01389cb6aae866a3044117cb04a377cc1372c0205612a870a9cdb83bbca46591"
+      },
+      {
+        "slug": "ss-anne-1f",
+        "file": "ss-anne-1f.png",
+        "width": 576,
+        "height": 576,
+        "bytes": 3396,
+        "sha256": "a16b75f01b06c0600ed66fc2b20585bcd7526b9062010f2e1abf61740941f876"
+      },
+      {
+        "slug": "ss-anne-2f-rooms",
+        "file": "ss-anne-2f-rooms.png",
+        "width": 752,
+        "height": 144,
+        "bytes": 4625,
+        "sha256": "57034b35967284db9892beeaf71d94f6945d4aeb15fb81baa1c73ef9834251c7"
+      },
+      {
+        "slug": "ss-anne-2f",
+        "file": "ss-anne-2f.png",
+        "width": 544,
+        "height": 256,
+        "bytes": 4283,
+        "sha256": "9bcfd67dc3560a96adb626fd92088803bc75fe301afb75df11fe34202e783d12"
+      },
+      {
+        "slug": "ss-anne-3f",
+        "file": "ss-anne-3f.png",
+        "width": 1221,
+        "height": 472,
+        "bytes": 11868,
+        "sha256": "b707efd7c990be6a8a65b7ba9617b766fc1c828668b87d097a238b91e7c68dda"
+      },
+      {
+        "slug": "ss-anne-basement-rooms",
+        "file": "ss-anne-basement-rooms.png",
+        "width": 624,
+        "height": 144,
+        "bytes": 4326,
+        "sha256": "c7f7311b5f91ea0031a130f135d90b8e12cbf8df5efd9eeba70c7ff32fd83a27"
+      },
+      {
+        "slug": "ss-anne-basement",
+        "file": "ss-anne-basement.png",
+        "width": 368,
+        "height": 112,
+        "bytes": 2096,
+        "sha256": "8d6f5bebb397932dca7a0ad6313c84eb93b16f28641e52d1f843ca7cff362af3"
+      },
+      {
+        "slug": "tanoby-key",
+        "file": "tanoby-key.png",
+        "width": 240,
+        "height": 256,
+        "bytes": 15082,
+        "sha256": "cb9e2886b94fc6c3c2840bcd88ed1954005b0d847873c0efa5b39d12f8fe2637"
+      },
+      {
+        "slug": "tanoby-ruins",
+        "file": "tanoby-ruins.png",
+        "width": 2304,
+        "height": 320,
+        "bytes": 39412,
+        "sha256": "7e409e632ee2ca76c98a8baba212f55b0b597ba3f0b51a4012aaac6e493d287c"
+      },
+      {
+        "slug": "three-island-berry-forest",
+        "file": "three-island-berry-forest.png",
+        "width": 912,
+        "height": 752,
+        "bytes": 116362,
+        "sha256": "34cc444f5c3c2520bbbf50c7f451e2be4f8f20a6c9457fc976cdef49126cf196"
+      },
+      {
+        "slug": "three-island-bond-bridge",
+        "file": "three-island-bond-bridge.png",
+        "width": 1536,
+        "height": 320,
+        "bytes": 77326,
+        "sha256": "d9cae4c65954de6740976076cc3c2bb7d120eba4fb28ae959bcfd7501f373dc2"
+      },
+      {
+        "slug": "three-island-port",
+        "file": "three-island-port.png",
+        "width": 768,
+        "height": 320,
+        "bytes": 40119,
+        "sha256": "e3728f4e5f70b9f77e673a31b12e156957ef8968396e9aba1e57795e140140c0"
+      },
+      {
+        "slug": "three-island",
+        "file": "three-island.png",
+        "width": 384,
+        "height": 640,
+        "bytes": 45988,
+        "sha256": "b99793bbcb7d4b0a22c7cad01bd228c64c52fd5113906f9b3e5593eb134fd9dd"
+      },
+      {
+        "slug": "two-island-cape-brink",
+        "file": "two-island-cape-brink.png",
+        "width": 384,
+        "height": 640,
+        "bytes": 35987,
+        "sha256": "79ce2369c8dbd0c7250bf9e8a0a829c18f30972db159fa72b3d94fc0c95faabb"
+      },
+      {
+        "slug": "two-island",
+        "file": "two-island.png",
+        "width": 768,
+        "height": 320,
+        "bytes": 42686,
+        "sha256": "4fe98b3acaaf928e640071a7dcf451469a420be6846e95cc3e07a0862be4b527"
+      },
+      {
+        "slug": "underground-path-5-6",
+        "file": "underground-path-5-6.png",
+        "width": 128,
+        "height": 1008,
+        "bytes": 8347,
+        "sha256": "3cb27c553c3a38cc23f61f60a121fedee3897b24a8083aed0556717d7bf0ce16"
+      },
+      {
+        "slug": "underground-path-7-8",
+        "file": "underground-path-7-8.png",
+        "width": 1280,
+        "height": 112,
+        "bytes": 5527,
+        "sha256": "3201db482b0e754ba3736312445b01c5c8691c07fbc1df8d56153bdf3edac890"
+      },
+      {
+        "slug": "vermilion-city",
+        "file": "vermilion-city.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 78505,
+        "sha256": "42dcc02324f0b4ffb5c56402564a5416dd581a76a966112ae114fceb49f3df6b"
+      },
+      {
+        "slug": "vermilion-gym",
+        "file": "vermilion-gym.png",
+        "width": 176,
+        "height": 324,
+        "bytes": 3351,
+        "sha256": "c8a9c0a614783603010037442a3ffe6918721bcfe35fb393d048d8b189a5dbd1"
+      },
+      {
+        "slug": "victory-road-1f",
+        "file": "victory-road-1f.png",
+        "width": 768,
+        "height": 352,
+        "bytes": 41676,
+        "sha256": "b8343ada2ad97d1292e341cd69206aa0c8ae922c53d4549b51d28f45b83ed75b"
+      },
+      {
+        "slug": "victory-road-2f",
+        "file": "victory-road-2f.png",
+        "width": 848,
+        "height": 368,
+        "bytes": 57646,
+        "sha256": "22743ea1b27878fb08d9a62728e62311fc658c0336050ff6ef5b836e8ed1a7c1"
+      },
+      {
+        "slug": "victory-road-3f",
+        "file": "victory-road-3f.png",
+        "width": 736,
+        "height": 368,
+        "bytes": 50150,
+        "sha256": "bd938373f445532ec69306e2ae5f2804065437b33fec6fb576cf726514e05854"
+      },
+      {
+        "slug": "viridian-city-gym",
+        "file": "viridian-city-gym.png",
+        "width": 320,
+        "height": 372,
+        "bytes": 5869,
+        "sha256": "e4e50d311680ed7c9587dd2f230e4a5ba5f9cdc357303773144c25e25b444c4a"
+      },
+      {
+        "slug": "viridian-city",
+        "file": "viridian-city.png",
+        "width": 768,
+        "height": 640,
+        "bytes": 85460,
+        "sha256": "fe741d90f578ee49cc1fe03410652033d7b7ef1dcc8bca722231f738df8bb34d"
+      },
+      {
+        "slug": "viridian-forest",
+        "file": "viridian-forest.png",
+        "width": 864,
+        "height": 1104,
+        "bytes": 150671,
+        "sha256": "57d810fa291dc8c6db2dcf65923d05711751b92d0cd5b3b0b5a744eb70f54c45"
+      },
+      {
+        "slug": "water-labyrinth",
+        "file": "water-labyrinth.png",
+        "width": 1152,
+        "height": 320,
+        "bytes": 40477,
+        "sha256": "877f11d69ee229a83ea515ca74242acbadbc4220e5ff92eef824584cb749d383"
+      },
+      {
+        "slug": "water-path",
+        "file": "water-path.png",
+        "width": 384,
+        "height": 1600,
+        "bytes": 120955,
+        "sha256": "c0f5beb054084c3de97bd8d6a28ab75ef4b3c5ced604046fd9ffdf22ea864278"
+      }
+    ],
+    "trainers": [
+      {
+        "slug": "agatha",
+        "file": "agatha.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 692,
+        "sha256": "060ba8803315842bf3df92435685b838c23e77fa8c8acfa573ea39768fb12012"
+      },
+      {
+        "slug": "aroma-lady",
+        "file": "aroma-lady.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 769,
+        "sha256": "061ef9b7308829ea4646f65c89341688d565c5bd1e16b053e06724793697a895"
+      },
+      {
+        "slug": "beauty",
+        "file": "beauty.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 738,
+        "sha256": "1c22fa5f9d3b437ba55edec0ed16833c074218488791089e2d8692b72c19a9d6"
+      },
+      {
+        "slug": "biker",
+        "file": "biker.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1179,
+        "sha256": "a676b6b30fe7479f52313a95afb1e05c904c34c7ec972c7cf755f2c711ba1644"
+      },
+      {
+        "slug": "bird-keeper",
+        "file": "bird-keeper.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 829,
+        "sha256": "534ce64571c8e071f738c7a4710a892e281ff565c78f857961067b5cda83c1ff"
+      },
+      {
+        "slug": "black-belt",
+        "file": "black-belt.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 888,
+        "sha256": "dfb5a74143e3cc0a54e0cc6fd39c5e5cf32d1351bf7886d3dda0667309b02b96"
+      },
+      {
+        "slug": "blaine",
+        "file": "blaine.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 849,
+        "sha256": "32f4bc7e2376297fcd23ed29c6060b9d18f1162bd007ab051ab8ca2b773dc310"
+      },
+      {
+        "slug": "brock",
+        "file": "brock.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 713,
+        "sha256": "3972bbf25feefb2f254201dfd9f04064c631cfb25876f424af077600eceff7ea"
+      },
+      {
+        "slug": "bruno",
+        "file": "bruno.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 916,
+        "sha256": "b4d1742c1ced243640dc155164171462fea742f29b29daf1fe798520ada2a040"
+      },
+      {
+        "slug": "bug-catcher",
+        "file": "bug-catcher.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 747,
+        "sha256": "d4fde22863bf180ae3ab808d1cc1a2680e828b66fa2ce12c55bfe96cad097243"
+      },
+      {
+        "slug": "burglar",
+        "file": "burglar.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 726,
+        "sha256": "57a067eb9c02f2504e460bd0ad1a2f5b47bf2d4dc477b6aa23e0267b61345cd5"
+      },
+      {
+        "slug": "camper",
+        "file": "camper.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 614,
+        "sha256": "d9897dfb2105df1ebf2d4fdcc250bf4e5380361c1439826e26c201a40738ae9b"
+      },
+      {
+        "slug": "champion-rival",
+        "file": "champion-rival.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 644,
+        "sha256": "18b577f656358a48b59111fbcf88e22c90c431f0a2b32f9550a9228cf46517ce"
+      },
+      {
+        "slug": "channeler",
+        "file": "channeler.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 834,
+        "sha256": "138d565d374659853fe3626ae274dc8468a90890a2d25c8e430ffe892b051856"
+      },
+      {
+        "slug": "cool-couple",
+        "file": "cool-couple.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1072,
+        "sha256": "0dc95c07084ea8e6a26c5d0d6187c4ba0cdcab410fc7caba18808bea73dca52b"
+      },
+      {
+        "slug": "cooltrainer-f",
+        "file": "cooltrainer-f.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 715,
+        "sha256": "72b166d0fa89fcbcffe36f10c3a4f7cb7793bd03f11a2a55bd745873c1913f80"
+      },
+      {
+        "slug": "cooltrainer-m",
+        "file": "cooltrainer-m.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 598,
+        "sha256": "864f400db9c8fcca461ccb36c705d738975a74be20258aae2fdf342a37ab1e99"
+      },
+      {
+        "slug": "cooltrainer-male",
+        "file": "cooltrainer-male.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 598,
+        "sha256": "864f400db9c8fcca461ccb36c705d738975a74be20258aae2fdf342a37ab1e99"
+      },
+      {
+        "slug": "crush-girl",
+        "file": "crush-girl.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 669,
+        "sha256": "d3495c84d65dca6e9ea8bc8424af1f3d8c433423294ff7e477c18d9de96f2c4a"
+      },
+      {
+        "slug": "crush-kin",
+        "file": "crush-kin.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1227,
+        "sha256": "448c510ccc474d3c4fc3bbeeef825ab69107222fd9686c979733a2c7c725e077"
+      },
+      {
+        "slug": "cue-ball",
+        "file": "cue-ball.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1225,
+        "sha256": "b38fa93535f4043e963a429b7cbaaae57c6c50c833df017ecf8b1deaa402bd92"
+      },
+      {
+        "slug": "engineer",
+        "file": "engineer.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 897,
+        "sha256": "dac2b5c785735958af6c96c9687aace57a0255ee13bd4a6ef55c830095eda6de"
+      },
+      {
+        "slug": "erika",
+        "file": "erika.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 645,
+        "sha256": "0d11c7e56c527902d01c217212e91a2410d98be243030fcb3963774441b49ba6"
+      },
+      {
+        "slug": "fisherman",
+        "file": "fisherman.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 841,
+        "sha256": "a401f48a32aaf05381ba17530312b985bd6f154709a3a5b8d93c65f2548a4075"
+      },
+      {
+        "slug": "gamer",
+        "file": "gamer.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 754,
+        "sha256": "2f36f1521f48a067a92adeedc75f3c867e59b1312c28795928efda9f1e40ca08"
+      },
+      {
+        "slug": "gentleman",
+        "file": "gentleman.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 691,
+        "sha256": "6c293ec4e38bd30711e757db385fd12dcfc27dabc87d8670fb877334385f3821"
+      },
+      {
+        "slug": "giovanni",
+        "file": "giovanni.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 653,
+        "sha256": "c5859fac3adcc6c789434bfd52253f04958533dc07235ce751064eeef6b77409"
+      },
+      {
+        "slug": "hiker",
+        "file": "hiker.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 939,
+        "sha256": "3d9dd9533f6727cf5616197614276b77d7eac80a859d80852ece15a24298dc7b"
+      },
+      {
+        "slug": "juggler",
+        "file": "juggler.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 921,
+        "sha256": "9e784e92218b9f188a3fc34b340b9d0726f62556aaa94d66c70a528242057ae1"
+      },
+      {
+        "slug": "koga",
+        "file": "koga.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 726,
+        "sha256": "ff76be1f341d6827643a5dcf019c0b620105b373aa1692e23231d9cdc71a3e29"
+      },
+      {
+        "slug": "lady",
+        "file": "lady.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 717,
+        "sha256": "acd7a8266395dd33b444e352cdb063d4e1405628c1e7d324b8041be51795fb19"
+      },
+      {
+        "slug": "lance",
+        "file": "lance.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 834,
+        "sha256": "0eb0d2493078d71bef3cbffd5097607910fbe36a5161d26ffc010e54c5f4e2ec"
+      },
+      {
+        "slug": "lass",
+        "file": "lass.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 662,
+        "sha256": "69e2ffea592401d14c1b1828a280b1bfff5f01be743a337a9659c6b00d30f342"
+      },
+      {
+        "slug": "lorelei",
+        "file": "lorelei.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 709,
+        "sha256": "ee287707cb5a597decdec962ad5546fb25130cb71bff248bcaf95d96fd14db46"
+      },
+      {
+        "slug": "lt-surge",
+        "file": "lt-surge.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 770,
+        "sha256": "8146442d7c2cde6abd2c9ac317d0fd5249db7fdd68925f1a0404c896523a4843"
+      },
+      {
+        "slug": "misty",
+        "file": "misty.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 659,
+        "sha256": "d05c808ba42fbcb036c3e2789d3876d7ca1c5f3733aeb71cc596a2a42a59a77b"
+      },
+      {
+        "slug": "painter",
+        "file": "painter.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 630,
+        "sha256": "7b9e54d0e62c20e400fedac908cbda79012a3fedce6821efd82defffb8e5547f"
+      },
+      {
+        "slug": "picnicker",
+        "file": "picnicker.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 626,
+        "sha256": "14239b7899f3ed92405448ee9b1377d98633d294ea4205f7ac20ca6758fceb0b"
+      },
+      {
+        "slug": "pokemaniac",
+        "file": "pokemaniac.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 821,
+        "sha256": "edf55aa598cca80b928327cc7a05eee78774ca6c8584972025c1ae1c77f1ff0b"
+      },
+      {
+        "slug": "pokemon-breeder",
+        "file": "pokemon-breeder.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 699,
+        "sha256": "e2e9b86dfce37d0d986c0c36f20c99ddbac777b3348e915318c9ae053091b1e4"
+      },
+      {
+        "slug": "pokemon-ranger-female",
+        "file": "pokemon-ranger-female.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 709,
+        "sha256": "285e6c27b03a83a75f05ceb155caa0a9915ad998c946d6f5c717e70b4f4768da"
+      },
+      {
+        "slug": "pokemon-ranger-male",
+        "file": "pokemon-ranger-male.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 746,
+        "sha256": "aaccd299ea90bb223678adc5d2e66e9d5fb92b6e61e4722a124726d386bc858d"
+      },
+      {
+        "slug": "psychic",
+        "file": "psychic.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 754,
+        "sha256": "20aab3bb1b95d1f694b82e0926836e1c738a27742e164f511d58042b04d2238a"
+      },
+      {
+        "slug": "rival",
+        "file": "rival.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 598,
+        "sha256": "424526f6e14152c89d4bf45f527f02b4b73802d716e2b23bba80ae124a9fd137"
+      },
+      {
+        "slug": "rocker",
+        "file": "rocker.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 953,
+        "sha256": "2fac2e7a42704b85388d3c30afa159a945888984c6a81891e5391472b1b1fe7f"
+      },
+      {
+        "slug": "rocket-grunt-f",
+        "file": "rocket-grunt-f.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 675,
+        "sha256": "247224708d6b29c31fb7cfebbcc2321f5512ed2ef638175f4237eead8ef82b52"
+      },
+      {
+        "slug": "rocket-grunt",
+        "file": "rocket-grunt.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 673,
+        "sha256": "a608eae43c47031e25af52e3bf238814b65258bf7e7b9a38053edee188a43d04"
+      },
+      {
+        "slug": "ruin-maniac",
+        "file": "ruin-maniac.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 870,
+        "sha256": "c252eb91e3a07bdfd8ac85650aeed31076e178d422d9e87e70656e007ac3deea"
+      },
+      {
+        "slug": "sabrina",
+        "file": "sabrina.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 703,
+        "sha256": "10ab8f1a43886c45d489f13a0de6f1f7e91aa11a82d440d7d9a7ecb0cbd2967b"
+      },
+      {
+        "slug": "sailor",
+        "file": "sailor.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 685,
+        "sha256": "975f66fcf50ac654db7cabca35242c3defd65fc9f67ad24b18bca1f6ad3ea3f9"
+      },
+      {
+        "slug": "scientist",
+        "file": "scientist.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 866,
+        "sha256": "b4f3a6f097037dce237c3f2b88a473f47404e4705f28020790eadf444214737a"
+      },
+      {
+        "slug": "sis-and-bro",
+        "file": "sis-and-bro.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 958,
+        "sha256": "e211b21f2157ed324e08e25c497e654ac30ad4d0c592af49ca6900925f6ae09a"
+      },
+      {
+        "slug": "super-nerd",
+        "file": "super-nerd.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 672,
+        "sha256": "4440978cb7a157aa403cf3f9d10e58238a60b8db3f42829623fdbe39c780f5e8"
+      },
+      {
+        "slug": "swimmer-female",
+        "file": "swimmer-female.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 646,
+        "sha256": "b0e9c6490586435b3e0df2720f15b480c8a67b283bcea24861f333d11efae887"
+      },
+      {
+        "slug": "swimmer-male",
+        "file": "swimmer-male.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 602,
+        "sha256": "5ccbf8e4e1c7f8fb9adcfd82b58b50ebb447590c644f134cec31aa5af3857a9e"
+      },
+      {
+        "slug": "swimmer",
+        "file": "swimmer.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 602,
+        "sha256": "5ccbf8e4e1c7f8fb9adcfd82b58b50ebb447590c644f134cec31aa5af3857a9e"
+      },
+      {
+        "slug": "tamer",
+        "file": "tamer.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 848,
+        "sha256": "800ca2c3847446d988bf6d0c194856f25f94b5b83933a5bb5cdc7653c42c240b"
+      },
+      {
+        "slug": "tuber-female",
+        "file": "tuber-female.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 651,
+        "sha256": "147db3a253719e7a0d15557a8c725fe5961023bf8d1e72edd6b31b0a9f1668c7"
+      },
+      {
+        "slug": "twins",
+        "file": "twins.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 726,
+        "sha256": "cd9912d68ab432430e1a11db56c1a059ce9bd329faeb122205c723fa3c8a5a84"
+      },
+      {
+        "slug": "young-couple",
+        "file": "young-couple.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 959,
+        "sha256": "4362f032ada25445aae4f4b1cd257ae1c92caa20c3501b4df6ee88e6810c57d5"
+      },
+      {
+        "slug": "youngster",
+        "file": "youngster.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 579,
+        "sha256": "60dbe142a269771c9a8926fa04ab9ec96ee0ec1dfba422847563cc776bd466bd"
+      }
+    ],
+    "items": [
+      {
+        "slug": "amulet_coin",
+        "file": "amulet_coin.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 251,
+        "sha256": "a629a260652ebbc44fa814693efe04f44993db7323b897df45189f2555981d8b"
+      },
+      {
+        "slug": "antidote",
+        "file": "antidote.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 255,
+        "sha256": "eb1dde3f633fdfe1ed264edb26a9fdd9b2b257beeb1d25006e30d541c7412588"
+      },
+      {
+        "slug": "aspear_berry",
+        "file": "aspear_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 302,
+        "sha256": "70cb33566ed9992022220111299888cac8d11e42e5f743e7ee3e4582c31145d2"
+      },
+      {
+        "slug": "big_mushroom",
+        "file": "big_mushroom.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 267,
+        "sha256": "fca7d8aea2237d8162aa8e96ba48a1480396d4314c4f5acfaa2c18ad64c62436"
+      },
+      {
+        "slug": "big_pearl",
+        "file": "big_pearl.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 269,
+        "sha256": "dd85f35608d1cbc2eb4f20dcadb851a62d5dbbbb80861fc71fdc1c2120cbfe78"
+      },
+      {
+        "slug": "black_belt",
+        "file": "black_belt.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 270,
+        "sha256": "89d73ae27a82b7c0b96ac93d68674c7f8bd8193ffecff412a514cb5ec72826de"
+      },
+      {
+        "slug": "black_glasses",
+        "file": "black_glasses.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 221,
+        "sha256": "57b2100caf33fc3ca246204e7ad7f763759cf7a66463be4b6fbd000f3e2aa185"
+      },
+      {
+        "slug": "blue_scarf",
+        "file": "blue_scarf.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 289,
+        "sha256": "d54da483146e0824b11f7aedfca22932c8d426a08a2ed5f49302675b22950a4d"
+      },
+      {
+        "slug": "blue_shard",
+        "file": "blue_shard.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 194,
+        "sha256": "e7c41bb9c78a60089b725d67bdbfc175c8fa0b71ad7e574902929b6eac674d94"
+      },
+      {
+        "slug": "bluk_berry",
+        "file": "bluk_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 313,
+        "sha256": "40184210eb0a1f25a713af405d24643db3e05b378111d666ef6516c63c6e300f"
+      },
+      {
+        "slug": "calcium",
+        "file": "calcium.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 273,
+        "sha256": "f3fbb7362839ce6b9337bf8de0ff2a48a4c2a9f99c43c015bf63af40fad25798"
+      },
+      {
+        "slug": "carbos",
+        "file": "carbos.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 273,
+        "sha256": "dfce87a6c2f0fb45dc2fe83f44c7c3b0aad20f8a11650e2f25d7eda9b87611d3"
+      },
+      {
+        "slug": "card_key",
+        "file": "card_key.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 246,
+        "sha256": "97f0de5634a8d9f44eba275f0bc6c9ebe48ce650311e2c381de0f76f116c4eeb"
+      },
+      {
+        "slug": "cheri_berry",
+        "file": "cheri_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 320,
+        "sha256": "cb1cafbcb09420dc8bf6b16c279b3a71feac5ded2439b3952d108106ed1143e1"
+      },
+      {
+        "slug": "chesto_berry",
+        "file": "chesto_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 288,
+        "sha256": "20a6083e8cc4a2a7882b562125be7a57877fb52653978926c38f493f33f0db64"
+      },
+      {
+        "slug": "cleanse_tag",
+        "file": "cleanse_tag.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 257,
+        "sha256": "5db236fe560912804e847c09b1c03c71dccac858840596ca0c53004d2ed0bd15"
+      },
+      {
+        "slug": "coin_case",
+        "file": "coin_case.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 265,
+        "sha256": "9725f5bb84ba2b460f3d9543fc14ff116103da26cdc56632c01d7d777dd00a75"
+      },
+      {
+        "slug": "deep_sea_scale",
+        "file": "deep_sea_scale.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 245,
+        "sha256": "5bf15e240dff7d356bfbf182b4c82ee6a1b551487d6d166a01b0eea30aa0f11c"
+      },
+      {
+        "slug": "deep_sea_tooth",
+        "file": "deep_sea_tooth.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 272,
+        "sha256": "f7a8e3cd9794248d19e47d6747eadcaddeed003a843e6e0df6d135103171300d"
+      },
+      {
+        "slug": "dire_hit",
+        "file": "dire_hit.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 305,
+        "sha256": "86f3fb63faaab7143de677cd7d0fa96a09bdf5f214db099be928ba2cb02cb3df"
+      },
+      {
+        "slug": "dome_fossil",
+        "file": "dome_fossil.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 322,
+        "sha256": "d60ff2e9698151f4ab44efacfcb82821990674fe5dbc13bd138b492e25ad6264"
+      },
+      {
+        "slug": "dragon_scale",
+        "file": "dragon_scale.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 255,
+        "sha256": "c210346f78c9b09976047175ff332a2b47fb6f603a60751533e7617575cb272e"
+      },
+      {
+        "slug": "escape_rope",
+        "file": "escape_rope.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 265,
+        "sha256": "5d44b227cfea78dc30f3b09a26ef2b0a73f84d22262e992a0a33f70fbe200fcd"
+      },
+      {
+        "slug": "ether",
+        "file": "ether.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 278,
+        "sha256": "0fc203dd22fbfcbc42d9662ee0771596dfe288ab405f96d203bb3f74284b845e"
+      },
+      {
+        "slug": "exp_share",
+        "file": "exp_share.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 332,
+        "sha256": "461d962edec7a896572dd5a3b1d7ea76008e65e1d55c6f9ce6a2de2108e044d7"
+      },
+      {
+        "slug": "fire_stone",
+        "file": "fire_stone.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 328,
+        "sha256": "cbfcc5b295160092562c3d5c7752bd23152f07901c0126e653ffc4b157e7687b"
+      },
+      {
+        "slug": "gold_teeth",
+        "file": "gold_teeth.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 297,
+        "sha256": "83f7359db21485b12edf7dddcd648d599d8123491550fb60954b4859cf2c8222"
+      },
+      {
+        "slug": "good_rod",
+        "file": "good_rod.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 261,
+        "sha256": "73663380175ca3b84dcf9c244229035f6db99f1f16d31bf87fd7e9594d58e05c"
+      },
+      {
+        "slug": "great_ball",
+        "file": "great_ball.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 292,
+        "sha256": "d7a91997f1b8bfb713146098aa25153c0c853a666f52760a234d436ede3ba8ca"
+      },
+      {
+        "slug": "green_shard",
+        "file": "green_shard.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 194,
+        "sha256": "0df803de751fd99b7cd782641eb4504e63c6f024f2cfe6acb412f9fa0e786ab4"
+      },
+      {
+        "slug": "guard_spec",
+        "file": "guard_spec.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 305,
+        "sha256": "73feed52bc18eda0599d72ebf22d0d971d89bc01895300dd43d62b3e9ef1a5c4"
+      },
+      {
+        "slug": "hard_stone",
+        "file": "hard_stone.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 275,
+        "sha256": "c6f97f63fdc168c05c7f2293f0fc96d6da581884abfe6effcf601ac4e9de5db5"
+      },
+      {
+        "slug": "heart_scale",
+        "file": "heart_scale.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 241,
+        "sha256": "9aeb30d6aa6c65d10827ba2afb68a62034b0de8dc7062c4326bd4e5059008d43"
+      },
+      {
+        "slug": "helix_fossil",
+        "file": "helix_fossil.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 322,
+        "sha256": "e9952bbef7ad3f8cef297c09f719f70f3cf0804915ed463c2a194ee761a3bc69"
+      },
+      {
+        "slug": "hm07",
+        "file": "hm07.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "3b48a92fbcb33ba768e87b5bb8acdb23ed32aa3dbfd30e8f3cd0dad6cadf438d"
+      },
+      {
+        "slug": "hp_up",
+        "file": "hp_up.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 278,
+        "sha256": "5c56a006317f7458eae2c02e9ce17d37d5e91804160b6420abee1e0be901aaff"
+      },
+      {
+        "slug": "iron",
+        "file": "iron.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 273,
+        "sha256": "9db37289b0660a434e50a13c83755e833c280d68d5290dd23a578847bcb6ef74"
+      },
+      {
+        "slug": "kings_rock",
+        "file": "kings_rock.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 312,
+        "sha256": "dbc7ab0664bba8e6017e797775eb7825ab1e0ee113eef29d2e20a17a7d222a66"
+      },
+      {
+        "slug": "large_potion",
+        "file": "large_potion.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 304,
+        "sha256": "06d2195c82a86d16847fda8a737c2606968e0c2fc85d55e1de5979903ea0e3d0"
+      },
+      {
+        "slug": "lava_cookie",
+        "file": "lava_cookie.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 292,
+        "sha256": "71347d58af89ea000fed54e9a957186e3fae9b7f057605e98f60d6e51c5600e9"
+      },
+      {
+        "slug": "lax_incense",
+        "file": "lax_incense.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 303,
+        "sha256": "c161793602442eddd747581725c592bdc1e7f4760e87e6b4725f4a179f2d1759"
+      },
+      {
+        "slug": "leaf_stone",
+        "file": "leaf_stone.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 326,
+        "sha256": "14f633943e198b995b7aa7f0adef1bf083392818cd4c547d58ea8820343ed319"
+      },
+      {
+        "slug": "leftovers",
+        "file": "leftovers.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 262,
+        "sha256": "8e23ed4a6f0b6e464e8f99ac04e555ea51dbd9652baa7fae0a3a6225f1e2d5d8"
+      },
+      {
+        "slug": "leppa_berry",
+        "file": "leppa_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 284,
+        "sha256": "64441d46c54d180d7c6e1b8ac837f964fb05b1b76def06ad56c5eac609da994d"
+      },
+      {
+        "slug": "lift_key",
+        "file": "lift_key.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 262,
+        "sha256": "a31dcccf909836d297dcb05cb7af87399535cbcd9299d3eb7cb0db1e0ddccd77"
+      },
+      {
+        "slug": "lucky_punch",
+        "file": "lucky_punch.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 274,
+        "sha256": "c0426307382a128d22d8c863d72d10872356638f829becd24ba6c8e24cebfc8b"
+      },
+      {
+        "slug": "lum_berry",
+        "file": "lum_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 259,
+        "sha256": "14e05f4e60b9ea6d792369cac6fb292515eba3f1e3da641ea9bb6ae91e9def66"
+      },
+      {
+        "slug": "macho_brace",
+        "file": "macho_brace.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 319,
+        "sha256": "f783040a8d7839599127c7714651a3829260c8aff9ca249d4c477c759a01793c"
+      },
+      {
+        "slug": "magnet",
+        "file": "magnet.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 271,
+        "sha256": "ffedf5375aea6a662f84429f8ba8aaf42cf8aa822e904128fbfbbef5a336270b"
+      },
+      {
+        "slug": "max_repel",
+        "file": "max_repel.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 266,
+        "sha256": "1365ffb868ffd780032d710bd0f048e272c4bfa44e1f62f84c43f0ccef913340"
+      },
+      {
+        "slug": "metal_coat",
+        "file": "metal_coat.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 250,
+        "sha256": "0e5d62dd4816dab0e6b8998ce4e59c3b98c98bc0f7e458490d70bfe3548d02bc"
+      },
+      {
+        "slug": "moon_stone",
+        "file": "moon_stone.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 291,
+        "sha256": "be85e4793db6f2a7d2814586d82b304e4e240a91aa97db8c90fa3a442c0ce808"
+      },
+      {
+        "slug": "nanab_berry",
+        "file": "nanab_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 295,
+        "sha256": "dc2c8a71f38ccddaa03dd0c75f6cee3260f2e7b1e1c2dfc60067ed9463b9ab60"
+      },
+      {
+        "slug": "nest_ball",
+        "file": "nest_ball.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 287,
+        "sha256": "7b0c162fbfaa0aff12d7309b183499c84a7aea00802585d07dd974cb3ba1aaa2"
+      },
+      {
+        "slug": "net_ball",
+        "file": "net_ball.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 297,
+        "sha256": "3dc1f627b6b4deba7588a3a1d90031e2f8d40b071266134596d6e898e52b8b11"
+      },
+      {
+        "slug": "never_melt_ice",
+        "file": "never_melt_ice.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 277,
+        "sha256": "f1df728bc2f74338c97818429b9e8646c3b5dc733424ac92a61e670162897ced"
+      },
+      {
+        "slug": "none",
+        "file": "none.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 205,
+        "sha256": "cda20adcf0e197b1971808811fcc54bd0313648da1fcb16122e95489b0054443"
+      },
+      {
+        "slug": "nugget",
+        "file": "nugget.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 232,
+        "sha256": "7394252a71e81a677ea57927223eb5afb95bffe99b17bfeaa0171f90f749a4d8"
+      },
+      {
+        "slug": "oaks_parcel",
+        "file": "oaks_parcel.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 269,
+        "sha256": "2f193146f559b07ac6824e93f57f7e4d5f50fb96a62c3558e553692a2e970af4"
+      },
+      {
+        "slug": "oran_berry",
+        "file": "oran_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 274,
+        "sha256": "aff49f199fe0bf1b661cacba57c69a7ef7bdeeeed583a603a36130b3d0a03404"
+      },
+      {
+        "slug": "pearl",
+        "file": "pearl.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 223,
+        "sha256": "9077092795331c926cb8f3cb7b5f5501b28916a70166cde4c3fc3b97810cc746"
+      },
+      {
+        "slug": "pecha_berry",
+        "file": "pecha_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 272,
+        "sha256": "d6793bf91042c478b2b59619a27585e5041dde0b08afaef4945ef790a584179e"
+      },
+      {
+        "slug": "persim_berry",
+        "file": "persim_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 289,
+        "sha256": "09736a13d683cee3a65b9f384b013bfa01146c540001e49c87cdb5e0e69d8c27"
+      },
+      {
+        "slug": "pinap_berry",
+        "file": "pinap_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 326,
+        "sha256": "7d0713d45929a53140938eec69124e06c6efdb0e58ff10e0c95aa2acb3213836"
+      },
+      {
+        "slug": "poke_ball",
+        "file": "poke_ball.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 262,
+        "sha256": "d2676faca26163d59bab3580b4135735007fd45be26585610d3e0f12d967f0e8"
+      },
+      {
+        "slug": "poke_flute",
+        "file": "poke_flute.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 285,
+        "sha256": "060a74de094eb170beae993552d0101eccfad848a321807cec53534fdb7f0f22"
+      },
+      {
+        "slug": "pokemon_egg",
+        "file": "pokemon_egg.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 331,
+        "sha256": "c39be3d0a7b37a73c524b48a7240d439f836699cf48aa8ed17e8aa9b47cf44e9"
+      },
+      {
+        "slug": "potion",
+        "file": "potion.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 289,
+        "sha256": "dbea4bcb4accef436ce65e618807bf01c83e4f8d47e8424653561c4465bf80c5"
+      },
+      {
+        "slug": "pp_max",
+        "file": "pp_max.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 270,
+        "sha256": "833ac361efd63837f0d0469ebbaf647ceb443d8dc54f8a6d4263695869fbee67"
+      },
+      {
+        "slug": "pp_up",
+        "file": "pp_up.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 273,
+        "sha256": "9630b78bdebe564564f354770d782413814cb2d683254a02e45792ae5dd190a3"
+      },
+      {
+        "slug": "protein",
+        "file": "protein.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 273,
+        "sha256": "2900e01a302c63dc86dd65e5b669aa3657d8f9f56f56d155ede3c3c55dabf783"
+      },
+      {
+        "slug": "quick_claw",
+        "file": "quick_claw.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 244,
+        "sha256": "ae96e287d21d503b9982976671437048ad4f640f2add54fea56700e775c579ba"
+      },
+      {
+        "slug": "rare_candy",
+        "file": "rare_candy.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 279,
+        "sha256": "1cb7027d2c9ada3a884269c7289fdfdfc4d00d44a17c7d9d7e26ff7cd3bc6bf5"
+      },
+      {
+        "slug": "rawst_berry",
+        "file": "rawst_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 300,
+        "sha256": "d9aec5b98afd2e3d6dbeb37d9bfce562717c068fde2c635fd0716d3f8dc1d738"
+      },
+      {
+        "slug": "razz_berry",
+        "file": "razz_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 303,
+        "sha256": "bf6da3760ff159cc5fbc979c704f060a3f11ca8ac95102078452ca9dc05e1681"
+      },
+      {
+        "slug": "red_shard",
+        "file": "red_shard.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 194,
+        "sha256": "27b4f38339e3af052628928610df405ea5308ae313764f2a72e4bffa5909f16b"
+      },
+      {
+        "slug": "repel",
+        "file": "repel.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 266,
+        "sha256": "cc87ab37422efb66b2ab468461989ee12d69dda1e707de4a8ab0a55cf231ce41"
+      },
+      {
+        "slug": "revive",
+        "file": "revive.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 198,
+        "sha256": "b664b6e8af30f02b5783c138c99acdc6ded05e6505d5c6857aac479a4d4234f3"
+      },
+      {
+        "slug": "sacred_ash",
+        "file": "sacred_ash.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 288,
+        "sha256": "ae4a3f3a46f93e8214a8e6f8e3332d0b2e64b70dfde523533adb1d4fb321c78f"
+      },
+      {
+        "slug": "sapphire",
+        "file": "sapphire.png",
+        "width": 16,
+        "height": 16,
+        "bytes": 195,
+        "sha256": "664c0947c8399c4f4f36d6b75cb2f7eb86fc38b6b7e9359fbfa146a3163abcff"
+      },
+      {
+        "slug": "sea_incense",
+        "file": "sea_incense.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 300,
+        "sha256": "8752030d628cb75f1ce159acf2215e3dcbb9d5a53e194c3249306ff8ee44c071"
+      },
+      {
+        "slug": "secret_key",
+        "file": "secret_key.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 283,
+        "sha256": "9e4469f176399fa54b708e92d2f3c4ad253edd05df7d0f3d20e2fd6a026d5f35"
+      },
+      {
+        "slug": "silk_scarf",
+        "file": "silk_scarf.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 322,
+        "sha256": "de4fcc525f0747c590bc7b1d82d987f8814bcb08d698ff80e594f7260e75d947"
+      },
+      {
+        "slug": "silph_scope",
+        "file": "silph_scope.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 308,
+        "sha256": "bc314b6af19bf041a7831df169540fd9f339f79969bedfe89f1c5ef9eab7cf3f"
+      },
+      {
+        "slug": "sitrus_berry",
+        "file": "sitrus_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 285,
+        "sha256": "1ea1d0027ca149ab2384a237c0d7e7e1e171b23d1beac20baee9146058be90cf"
+      },
+      {
+        "slug": "soothe_bell",
+        "file": "soothe_bell.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 282,
+        "sha256": "582c795d3d4f1305032d7bfb333998553c0654e89eba40d69724245fd8fbcae3"
+      },
+      {
+        "slug": "spell_tag",
+        "file": "spell_tag.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 251,
+        "sha256": "b8fda2b60734d349af6813684b2e858e25b6814de375ec611752336424a0f7a0"
+      },
+      {
+        "slug": "star_piece",
+        "file": "star_piece.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 236,
+        "sha256": "61cecf17e06a698a3f5ee57497e531b644248910ef552728c8e06e31923dda02"
+      },
+      {
+        "slug": "stardust",
+        "file": "stardust.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 285,
+        "sha256": "3951eba06b2cfd3c2717a164549cbabeb66a634350736c1eb5b2142eeec9a3df"
+      },
+      {
+        "slug": "status_heal",
+        "file": "status_heal.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 255,
+        "sha256": "2228793bddee1bd7e48b09fcb5c9d2a6358be40ae02d290eba23948b76cc08c1"
+      },
+      {
+        "slug": "sun_stone",
+        "file": "sun_stone.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 322,
+        "sha256": "15a2ce5ca0e481058dc1369a6bef434d09cc468d637e64dd6b463590ecd7f85c"
+      },
+      {
+        "slug": "super_rod",
+        "file": "super_rod.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 279,
+        "sha256": "a9e2a39e9a1580acc180dd9f7d72c5b9cc686ab9064caaf0f03e2b6c4fee0e96"
+      },
+      {
+        "slug": "tea",
+        "file": "tea.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 292,
+        "sha256": "8133260ee83b8a522a5ef014081ba76821fd3de568a27c52154ff8f105355fa4"
+      },
+      {
+        "slug": "teachy_tv",
+        "file": "teachy_tv.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 333,
+        "sha256": "9e4df7294dcc5bf7b9a47925b83349f027688d3cc10049eb5781aec53f2ff0e6"
+      },
+      {
+        "slug": "thunder_stone",
+        "file": "thunder_stone.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 305,
+        "sha256": "5b6280774db99b6a18b5730b6197318557d157db15f0374fcee35fdfb4e267e9"
+      },
+      {
+        "slug": "tiny_mushroom",
+        "file": "tiny_mushroom.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 222,
+        "sha256": "02a9cf552327afa8c032a4ed79eba20dc558edf3023ef1e6726bc50e900a460f"
+      },
+      {
+        "slug": "tm_hm",
+        "file": "tm_hm.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "ad43897b481aa49e13dd85f205fe5fe9496212e47266eb3e9359113ad03d77bf"
+      },
+      {
+        "slug": "tm01",
+        "file": "tm01.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "ad43897b481aa49e13dd85f205fe5fe9496212e47266eb3e9359113ad03d77bf"
+      },
+      {
+        "slug": "tm02",
+        "file": "tm02.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "aefa847a06c92ddffca872b7acec5ad84943b66f9e68ef8d9e78e0275c86e247"
+      },
+      {
+        "slug": "tm05",
+        "file": "tm05.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "af8e12a277b67a5498d5ec17142aa21df03eeebc807d596e25560a249baf0a3c"
+      },
+      {
+        "slug": "tm07",
+        "file": "tm07.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "c0cfc56b2a1de5357237ef4e60a325af9c55b43cd347704c0ff7dc8f53d29b3f"
+      },
+      {
+        "slug": "tm08",
+        "file": "tm08.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "ad43897b481aa49e13dd85f205fe5fe9496212e47266eb3e9359113ad03d77bf"
+      },
+      {
+        "slug": "tm09",
+        "file": "tm09.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "4fd548c5a332eab4d68eccd435683efabc36f530980c4857e5b47ac5bf0be9ae"
+      },
+      {
+        "slug": "tm11",
+        "file": "tm11.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "8b44f6ffcfc01596c1f1dc4cb55feac9bcfa408ee3ccb56f8a8d987654b538cf"
+      },
+      {
+        "slug": "tm12",
+        "file": "tm12.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "c3575b25fc53d7c42da8b27a45b1b7501da06aa2b88da99d3509d23e30286780"
+      },
+      {
+        "slug": "tm14",
+        "file": "tm14.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "c0cfc56b2a1de5357237ef4e60a325af9c55b43cd347704c0ff7dc8f53d29b3f"
+      },
+      {
+        "slug": "tm17",
+        "file": "tm17.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "af8e12a277b67a5498d5ec17142aa21df03eeebc807d596e25560a249baf0a3c"
+      },
+      {
+        "slug": "tm18",
+        "file": "tm18.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "3b48a92fbcb33ba768e87b5bb8acdb23ed32aa3dbfd30e8f3cd0dad6cadf438d"
+      },
+      {
+        "slug": "tm21",
+        "file": "tm21.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "af8e12a277b67a5498d5ec17142aa21df03eeebc807d596e25560a249baf0a3c"
+      },
+      {
+        "slug": "tm22",
+        "file": "tm22.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "4fd548c5a332eab4d68eccd435683efabc36f530980c4857e5b47ac5bf0be9ae"
+      },
+      {
+        "slug": "tm25",
+        "file": "tm25.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "74f01da1c685363d03f9a39de79236b00019a137a58bb757c3228789daeef07c"
+      },
+      {
+        "slug": "tm31",
+        "file": "tm31.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "ad43897b481aa49e13dd85f205fe5fe9496212e47266eb3e9359113ad03d77bf"
+      },
+      {
+        "slug": "tm32",
+        "file": "tm32.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "af8e12a277b67a5498d5ec17142aa21df03eeebc807d596e25560a249baf0a3c"
+      },
+      {
+        "slug": "tm36",
+        "file": "tm36.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "65714e8bb8733d2a170673383cf86ecf9f9ee1958c2e01375116e7db29c74b9e"
+      },
+      {
+        "slug": "tm37",
+        "file": "tm37.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "6e3bd351d3a4f19da165f6703488208b0be1a5e89daf734c48bcf6d77483e7b1"
+      },
+      {
+        "slug": "tm40",
+        "file": "tm40.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "5c59d72a8790077aa1d2c2fb08eaf7a10f174b669dc8806733e717dea170e605"
+      },
+      {
+        "slug": "tm41",
+        "file": "tm41.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "c3575b25fc53d7c42da8b27a45b1b7501da06aa2b88da99d3509d23e30286780"
+      },
+      {
+        "slug": "tm43",
+        "file": "tm43.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "af8e12a277b67a5498d5ec17142aa21df03eeebc807d596e25560a249baf0a3c"
+      },
+      {
+        "slug": "tm44",
+        "file": "tm44.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "5477d0142c5bea8f03375ec66500443ed252b24179f9febc1e6d26477385d32f"
+      },
+      {
+        "slug": "tm45",
+        "file": "tm45.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "af8e12a277b67a5498d5ec17142aa21df03eeebc807d596e25560a249baf0a3c"
+      },
+      {
+        "slug": "tm46",
+        "file": "tm46.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "c3575b25fc53d7c42da8b27a45b1b7501da06aa2b88da99d3509d23e30286780"
+      },
+      {
+        "slug": "tm47",
+        "file": "tm47.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "ea8a124b088948a7d3e8d8b39d1b72df3da2ede599efee3a1b615a4fb0b7b22e"
+      },
+      {
+        "slug": "tm48",
+        "file": "tm48.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "5477d0142c5bea8f03375ec66500443ed252b24179f9febc1e6d26477385d32f"
+      },
+      {
+        "slug": "tm49",
+        "file": "tm49.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "c3575b25fc53d7c42da8b27a45b1b7501da06aa2b88da99d3509d23e30286780"
+      },
+      {
+        "slug": "tm50",
+        "file": "tm50.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 344,
+        "sha256": "8b44f6ffcfc01596c1f1dc4cb55feac9bcfa408ee3ccb56f8a8d987654b538cf"
+      },
+      {
+        "slug": "town_map",
+        "file": "town_map.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 275,
+        "sha256": "d0a185a9b7af56c7e78fc503d8fed8619556f41cf6c1cd228132fd6f3904b244"
+      },
+      {
+        "slug": "twisted_spoon",
+        "file": "twisted_spoon.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 242,
+        "sha256": "854117437fe5e1b499bc82034da576de66a7e48ebb53398d6c8c8a9f3016c85a"
+      },
+      {
+        "slug": "ultra_ball",
+        "file": "ultra_ball.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 282,
+        "sha256": "6a3826159eae5a0647148763d4ec632963f560c0bb2fa518797055e7ee1da809"
+      },
+      {
+        "slug": "up_grade",
+        "file": "up_grade.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 276,
+        "sha256": "afa7e7fb08053c02684cebb7b640eac5f96642cd211ee92bd52d0467c519889e"
+      },
+      {
+        "slug": "vitamin",
+        "file": "vitamin.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 273,
+        "sha256": "2900e01a302c63dc86dd65e5b669aa3657d8f9f56f56d155ede3c3c55dabf783"
+      },
+      {
+        "slug": "water_stone",
+        "file": "water_stone.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 305,
+        "sha256": "2681bbea57b043e62099893da7f9a882b9c46c96badc019b49f537e5f9b43bf0"
+      },
+      {
+        "slug": "wepear_berry",
+        "file": "wepear_berry.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 272,
+        "sha256": "3df8a7fea511db9e02516db22d0afc78a4f15fe40e753ed01b27e1bc5bdb50c3"
+      },
+      {
+        "slug": "x_accuracy",
+        "file": "x_accuracy.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 305,
+        "sha256": "8604545978241867d05ead1ae08da25295b1f8574fc16ab10777128653d26924"
+      },
+      {
+        "slug": "x_attack",
+        "file": "x_attack.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 305,
+        "sha256": "e7c5983ed202593bbfcd94e4e0abf975f36ec4c713030a7fc5f2f8f888779a0b"
+      },
+      {
+        "slug": "x_defend",
+        "file": "x_defend.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 305,
+        "sha256": "8b4135cea5d7a56e7becddd51ddd11ce209f28e8feedec722c3d5cdc7928abd2"
+      },
+      {
+        "slug": "x_special",
+        "file": "x_special.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 305,
+        "sha256": "8dde01bfdaf8e5069944db5f61d3974688f163c92068f1bdf1fa630b8d895f11"
+      },
+      {
+        "slug": "x_speed",
+        "file": "x_speed.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 305,
+        "sha256": "f873e6abd4988f74f51c9c5caa9bf14871ef1fa787eefb6307e12465ebcaf479"
+      },
+      {
+        "slug": "yellow_shard",
+        "file": "yellow_shard.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 194,
+        "sha256": "170621e639c60774b257cf795cb671a8740d60a52bc546a708d9560df2c82767"
+      },
+      {
+        "slug": "zinc",
+        "file": "zinc.png",
+        "width": 24,
+        "height": 24,
+        "bytes": 273,
+        "sha256": "2842684f616a579f420a3c21df79fedd437a8eb0d49fc62a957b91ce7b018fe4"
+      }
+    ],
+    "pokemon": [
+      {
+        "slug": "abra",
+        "file": "abra.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 575,
+        "sha256": "b4a72562bd1ecb892f620cc180f9bd2da4d3d6a8ee75ddda8bb6196c5e77f4d3"
+      },
+      {
+        "slug": "absol",
+        "file": "absol.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 890,
+        "sha256": "80d411c7fe4531f93ad73a840de203e31e6184605d2fc4a44b2c98064c8f393c"
+      },
+      {
+        "slug": "aerodactyl",
+        "file": "aerodactyl.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 917,
+        "sha256": "931cfc4f2ab6e874ccee2d7bef2257578c86881c66a8adc08a792e1a7066b418"
+      },
+      {
+        "slug": "aggron",
+        "file": "aggron.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1158,
+        "sha256": "ad7fa026ef8200e15f18d02e33e101cc5249f1c5e0466189828560a966651449"
+      },
+      {
+        "slug": "aipom",
+        "file": "aipom.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 639,
+        "sha256": "bbc3a686a5d8bf282b79ff61a8bfe1a1b576bf97fbed8eb0dae3ef1200fb8f95"
+      },
+      {
+        "slug": "alakazam",
+        "file": "alakazam.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1015,
+        "sha256": "2158d2e2818ad618b14d677beaf9e0c59c5bb19b7945096ec0c69cf79b8b9831"
+      },
+      {
+        "slug": "altaria",
+        "file": "altaria.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 825,
+        "sha256": "2d3f8f07eb0bd20942f18c382a7d98efacd5e93ff85d4dd1ac9c45cc048c6aed"
+      },
+      {
+        "slug": "ampharos",
+        "file": "ampharos.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 721,
+        "sha256": "08bc4ca7549bb23bad35590e3fa450160a9df1fcf22c69227715999fdf5c6754"
+      },
+      {
+        "slug": "anorith",
+        "file": "anorith.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 691,
+        "sha256": "59b773a0651284ab9096fec6ffd39799cc2c2b26627f09595dcad98691a33bb3"
+      },
+      {
+        "slug": "arbok",
+        "file": "arbok.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 899,
+        "sha256": "bf295cb2c77f0cb96e6b1fc772165cc90f7b8b90b4463862e569a11c1a4ed326"
+      },
+      {
+        "slug": "arcanine",
+        "file": "arcanine.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1061,
+        "sha256": "23b096f8dc0b66b09a848fdd7058682747a2fbbd842fde97e791aced3815a3ab"
+      },
+      {
+        "slug": "ariados",
+        "file": "ariados.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 850,
+        "sha256": "38977a02108ad707f3e41aaa01335a3758f4fcea80d51ce803955067ddb9e0db"
+      },
+      {
+        "slug": "armaldo",
+        "file": "armaldo.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1165,
+        "sha256": "49a34e7706298db4652bf6df3b616205d7f179b0fa7090ed67d6639eb788c94b"
+      },
+      {
+        "slug": "aron",
+        "file": "aron.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 384,
+        "sha256": "79a46a91fca50a8fa1675f7ae6f33fbcc2b112de0bb632ad5a25ab8adf221256"
+      },
+      {
+        "slug": "articuno",
+        "file": "articuno.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1072,
+        "sha256": "514896da354b744692f43894df3e369cf315f2f1d45c90972ac1a4e302cc9ef8"
+      },
+      {
+        "slug": "azumarill",
+        "file": "azumarill.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 631,
+        "sha256": "a165801f6a5b304ca2dfb24c02a9392fb81726509473f63d49994fb414145713"
+      },
+      {
+        "slug": "azurill",
+        "file": "azurill.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 589,
+        "sha256": "0fc8785b78d7a2ca39885b5776c98dcc9715fa5c164e77388e4227b7a23590e6"
+      },
+      {
+        "slug": "bagon",
+        "file": "bagon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 512,
+        "sha256": "1b5150a2f6a211fdb17c32085df23bfce2d5c4e200b605e2e0a8ca9c38d5654d"
+      },
+      {
+        "slug": "baltoy",
+        "file": "baltoy.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 416,
+        "sha256": "6788eaf61365825e73aab4bce2c3337c872c7303317f6de326f272ac9ba84407"
+      },
+      {
+        "slug": "banette",
+        "file": "banette.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 546,
+        "sha256": "fa161ddf9159dfb50695e956d4986377f29575d81c7bed68e77294c258b0aec2"
+      },
+      {
+        "slug": "barboach",
+        "file": "barboach.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 565,
+        "sha256": "19341db827811eaa23b973b12f44b686ac5ce651cfc1da40687c98df5220b55c"
+      },
+      {
+        "slug": "bayleef",
+        "file": "bayleef.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 815,
+        "sha256": "2b1e23800c087965cd9e4de36af1ec57b04ceb6a5cc71a7d801356e3b4765c0c"
+      },
+      {
+        "slug": "beautifly",
+        "file": "beautifly.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 699,
+        "sha256": "fb9cff7cd12aa3f383ad8e6366d0cd89e1861e3ed7d34be3eaf313fba77b4c98"
+      },
+      {
+        "slug": "beedrill",
+        "file": "beedrill.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 913,
+        "sha256": "86ff4125366e827f8e29011d45a7ccad807c08cc2376570bb8981b9bf4e73c68"
+      },
+      {
+        "slug": "beldum",
+        "file": "beldum.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 465,
+        "sha256": "625707b92f382ed0e07bdb1c51301a789cb2742f4a51dea5018ac52c279ec401"
+      },
+      {
+        "slug": "bellossom",
+        "file": "bellossom.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 520,
+        "sha256": "af0f1c0986c88a660cbf35b76a40685e7dbedab662bfd5d4e541c00bbefa9b19"
+      },
+      {
+        "slug": "bellsprout",
+        "file": "bellsprout.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 547,
+        "sha256": "00ea8ace96153ef2c864331d36ef20b24f2df469dca88ee9477f6ae99e271792"
+      },
+      {
+        "slug": "blastoise",
+        "file": "blastoise.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1076,
+        "sha256": "d5a2a13fd2887003a98ed9656927bb7a95b83b9cf1078d68fb4a2b1f5b8fcc77"
+      },
+      {
+        "slug": "blaziken",
+        "file": "blaziken.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 967,
+        "sha256": "fa78dd0ce70510a93d7580b2616c4dd31e6e68f5e2d93c7a29a744663b87b4a6"
+      },
+      {
+        "slug": "blissey",
+        "file": "blissey.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 827,
+        "sha256": "fa44e57d5c60c044cdb0255bc039475ae60e2bbce5733dcd1645e1e702487a46"
+      },
+      {
+        "slug": "breloom",
+        "file": "breloom.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 849,
+        "sha256": "ff5d8c2a81d0f2db8b0fa9a86ce3d5b09c9d7457c4e1db8c83bd94e93085e996"
+      },
+      {
+        "slug": "bulbasaur",
+        "file": "bulbasaur.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 558,
+        "sha256": "523c5d50a673c3a46a68a96bd32a63fcfae9192637fb6407198a43746c38f7e3"
+      },
+      {
+        "slug": "butterfree",
+        "file": "butterfree.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 748,
+        "sha256": "8c585036c073df2fd4c51a9c1384b0af4b8a855e80f293b1eb374ffd612c8471"
+      },
+      {
+        "slug": "cacnea",
+        "file": "cacnea.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 662,
+        "sha256": "31ec2852ba8507000fd2ba11d7ba630a136f14c804aa6048957adf887125eaaa"
+      },
+      {
+        "slug": "cacturne",
+        "file": "cacturne.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 917,
+        "sha256": "ec67c9980c08740db4e4a406e364fa7bbe1353d527d23d73ff3c51ed7b086b50"
+      },
+      {
+        "slug": "camerupt",
+        "file": "camerupt.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 839,
+        "sha256": "9bdc187a766070010eabbc11217a081663194ae86b93c38f555b319b95c80369"
+      },
+      {
+        "slug": "carvanha",
+        "file": "carvanha.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 692,
+        "sha256": "cf251c06cd43530b69a05771f0d1b023a08d33bc653279022cdecdc05d40004b"
+      },
+      {
+        "slug": "cascoon",
+        "file": "cascoon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 493,
+        "sha256": "22b4bf9c25af3664571228b44c5a4e849a69a07fbd7b64f9216fc18f1be8394b"
+      },
+      {
+        "slug": "castform",
+        "file": "castform.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 382,
+        "sha256": "491ba0d533469508ebd5de8e8cc895d4998823c66066b0115c18410845b7a67f"
+      },
+      {
+        "slug": "caterpie",
+        "file": "caterpie.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 501,
+        "sha256": "b744770221a976558e56677c6d37577d3a74e8fca40fcf1f4710070c2750dd4a"
+      },
+      {
+        "slug": "celebi",
+        "file": "celebi.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 514,
+        "sha256": "4b7413b4db460f1c1745f3c2dd12eeb7502b052193e4d9a4b8a2c3ab6e5e4f5d"
+      },
+      {
+        "slug": "chansey",
+        "file": "chansey.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 669,
+        "sha256": "3526cf80a37cd841385a7ea8392ea44ee9433199c9b4d7884eefc39862c20f84"
+      },
+      {
+        "slug": "charizard",
+        "file": "charizard.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1090,
+        "sha256": "2896ad7b2231bb914ad5109a24b6d25443af738cb48ab232d8feb1a5d35882d2"
+      },
+      {
+        "slug": "charmander",
+        "file": "charmander.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 566,
+        "sha256": "0235fcad1ca309f303947ae1688d7564636971c30a0c707b6ee123e697f76022"
+      },
+      {
+        "slug": "charmeleon",
+        "file": "charmeleon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 781,
+        "sha256": "d4fcc3d239674c98e8db95643d8e02f4a4817c61f87ac8405d476dece000ecab"
+      },
+      {
+        "slug": "chikorita",
+        "file": "chikorita.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 507,
+        "sha256": "dd685a839c922c78eb5012caefa7c08d1475f26832f9e21db067da69790a1d2e"
+      },
+      {
+        "slug": "chimecho",
+        "file": "chimecho.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 458,
+        "sha256": "b43bf02855b1b56fc38638e4981ecbf65d974a7dc031ba2a6be3be709dcdcd43"
+      },
+      {
+        "slug": "chinchou",
+        "file": "chinchou.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 607,
+        "sha256": "27eabbb1ed81fee1518b4d4e5ed10124691f530cab3d923bf807e374bff27aac"
+      },
+      {
+        "slug": "clamperl",
+        "file": "clamperl.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 611,
+        "sha256": "2af1134e10cd2cddd9ea4d2eade2f7cb87c380cb9dd996d48f19ced44b014248"
+      },
+      {
+        "slug": "claydol",
+        "file": "claydol.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 771,
+        "sha256": "746d097e33e1328f2c0d1037f87fe2553d42506ed28c90b2e303c140809e08fa"
+      },
+      {
+        "slug": "clefable",
+        "file": "clefable.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 674,
+        "sha256": "e71329b76f2eefb453917eb72b82a1e41437c933447778d960a0404880130198"
+      },
+      {
+        "slug": "clefairy",
+        "file": "clefairy.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 540,
+        "sha256": "cbc6812a0213613fbbbe255320ac9829e8bfccd20bdfcf2ef1cdff8d78d1694f"
+      },
+      {
+        "slug": "cleffa",
+        "file": "cleffa.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 381,
+        "sha256": "26bd68a52e0ff8f8449c2c4342e77f6febd0f42d2225b7391125e8d46530ff61"
+      },
+      {
+        "slug": "cloyster",
+        "file": "cloyster.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 875,
+        "sha256": "953ccafb36c9f62682e1c1b7662150516bc649625983536e71b8ab7638fc9bd9"
+      },
+      {
+        "slug": "combusken",
+        "file": "combusken.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 838,
+        "sha256": "48146ff542359d2bd0922f38df186d02997caadcb38793de88cde3c23483bd8f"
+      },
+      {
+        "slug": "corphish",
+        "file": "corphish.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 704,
+        "sha256": "0bb0f88b4de20153fac7eb7bf62d838a4b28cb04f9cd6c95028fd59d6d93b673"
+      },
+      {
+        "slug": "corsola",
+        "file": "corsola.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 601,
+        "sha256": "db89d992c8ca2e004994df38566ae0e1c7b58da67a591a81b4930b3d50cc1523"
+      },
+      {
+        "slug": "cradily",
+        "file": "cradily.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 887,
+        "sha256": "024590f25182c1246b8526333f5dd5c12fe156545e109dbf2b3237190b80e94b"
+      },
+      {
+        "slug": "crawdaunt",
+        "file": "crawdaunt.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1006,
+        "sha256": "507ca84f003a53227dc8b25d2ee6ffee4918166a54fa00165ceb12d38cd7065f"
+      },
+      {
+        "slug": "crobat",
+        "file": "crobat.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 780,
+        "sha256": "533b6c81788b5eb3be8f1a95e68b8fa09e0de798591e757b859e5f0b7212b0d6"
+      },
+      {
+        "slug": "croconaw",
+        "file": "croconaw.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 730,
+        "sha256": "2ff4e75a95aa3bacb56f67a8cfdc8613a9dc5574219dc7f6c118c1e3981460fe"
+      },
+      {
+        "slug": "cubone",
+        "file": "cubone.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 572,
+        "sha256": "f8479997c8aa5b9f2d64f423524de4a2276c292e7e53ecb661ccaef61368be72"
+      },
+      {
+        "slug": "cyndaquil",
+        "file": "cyndaquil.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 546,
+        "sha256": "4bc6cd22d95b1259598dbb0ee1a25bb266a7ff117f584b842782a9ee4aa229c8"
+      },
+      {
+        "slug": "delcatty",
+        "file": "delcatty.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 765,
+        "sha256": "4ddeb277389f06b8fb907c6687023bc7b5d13d809628167c40d71f5f025b82e8"
+      },
+      {
+        "slug": "delibird",
+        "file": "delibird.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 733,
+        "sha256": "87ff6b1c1b8edfdca069129dc8dafe870679f782b7569a904a6634deb8916f2d"
+      },
+      {
+        "slug": "deoxys",
+        "file": "deoxys.png",
+        "width": 64,
+        "height": 128,
+        "bytes": 1579,
+        "sha256": "1dcd1ad9b5aea89f288f8ae11e98ba9a2358760ba48b8e8b08dd53a1dda61c14"
+      },
+      {
+        "slug": "dewgong",
+        "file": "dewgong.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 763,
+        "sha256": "f906985daa21b77ce441e1b3930f8b65d29e5dd57538ea31020dde52e51d228e"
+      },
+      {
+        "slug": "diglett",
+        "file": "diglett.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 424,
+        "sha256": "e97aa686e573a270817e348f6022e8ad59396fdde976b4001815229a28aaef62"
+      },
+      {
+        "slug": "ditto",
+        "file": "ditto.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 377,
+        "sha256": "d85901c8fbdc2304d73b5bb349f9c0ca2b58bb9b2a0425f4dd179e2512856c6c"
+      },
+      {
+        "slug": "dodrio",
+        "file": "dodrio.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 910,
+        "sha256": "8c7fd6755829ef083cea59f4287e13f4869358e362e17e9dc46e560e04eda8b9"
+      },
+      {
+        "slug": "doduo",
+        "file": "doduo.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 619,
+        "sha256": "1fe4a895af2364ed210842da8636665feca14da020667b23d38a6ebdc33f0f37"
+      },
+      {
+        "slug": "donphan",
+        "file": "donphan.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 923,
+        "sha256": "48a642f293f0895fa9e4d09ad34ec18dba536b96ed5611ba742e3d640c5cc684"
+      },
+      {
+        "slug": "dragonair",
+        "file": "dragonair.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 758,
+        "sha256": "497526749152d62fca20f819e5ea198e3b5f456ed1ef81bf776df0199d12ec71"
+      },
+      {
+        "slug": "dragonite",
+        "file": "dragonite.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1172,
+        "sha256": "b91d92fd4a7e2291552d6e4e9e45c4f1d4cc6aec513aee78ec5a457dc0e1f4d6"
+      },
+      {
+        "slug": "dratini",
+        "file": "dratini.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 568,
+        "sha256": "103a2f15df984d92aa75cc76e494b8804e71f84f9ebc43c15c190f0b0a4f6786"
+      },
+      {
+        "slug": "drowzee",
+        "file": "drowzee.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 653,
+        "sha256": "583ed929104dff5876235178934550cda4ba4063a6f5bf86883cc2f21e17e498"
+      },
+      {
+        "slug": "dugtrio",
+        "file": "dugtrio.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 642,
+        "sha256": "b50e38a76a00e487d74f8a5f690a2e6116ae04b10104833577af8e7e35635482"
+      },
+      {
+        "slug": "dunsparce",
+        "file": "dunsparce.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 645,
+        "sha256": "861a44e3de5793baf57cbd40d598ad64c591b4c89e7fd248d3d15c7d223f2203"
+      },
+      {
+        "slug": "dusclops",
+        "file": "dusclops.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 741,
+        "sha256": "8b2458769ea1c93245c681478baa06a5b84d692c271e347d9ade24b478dd3c98"
+      },
+      {
+        "slug": "duskull",
+        "file": "duskull.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 616,
+        "sha256": "b507b58772596bff96eeaf5350753c52f603e1d400b1adfb3ada095ce1b0adf4"
+      },
+      {
+        "slug": "dustox",
+        "file": "dustox.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 724,
+        "sha256": "be59f3a9a7d9c61367f976f799e397775cf0b4f9bee2b28ada07365271c2e3a4"
+      },
+      {
+        "slug": "eevee",
+        "file": "eevee.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 597,
+        "sha256": "e570cccf3ae4be311cf9ba3abba731a2b579a71b1c837bc642d4e6cc9a20ed0f"
+      },
+      {
+        "slug": "ekans",
+        "file": "ekans.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 566,
+        "sha256": "eb86c0898709489fb7739d5681d0ab3a450e9b2f576dcc5c3a9c97d46091c4d5"
+      },
+      {
+        "slug": "electabuzz",
+        "file": "electabuzz.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 882,
+        "sha256": "bcb9e4790b4bdd2cfbcae4dfead5ccb44160646c1eac741d6b4c8fdd6c26f241"
+      },
+      {
+        "slug": "electrike",
+        "file": "electrike.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 511,
+        "sha256": "2b733c6394b1142effbaa42f7d03e04b3411330257efbe5d9e1b58530ee26ef6"
+      },
+      {
+        "slug": "electrode",
+        "file": "electrode.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 490,
+        "sha256": "a3b3d1caf5ba2dc0cf6ae77636ef47ec7cc9661772dde25bb9e72e25299d7d5a"
+      },
+      {
+        "slug": "elekid",
+        "file": "elekid.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 646,
+        "sha256": "6e1bc3898e64e2f19a5266f6e15ad054ce620d7c600793750a16b4412812b532"
+      },
+      {
+        "slug": "entei",
+        "file": "entei.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1284,
+        "sha256": "08136d9c9bc19fdce03b6a160bee70387ec7555a682ab233e4cb8ec9475deeb3"
+      },
+      {
+        "slug": "espeon",
+        "file": "espeon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 659,
+        "sha256": "3c8d30225ce8e41bf33d7de02dcf6ae1f9f285f47b6642e0500b60de63351264"
+      },
+      {
+        "slug": "exeggcute",
+        "file": "exeggcute.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 711,
+        "sha256": "e5ed8a4899fe20710031eb0a6efc108330c7622a59e4ee70d40ede4db7aff2fa"
+      },
+      {
+        "slug": "exeggutor",
+        "file": "exeggutor.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 930,
+        "sha256": "55bbbacfdef887569dcf6ba37152a35495580a1b4b46e9c4197439e7f236f769"
+      },
+      {
+        "slug": "exploud",
+        "file": "exploud.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1157,
+        "sha256": "968afb756cf0b984537a4865efc674929c919e7d9adedc0ec421074cd803eb3c"
+      },
+      {
+        "slug": "farfetchd",
+        "file": "farfetchd.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 701,
+        "sha256": "2d12000866b9a53d7b165d39cf2e588cba22cebd0941198bbdfc302d4bed9c0b"
+      },
+      {
+        "slug": "fearow",
+        "file": "fearow.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1022,
+        "sha256": "29cd362bb3a5cf5f01e2bfddf5dedbaeffa6312a39fdaa83d4d8e1b475ba4a1c"
+      },
+      {
+        "slug": "feebas",
+        "file": "feebas.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 539,
+        "sha256": "b4e5820c45e4116b85900a001a59ca552e1292c0ea82d9722f0407cfe0b1703f"
+      },
+      {
+        "slug": "feraligatr",
+        "file": "feraligatr.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1122,
+        "sha256": "55def8eb3a376a4f5d6058ce6b880d50ee29f635eaf613f928b4d3fbc5741f31"
+      },
+      {
+        "slug": "flaaffy",
+        "file": "flaaffy.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 652,
+        "sha256": "14d05e7ed3733dfb2c9df6b174889d1e89fe621a1d0452b3d41e5669c3442d51"
+      },
+      {
+        "slug": "flareon",
+        "file": "flareon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 717,
+        "sha256": "69e7a1faf82f500e2eeec03341822d468e6e662c208119e77dc332a90eedc88e"
+      },
+      {
+        "slug": "flygon",
+        "file": "flygon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1076,
+        "sha256": "44156c3a535248e77695b1341579fa96440dc085ab9cb2370b9aca13c31234d7"
+      },
+      {
+        "slug": "forretress",
+        "file": "forretress.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 835,
+        "sha256": "3f0de086868449c7e2c05a88cd704f7c2263bba49384bc4829671377bac62fc8"
+      },
+      {
+        "slug": "furret",
+        "file": "furret.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 659,
+        "sha256": "0450925d4647633296b786f77fc4987566f9e9192150d84fca507f0591f951bc"
+      },
+      {
+        "slug": "gardevoir",
+        "file": "gardevoir.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 737,
+        "sha256": "8ca5714295be79774900cc1ef0915a2e593a66a41f8816016fc545a0fbe56217"
+      },
+      {
+        "slug": "gastly",
+        "file": "gastly.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 772,
+        "sha256": "2ba311e52f218c49733642e8aaed45d240a1597f59f09f04b4231f6f47c10e03"
+      },
+      {
+        "slug": "gengar",
+        "file": "gengar.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 704,
+        "sha256": "516cf00380dcd1da7e2a300849e124fddbef5cf868d8e3075678635b8410fc84"
+      },
+      {
+        "slug": "geodude",
+        "file": "geodude.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 486,
+        "sha256": "58fd3d3a5a480c0f813ef116381681753d85e8f90224ee02fb16740deac34d19"
+      },
+      {
+        "slug": "girafarig",
+        "file": "girafarig.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 871,
+        "sha256": "904d6e2ca35848c8d744148153c3abbb5e69d7ed407f589f405ba0464742ba0e"
+      },
+      {
+        "slug": "glalie",
+        "file": "glalie.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 788,
+        "sha256": "d07529ec2a72228e4bcec894bb0c0560176dd4aeb51e156ecc00395d8fc2674b"
+      },
+      {
+        "slug": "gligar",
+        "file": "gligar.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 914,
+        "sha256": "c4af8708f5f188d5128cb9839e1cbed77f0a08f2bf3e428ed7d155a5895ea38f"
+      },
+      {
+        "slug": "gloom",
+        "file": "gloom.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 727,
+        "sha256": "f7c44ea822e5d351f59c9ed914a157cb5e3bb7b4728196ebe0d8b66b6e1827b8"
+      },
+      {
+        "slug": "golbat",
+        "file": "golbat.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 764,
+        "sha256": "ece5bd941920e24a39de25d6cb8ce9e4023b9aeaf499a736d194f9d59181e4c1"
+      },
+      {
+        "slug": "goldeen",
+        "file": "goldeen.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 725,
+        "sha256": "b2ee0e08857195d9822449a197aff9a2eccb703a88278e0bfae430cec5f448e5"
+      },
+      {
+        "slug": "golduck",
+        "file": "golduck.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 799,
+        "sha256": "45fc4e244fb9bd05ca95e7f90624266b2f88981332cf062cfbb53c8eee10fd0f"
+      },
+      {
+        "slug": "golem",
+        "file": "golem.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 876,
+        "sha256": "3fbd93054e52166ab3d8347750ad6c37523e8498fd0c161cdc4273fc46b01ccb"
+      },
+      {
+        "slug": "gorebyss",
+        "file": "gorebyss.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 659,
+        "sha256": "4b8ee3cac1c8c5ca96aa16906f41f3bfbb0643ce8a6e9afdc8e518cd2bf32191"
+      },
+      {
+        "slug": "granbull",
+        "file": "granbull.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 720,
+        "sha256": "f04c9d7b43b2356c3e513bb63f894717d35c9e0344c5eb07e610a63cde48b997"
+      },
+      {
+        "slug": "graveler",
+        "file": "graveler.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 767,
+        "sha256": "8ba45c4022c0db399fe4aa82faab4be560e6d028bc5fddaa066afc3e453b384c"
+      },
+      {
+        "slug": "grimer",
+        "file": "grimer.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 626,
+        "sha256": "0ed6417c5107daa8b27853b71300d8562201a0a7daad8ccb6b35b60226c6e932"
+      },
+      {
+        "slug": "groudon",
+        "file": "groudon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1247,
+        "sha256": "07726d03f79501e7d32db7710bce00eafab74e4922d2261a4e2458b627be0014"
+      },
+      {
+        "slug": "grovyle",
+        "file": "grovyle.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 970,
+        "sha256": "7afbc9e2a53615af2a861ac4d4e5c72ad535ebd1446e8d449ccb7ebe61bc2186"
+      },
+      {
+        "slug": "growlithe",
+        "file": "growlithe.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 657,
+        "sha256": "1af43df18840da7033fd6b31b5017df0ea48e11281eaa9c543c80218a6bac0dc"
+      },
+      {
+        "slug": "grumpig",
+        "file": "grumpig.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 831,
+        "sha256": "7fe54942f1dfdd7c646f65a4592536bb14c634fefd69da76647ad1bb16ea0250"
+      },
+      {
+        "slug": "gulpin",
+        "file": "gulpin.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 428,
+        "sha256": "4c337c62fa8d484d8f0528216102ec3a8ca836ef81839651aca86791202f47dc"
+      },
+      {
+        "slug": "gyarados",
+        "file": "gyarados.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1229,
+        "sha256": "33b7f64d4098f8d91ec176332d414b981a6e6cc68b2b44665d80353851d47a76"
+      },
+      {
+        "slug": "hariyama",
+        "file": "hariyama.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1006,
+        "sha256": "6fd87fc57508f81372ea2502704925a968dbe2c7d1bdd185b3ea53f4a17cac3f"
+      },
+      {
+        "slug": "haunter",
+        "file": "haunter.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 806,
+        "sha256": "f671f2cf9b8b4f918da115aaaf3e0e09ef66f02387c9e9b554661ae21e20e350"
+      },
+      {
+        "slug": "heracross",
+        "file": "heracross.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 811,
+        "sha256": "2b4b2cf113946d7b68b6bd26f41f374844983dc7f2f9e87f1635b828fe9e6d1a"
+      },
+      {
+        "slug": "hitmonchan",
+        "file": "hitmonchan.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 693,
+        "sha256": "f1b661b4a27b79c419d32921ed37f5d8a7a086b92c49e9dc28137d7a4127dcdc"
+      },
+      {
+        "slug": "hitmonlee",
+        "file": "hitmonlee.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 739,
+        "sha256": "5630e8dae1fa64576d01cd2cc8fa0ff6c8b3a8d30c0df88bf8fd174f626051df"
+      },
+      {
+        "slug": "hitmontop",
+        "file": "hitmontop.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 772,
+        "sha256": "2f99fa6b68855603e9c12fce72c284ec2435a4b0a23d6b04a325f34bd0cf03e1"
+      },
+      {
+        "slug": "ho_oh",
+        "file": "ho_oh.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1332,
+        "sha256": "07f1159d439da9d697f39621463876b1439fd83e043c9ce97ffcc410af0884b9"
+      },
+      {
+        "slug": "hoothoot",
+        "file": "hoothoot.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 525,
+        "sha256": "db0d9b7b1535538bb0feb55cc21ebd87bfe882ae4a10f984ebea04246500eb42"
+      },
+      {
+        "slug": "hoppip",
+        "file": "hoppip.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 551,
+        "sha256": "d65cc6849371d00f7fb5959b64acc19f8b001fa511be0a59e43105d173637cb5"
+      },
+      {
+        "slug": "horsea",
+        "file": "horsea.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 510,
+        "sha256": "45caef351524c56b97e0f8f887cf41ec00f1be2f57a4a0eb877129e0e229066f"
+      },
+      {
+        "slug": "houndoom",
+        "file": "houndoom.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 853,
+        "sha256": "677c2500198efdc4e5f0ab6fac399bcfa1f6be083968fa5b0f1d21d3093042b0"
+      },
+      {
+        "slug": "houndour",
+        "file": "houndour.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 558,
+        "sha256": "73c5afd4a5b47fda8a3dc13b28e82934397ecb6beed50e6bbc84f74c2d93bc2d"
+      },
+      {
+        "slug": "huntail",
+        "file": "huntail.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 833,
+        "sha256": "302a511b4422be047cb6497f6570af05018570990cea72d74ae0c97b57d38a69"
+      },
+      {
+        "slug": "hypno",
+        "file": "hypno.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 862,
+        "sha256": "96ed3b57428d6bb33cee45d2d5ff663f160f069e0e9e5ea7ecdff42bcdca482d"
+      },
+      {
+        "slug": "igglybuff",
+        "file": "igglybuff.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 376,
+        "sha256": "ec9955e4b578a44e6328257f944b3aa23f05dd24478f35150c7262f139a6c8ad"
+      },
+      {
+        "slug": "illumise",
+        "file": "illumise.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 729,
+        "sha256": "a8f5227a61d22dc1e03ba904719927c3f0ae33260d0fbdee978faa2e709f4bdf"
+      },
+      {
+        "slug": "ivysaur",
+        "file": "ivysaur.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 689,
+        "sha256": "8805361d6c2f5d46890d18a16c9e3f9d638ccc7ae26e7b68dedf1d6258bb32f5"
+      },
+      {
+        "slug": "jigglypuff",
+        "file": "jigglypuff.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 496,
+        "sha256": "8f9189b80976246f8e62d22969b963d96ae2a3f7e1476ed8a979b569e722a758"
+      },
+      {
+        "slug": "jirachi",
+        "file": "jirachi.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 637,
+        "sha256": "6e4cd342f6b60794b3e1f7d43cfed9c63aa952ae84b476cb5225b7d7ee79609d"
+      },
+      {
+        "slug": "jolteon",
+        "file": "jolteon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 706,
+        "sha256": "7a795f6e21a720bf8a29a3fca909659708b843c02ea80372a25018a7cf311e2e"
+      },
+      {
+        "slug": "jumpluff",
+        "file": "jumpluff.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 734,
+        "sha256": "4260ae145dead13ecedfea22042d81738ba8ff45febcc7a74c52ea9555bde5c9"
+      },
+      {
+        "slug": "jynx",
+        "file": "jynx.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 832,
+        "sha256": "68fa0b6c507a35ab24bb4d118740130c368edcd61398e444523c2f88030023cd"
+      },
+      {
+        "slug": "kabuto",
+        "file": "kabuto.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 440,
+        "sha256": "d9e8a4521a05958671d61166207ee58439f921ade0c56e8b418ec988cbb69e30"
+      },
+      {
+        "slug": "kabutops",
+        "file": "kabutops.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 844,
+        "sha256": "3847b892fc4c58c766660c02e10bd525c192a673db8418271d486a2b72084d72"
+      },
+      {
+        "slug": "kadabra",
+        "file": "kadabra.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1016,
+        "sha256": "03cb7b93219852d42c5a6cc6637e8e6aa56bf7dede1560a6bb56bc0795f6ad76"
+      },
+      {
+        "slug": "kakuna",
+        "file": "kakuna.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 442,
+        "sha256": "c4b35f0538d9cb18ae20d32ddfa8d0e778638ab96a1bbeed89a70339f1b17a9f"
+      },
+      {
+        "slug": "kangaskhan",
+        "file": "kangaskhan.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 981,
+        "sha256": "c65892cf4f9b054b4888c9669b1b0055a7a00639f3836ae8926a15ff60ad3717"
+      },
+      {
+        "slug": "kecleon",
+        "file": "kecleon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 762,
+        "sha256": "81f5f322ec23c9ae6554bcfe72131135547b22d1a21717dbf40d6435f20e37d8"
+      },
+      {
+        "slug": "kingdra",
+        "file": "kingdra.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 858,
+        "sha256": "ee6c3698fa272d0586c7865406a781cadb1e00d6869d761c3072dee51b8ef7e7"
+      },
+      {
+        "slug": "kingler",
+        "file": "kingler.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 936,
+        "sha256": "246dae1a3ccc9161603e7ba0e4c288cdc98ef402b16b503eb01419e39d902a91"
+      },
+      {
+        "slug": "kirlia",
+        "file": "kirlia.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 618,
+        "sha256": "f6ab42d98c3fee1c32ac40f50efe6e7129fb8f0e90221c48b82d4b962adbf799"
+      },
+      {
+        "slug": "koffing",
+        "file": "koffing.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 634,
+        "sha256": "93fa37fb3845de613da3aa5d45ad71ae46e0aea612280032edf74d31d765888b"
+      },
+      {
+        "slug": "krabby",
+        "file": "krabby.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 633,
+        "sha256": "dce337819a912ee8cd5d8586b9956009aeccd85304b3b5ef75f4a1c29939ac7e"
+      },
+      {
+        "slug": "kyogre",
+        "file": "kyogre.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 965,
+        "sha256": "f72aeb52bbf3139bb31782baaf52c525df7a22ff161b4e1753c5c9a0a279d7d7"
+      },
+      {
+        "slug": "lairon",
+        "file": "lairon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 814,
+        "sha256": "75ef43b3662871ce5f4a2783f5bd549b2bef0950cd785a5f5bd4b06eb52eee8c"
+      },
+      {
+        "slug": "lanturn",
+        "file": "lanturn.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 738,
+        "sha256": "3a83e819d0732366fb70fafe1edf684904dd89c75c5acc773e511703a89381ad"
+      },
+      {
+        "slug": "lapras",
+        "file": "lapras.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 811,
+        "sha256": "fb001b05934f9a8181fd2bba9a9f5e195ef4a28d94f39dfc6f0260c86cd8ae2f"
+      },
+      {
+        "slug": "larvitar",
+        "file": "larvitar.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 480,
+        "sha256": "db3b64d44ac7bf4bf1cfb1bcfe091ccfe5dc08b3e6ea91412c630dbf8e79794a"
+      },
+      {
+        "slug": "latias",
+        "file": "latias.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 867,
+        "sha256": "7b8af3b695631deb1a58337d791b5e35570542bf6443cbaa85606fd1d53a66be"
+      },
+      {
+        "slug": "latios",
+        "file": "latios.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 959,
+        "sha256": "000105f65c5700fe290b4f026d0e489f58ebf12215541500ac66e02269a118c7"
+      },
+      {
+        "slug": "ledian",
+        "file": "ledian.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 766,
+        "sha256": "794955e9977fcfdaf5ee66954bdb30c4c8386e4032fd823dd556dc13f741bd74"
+      },
+      {
+        "slug": "ledyba",
+        "file": "ledyba.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 637,
+        "sha256": "04e6ef3297be3ceaf815b50d029e663e0eaf021edb06ea9205c0f3209669ea41"
+      },
+      {
+        "slug": "lickitung",
+        "file": "lickitung.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 821,
+        "sha256": "b499b17048bf7941bd6efe6c794fd05ff078cf2ffa1d6ccb41a9c406a7eb3361"
+      },
+      {
+        "slug": "lileep",
+        "file": "lileep.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 692,
+        "sha256": "8d548e2bcf1f2e7702a097c13223d87798a1649d39b476bd04a3bc87b3f7345c"
+      },
+      {
+        "slug": "linoone",
+        "file": "linoone.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 703,
+        "sha256": "6bcbe52c2ad653b191c84269ccb889fe0267de76fa2172a6d9c33ac2a4c7d152"
+      },
+      {
+        "slug": "lombre",
+        "file": "lombre.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 647,
+        "sha256": "c11a39b9752c02a27b88e99d4a8c7ae61ab6acd19e9f84ad93ce3c46e81f816a"
+      },
+      {
+        "slug": "lotad",
+        "file": "lotad.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 492,
+        "sha256": "2983deb87f1f0eb393a5f109c82c4104f902beb07c63c2c5a4084705fec3dcff"
+      },
+      {
+        "slug": "loudred",
+        "file": "loudred.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 936,
+        "sha256": "32ce2f44d2c267e97446b3ad0bc5cc5e5b9df83450b6684a4cb67857e4897de1"
+      },
+      {
+        "slug": "ludicolo",
+        "file": "ludicolo.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1040,
+        "sha256": "43e41634412569709c0f4b27bbc8389b0cbd736e1dbef3c225611fbfcf4ee9f9"
+      },
+      {
+        "slug": "lugia",
+        "file": "lugia.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1030,
+        "sha256": "7fc4f8ee23829b7b3879d37bf79fd60500c46c0cc5d02a3e293637aa31cd7eb9"
+      },
+      {
+        "slug": "lunatone",
+        "file": "lunatone.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 660,
+        "sha256": "5e3a1c01685887cfc5cad1075d486bb1b98399893654e1f68b474fbf1bb27182"
+      },
+      {
+        "slug": "luvdisc",
+        "file": "luvdisc.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 328,
+        "sha256": "c3779164bbafbeb0979d80186d3816488baadbc5b427f341d4f7ec48efa357bb"
+      },
+      {
+        "slug": "machamp",
+        "file": "machamp.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1046,
+        "sha256": "eba22204b29744e92d98248c6e37f5f13339017aa80df19d32dff914f28ad0a9"
+      },
+      {
+        "slug": "machoke",
+        "file": "machoke.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 796,
+        "sha256": "32feca433b6b53edc1ae6e5053b446636fc25c4158f9cc992f21be9a0f227914"
+      },
+      {
+        "slug": "machop",
+        "file": "machop.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 516,
+        "sha256": "1bba54a7cb2d169a9b23a6810d7f0760cf348629ee02a724542e369a06f5d0ed"
+      },
+      {
+        "slug": "magby",
+        "file": "magby.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 506,
+        "sha256": "7a77eb7bdab6b3fb222d71a0a80c95cdb326932167d08dbfcba59ec04c9ea303"
+      },
+      {
+        "slug": "magcargo",
+        "file": "magcargo.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 708,
+        "sha256": "c327728b1965fe23eba33211ea67887c4246a635db2bebbc13a8bb993737ea85"
+      },
+      {
+        "slug": "magikarp",
+        "file": "magikarp.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 753,
+        "sha256": "5cb91302b551316fa84974ae40823f6951476c2b59ecfb0ac162c464c0be428a"
+      },
+      {
+        "slug": "magmar",
+        "file": "magmar.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 921,
+        "sha256": "8ad1697a01394dbd99e03262b5f208a43461999a75ac0c63879489dce3fb3e63"
+      },
+      {
+        "slug": "magnemite",
+        "file": "magnemite.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 390,
+        "sha256": "d6f750cdb4513a6d19a0aec9335f55442a7bfa7b62f320ae6dc4242a030c295b"
+      },
+      {
+        "slug": "magneton",
+        "file": "magneton.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 707,
+        "sha256": "982e9f8e39117fc511e7c96235b316dc02c4ef25ab46f4cf633cc7981acdff61"
+      },
+      {
+        "slug": "makuhita",
+        "file": "makuhita.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 637,
+        "sha256": "98b7bd98546f8f6f43964ae51e1cb1de39c23aa5fb308afe03048e3f19038828"
+      },
+      {
+        "slug": "manectric",
+        "file": "manectric.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 685,
+        "sha256": "324b340a4d9af1cad15a7bf2843bcbf0e8ac169d7d066f8a2e402c85a542345f"
+      },
+      {
+        "slug": "mankey",
+        "file": "mankey.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 646,
+        "sha256": "da03832c776ed4302f452ec49a6d60720d06c238fee294a95bc441e33d5128ef"
+      },
+      {
+        "slug": "mantine",
+        "file": "mantine.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 983,
+        "sha256": "edd204ee5fdb17285178572179c9d166f8013b22bc082d16e489ce6f5b991621"
+      },
+      {
+        "slug": "mareep",
+        "file": "mareep.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 571,
+        "sha256": "0719a7a4595399ed097307dd3ff9a7dfbee3bbde3f820115b03f695743ee0f2f"
+      },
+      {
+        "slug": "marill",
+        "file": "marill.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 563,
+        "sha256": "32d1cbcb08bce3caee4956d5bf0a8d9bebef3e1fb200a9517a37ab491d51f428"
+      },
+      {
+        "slug": "marowak",
+        "file": "marowak.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 753,
+        "sha256": "99119499c81ec25a35ef9503b2170a80a9473e423facd352a4356eaabac23f39"
+      },
+      {
+        "slug": "marshtomp",
+        "file": "marshtomp.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 736,
+        "sha256": "1d5c9b19892655f0a9047c3c11507950d4b7e72a30ce9cf33cffd21cb30a7147"
+      },
+      {
+        "slug": "masquerain",
+        "file": "masquerain.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 782,
+        "sha256": "11a247951ef119397ca16eba5e064333727d9244215226ddc3c4662c359c963d"
+      },
+      {
+        "slug": "mawile",
+        "file": "mawile.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 774,
+        "sha256": "98dcd5a383c9b2f54858d0bc0ecbd37adadf65bcf3971e29ba8965b3df6d6b11"
+      },
+      {
+        "slug": "medicham",
+        "file": "medicham.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 711,
+        "sha256": "2653a2d05a2d807f24a044920c6f3675c24e872395d5d4a80663b5a88bc0d67b"
+      },
+      {
+        "slug": "meditite",
+        "file": "meditite.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 573,
+        "sha256": "6bd5f3ff579418d25256f8d7ebd4130726995ec27c8450b9a2c9728c41ed7299"
+      },
+      {
+        "slug": "meganium",
+        "file": "meganium.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1117,
+        "sha256": "4935c07c43ab3f41c6677a86c527cd63f33ebc7c20efe213e70f0c998beb4905"
+      },
+      {
+        "slug": "meowth",
+        "file": "meowth.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 637,
+        "sha256": "0a7f87b804c27cbad10b56ec98a976df9b7a713709cfe7416b9636c4186b363b"
+      },
+      {
+        "slug": "metagross",
+        "file": "metagross.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 911,
+        "sha256": "7a97be43c959199529266aa9584f8c3ce2052f5af8de30906340f4cf660c712c"
+      },
+      {
+        "slug": "metang",
+        "file": "metang.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 899,
+        "sha256": "37cf9d1ca6fc888102bbdf0177b1f7d07e403f2e1d18d56de7e189861a250b5d"
+      },
+      {
+        "slug": "metapod",
+        "file": "metapod.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 406,
+        "sha256": "6a5490ff9c8396102ed8f53fe0b13a44fdec31c7fb9e7c0a7c4b8470255f8b42"
+      },
+      {
+        "slug": "mew",
+        "file": "mew.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 577,
+        "sha256": "3d254c06b4ce84173e818cea810f1545b8799bbd581b39a3d739e8ac0abf3926"
+      },
+      {
+        "slug": "mewtwo",
+        "file": "mewtwo.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 875,
+        "sha256": "2aca8417e5a999beb9b0ad53b6528f9bfd78ff268fc7aa44034a8d6561ae15b7"
+      },
+      {
+        "slug": "mightyena",
+        "file": "mightyena.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 856,
+        "sha256": "4a3ad21ff18331c6bcf0af56c4cf5a292234175580543d5c00df3b7e39613972"
+      },
+      {
+        "slug": "milotic",
+        "file": "milotic.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 966,
+        "sha256": "269b352d08a05d175faf4cd774a6af43084370efa73caf47a485f04ce2877fc5"
+      },
+      {
+        "slug": "miltank",
+        "file": "miltank.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 791,
+        "sha256": "0c838237cffd13c01998c3284a9214e634a3444113917f792428b96f5d137f6b"
+      },
+      {
+        "slug": "minun",
+        "file": "minun.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 505,
+        "sha256": "ed8782349f70baa1a3a980972ea358bb1abfd2031242c73366b3172b1fbe0fd7"
+      },
+      {
+        "slug": "misdreavus",
+        "file": "misdreavus.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 590,
+        "sha256": "4ab302ccc18db11150c038946e8b887c2337611bb32dd96020c0ca5fd6da3f5a"
+      },
+      {
+        "slug": "moltres",
+        "file": "moltres.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1014,
+        "sha256": "baf8fdfcfe8ab9e9ae67de83f847edd1c4f519cea329ef859c55816729c75db0"
+      },
+      {
+        "slug": "mr_mime",
+        "file": "mr_mime.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 821,
+        "sha256": "b75554898d2fc401cdcd2165a3dd2bafe62a11e473654a3a5eb7bdf346120a64"
+      },
+      {
+        "slug": "mudkip",
+        "file": "mudkip.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 572,
+        "sha256": "096d9b1f4e8de55c284dae5a201b2e371ee15a5954b3e0b49cd5b7df77b61074"
+      },
+      {
+        "slug": "muk",
+        "file": "muk.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 710,
+        "sha256": "dc5fd46472fa92d8d2d054a8a079b0465a234ee3e6fef036d1064a03f7eecc48"
+      },
+      {
+        "slug": "murkrow",
+        "file": "murkrow.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 601,
+        "sha256": "f8d05f93caa52df4482651f6781b877b54f5686470e879471fd4ff2b7335a74a"
+      },
+      {
+        "slug": "natu",
+        "file": "natu.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 375,
+        "sha256": "99d1f5d9e93b96c037731b4bcde1158c32ce91053661e258e27354bed5e31bd8"
+      },
+      {
+        "slug": "nidoking",
+        "file": "nidoking.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1084,
+        "sha256": "6fb59244a962d9ecbd9e6ea47972ebe2b9509848b3697ae47e85839e1ecaa8e4"
+      },
+      {
+        "slug": "nidoqueen",
+        "file": "nidoqueen.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 893,
+        "sha256": "a7e4a0752da32d42b8c9f3996f5b48c24152c49d204decd44989b98f38d23be6"
+      },
+      {
+        "slug": "nidoran_f",
+        "file": "nidoran_f.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 480,
+        "sha256": "5d95155bf6cd1dbc700458ccd6411ef3d4cb90f7e11b1925ce5b07b2188a3746"
+      },
+      {
+        "slug": "nidoran_m",
+        "file": "nidoran_m.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 505,
+        "sha256": "2852bbb4baa49ea46e9b4e0a29aeb6be4bc0b8e473feb3dae6b2ebf2060a49b7"
+      },
+      {
+        "slug": "nidorina",
+        "file": "nidorina.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 632,
+        "sha256": "c720069bd795b768c99479a082330196032fa922719e6f77f279144a07a23632"
+      },
+      {
+        "slug": "nidorino",
+        "file": "nidorino.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 716,
+        "sha256": "8c0529387e81788a062deb78fda647e7a474a1789e653f4d42d0b4deae79bcb9"
+      },
+      {
+        "slug": "nincada",
+        "file": "nincada.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 578,
+        "sha256": "f7993ac9f250104bdd71e4419417e1c38c1cb8d7294c16dd21707d8202e2b68a"
+      },
+      {
+        "slug": "ninetales",
+        "file": "ninetales.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 885,
+        "sha256": "1dee112ffcfe6c1239c9247cab74973f5651b8d6394ad6eb2a5cd517cd899953"
+      },
+      {
+        "slug": "ninjask",
+        "file": "ninjask.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 740,
+        "sha256": "080b87a6d574786f9c3b816f7bd5f3a35614521d27dd43c4005addaec4769c19"
+      },
+      {
+        "slug": "noctowl",
+        "file": "noctowl.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 700,
+        "sha256": "d15912b9c6e50936f61b3ee7d141f6df2f1b904d772fbff4b08e2353146732b7"
+      },
+      {
+        "slug": "nosepass",
+        "file": "nosepass.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 565,
+        "sha256": "e751da519204c30e87c3bd8ab89abcbcbe9c908a782928ef725a925b37271235"
+      },
+      {
+        "slug": "numel",
+        "file": "numel.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 574,
+        "sha256": "cf423cd00d5c3fcb87e88fbb74d71423803ccb445710e7622d9f84a2a5415724"
+      },
+      {
+        "slug": "nuzleaf",
+        "file": "nuzleaf.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 624,
+        "sha256": "f9a9b5af5ca691ae834aa19c581ac9175c153d16496ce72016dba76576d30100"
+      },
+      {
+        "slug": "octillery",
+        "file": "octillery.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 653,
+        "sha256": "872e9948f046d6e1d8556667340074d5dd96d13dfa434df9c0cc47ccccb25cec"
+      },
+      {
+        "slug": "oddish",
+        "file": "oddish.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 451,
+        "sha256": "715312c9b27426ec2b6399661ae57155b989c4c05deb82799ab3d87e6429edd2"
+      },
+      {
+        "slug": "omanyte",
+        "file": "omanyte.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 514,
+        "sha256": "eff118dbed4c20526705f224444b5b36980408bdeed49c3b09638d28e452807a"
+      },
+      {
+        "slug": "omastar",
+        "file": "omastar.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 783,
+        "sha256": "8fcd0b8d93dc221063535072353d72c4a2261f507ecc59215c839914e531f107"
+      },
+      {
+        "slug": "onix",
+        "file": "onix.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 929,
+        "sha256": "e8928f6143a9c839c43bd505e574ebf19d4365610f18caaa6e3eab33bb1d7ac7"
+      },
+      {
+        "slug": "paras",
+        "file": "paras.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 505,
+        "sha256": "d76b3d616d9562072e7a6af3eb6c0eed0dae72896283f2801b192271c4244621"
+      },
+      {
+        "slug": "parasect",
+        "file": "parasect.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 721,
+        "sha256": "676927540ed34862840f600ba71b2e50ad1a415ab8b9d8bdf57382489d06e7e5"
+      },
+      {
+        "slug": "pelipper",
+        "file": "pelipper.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 771,
+        "sha256": "886a0f0bf482068a56ae7faccc29bdef0b09c782b4ead2c03cc21f542afcc8f2"
+      },
+      {
+        "slug": "persian",
+        "file": "persian.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 710,
+        "sha256": "8b8286b0ec59f14937ca8c1005a7961e3a3559a4f80a9d55f6a5355d3617d0f3"
+      },
+      {
+        "slug": "phanpy",
+        "file": "phanpy.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 462,
+        "sha256": "5cdb2b89eb579dcf25df3a166c6b76710b6a9989f0cfdcb4a8a99af1d8f4b3ac"
+      },
+      {
+        "slug": "pichu",
+        "file": "pichu.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 447,
+        "sha256": "09ddf188e7fd39939ebb00cb4f5220122b7a849b819139a6928c58b737135228"
+      },
+      {
+        "slug": "pidgeot",
+        "file": "pidgeot.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1085,
+        "sha256": "fc23443ebfb3847fae9c009e6eb7955b3aa8191c7c25d6d775e34f88f0ff3daa"
+      },
+      {
+        "slug": "pidgeotto",
+        "file": "pidgeotto.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 783,
+        "sha256": "8d58b7cae35d662640bff82415833f6a3de23f378ed6ed24344da382ea6213c6"
+      },
+      {
+        "slug": "pidgey",
+        "file": "pidgey.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 515,
+        "sha256": "14508ecd9bba58857442c7cfb8dd7ce322489f06c7618d92b72b5eb6a95b8da4"
+      },
+      {
+        "slug": "pikachu",
+        "file": "pikachu.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 600,
+        "sha256": "49e9816a16c0c886233e25d9b91f7ee86ac5083c93aa973a9b210528555f72ec"
+      },
+      {
+        "slug": "piloswine",
+        "file": "piloswine.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 643,
+        "sha256": "7e647456be889d33ab0c80454ced9eb03446a52ace50359025e33227abccb498"
+      },
+      {
+        "slug": "pineco",
+        "file": "pineco.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 646,
+        "sha256": "9cb40c7b22fdb1cfd8aa6d9abaad4bee49a4f0885d4c680596a923228546c360"
+      },
+      {
+        "slug": "pinsir",
+        "file": "pinsir.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 867,
+        "sha256": "50f6f0d08560ebbe2f12ca697a717371e56c90e51eaa1e98b8f5aa21a788f4d3"
+      },
+      {
+        "slug": "plusle",
+        "file": "plusle.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 524,
+        "sha256": "525b4fef1d45c4f97c78b00beb3795ecad03edc80a7afe87e7395a29712f3daf"
+      },
+      {
+        "slug": "politoed",
+        "file": "politoed.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 706,
+        "sha256": "e79f3bbe26c3b7052ffb5af781908d2eebceaaaf1765dd3404095127a9850f74"
+      },
+      {
+        "slug": "poliwag",
+        "file": "poliwag.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 526,
+        "sha256": "234f76b5fb2bf7610973a2177727dd660ee7b93b927933f1781f272a7d163531"
+      },
+      {
+        "slug": "poliwhirl",
+        "file": "poliwhirl.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 725,
+        "sha256": "5f90a1ba5bb199d76f478264b64ffc08185a0820321e5aee1819ab024eff6e7f"
+      },
+      {
+        "slug": "poliwrath",
+        "file": "poliwrath.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 777,
+        "sha256": "f55344f9c4c9fa44885420015b066dee9ed9694705e867f2175fd5207d850ecd"
+      },
+      {
+        "slug": "ponyta",
+        "file": "ponyta.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 752,
+        "sha256": "0f05da39a3c90a880631adf1f48c57469ee17f1da0edb715b3143d4369726870"
+      },
+      {
+        "slug": "poochyena",
+        "file": "poochyena.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 570,
+        "sha256": "33802c1d4ccbe01420c1aaf97a602a268767fe2e5dc8b55290999d470537a867"
+      },
+      {
+        "slug": "porygon",
+        "file": "porygon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 559,
+        "sha256": "3af512cc369a06b7942e2b38c15dcba19c20fb8119846e5665137c4d5b6bb2c7"
+      },
+      {
+        "slug": "porygon2",
+        "file": "porygon2.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 541,
+        "sha256": "c27c1b7d45f7f1889286db2872781a1f8dd59c178225ec336932f06ccca654e0"
+      },
+      {
+        "slug": "primeape",
+        "file": "primeape.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 777,
+        "sha256": "8f8b46cb7793c6af3bcb2c77fee52725c9438ae91fd3ceacf9f0434cbf3bf0da"
+      },
+      {
+        "slug": "psyduck",
+        "file": "psyduck.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 589,
+        "sha256": "924ec9da2611ee500ac5af290e5276f4fa7dae8b3af4190a48f6136fdbf30eaf"
+      },
+      {
+        "slug": "pupitar",
+        "file": "pupitar.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 594,
+        "sha256": "02e657e057b717c13d365c1f63be32ce985c5985530948f59d7e63a0ad718903"
+      },
+      {
+        "slug": "quagsire",
+        "file": "quagsire.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 706,
+        "sha256": "20e4cb6ba70068ec22a3ec5a6f0ff9094b95c95a3d471f5f87b882b67b1d1e20"
+      },
+      {
+        "slug": "quilava",
+        "file": "quilava.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 671,
+        "sha256": "72567a1e2322757e701248c03648c50b9ba16242726c5ad0e773a73d968c3dbd"
+      },
+      {
+        "slug": "qwilfish",
+        "file": "qwilfish.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 566,
+        "sha256": "b1f9f3039a7831451a3b34adf2c34d90f8f07b9e16ad2483d9b23f6f3e970f4a"
+      },
+      {
+        "slug": "raichu",
+        "file": "raichu.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 877,
+        "sha256": "af6a86a41a69993fc3fad0e60d6c3b4d3281d9267c3e7029b69e7420100ac2cd"
+      },
+      {
+        "slug": "raikou",
+        "file": "raikou.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1155,
+        "sha256": "84506a16142bb126d92627689220438499121935f9a1c08f3e55d33c9c8fdee9"
+      },
+      {
+        "slug": "ralts",
+        "file": "ralts.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 433,
+        "sha256": "044b8f73227addd6c03cab75fb134b27f54ae5bff48cb1718a0eeb1337da7d62"
+      },
+      {
+        "slug": "rapidash",
+        "file": "rapidash.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 986,
+        "sha256": "7eab5524ba5af5be8df1e9f5c041b247a8a6afa47b109d3b88794c5b42695c85"
+      },
+      {
+        "slug": "raticate",
+        "file": "raticate.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 754,
+        "sha256": "84b8ef2d8328751521a4812a067e83c7c9be275ce36b157e863e8bf45e8d5955"
+      },
+      {
+        "slug": "rattata",
+        "file": "rattata.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 488,
+        "sha256": "5c2d6f950e1bc082fb9915d1cbdf87a83ee2d996873fdb27526a08fe3680b6de"
+      },
+      {
+        "slug": "rayquaza",
+        "file": "rayquaza.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1059,
+        "sha256": "9b509ad00a5c9b2b6ed3b62505c345c8e67156368ca4e43d403fb1a45465374a"
+      },
+      {
+        "slug": "regice",
+        "file": "regice.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 883,
+        "sha256": "7c8fcbf9b0fc5ab36344d0a64b9900bae2dc0d692b441900a61b6120a774a5de"
+      },
+      {
+        "slug": "regirock",
+        "file": "regirock.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 965,
+        "sha256": "e19647c6619c2980dd16c3d0d911b0ebde6ac64e5a176fa07aa4c09c52930e70"
+      },
+      {
+        "slug": "registeel",
+        "file": "registeel.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 948,
+        "sha256": "a23e360e38580922e533863eae085a12ed873c841ad17b4c6a0860c0d0d1caeb"
+      },
+      {
+        "slug": "relicanth",
+        "file": "relicanth.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 759,
+        "sha256": "2f39dcf4830eea8be56d6deaf6c94a9600b5d02c466cf78342a7e504d47ec0bb"
+      },
+      {
+        "slug": "remoraid",
+        "file": "remoraid.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 483,
+        "sha256": "4355b7b7db3fa62b22c30231219c039f2019352d57f38b85a5c26e2e2661db1c"
+      },
+      {
+        "slug": "rhydon",
+        "file": "rhydon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1039,
+        "sha256": "2046240a62bb6e04d8f3003aaa39270da450d3b08c2eef83d52145af72973488"
+      },
+      {
+        "slug": "rhyhorn",
+        "file": "rhyhorn.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 789,
+        "sha256": "e5869dc77d5517c399738cefafde1d5c6aaca48e8a7c43f4f3a7bfc24f95474b"
+      },
+      {
+        "slug": "roselia",
+        "file": "roselia.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 745,
+        "sha256": "8ef13104eb05080c666ac94d8c8b299e859af5522a7cd2a5113a56731dfb1aeb"
+      },
+      {
+        "slug": "sableye",
+        "file": "sableye.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 619,
+        "sha256": "d8e2e30a76c3366a45477a7224e84ebdb1adbcb75485dede5a4882d8ccdadd22"
+      },
+      {
+        "slug": "salamence",
+        "file": "salamence.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 918,
+        "sha256": "4cfc3b4384f20049de30b0c03c8eb27e4a26f5a9967298c5e64ddfa2b2ba4704"
+      },
+      {
+        "slug": "sandshrew",
+        "file": "sandshrew.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 600,
+        "sha256": "8c96ee76ce61a52e9bff9765e1dad952e3bc4bf09932e88aa87496d49a9e4dfe"
+      },
+      {
+        "slug": "sandslash",
+        "file": "sandslash.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 884,
+        "sha256": "7d04e663db25d0d021839f443728738735f1c709c6127049fd3255ef2a791f1b"
+      },
+      {
+        "slug": "sceptile",
+        "file": "sceptile.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1047,
+        "sha256": "8f050d4d58954927933b97f22415aa35d612557ade101cfdd3331627226628c7"
+      },
+      {
+        "slug": "scizor",
+        "file": "scizor.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 998,
+        "sha256": "7c4ac1a871253c3d79516f937f7cfbeac46b7c1211c715db909a69d6278c5e4c"
+      },
+      {
+        "slug": "scyther",
+        "file": "scyther.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 896,
+        "sha256": "7eb4fef999bd1cc867e6f54858957c738a52b431cc8457a5dbfa195872ba29a8"
+      },
+      {
+        "slug": "seadra",
+        "file": "seadra.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 734,
+        "sha256": "1e5649f3fa89d1efe4df087a59b9160d1bae2ddb61d7a7f9cd4571e46a6578d8"
+      },
+      {
+        "slug": "seaking",
+        "file": "seaking.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 944,
+        "sha256": "de03fe27bd09420f3a1035f475f884115faafe25c97dd3edd7a0cc559889d168"
+      },
+      {
+        "slug": "sealeo",
+        "file": "sealeo.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 758,
+        "sha256": "51ce75c69b900663ac583e6f3dfe184cdc1b6b41fe345503e693ffd5a7547413"
+      },
+      {
+        "slug": "seedot",
+        "file": "seedot.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 502,
+        "sha256": "62bc96f3b325a0b7dfac2733db364f791ee86c1f54f50ed3e00f1bf3029555f5"
+      },
+      {
+        "slug": "seel",
+        "file": "seel.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 644,
+        "sha256": "71808d9a9d5481b70c139c8463736fdde7bd05c2a9e4179c68a412dc98e77f35"
+      },
+      {
+        "slug": "sentret",
+        "file": "sentret.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 610,
+        "sha256": "4f489bdfbc4431db3548590284c3d4d2917f75de3a06ff7582fdb82d57daa115"
+      },
+      {
+        "slug": "seviper",
+        "file": "seviper.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 886,
+        "sha256": "95f83fa8646322ebb383e55ea25db4afaa94e9c1af8ffd820ffefd0b5cebe23e"
+      },
+      {
+        "slug": "sharpedo",
+        "file": "sharpedo.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 748,
+        "sha256": "8c9418bd620748213e3e43aa68d2079e12c49a0881b17feeb8f18c7dc0877214"
+      },
+      {
+        "slug": "shedinja",
+        "file": "shedinja.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 654,
+        "sha256": "cef609c40bd6f9666e5201202ea2718ab056afbbe8d979603e58576b615a910d"
+      },
+      {
+        "slug": "shelgon",
+        "file": "shelgon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 631,
+        "sha256": "f2d39e9dfceabb92e6e05368f34bcd956336971c134eda9c7defef327a20410d"
+      },
+      {
+        "slug": "shellder",
+        "file": "shellder.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 494,
+        "sha256": "172341310bf58bd0aae57932c5b46fff11498851f8de4c54851b95ffe3a018d7"
+      },
+      {
+        "slug": "shiftry",
+        "file": "shiftry.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1023,
+        "sha256": "502fa9f3bc778bb89c70904eed80bae729d8b781f58d072f01de95c6ea858d73"
+      },
+      {
+        "slug": "shroomish",
+        "file": "shroomish.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 493,
+        "sha256": "25553d9b91b6c3c2ee8771fe1f1e109a28bf12dbc195dc3a46b09cd5a3a27c52"
+      },
+      {
+        "slug": "shuckle",
+        "file": "shuckle.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 587,
+        "sha256": "7244a3f7a57fc40be51eca1947977f8cadd6f18e5cbfe0e0b4e47d9c6c17cecb"
+      },
+      {
+        "slug": "shuppet",
+        "file": "shuppet.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 435,
+        "sha256": "959f4b440f974fb6a9835c5d503727c76dd924040a26f310975f89296f98c65a"
+      },
+      {
+        "slug": "silcoon",
+        "file": "silcoon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 520,
+        "sha256": "7dcf562d06affac6bf9a32a7f43e4699d85c9a074ec234c6c61767235b18719c"
+      },
+      {
+        "slug": "skarmory",
+        "file": "skarmory.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 992,
+        "sha256": "35f4775cccdd5d48ccc5bb2e7daf273b38f71e227d5a6abff7e8c28186c50632"
+      },
+      {
+        "slug": "skiploom",
+        "file": "skiploom.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 503,
+        "sha256": "4edf2c207297931abfafa6f5ffa1420f61c32b7a4a4053323ffaef5588cfa680"
+      },
+      {
+        "slug": "skitty",
+        "file": "skitty.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 639,
+        "sha256": "325fae7450f8bf1cc1e2a34dc69a514f5dd9a578f040dd3f742f866a86a6d3ba"
+      },
+      {
+        "slug": "slaking",
+        "file": "slaking.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1034,
+        "sha256": "5b409e88e8b50229d806425b8d0f9be9e25df2936512f311aa15a27cd55f3c00"
+      },
+      {
+        "slug": "slakoth",
+        "file": "slakoth.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 602,
+        "sha256": "069b98bd8a30d9b635b1a84cbce20580ab2b74911edf9715bc624861d7b143a5"
+      },
+      {
+        "slug": "slowbro",
+        "file": "slowbro.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 982,
+        "sha256": "b5322c2fd9351a022703034e20d73cc38c440e1e54d8ec29a1bd465ec930d128"
+      },
+      {
+        "slug": "slowking",
+        "file": "slowking.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 792,
+        "sha256": "54b8ecdb03c2cc51aef655bef18ceafe3e35ec4628104223fb8eedd5cffe7b10"
+      },
+      {
+        "slug": "slowpoke",
+        "file": "slowpoke.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 578,
+        "sha256": "25ef8b0709c042419a235f8f07d98e6a7c0fd8decdbb5878897b6bfd86082808"
+      },
+      {
+        "slug": "slugma",
+        "file": "slugma.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 493,
+        "sha256": "40f8eaffe457537ba2ab952f48cdcaa22edd7d9d2a24fde37e5694e918addc96"
+      },
+      {
+        "slug": "smeargle",
+        "file": "smeargle.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 758,
+        "sha256": "6ba88e8be658eb3ec17c18f530893d5956895a0547023ce1d2196a7f005106ac"
+      },
+      {
+        "slug": "smoochum",
+        "file": "smoochum.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 495,
+        "sha256": "541f6a4a167560ec1157449631da660118f6f4574059ac761905679ccda136c5"
+      },
+      {
+        "slug": "sneasel",
+        "file": "sneasel.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 698,
+        "sha256": "37f74aecef17c1925398589657bc897a9220996861e78a04422ecf4898d69a3e"
+      },
+      {
+        "slug": "snorlax",
+        "file": "snorlax.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 814,
+        "sha256": "0c1363928fa3fb3bda43956c99da3aa5d21e04573e7e4bec2c0cd6670f7076b7"
+      },
+      {
+        "slug": "snorunt",
+        "file": "snorunt.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 574,
+        "sha256": "befdfca2374d42b0b663fa944cc7081fe66493eb55e8aa538c67807aab354256"
+      },
+      {
+        "slug": "snubbull",
+        "file": "snubbull.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 606,
+        "sha256": "5b0d3b15db7c9d2b7e4ce7dbe6af725b70d1525a9fd182245e4c914a9b2d5d1f"
+      },
+      {
+        "slug": "solrock",
+        "file": "solrock.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 945,
+        "sha256": "a46f4ea6fb9582dc3602b143d17decd21790b82a509aae328030f4cd92318c42"
+      },
+      {
+        "slug": "spearow",
+        "file": "spearow.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 615,
+        "sha256": "1e276b5104fe736f8261e21ede30aafc522182425e5518914f6ddff5f8d76ce4"
+      },
+      {
+        "slug": "spheal",
+        "file": "spheal.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 507,
+        "sha256": "e517f57e40b568bedb759cfe508e85f9f1392f6bc809ef492edd5ed1b5b2da43"
+      },
+      {
+        "slug": "spinarak",
+        "file": "spinarak.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 511,
+        "sha256": "4e67ff6314b1ab5d208bcb64c6d1fb85aa01aff0f0ab39317416b220708bfdd5"
+      },
+      {
+        "slug": "spinda",
+        "file": "spinda.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 623,
+        "sha256": "2ea4b9bb25f8cdfc361742ba2fa817fc9f95c7d38979dd4498cbcf30a481ffc2"
+      },
+      {
+        "slug": "spoink",
+        "file": "spoink.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 491,
+        "sha256": "3765eabddc044dc52aeeacfb1e227aea04da17b1e282c9cfdd90072d80d814bf"
+      },
+      {
+        "slug": "squirtle",
+        "file": "squirtle.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 543,
+        "sha256": "30d6413a70495a23d4af23a941bae57f5373f7b6fec1e05eb8ef78a0636898bc"
+      },
+      {
+        "slug": "stantler",
+        "file": "stantler.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 881,
+        "sha256": "c311f0044c61a820b9f308367c6f49476e58aa879c1578e071b346cb8298eb60"
+      },
+      {
+        "slug": "starmie",
+        "file": "starmie.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 780,
+        "sha256": "8c02a25f227c71f9c2063dda7011fc4d5cc6764417a4525915b46a2a55d99938"
+      },
+      {
+        "slug": "staryu",
+        "file": "staryu.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 566,
+        "sha256": "f86303fca52fed61d3073d4713d12b141c05b9c3d82c7e8433b7492382fdef7c"
+      },
+      {
+        "slug": "steelix",
+        "file": "steelix.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 943,
+        "sha256": "89520d2a805d68b40c0f27f45959b748487764fb4d1fd7e621627100617ed006"
+      },
+      {
+        "slug": "sudowoodo",
+        "file": "sudowoodo.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 651,
+        "sha256": "4eee70eef4c7cb1cafb90334863bcce6b2dc9dcfa53e1476364086bacc615db7"
+      },
+      {
+        "slug": "suicune",
+        "file": "suicune.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1179,
+        "sha256": "6f0d8d8d0417ebba60eee7c61af6e2159b3e04ff35506869c9c5214f2abe1625"
+      },
+      {
+        "slug": "sunflora",
+        "file": "sunflora.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 707,
+        "sha256": "e8a68cbde738bdd5fd21c0ef4d198240c0395ce9bdab0aac8e8526176c3a54c3"
+      },
+      {
+        "slug": "sunkern",
+        "file": "sunkern.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 448,
+        "sha256": "022988775f3d213c9aff8fd33627f555a2b1adbd64b9aac25e0ee80be077a217"
+      },
+      {
+        "slug": "surskit",
+        "file": "surskit.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 417,
+        "sha256": "6cb8b094795e5a8fa4a52e92ab9e33f33312becc4fad1adf892f370cd92f6654"
+      },
+      {
+        "slug": "swablu",
+        "file": "swablu.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 586,
+        "sha256": "6ee29ebb97f32bf54ae611bba03a1c6521c9c7109743919c3c13195dbe69c2f3"
+      },
+      {
+        "slug": "swalot",
+        "file": "swalot.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 677,
+        "sha256": "97a502b8711e6a8f0ccd68de278f0871cac7635ebaf91d87fa81249888ecccfd"
+      },
+      {
+        "slug": "swampert",
+        "file": "swampert.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1160,
+        "sha256": "d1e1fa8e1b924a0e995755b1626df04e38643a8b8b052d41f431cf3b11b5e076"
+      },
+      {
+        "slug": "swellow",
+        "file": "swellow.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 816,
+        "sha256": "4a415100ee8a57ba516a1b3f09f31c92d8ee59dd07c7589d4be6c62a70550b6e"
+      },
+      {
+        "slug": "swinub",
+        "file": "swinub.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 381,
+        "sha256": "cf448f4f76df2d604358b4e7d665fac75de9e0879ab39006d1f4a1dd22c52ac8"
+      },
+      {
+        "slug": "taillow",
+        "file": "taillow.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 508,
+        "sha256": "9c1f53d908b7cb03bbb636cc03e4ef4420949950aa7c83c60d6caa67c82637cb"
+      },
+      {
+        "slug": "tangela",
+        "file": "tangela.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 737,
+        "sha256": "6643c8425e2c73a6b18692273cf92e3c04f94acb5b3c98c1575cf7590a22457b"
+      },
+      {
+        "slug": "tauros",
+        "file": "tauros.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 956,
+        "sha256": "92dc05a6fb21673a4eda0d7ba704764a2a895c2047f404e504b35ba899d93aa1"
+      },
+      {
+        "slug": "teddiursa",
+        "file": "teddiursa.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 544,
+        "sha256": "11a9ec8b6868016008316810be29316722d997d9abc32cb7fe153fb094a2cdf4"
+      },
+      {
+        "slug": "tentacool",
+        "file": "tentacool.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 571,
+        "sha256": "da79a852531f7e09bff4f61ea81d43961bd7ef16c698ecc2131f1418515c1d62"
+      },
+      {
+        "slug": "tentacruel",
+        "file": "tentacruel.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1059,
+        "sha256": "7d63b1c53364c82b71aad1a0c272336d91237ae01720f3803a9bd887e6b52779"
+      },
+      {
+        "slug": "togepi",
+        "file": "togepi.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 390,
+        "sha256": "06f106de84eb83e45b461abd01c349fab538f09dc6bdc362b818b8b0857909ba"
+      },
+      {
+        "slug": "togetic",
+        "file": "togetic.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 513,
+        "sha256": "ce15c5eca180b91303aa87c9f6992919f3e47549ed129c440e8828a86572b46d"
+      },
+      {
+        "slug": "torchic",
+        "file": "torchic.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 548,
+        "sha256": "bc15d6f17ece3b5a9f565b52827f440751be01226ea53a40c8d9f3c6dbb19b20"
+      },
+      {
+        "slug": "torkoal",
+        "file": "torkoal.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 977,
+        "sha256": "2f2b1f86ec83257bfa402e1e101d035ce44f141e2fde200da03f46f69b5f361f"
+      },
+      {
+        "slug": "totodile",
+        "file": "totodile.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 533,
+        "sha256": "9e0453a6c9bb18e90865e4a010091be94aa5947be1c950527370068c114f03b0"
+      },
+      {
+        "slug": "trapinch",
+        "file": "trapinch.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 420,
+        "sha256": "183ea28f1fdccf3e8a45db9976dc110592b8fe3331cad289711b5ee8c92def8e"
+      },
+      {
+        "slug": "treecko",
+        "file": "treecko.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 635,
+        "sha256": "76208df936a1b8c91f38f513c4b5c54b8bf840d6517e265f4e5dfd18b9546cf2"
+      },
+      {
+        "slug": "tropius",
+        "file": "tropius.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1172,
+        "sha256": "07e3389c210a8d733cde499d37b078d233b46e2df9308a18e73c70bb5538f854"
+      },
+      {
+        "slug": "typhlosion",
+        "file": "typhlosion.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 896,
+        "sha256": "15ba7564cc3b9c7665029b08a6f2202812aa229ccab8229f46d7302c3ab253ed"
+      },
+      {
+        "slug": "tyranitar",
+        "file": "tyranitar.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1095,
+        "sha256": "a6bf6feacf8234c94664bb1937f1a1270b0500a022916c18ff400105befaf76b"
+      },
+      {
+        "slug": "tyrogue",
+        "file": "tyrogue.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 530,
+        "sha256": "0da98e68b37b146659160b6c0dc5ebab339ed61eb80c2c3c2419fd9c54283da3"
+      },
+      {
+        "slug": "umbreon",
+        "file": "umbreon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 650,
+        "sha256": "27d189e3547d2fadab99328978551323490004a95e23872b980cae4c52f5648d"
+      },
+      {
+        "slug": "unown",
+        "file": "unown.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 337,
+        "sha256": "1bdae91db7eb0bbc1130b7b00334ea5f9b76067505288f3a294c05c6c4149dcf"
+      },
+      {
+        "slug": "ursaring",
+        "file": "ursaring.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 894,
+        "sha256": "3f516aca0ffdca1a528c7db73cc45598eee5c00ce76f62c9d8c20e743f75bce7"
+      },
+      {
+        "slug": "vaporeon",
+        "file": "vaporeon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 802,
+        "sha256": "8ee93ba0bf97942fcdfc0a2d32da8bcd1b41cc9b5026ddcd03cd5707ebdc5896"
+      },
+      {
+        "slug": "venomoth",
+        "file": "venomoth.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 851,
+        "sha256": "b1b4b9cebea058c30fac72f6f7f14fb04b7300cfeaee0510c0497bb2b38059bb"
+      },
+      {
+        "slug": "venonat",
+        "file": "venonat.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 696,
+        "sha256": "189f733da03ee3f59e77be057f0d3de8b35c570ca321239d51e05c302c13d565"
+      },
+      {
+        "slug": "venusaur",
+        "file": "venusaur.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 1107,
+        "sha256": "bfc3f6ba4c13b211f9f91942c0d252be67cb04390967eb17193e9ab9ff24467b"
+      },
+      {
+        "slug": "vibrava",
+        "file": "vibrava.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 708,
+        "sha256": "6b0414b6e449a7268201c57aefebdc6a1106fb249801958cf7b5845b3be0e3a2"
+      },
+      {
+        "slug": "victreebel",
+        "file": "victreebel.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 907,
+        "sha256": "22401b25207cb1ef368f2e6316bec8e0c2d724ddba8612c7b2a80fbc29cf73d4"
+      },
+      {
+        "slug": "vigoroth",
+        "file": "vigoroth.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 886,
+        "sha256": "64b1f91425719a6d60bd4afbaf993a4d266e1d3c11fe678af9a583026e88d0a4"
+      },
+      {
+        "slug": "vileplume",
+        "file": "vileplume.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 694,
+        "sha256": "242ef44251829f0ea6ab979e8472d9e9a3755f6bf19ea6f2bfa9a08f98fed117"
+      },
+      {
+        "slug": "volbeat",
+        "file": "volbeat.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 774,
+        "sha256": "ebe574141f33eb7590d6b9fcd554bcddd6cc46e8bbf936a8b89e7b72f6df209c"
+      },
+      {
+        "slug": "voltorb",
+        "file": "voltorb.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 407,
+        "sha256": "1aa37472be37e84778ac71e075015a2c2fa2814da76ff94be7aefa2f497dbc3e"
+      },
+      {
+        "slug": "vulpix",
+        "file": "vulpix.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 669,
+        "sha256": "41ea68136056ebec56142b9c2f2fe8c8c70558d2f0f358dadf8d31f4a598d48f"
+      },
+      {
+        "slug": "wailmer",
+        "file": "wailmer.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 596,
+        "sha256": "873b8545fb02b75166a055a74a863cfe2dd9067e614f953f7ed3af7bc19680e0"
+      },
+      {
+        "slug": "wailord",
+        "file": "wailord.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 766,
+        "sha256": "efd28a18eac1ca614606623a5e63a60e9a9db55a3c604d4f9351ea1d7cae4936"
+      },
+      {
+        "slug": "walrein",
+        "file": "walrein.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 997,
+        "sha256": "72416c5e49ce607b3a6ba7761f16d64b2e2d270758d01f098cfabb27469b0dee"
+      },
+      {
+        "slug": "wartortle",
+        "file": "wartortle.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 794,
+        "sha256": "a01c0d8bdcdaa5b0c8e3c4f82b3284a29642196a24e1a1d37ef23b622aa452b6"
+      },
+      {
+        "slug": "weedle",
+        "file": "weedle.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 471,
+        "sha256": "9ee9225c4b1bba90d4aa78b33f8757fa4282a6ad7b81df62fa371f570176a9bd"
+      },
+      {
+        "slug": "weepinbell",
+        "file": "weepinbell.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 681,
+        "sha256": "6682125708ac9238abb9526f1d3ac2de044f8df323c470014a82f19ae3b8a85d"
+      },
+      {
+        "slug": "weezing",
+        "file": "weezing.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 988,
+        "sha256": "f7450bf6af898e75c2d74a7ce48bb5e225c03d2d988f9e57a79d035926f08a69"
+      },
+      {
+        "slug": "whiscash",
+        "file": "whiscash.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 752,
+        "sha256": "241260203b3479aef323f7092d011d1e9fe2c9d0241a837ef8681f2ce89bfc3a"
+      },
+      {
+        "slug": "whismur",
+        "file": "whismur.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 527,
+        "sha256": "ae698dd9a4c00bafd5d11962793dfeb56cb3419ccf2de914f87fed81e78b87ba"
+      },
+      {
+        "slug": "wigglytuff",
+        "file": "wigglytuff.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 717,
+        "sha256": "ffa81342af0ff60f4eb9670962a2e26c002d9d19cfa1fca1713730ae9d72ef77"
+      },
+      {
+        "slug": "wingull",
+        "file": "wingull.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 471,
+        "sha256": "dbbe82330c54823b91ae548b9030c00f7e827097e77e975039ab73d48c616b3f"
+      },
+      {
+        "slug": "wobbuffet",
+        "file": "wobbuffet.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 683,
+        "sha256": "48bfcd1a6a75277244dfab5af1ea990ab36de1d53325366a15ffc3f68fc30465"
+      },
+      {
+        "slug": "wooper",
+        "file": "wooper.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 464,
+        "sha256": "92dc858e54f7de096e5e2e4594a760fa1ef469b638b12c0e2761f9ddbe5052c7"
+      },
+      {
+        "slug": "wurmple",
+        "file": "wurmple.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 522,
+        "sha256": "f1f11f8db45c828c1ef013179da246d0f87370363f0187dce012425468c0b0e1"
+      },
+      {
+        "slug": "wynaut",
+        "file": "wynaut.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 532,
+        "sha256": "b14cfe404c3861725dcb49d2d61d04fe058cbd3a512ad6493ae49ad0862e222d"
+      },
+      {
+        "slug": "xatu",
+        "file": "xatu.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 597,
+        "sha256": "6e1045b04aed3367d143544d074fdbb9867ddef2fd46d4a90f11da6c70136118"
+      },
+      {
+        "slug": "yanma",
+        "file": "yanma.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 747,
+        "sha256": "8a019e7b81c73cd79e3afa56220349be481fc7abc450cc06af121514f7f59a0d"
+      },
+      {
+        "slug": "zangoose",
+        "file": "zangoose.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 844,
+        "sha256": "32255c66915c52b87fbed20e8210f7e84a70127c5eef0376aa9f78c8e95f24d8"
+      },
+      {
+        "slug": "zapdos",
+        "file": "zapdos.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 904,
+        "sha256": "1eafdea0501cb6cad51f65af39f329f8052c07957f7eb227b48fc60cdd13ba3d"
+      },
+      {
+        "slug": "zigzagoon",
+        "file": "zigzagoon.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 797,
+        "sha256": "52de03c90f18ea7550823c4e248f756be796d89ce6cc55b7cad4a44397c325c1"
+      },
+      {
+        "slug": "zubat",
+        "file": "zubat.png",
+        "width": 64,
+        "height": 64,
+        "bytes": 570,
+        "sha256": "4cd2c5803d87cc7b7a1e870038aa3d95d59596fa2fe782dbbe289490b263e510"
+      }
+    ]
+  }
+}

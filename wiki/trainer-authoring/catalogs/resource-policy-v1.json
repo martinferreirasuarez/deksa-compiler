@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "B2-TRAINER-RESOURCES-1",
+  "status": "canonical-seed",
+  "moveSources": [
+    { "name": "Rock Tomb", "method": "tm", "batch": "01A", "sourceRef": "MT39 · recompensa de Brock" },
+    { "name": "Bullet Seed", "method": "tm", "batch": "02B", "sourceRef": "MT09 · Monte Moon 1F" },
+    { "name": "Thief", "method": "tm", "batch": "02B", "sourceRef": "MT46 · Monte Moon B2F" },
+    { "name": "Water Pulse", "method": "tm", "batch": "02D", "sourceRef": "MT03 · recompensa de Misty" },
+    { "name": "Dig", "method": "tm", "batch": "02D", "sourceRef": "MT28 · casa robada de Celeste" },
+    { "name": "Secret Power", "method": "tm", "batch": "02D", "sourceRef": "MT43 · Ruta 25" },
+    { "name": "Brick Break", "method": "tm", "batch": "03B", "sourceRef": "MT31 · S.S. Anne 1F" },
+    { "name": "Rest", "method": "tm", "batch": "03B", "sourceRef": "MT44 · S.S. Anne" },
+    { "name": "Cut", "method": "hm", "batch": "03B", "sourceRef": "MO01 · Capitán de la S.S. Anne" },
+    { "name": "Seismic Toss", "method": "tutor", "batch": "03C", "sourceRef": "Tutor · Museo de Plateada tras Cut" },
+    { "name": "Shock Wave", "method": "tm", "batch": "03D", "sourceRef": "MT34 · recompensa de Lt. Surge" },
+    { "name": "Flash", "method": "hm", "batch": "03D", "sourceRef": "MO05 · ayudante de Oak en Ruta 2" },
+    { "name": "Aerial Ace", "method": "tm", "batch": "04A", "sourceRef": "MT40 · Ruta 9" },
+    { "name": "Rock Slide", "method": "tutor", "batch": "04B", "sourceRef": "Tutor · Rock Tunnel" },
+    { "name": "Flamethrower", "method": "tm", "batch": "04D", "sourceRef": "MT35 · Game Corner de Azulona" },
+    { "name": "Ice Beam", "method": "tm", "batch": "04D", "sourceRef": "MT13 · Game Corner de Azulona" },
+    { "name": "Light Screen", "method": "tm", "batch": "04D", "sourceRef": "MT16 · Centro Comercial de Azulona" },
+    { "name": "Reflect", "method": "tm", "batch": "04D", "sourceRef": "MT33 · Centro Comercial de Azulona" },
+    { "name": "Shadow Ball", "method": "tm", "batch": "04D", "sourceRef": "MT30 · Game Corner de Azulona" },
+    { "name": "Thunderbolt", "method": "tm", "batch": "04D", "sourceRef": "MT24 · Game Corner de Azulona" },
+    { "name": "Taunt", "method": "tm", "batch": "04E", "sourceRef": "MT12 · Escondite Rocket" },
+    { "name": "Giga Drain", "method": "tm", "batch": "04G", "sourceRef": "MT19 · recompensa de Erika" },
+    { "name": "Rain Dance", "method": "tm", "batch": "05C", "sourceRef": "MT18 · Ruta 15" },
+    { "name": "Fly", "method": "hm", "batch": "05D", "sourceRef": "MO02 · casa de Ruta 16" },
+    { "name": "Surf", "method": "hm", "batch": "05F", "sourceRef": "MO03 · Zona Safari" },
+    { "name": "Strength", "method": "hm", "batch": "05F", "sourceRef": "MO04 · Guardián de Ciudad Fucsia" },
+    { "name": "Steel Wing", "method": "tm", "batch": "05F", "sourceRef": "MT47 · Zona Safari" },
+    { "name": "Toxic", "method": "tm", "batch": "05F", "sourceRef": "MT06 · recompensa de Koga" }
+  ],
+  "heldItemSources": [
+    { "name": "Oran Berry", "sourceBatch": "01A", "sourceRef": "D-054 · Baya Aranja disponible antes de Brock" },
+    { "name": "Persim Berry", "sourceBatch": "02A", "sourceRef": "Baya Caquic oculta · Ruta 4 oeste" }
+  ],
+  "scope": {
+    "closedThrough": "W02-MISTY",
+    "note": "La prueba 01A–02D puede usar este catálogo. Ventanas posteriores deben completar fuentes e ítems antes de abrirse; el autor no extrapola."
+  }
+}

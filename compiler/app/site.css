@@ -1,0 +1,51 @@
+/* Shared by the guide, changes, builder and player instructions. */
+.site-header {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 24px;
+  min-height: 68px;
+  padding: 0 max(32px, calc((100% - 1416px) / 2));
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #172b22;
+  border-bottom: 1px solid #ffffff14;
+  color: white;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+.site-header .brand { display: flex; align-items: center; flex: none; gap: 10px; color: white; text-decoration: none; font-weight: 750; letter-spacing: .1em; }
+.site-header .brand-symbol { display: block; flex: none; width: 46px; height: 46px; background: #cce6bd; mask: url('/brand-mark.svg') center / contain no-repeat; }
+.site-header .brand-wordmark { display: grid; gap: 2px; line-height: 1; }
+.site-header .brand-wordmark small { font-size: 11px; font-weight: 650; letter-spacing: .12em; }
+.site-header .brand-wordmark strong { font-size: 26px; font-weight: 800; letter-spacing: -.035em; }
+.site-nav { display: flex; align-items: center; justify-self: end; gap: 6px; }
+.site-nav .site-link { display: block; border: 0; border-radius: 7px; padding: 10px 16px; color: #d3ddd6; font-size: 14px; font-weight: 600; letter-spacing: 0; text-transform: none; text-decoration: none; white-space: nowrap; }
+.site-nav .site-link:hover, .site-nav .site-link[aria-current="page"] { background: #ffffff12; color: white; }
+.site-nav .site-link-primary { color: #183c2a; background: #dcebdc; margin-left: 6px; }
+.site-nav .site-link-primary:hover { background: #eff5ed; color: #183c2a; }
+.site-header a:focus-visible { outline: 3px solid #9ec9ac; outline-offset: 2px; }
+.site-footer { width: min(100%, 1480px); margin: 0 auto; padding: 24px 32px 40px; border-top: 1px solid #dde4dd; color: #65716a; font-size: 13px; line-height: 1.6; display: flex; gap: 20px; justify-content: space-between; flex-wrap: wrap; text-align: left; }
+.site-footer nav { display: flex; gap: 20px; flex-wrap: wrap; margin: 0; line-height: 1.6; }
+.site-footer a { color: #235b44; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+@media (max-width: 760px) {
+  .site-header { min-height: 60px; padding: 10px 16px; gap: 10px; }
+  .site-header .brand { gap: 7px; }
+  .site-header .brand-symbol { width: 34px; height: 34px; }
+  .site-header .brand-wordmark small { font-size: 9px; }
+  .site-header .brand-wordmark strong { font-size: 21px; }
+  .site-nav .site-link { padding: 8px 10px; font-size: 12px; }
+  .site-nav .site-link-primary { margin-left: 0; }
+}
+@media (max-width: 620px) {
+  .site-header { grid-template-columns: minmax(0, 1fr); padding: 12px 16px; }
+  .site-nav { justify-self: stretch; justify-content: space-between; gap: 4px; }
+  .site-nav .site-link { padding: 8px; }
+  .site-footer { padding: 24px 16px; gap: 12px; }
+  .site-footer nav { gap: 12px; }
+}
+@media (max-width: 360px) {
+  .site-nav .site-link { font-size: 11px; padding: 8px 7px; }
+}

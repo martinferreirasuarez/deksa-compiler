@@ -1,0 +1,701 @@
+{
+  "schemaVersion": 1,
+  "generatorId": "deksa-tactical-order-overlays-v1",
+  "status": "PROJECTED",
+  "manifestDigest": "sha256:0515561b613aa3dfbaa00017d0d49d708c92de60be4c72176d0c1bd2514961c9",
+  "corrections": [
+    {
+      "logicalTrainerId": "leader-brock",
+      "lotId": "01A",
+      "sourceTripletDigest": "sha256:37012643e985fc3eab9c89e29ab034100db64dc3d002fe320d188089f1006548",
+      "label": "CORREGIDO",
+      "packageVariants": {
+        "A": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "aron",
+              "geodude",
+              "makuhita",
+              "nidoran_m",
+              "dunsparce",
+              "onix"
+            ]
+          }
+        ],
+        "B": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "geodude",
+              "spinarak",
+              "ekans",
+              "bulbasaur",
+              "slowpoke",
+              "onix"
+            ]
+          }
+        ],
+        "C": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "geodude",
+              "teddiursa",
+              "shroomish",
+              "charmander",
+              "spearow",
+              "onix"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "logicalTrainerId": "rival-route-22",
+      "lotId": "01A",
+      "sourceTripletDigest": "sha256:69ec19f33e992c845a67721149430973fc4fa39ae86e0204f7d3abec033aedf8",
+      "label": "CORREGIDO",
+      "packageVariants": {
+        "A": [
+          {
+            "teamVariantId": "vs-bulbasaur",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "beedrill",
+              "mankey",
+              "phanpy",
+              "abra",
+              "cyndaquil"
+            ]
+          },
+          {
+            "teamVariantId": "vs-chikorita",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "beedrill",
+              "mankey",
+              "phanpy",
+              "abra",
+              "torchic"
+            ]
+          },
+          {
+            "teamVariantId": "vs-treecko",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "beedrill",
+              "mankey",
+              "phanpy",
+              "abra",
+              "charmander"
+            ]
+          },
+          {
+            "teamVariantId": "vs-squirtle",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "beedrill",
+              "mankey",
+              "phanpy",
+              "abra",
+              "chikorita"
+            ]
+          },
+          {
+            "teamVariantId": "vs-totodile",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "beedrill",
+              "mankey",
+              "phanpy",
+              "abra",
+              "treecko"
+            ]
+          },
+          {
+            "teamVariantId": "vs-mudkip",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "beedrill",
+              "mankey",
+              "phanpy",
+              "abra",
+              "bulbasaur"
+            ]
+          },
+          {
+            "teamVariantId": "vs-charmander",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "beedrill",
+              "mankey",
+              "phanpy",
+              "abra",
+              "totodile"
+            ]
+          },
+          {
+            "teamVariantId": "vs-cyndaquil",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "beedrill",
+              "mankey",
+              "phanpy",
+              "abra",
+              "mudkip"
+            ]
+          },
+          {
+            "teamVariantId": "vs-torchic",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "beedrill",
+              "mankey",
+              "phanpy",
+              "abra",
+              "squirtle"
+            ]
+          }
+        ],
+        "B": [
+          {
+            "teamVariantId": "vs-bulbasaur",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mr_mime",
+              "paras",
+              "wooper",
+              "zubat",
+              "cyndaquil"
+            ]
+          },
+          {
+            "teamVariantId": "vs-chikorita",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mr_mime",
+              "paras",
+              "wooper",
+              "zubat",
+              "torchic"
+            ]
+          },
+          {
+            "teamVariantId": "vs-treecko",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mr_mime",
+              "paras",
+              "wooper",
+              "zubat",
+              "charmander"
+            ]
+          },
+          {
+            "teamVariantId": "vs-squirtle",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mr_mime",
+              "paras",
+              "wooper",
+              "zubat",
+              "chikorita"
+            ]
+          },
+          {
+            "teamVariantId": "vs-totodile",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mr_mime",
+              "paras",
+              "wooper",
+              "zubat",
+              "treecko"
+            ]
+          },
+          {
+            "teamVariantId": "vs-mudkip",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mr_mime",
+              "paras",
+              "wooper",
+              "zubat",
+              "bulbasaur"
+            ]
+          },
+          {
+            "teamVariantId": "vs-charmander",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mr_mime",
+              "paras",
+              "wooper",
+              "zubat",
+              "totodile"
+            ]
+          },
+          {
+            "teamVariantId": "vs-cyndaquil",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mr_mime",
+              "paras",
+              "wooper",
+              "zubat",
+              "mudkip"
+            ]
+          },
+          {
+            "teamVariantId": "vs-torchic",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mr_mime",
+              "paras",
+              "wooper",
+              "zubat",
+              "squirtle"
+            ]
+          }
+        ],
+        "C": [
+          {
+            "teamVariantId": "vs-bulbasaur",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mankey",
+              "mr_mime",
+              "wingull",
+              "gastly",
+              "cyndaquil"
+            ]
+          },
+          {
+            "teamVariantId": "vs-chikorita",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mankey",
+              "mr_mime",
+              "wingull",
+              "gastly",
+              "torchic"
+            ]
+          },
+          {
+            "teamVariantId": "vs-treecko",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mankey",
+              "mr_mime",
+              "wingull",
+              "gastly",
+              "charmander"
+            ]
+          },
+          {
+            "teamVariantId": "vs-squirtle",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mankey",
+              "mr_mime",
+              "wingull",
+              "gastly",
+              "chikorita"
+            ]
+          },
+          {
+            "teamVariantId": "vs-totodile",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mankey",
+              "mr_mime",
+              "wingull",
+              "gastly",
+              "treecko"
+            ]
+          },
+          {
+            "teamVariantId": "vs-mudkip",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mankey",
+              "mr_mime",
+              "wingull",
+              "gastly",
+              "bulbasaur"
+            ]
+          },
+          {
+            "teamVariantId": "vs-charmander",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mankey",
+              "mr_mime",
+              "wingull",
+              "gastly",
+              "totodile"
+            ]
+          },
+          {
+            "teamVariantId": "vs-cyndaquil",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mankey",
+              "mr_mime",
+              "wingull",
+              "gastly",
+              "mudkip"
+            ]
+          },
+          {
+            "teamVariantId": "vs-torchic",
+            "memberSpeciesOrder": [
+              "pidgey",
+              "mankey",
+              "mr_mime",
+              "wingull",
+              "gastly",
+              "squirtle"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "logicalTrainerId": "bug-catcher-charlie",
+      "lotId": "01A",
+      "sourceTripletDigest": "sha256:8ef8ea1a9d6c651b4f63d7c47c104b468a778fe7bd53ef276d9b44bb33f33444",
+      "label": "CORREGIDO",
+      "packageVariants": {
+        "A": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "metapod",
+              "beautifly",
+              "spinarak",
+              "shroomish",
+              "surskit",
+              "dunsparce"
+            ]
+          }
+        ],
+        "B": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "metapod",
+              "beedrill",
+              "spinarak",
+              "shroomish",
+              "qwilfish",
+              "surskit"
+            ]
+          }
+        ],
+        "C": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "metapod",
+              "beedrill",
+              "beautifly",
+              "spinarak",
+              "zubat",
+              "surskit"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "logicalTrainerId": "bug-catcher-sammy",
+      "lotId": "01A",
+      "sourceTripletDigest": "sha256:685b17f8ef21485696642991ebbdab4c44e9a2fc4eb21135b22e362661ef3151",
+      "label": "CORREGIDO",
+      "packageVariants": {
+        "A": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "kakuna",
+              "metapod",
+              "pidgey",
+              "shroomish",
+              "makuhita",
+              "sentret"
+            ]
+          }
+        ],
+        "B": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "kakuna",
+              "metapod",
+              "pidgey",
+              "bulbasaur",
+              "geodude",
+              "sentret"
+            ]
+          }
+        ],
+        "C": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "kakuna",
+              "metapod",
+              "pidgey",
+              "shroomish",
+              "spearow",
+              "mankey"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "logicalTrainerId": "bug-catcher-anthony",
+      "lotId": "01A",
+      "sourceTripletDigest": "sha256:52bb01705f94f41975e2a346b47924dabb6de05647b5a1000f6d7e8fd876a9ac",
+      "label": "CORREGIDO",
+      "packageVariants": {
+        "A": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "ledyba",
+              "dustox",
+              "metapod",
+              "wingull",
+              "mankey",
+              "mr_mime"
+            ]
+          }
+        ],
+        "B": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "ledyba",
+              "beedrill",
+              "metapod",
+              "phanpy",
+              "mr_mime",
+              "mankey"
+            ]
+          }
+        ],
+        "C": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "ledyba",
+              "beedrill",
+              "metapod",
+              "geodude",
+              "cyndaquil",
+              "mr_mime"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "logicalTrainerId": "camper-liam",
+      "lotId": "01A",
+      "sourceTripletDigest": "sha256:6293fd48597e6ba0578d6e44d08f3cc38fd1b18015e345d853ff3a0613c167f0",
+      "label": "CORREGIDO",
+      "packageVariants": {
+        "A": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "geodude",
+              "squirtle",
+              "bellsprout",
+              "mankey",
+              "gastly",
+              "mr_mime"
+            ]
+          }
+        ],
+        "B": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "geodude",
+              "zubat",
+              "bellsprout",
+              "mankey",
+              "charmander",
+              "taillow"
+            ]
+          }
+        ],
+        "C": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "geodude",
+              "bellsprout",
+              "mudkip",
+              "dunsparce",
+              "taillow",
+              "cyndaquil"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "logicalTrainerId": "bug-catcher-rick",
+      "lotId": "01A",
+      "sourceTripletDigest": "sha256:2ea5bf22d2cef5521f643661eac2324829817bcaa82253d7de118ea4588a2e83",
+      "label": "CORREGIDO",
+      "packageVariants": {
+        "A": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "surskit",
+              "metapod",
+              "kakuna",
+              "rattata",
+              "phanpy",
+              "taillow"
+            ]
+          }
+        ],
+        "B": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "dustox",
+              "metapod",
+              "kakuna",
+              "rattata",
+              "wingull",
+              "spearow"
+            ]
+          }
+        ],
+        "C": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "mudkip",
+              "metapod",
+              "kakuna",
+              "rattata",
+              "makuhita",
+              "teddiursa"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "logicalTrainerId": "bug-catcher-doug",
+      "lotId": "01A",
+      "sourceTripletDigest": "sha256:1d8f66e43f151a150339ae302a0bd8273fc98f2049472d9ebae57a341ed0f654",
+      "label": "CORREGIDO",
+      "packageVariants": {
+        "A": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "dustox",
+              "kakuna",
+              "whismur",
+              "rattata",
+              "wingull",
+              "spearow"
+            ]
+          }
+        ],
+        "B": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "surskit",
+              "kakuna",
+              "rattata",
+              "taillow",
+              "zubat",
+              "gastly"
+            ]
+          }
+        ],
+        "C": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "spinarak",
+              "kakuna",
+              "rattata",
+              "wingull",
+              "gastly",
+              "taillow"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "logicalTrainerId": "leader-misty",
+      "lotId": "02D",
+      "sourceTripletDigest": "sha256:961b27afb7d83d3551d425b4aa0efc4185525752fd4046a927864e244590f796",
+      "label": "CORREGIDO",
+      "packageVariants": {
+        "A": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "psyduck",
+              "tentacool",
+              "qwilfish",
+              "lapras",
+              "kadabra",
+              "starmie"
+            ]
+          }
+        ],
+        "B": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "psyduck",
+              "marshtomp",
+              "lapras",
+              "qwilfish",
+              "onix",
+              "starmie"
+            ]
+          }
+        ],
+        "C": [
+          {
+            "teamVariantId": "default",
+            "memberSpeciesOrder": [
+              "lapras",
+              "croconaw",
+              "qwilfish",
+              "marshtomp",
+              "quagsire",
+              "starmie"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "artifact": {
+    "producerId": "deksa-tactical-order-overlays-v1",
+    "createdAt": "2026-09-04T00:47:40.158Z",
+    "inputDigest": "sha256:0515561b613aa3dfbaa00017d0d49d708c92de60be4c72176d0c1bd2514961c9",
+    "payloadDigest": "sha256:71bdf631e8870c4304094e2598bdf6c29f9ccb9871b0d5dadcb7b9f7a996f3db"
+  }
+}

@@ -1,0 +1,2257 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "rival-route-22",
+      "lotId": "01A",
+      "window": 1,
+      "cap": 14,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "$starter",
+          "species": "$starter",
+          "ace": true
+        },
+        {
+          "family": "pidgey",
+          "species": "SPECIES_PIDGEY"
+        },
+        {
+          "family": "rattata",
+          "species": "SPECIES_RATTATA"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Scyther abre con presión física y prioridad; Clefairy aporta Encore y sueño, Magnemite resiste Normal/Volador y presiona por el lado especial. Pidgey y Rattata conservan las anclas tempranas y prioridad; el inicial cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_CUT",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_LEER",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF",
+                  "intent": "Sin STAB legal a nivel15/W02: Cut explota Ataque110 y Quick Attack aporta prioridad."
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_ENCORE",
+                    "MOVE_SING",
+                    "MOVE_GROWL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_QUICK_CLAW",
+                  "intent": "Colección diversa de Kanto del rival; Encore castiga preparación y Sing abre oportunidades."
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDER_SHOCK",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_ORAN_BERRY"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_PECHA_BERRY"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHERI_BERRY"
+                },
+                {
+                  "species": "SPECIES_CHARMANDER",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_GROWL"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_CUT",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_LEER",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF",
+                  "intent": "Sin STAB legal a nivel15/W02: Cut explota Ataque110 y Quick Attack aporta prioridad."
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_ENCORE",
+                    "MOVE_SING",
+                    "MOVE_GROWL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_QUICK_CLAW",
+                  "intent": "Colección diversa de Kanto del rival; Encore castiga preparación y Sing abre oportunidades."
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDER_SHOCK",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_ORAN_BERRY"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_PECHA_BERRY"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHERI_BERRY"
+                },
+                {
+                  "species": "SPECIES_SQUIRTLE",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_WITHDRAW",
+                    "MOVE_TAIL_WHIP"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_CUT",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_LEER",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF",
+                  "intent": "Sin STAB legal a nivel15/W02: Cut explota Ataque110 y Quick Attack aporta prioridad."
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_ENCORE",
+                    "MOVE_SING",
+                    "MOVE_GROWL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_QUICK_CLAW",
+                  "intent": "Colección diversa de Kanto del rival; Encore castiga preparación y Sing abre oportunidades."
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDER_SHOCK",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_ORAN_BERRY"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_PECHA_BERRY"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHERI_BERRY"
+                },
+                {
+                  "species": "SPECIES_BULBASAUR",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_VINE_WHIP",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_POISON_POWDER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        },
+        "B": {
+          "intent": "Staryu abre con velocidad y recuperación; Vulpix expresa el repertorio de bestias de fuego y absorbe Fuego. Machop castiga Normal/Roca y controla velocidad con Rock Tomb; Pidgey y Rattata aportan prioridad antes del inicial final.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_STARYU",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_RECOVER",
+                    "MOVE_HARDEN",
+                    "MOVE_RAPID_SPIN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_ORAN_BERRY"
+                },
+                {
+                  "species": "SPECIES_VULPIX",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": "ITEM_PECHA_BERRY",
+                  "intent": "Zorro de Kanto que anticipa el repertorio de bestias de fuego del rival; Flash Fire cubre ataques de Fuego."
+                },
+                {
+                  "species": "SPECIES_MACHOP",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_KARATE_CHOP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_QUICK_CLAW"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_CHARMANDER",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_GROWL"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_STARYU",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_RECOVER",
+                    "MOVE_HARDEN",
+                    "MOVE_RAPID_SPIN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_ORAN_BERRY"
+                },
+                {
+                  "species": "SPECIES_VULPIX",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": "ITEM_PECHA_BERRY",
+                  "intent": "Zorro de Kanto que anticipa el repertorio de bestias de fuego del rival; Flash Fire cubre ataques de Fuego."
+                },
+                {
+                  "species": "SPECIES_MACHOP",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_KARATE_CHOP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_QUICK_CLAW"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_SQUIRTLE",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_WITHDRAW",
+                    "MOVE_TAIL_WHIP"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_STARYU",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_RECOVER",
+                    "MOVE_HARDEN",
+                    "MOVE_RAPID_SPIN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_ORAN_BERRY"
+                },
+                {
+                  "species": "SPECIES_VULPIX",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": "ITEM_PECHA_BERRY",
+                  "intent": "Zorro de Kanto que anticipa el repertorio de bestias de fuego del rival; Flash Fire cubre ataques de Fuego."
+                },
+                {
+                  "species": "SPECIES_MACHOP",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_KARATE_CHOP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_QUICK_CLAW"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_BULBASAUR",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_VINE_WHIP",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_POISON_POWDER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        },
+        "C": {
+          "intent": "Slowpoke abre con Yawn y presión Agua; Oddish cubre Agua/Roca con Planta y Torkoal sostiene el flanco físico. Pidgey y Rattata conservan las anclas y prioridad, preparando el cierre del inicial.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 15,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_YAWN",
+                    "MOVE_CURSE",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_ORAN_BERRY",
+                  "intent": "Especie de Kanto que amplía la colección del rival y anticipa su eje psíquico; Yawn abre oportunidades y Water Gun cubre Roca."
+                },
+                {
+                  "species": "SPECIES_ODDISH",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BULLET_SEED",
+                    "MOVE_ABSORB",
+                    "MOVE_POISON_POWDER",
+                    "MOVE_CUT"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_SMOG",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_CURSE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_QUICK_CLAW"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_CHARMANDER",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_MEGA_KICK"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 15,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_YAWN",
+                    "MOVE_CURSE",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_ORAN_BERRY",
+                  "intent": "Especie de Kanto que amplía la colección del rival y anticipa su eje psíquico; Yawn abre oportunidades y Water Gun cubre Roca."
+                },
+                {
+                  "species": "SPECIES_ODDISH",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BULLET_SEED",
+                    "MOVE_ABSORB",
+                    "MOVE_POISON_POWDER",
+                    "MOVE_CUT"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_SMOG",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_CURSE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_QUICK_CLAW"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_SQUIRTLE",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_WITHDRAW"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 15,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_YAWN",
+                    "MOVE_CURSE",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_ORAN_BERRY",
+                  "intent": "Especie de Kanto que amplía la colección del rival y anticipa su eje psíquico; Yawn abre oportunidades y Water Gun cubre Roca."
+                },
+                {
+                  "species": "SPECIES_ODDISH",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BULLET_SEED",
+                    "MOVE_ABSORB",
+                    "MOVE_POISON_POWDER",
+                    "MOVE_CUT"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_SMOG",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_CURSE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_QUICK_CLAW"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_BULBASAUR",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_VINE_WHIP",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_POISON_POWDER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "rival-route-22",
+      "lotId": "01A",
+      "window": 1,
+      "cap": 14,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "$starter",
+          "species": "$starter",
+          "ace": true
+        },
+        {
+          "family": "pidgey",
+          "species": "SPECIES_PIDGEY"
+        },
+        {
+          "family": "rattata",
+          "species": "SPECIES_RATTATA"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Scyther abre con presión física y prioridad; Clefairy aporta Encore y sueño, Magnemite resiste Normal/Volador y presiona por el lado especial. Pidgey y Rattata conservan las anclas tempranas y prioridad; el inicial cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_CUT",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_LEER",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF",
+                  "intent": "Sin STAB legal a nivel15/W02: Cut explota Ataque110 y Quick Attack aporta prioridad.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-123"
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_ENCORE",
+                    "MOVE_SING",
+                    "MOVE_GROWL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_QUICK_CLAW",
+                  "intent": "Colección diversa de Kanto del rival; Encore castiga preparación y Sing abre oportunidades.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-035"
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDER_SHOCK",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_ORAN_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-081"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_PECHA_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHERI_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_CHARMANDER",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_GROWL"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_CUT",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_LEER",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF",
+                  "intent": "Sin STAB legal a nivel15/W02: Cut explota Ataque110 y Quick Attack aporta prioridad.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-123"
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_ENCORE",
+                    "MOVE_SING",
+                    "MOVE_GROWL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_QUICK_CLAW",
+                  "intent": "Colección diversa de Kanto del rival; Encore castiga preparación y Sing abre oportunidades.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-035"
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDER_SHOCK",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_ORAN_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-081"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_PECHA_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHERI_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_SQUIRTLE",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_WITHDRAW",
+                    "MOVE_TAIL_WHIP"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_SCYTHER",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_CUT",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_LEER",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_SWARM",
+                  "item": "ITEM_SILK_SCARF",
+                  "intent": "Sin STAB legal a nivel15/W02: Cut explota Ataque110 y Quick Attack aporta prioridad.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-123"
+                },
+                {
+                  "species": "SPECIES_CLEFAIRY",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_ENCORE",
+                    "MOVE_SING",
+                    "MOVE_GROWL"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_CUTE_CHARM",
+                  "item": "ITEM_QUICK_CLAW",
+                  "intent": "Colección diversa de Kanto del rival; Encore castiga preparación y Sing abre oportunidades.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-035"
+                },
+                {
+                  "species": "SPECIES_MAGNEMITE",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_THUNDER_SHOCK",
+                    "MOVE_METAL_SOUND",
+                    "MOVE_SUPERSONIC",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_MAGNET_PULL",
+                  "item": "ITEM_ORAN_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-081"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_PECHA_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHERI_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_BULBASAUR",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_VINE_WHIP",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_POISON_POWDER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        },
+        "B": {
+          "intent": "Staryu abre con velocidad y recuperación; Vulpix expresa el repertorio de bestias de fuego y absorbe Fuego. Machop castiga Normal/Roca y controla velocidad con Rock Tomb; Pidgey y Rattata aportan prioridad antes del inicial final.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_STARYU",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_RECOVER",
+                    "MOVE_HARDEN",
+                    "MOVE_RAPID_SPIN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_ORAN_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-120"
+                },
+                {
+                  "species": "SPECIES_VULPIX",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": "ITEM_PECHA_BERRY",
+                  "intent": "Zorro de Kanto que anticipa el repertorio de bestias de fuego del rival; Flash Fire cubre ataques de Fuego.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-037"
+                },
+                {
+                  "species": "SPECIES_MACHOP",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_KARATE_CHOP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_QUICK_CLAW",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-066"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_CHARMANDER",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_GROWL"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_STARYU",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_RECOVER",
+                    "MOVE_HARDEN",
+                    "MOVE_RAPID_SPIN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_ORAN_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-120"
+                },
+                {
+                  "species": "SPECIES_VULPIX",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": "ITEM_PECHA_BERRY",
+                  "intent": "Zorro de Kanto que anticipa el repertorio de bestias de fuego del rival; Flash Fire cubre ataques de Fuego.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-037"
+                },
+                {
+                  "species": "SPECIES_MACHOP",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_KARATE_CHOP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_QUICK_CLAW",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-066"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_SQUIRTLE",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_WITHDRAW",
+                    "MOVE_TAIL_WHIP"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_STARYU",
+                  "level": 15,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_RECOVER",
+                    "MOVE_HARDEN",
+                    "MOVE_RAPID_SPIN"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_ORAN_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-120"
+                },
+                {
+                  "species": "SPECIES_VULPIX",
+                  "level": 14,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_ROAR"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_FLASH_FIRE",
+                  "item": "ITEM_PECHA_BERRY",
+                  "intent": "Zorro de Kanto que anticipa el repertorio de bestias de fuego del rival; Flash Fire cubre ataques de Fuego.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-037"
+                },
+                {
+                  "species": "SPECIES_MACHOP",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_KARATE_CHOP",
+                    "MOVE_ROCK_TOMB",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_FOCUS_ENERGY"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_QUICK_CLAW",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-066"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_BULBASAUR",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_VINE_WHIP",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_POISON_POWDER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        },
+        "C": {
+          "intent": "Slowpoke abre con Yawn y presión Agua; Oddish cubre Agua/Roca con Planta y Torkoal sostiene el flanco físico. Pidgey y Rattata conservan las anclas y prioridad, preparando el cierre del inicial.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 15,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_YAWN",
+                    "MOVE_CURSE",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_ORAN_BERRY",
+                  "intent": "Especie de Kanto que amplía la colección del rival y anticipa su eje psíquico; Yawn abre oportunidades y Water Gun cubre Roca.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-079"
+                },
+                {
+                  "species": "SPECIES_ODDISH",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BULLET_SEED",
+                    "MOVE_ABSORB",
+                    "MOVE_POISON_POWDER",
+                    "MOVE_CUT"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-043"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_SMOG",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_CURSE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_QUICK_CLAW",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-324"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_CHARMANDER",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_METAL_CLAW",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_MEGA_KICK"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 15,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_YAWN",
+                    "MOVE_CURSE",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_ORAN_BERRY",
+                  "intent": "Especie de Kanto que amplía la colección del rival y anticipa su eje psíquico; Yawn abre oportunidades y Water Gun cubre Roca.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-079"
+                },
+                {
+                  "species": "SPECIES_ODDISH",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BULLET_SEED",
+                    "MOVE_ABSORB",
+                    "MOVE_POISON_POWDER",
+                    "MOVE_CUT"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-043"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_SMOG",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_CURSE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_QUICK_CLAW",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-324"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_SQUIRTLE",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_MEGA_PUNCH",
+                    "MOVE_MEGA_KICK",
+                    "MOVE_WITHDRAW"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_SLOWPOKE",
+                  "level": 15,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_WATER_GUN",
+                    "MOVE_YAWN",
+                    "MOVE_CURSE",
+                    "MOVE_TACKLE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_OWN_TEMPO",
+                  "item": "ITEM_ORAN_BERRY",
+                  "intent": "Especie de Kanto que amplía la colección del rival y anticipa su eje psíquico; Yawn abre oportunidades y Water Gun cubre Roca.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-079"
+                },
+                {
+                  "species": "SPECIES_ODDISH",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BULLET_SEED",
+                    "MOVE_ABSORB",
+                    "MOVE_POISON_POWDER",
+                    "MOVE_CUT"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_CHLOROPHYLL",
+                  "item": "ITEM_MIRACLE_SEED",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-043"
+                },
+                {
+                  "species": "SPECIES_TORKOAL",
+                  "level": 14,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_EMBER",
+                    "MOVE_SMOG",
+                    "MOVE_SMOKESCREEN",
+                    "MOVE_CURSE"
+                  ],
+                  "nature": "NATURE_QUIET",
+                  "ability": "ABILITY_WHITE_SMOKE",
+                  "item": "ITEM_QUICK_CLAW",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-324"
+                },
+                {
+                  "species": "SPECIES_PIDGEY",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GUST",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TACKLE",
+                    "MOVE_SAND_ATTACK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_KEEN_EYE",
+                  "item": "ITEM_CHERI_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-016"
+                },
+                {
+                  "species": "SPECIES_RATTATA",
+                  "level": 13,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_HYPER_FANG",
+                    "MOVE_QUICK_ATTACK",
+                    "MOVE_TAIL_WHIP",
+                    "MOVE_THIEF"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-019"
+                },
+                {
+                  "species": "SPECIES_BULBASAUR",
+                  "level": 15,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_VINE_WHIP",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED",
+                    "MOVE_POISON_POWDER"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "rival-route-22": {
+      "actor": "/root/remaining_rival_route22_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.0584272388368845,
+      "packetBytes": 364468,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-remaining-v2-w01-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

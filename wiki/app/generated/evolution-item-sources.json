@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "deksa-beta1-evolution-item-sources-wiki-v1",
+  "generatedFrom": {
+    "path": "pokefirered/tools/deksa_beta1/evolution_items/manifest.generated.json",
+    "sha256": "4989d092ca59ba7c58cb6a27909da9077e860b8e7a5466175b568fb0052acf35",
+    "datasetId": "deksa-beta1-e003-evolution-items-rom-v1",
+    "status": "implemented"
+  },
+  "summary": {
+    "evolutionItems": 17,
+    "specialEvolutionRoutes": 15,
+    "correctedFalsePreservationPremises": [
+      "Dragon Scale"
+    ]
+  },
+  "sources": [
+    {
+      "item": "Moon Stone",
+      "lot": "02B",
+      "source": "Monte Moon",
+      "availability": "Fuentes vanilla preservadas",
+      "behavior": "Mixto: consumible como piedra; reutilizable equipada para Umbreon",
+      "rom": {
+        "itemId": "ITEM_MOON_STONE",
+        "status": "preserved-vanilla",
+        "delivery": "multiple-finite",
+        "gate": "Monte Moon access (02B)"
+      }
+    },
+    {
+      "item": "Hard Stone",
+      "lot": "02B",
+      "source": "Monte Moon",
+      "availability": "Fuente determinista adicional",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_HARD_STONE",
+        "status": "promoted",
+        "delivery": "unique-item-ball",
+        "gate": "MAP_MT_MOON_B2F access (02B)"
+      }
+    },
+    {
+      "item": "Spell Tag",
+      "lot": "04C",
+      "source": "Torre Pokémon",
+      "availability": "Fuente determinista adicional",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_SPELL_TAG",
+        "status": "promoted",
+        "delivery": "unique-item-ball",
+        "gate": "MAP_POKEMON_TOWER_5F access (04C)"
+      }
+    },
+    {
+      "item": "Fire Stone",
+      "lot": "04D",
+      "source": "Centro Comercial de Azulona",
+      "availability": "Stock repetible vanilla",
+      "behavior": "Consumible vanilla",
+      "rom": {
+        "itemId": "ITEM_FIRE_STONE",
+        "status": "preserved-vanilla",
+        "delivery": "repeatable-purchase",
+        "gate": "Celadon Department Store access (04D)"
+      }
+    },
+    {
+      "item": "Water Stone",
+      "lot": "04D",
+      "source": "Centro Comercial de Azulona",
+      "availability": "Stock repetible vanilla",
+      "behavior": "Consumible vanilla",
+      "rom": {
+        "itemId": "ITEM_WATER_STONE",
+        "status": "preserved-vanilla",
+        "delivery": "repeatable-purchase",
+        "gate": "Celadon Department Store access (04D)"
+      }
+    },
+    {
+      "item": "Thunder Stone",
+      "lot": "04D",
+      "source": "Centro Comercial de Azulona",
+      "availability": "Stock repetible vanilla",
+      "behavior": "Consumible vanilla",
+      "rom": {
+        "itemId": "ITEM_THUNDER_STONE",
+        "status": "preserved-vanilla",
+        "delivery": "repeatable-purchase",
+        "gate": "Celadon Department Store access (04D)"
+      }
+    },
+    {
+      "item": "Leaf Stone",
+      "lot": "04D",
+      "source": "Centro Comercial de Azulona",
+      "availability": "Stock repetible vanilla",
+      "behavior": "Consumible vanilla",
+      "rom": {
+        "itemId": "ITEM_LEAF_STONE",
+        "status": "preserved-vanilla",
+        "delivery": "repeatable-purchase",
+        "gate": "Celadon Department Store access (04D)"
+      }
+    },
+    {
+      "item": "Sun Stone",
+      "lot": "04G",
+      "source": "Centro Comercial de Azulona, tras Erika",
+      "availability": "Stock repetible añadido",
+      "behavior": "Mixto: consumible como piedra; reutilizable equipada para Espeon",
+      "rom": {
+        "itemId": "ITEM_SUN_STONE",
+        "status": "promoted",
+        "delivery": "repeatable-purchase",
+        "gate": "FLAG_BADGE04_GET (04G)"
+      }
+    },
+    {
+      "item": "Twisted Spoon",
+      "lot": "04G",
+      "source": "Recompensa DÉKSA en Azulona tras Erika",
+      "availability": "Se preserva además la vía temprana de Abra equipado",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_TWISTED_SPOON",
+        "status": "promoted",
+        "delivery": "unique-reward",
+        "gate": "FLAG_BADGE04_GET (04G)"
+      }
+    },
+    {
+      "item": "King's Rock",
+      "lot": "05F",
+      "source": "Poké Ball de Zona Safari Norte",
+      "availability": "Fuente determinista adicional; las fuentes vanilla posteriores se preservan",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_KINGS_ROCK",
+        "status": "promoted",
+        "delivery": "unique-item-ball",
+        "gate": "MAP_SAFARI_ZONE_NORTH access (05F)"
+      }
+    },
+    {
+      "item": "Metal Coat",
+      "lot": "05I",
+      "source": "Silph S.A., tras Giovanni",
+      "availability": "Fuente determinista adicional",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_METAL_COAT",
+        "status": "promoted",
+        "delivery": "unique-reward",
+        "gate": "FLAG_HIDE_SAFFRON_ROCKETS after Silph Giovanni (05I)"
+      }
+    },
+    {
+      "item": "Black Belt",
+      "lot": "05J",
+      "source": "Dojo de Combate",
+      "availability": "Fuente determinista adicional",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_BLACK_BELT",
+        "status": "promoted",
+        "delivery": "unique-reward",
+        "gate": "TRAINER_BLACK_BELT_KOICHI defeated (05J)"
+      }
+    },
+    {
+      "item": "DeepSeaTooth",
+      "lot": "06C",
+      "source": "Islas Espuma",
+      "availability": "Poké Ball en B4F; DeepSeaScale se encuentra en la misma planta",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_DEEP_SEA_TOOTH",
+        "status": "promoted",
+        "delivery": "unique-item-ball",
+        "gate": "MAP_SEAFOAM_ISLANDS_B4F access (06C)"
+      }
+    },
+    {
+      "item": "DeepSeaScale",
+      "lot": "06C",
+      "source": "Islas Espuma",
+      "availability": "Objeto oculto en B4F; DeepSeaTooth se encuentra en la misma planta",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_DEEP_SEA_SCALE",
+        "status": "promoted",
+        "delivery": "unique-hidden-item",
+        "gate": "MAP_SEAFOAM_ISLANDS_B4F access (06C)"
+      }
+    },
+    {
+      "item": "Up-Grade",
+      "lot": "06D",
+      "source": "Laboratorio de Isla Canela",
+      "availability": "Fuente determinista adicional",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_UP_GRADE",
+        "status": "promoted",
+        "delivery": "unique-reward",
+        "gate": "FLAG_BADGE05_GET + FLAG_BADGE06_GET (06D)"
+      }
+    },
+    {
+      "item": "Dragon Scale",
+      "lot": "07B",
+      "source": "Cabo Extremo / Isla Prima",
+      "availability": "Fuentes vanilla preservadas",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_DRAGON_SCALE",
+        "status": "promoted-with-source-correction",
+        "delivery": "unique-reward",
+        "gate": "MAP_TWO_ISLAND_CAPE_BRINK_HOUSE access (07B)",
+        "correction": "The wiki premise that a vanilla 07B source already existed was false. Promotion adds the unique Cape Brink old-woman reward and preserves the later Water Path item ball."
+      }
+    },
+    {
+      "item": "Blue Scarf",
+      "lot": "07C",
+      "source": "Recompensa por rescatar a Lostelle",
+      "availability": "Fuente determinista adicional",
+      "behavior": "Catalizador reutilizable",
+      "rom": {
+        "itemId": "ITEM_BLUE_SCARF",
+        "status": "promoted",
+        "delivery": "unique-reward",
+        "gate": "FLAG_RESCUED_LOSTELLE + vanilla Moon Stone reward (07C)"
+      }
+    }
+  ]
+}

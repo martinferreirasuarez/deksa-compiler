@@ -10,6 +10,7 @@ import { BASE_ROM } from './rom-base.mjs';
 import { validateSeed } from '../seed-plan.mjs';
 import { isPublicWikiRequest, servePublicWiki } from './public-wiki.mjs';
 import { createBuildQueue } from './build-queue.mjs';
+import { siteHeader, siteFooter } from './site-chrome.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const RELEASE = JSON.parse(await readFile(path.join(HERE, 'release.json'), 'utf8'));
@@ -23,6 +24,7 @@ const ASSETS = new Map([
   ['/share-card.png', ['share-card.png', 'image/png']],
   ['/app.js', ['app.js', 'text/javascript; charset=utf-8']],
   ['/style.css', ['style.css', 'text/css; charset=utf-8']],
+  ['/site.css', ['site.css', 'text/css; charset=utf-8']],
   ['/brand-mark.svg', ['brand-mark.svg', 'image/svg+xml']],
   ['/rom-base.mjs', ['rom-base.mjs', 'text/javascript; charset=utf-8']],
   ['/patch-worker.js', ['patch-worker.js', 'text/javascript; charset=utf-8']],
@@ -116,8 +118,9 @@ export function createApp({
         const asset = await readFile(path.join(HERE, name));
         if (request.method === 'HEAD') { response.end(); return; }
         response.end(name.endsWith('.html')
-          ? asset.toString('utf8').replaceAll('{{VERSION}}', RELEASE.version).replace('<!-- DEKSA_WIKI_LINK -->', wikiOrigin
-            ? '<nav class="landing-nav" aria-label="Main navigation"><a class="wiki-link" href="/">Guide</a><a class="wiki-link" href="/wiki/changes">Changes</a></nav>' : '')
+          ? asset.toString('utf8').replaceAll('{{VERSION}}', RELEASE.version)
+            .replace('<!-- DEKSA_SITE_HEADER -->', siteHeader(name === 'play.html' ? 'How to play' : 'Build game'))
+            .replace('<!-- DEKSA_SITE_FOOTER -->', siteFooter(RELEASE.version))
           : asset);
         return;
       }

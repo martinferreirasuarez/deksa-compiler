@@ -1,0 +1,1657 @@
+{
+  "schemaVersion": 1,
+  "generatorId": "DEKSA-TRAINER-TRIPLET-GENERATOR-1",
+  "windowId": "W02-MISTY",
+  "lotId": "02D",
+  "status": "LOT_ACCEPTED",
+  "constructionOrder": [
+    "leader-misty",
+    "picnicker-kelsey",
+    "rocket-cerulean",
+    "picnicker-diana",
+    "hiker-wayne",
+    "hiker-nob",
+    "camper-flint",
+    "youngster-chad",
+    "lass-haley",
+    "swimmer-luis",
+    "hiker-franklin",
+    "youngster-joey",
+    "youngster-dan"
+  ],
+  "acceptedTriplets": [
+    {
+      "logicalTrainerId": "leader-misty",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-misty-001/trainer-triplet.json",
+      "tripletDigest": "sha256:961b27afb7d83d3551d425b4aa0efc4185525752fd4046a927864e244590f796",
+      "acceptedAt": "2026-09-04T01:10:59.733Z",
+      "authorizationDigest": "sha256:6b951fd76a1a46e102326b5299cea8a075fa3e808c685984a74850cd0fd12eb4"
+    },
+    {
+      "logicalTrainerId": "picnicker-kelsey",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-picnicker-kelsey-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:5d84355e52f6ff2ac27df9f4d89fdef4abd143c03b0041f7ed58632254176422",
+      "acceptedAt": "2026-09-04T03:37:49.439Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "rocket-cerulean",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-rocket-cerulean-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:d5c527f2403d5749b9e4efa23333e86d7eec556b8a387e57b68f6d3b0e8a1c7e",
+      "acceptedAt": "2026-09-04T03:44:28.291Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "picnicker-diana",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-picnicker-diana-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:32e57ddfe0f5494fd1b8188ab1f74a26d3862ece46f7c63cf116d05f33531128",
+      "acceptedAt": "2026-09-04T03:56:56.496Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "hiker-wayne",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-hiker-wayne-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:270bfb9a4f809ec97806ba4ea639c06315c6420785a50dfa8cde655b240ebd4e",
+      "acceptedAt": "2026-09-04T04:05:44.050Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "hiker-nob",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-hiker-nob-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:f84879664aa8288390e6f3386fc0b86c5a4e733ea0bb35c62f58d1f24f6f639d",
+      "acceptedAt": "2026-09-04T04:15:45.490Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "camper-flint",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-camper-flint-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:ba6ca4c0d9d247fc06a8905a5a4fc62b94087814e61e1cdfe37d402cbf23be9f",
+      "acceptedAt": "2026-09-04T04:23:59.742Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "youngster-chad",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-youngster-chad-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:c8635e95d1755937810b272f7bee80e4f0747910a04712b52b4b998b11e72606",
+      "acceptedAt": "2026-09-04T04:34:13.568Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "lass-haley",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-lass-haley-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:f9d2be6ebb5a323fd8385a38119eeea6cb4b36bf31d73744dd6377b81db4fbb0",
+      "acceptedAt": "2026-09-04T04:42:02.696Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "swimmer-luis",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-swimmer-luis-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:cc1f386bd0930717b378fe9e63781cc9e1634749dc0be306072723406855121f",
+      "acceptedAt": "2026-09-04T04:52:05.711Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "hiker-franklin",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-hiker-franklin-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:aceb76e7c3d42f6facc96d608581ed626bfe7ac56fe945acb4bb71d05c6fe873",
+      "acceptedAt": "2026-09-04T04:59:04.304Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "youngster-joey",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-youngster-joey-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:3ac068e7de0123782852ba31dbffaff0b1ad9b7fd084b7ad03f57abaa05167f4",
+      "acceptedAt": "2026-09-04T05:06:11.041Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    },
+    {
+      "logicalTrainerId": "youngster-dan",
+      "tripletPath": "wiki/trainer-authoring/v7/runs/02D/triplets/beta3-w02-youngster-dan-nobaby-001/trainer-triplet.json",
+      "tripletDigest": "sha256:1c47297a42718222b84dcabc7fdbbb783318ac4691f3852e64dc08a53900426a",
+      "acceptedAt": "2026-09-04T05:13:24.627Z",
+      "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9"
+    }
+  ],
+  "branchLedgers": {
+    "A": [
+      {
+        "logicalTrainerId": "leader-misty",
+        "profile": "JEFE",
+        "constructionPosition": 0,
+        "familySets": [
+          [
+            "tentacool",
+            "abra",
+            "lapras",
+            "qwilfish",
+            "psyduck",
+            "staryu"
+          ]
+        ],
+        "anchorFamilies": [
+          "staryu"
+        ],
+        "canonicalAceFamily": "staryu",
+        "continuityGroupId": null,
+        "materialDigest": "sha256:0de7b73fa169e3021fe813ab6b41486715d0533ff65f2d3d29250563dd5cb467",
+        "tripletDigest": "sha256:961b27afb7d83d3551d425b4aa0efc4185525752fd4046a927864e244590f796",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 25207.5,
+            "speed": 262,
+            "physicalBulk": 12393,
+            "specialBulk": 14887,
+            "coverage": 0.143,
+            "autonomy": 6,
+            "ability": 0.5,
+            "items": 40
+          },
+          "aggregate": 0.786633
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "picnicker-kelsey",
+        "profile": "ESPECIALISTA",
+        "constructionPosition": 1,
+        "familySets": [
+          [
+            "nidoran_f",
+            "nidoran_m",
+            "oddish",
+            "sunkern",
+            "zubat",
+            "ekans"
+          ]
+        ],
+        "anchorFamilies": [
+          "nidoran_m",
+          "nidoran_f"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:f8b44d02779fcd1ac580a53b172e31fdab0439efd5a6b8cecb60df66be5248e3",
+        "tripletDigest": "sha256:5d84355e52f6ff2ac27df9f4d89fdef4abd143c03b0041f7ed58632254176422",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 9710,
+            "speed": 156,
+            "physicalBulk": 7992,
+            "specialBulk": 8082,
+            "coverage": 0.2,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 30
+          },
+          "aggregate": 0.900165
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "rocket-cerulean",
+        "profile": "ESPECIALISTA",
+        "constructionPosition": 2,
+        "familySets": [
+          [
+            "ekans",
+            "meowth",
+            "zubat",
+            "sableye",
+            "machop",
+            "drowzee"
+          ]
+        ],
+        "anchorFamilies": [
+          "machop",
+          "drowzee"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:3a8bff4cddd3d1e5cbe1b1c398f11468d58c724cb6648df626fffeef0964db14",
+        "tripletDigest": "sha256:d5c527f2403d5749b9e4efa23333e86d7eec556b8a387e57b68f6d3b0e8a1c7e",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 13346.25,
+            "speed": 170,
+            "physicalBulk": 8568,
+            "specialBulk": 9646,
+            "coverage": 1,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 30
+          },
+          "aggregate": 0.827925
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "picnicker-diana",
+        "profile": "ESPECIALISTA",
+        "constructionPosition": 3,
+        "familySets": [
+          [
+            "wingull",
+            "oddish",
+            "mareep",
+            "squirtle",
+            "heracross",
+            "goldeen"
+          ]
+        ],
+        "anchorFamilies": [
+          "goldeen"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:0f5604b7cf18d377876ca6ce674ac078ba4b42e53ced6e2115ec6562b6bce6f7",
+        "tripletDigest": "sha256:32e57ddfe0f5494fd1b8188ab1f74a26d3862ece46f7c63cf116d05f33531128",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 19047.5,
+            "speed": 188,
+            "physicalBulk": 10394,
+            "specialBulk": 10772,
+            "coverage": 0.6,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.938443
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "hiker-wayne",
+        "profile": "AVANZADO",
+        "constructionPosition": 4,
+        "familySets": [
+          [
+            "slowpoke",
+            "rattata",
+            "pikachu",
+            "zubat",
+            "spinarak",
+            "onix"
+          ]
+        ],
+        "anchorFamilies": [
+          "onix"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:54cc810bd2401e6f92cb454c6111211217fa143c5be7b395e8addf82a467530a",
+        "tripletDigest": "sha256:270bfb9a4f809ec97806ba4ea639c06315c6420785a50dfa8cde655b240ebd4e",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 11048,
+            "speed": 163,
+            "physicalBulk": 7902,
+            "specialBulk": 6180,
+            "coverage": 0.857,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 0
+          },
+          "aggregate": 0.839057
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "hiker-nob",
+        "profile": "AVANZADO",
+        "constructionPosition": 5,
+        "familySets": [
+          [
+            "mankey",
+            "shroomish",
+            "phanpy",
+            "sandshrew",
+            "aron",
+            "geodude"
+          ]
+        ],
+        "anchorFamilies": [
+          "geodude"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:c9919223e46d389e4da8051148ea0aea7b7d754d37f0e217f9d99282f8715a6f",
+        "tripletDigest": "sha256:f84879664aa8288390e6f3386fc0b86c5a4e733ea0bb35c62f58d1f24f6f639d",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 13914.5,
+            "speed": 122,
+            "physicalBulk": 10608,
+            "specialBulk": 6564,
+            "coverage": 0.667,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 280
+          },
+          "aggregate": 0.969522
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "camper-flint",
+        "profile": "AVANZADO",
+        "constructionPosition": 6,
+        "familySets": [
+          [
+            "rattata",
+            "ekans",
+            "mankey",
+            "aron",
+            "oddish",
+            "pikachu"
+          ]
+        ],
+        "anchorFamilies": [
+          "rattata",
+          "ekans"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:a9c42036d05b9f217700996025122df732af28d744ec7966fd7b3843fbba5a47",
+        "tripletDigest": "sha256:ba6ca4c0d9d247fc06a8905a5a4fc62b94087814e61e1cdfe37d402cbf23be9f",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 15146.25,
+            "speed": 174,
+            "physicalBulk": 6820,
+            "specialBulk": 6573,
+            "coverage": 0.5,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 30
+          },
+          "aggregate": 0.830251
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "youngster-chad",
+        "profile": "AVANZADO",
+        "constructionPosition": 7,
+        "familySets": [
+          [
+            "mareep",
+            "ekans",
+            "makuhita",
+            "weedle",
+            "spearow",
+            "sandshrew"
+          ]
+        ],
+        "anchorFamilies": [
+          "ekans",
+          "sandshrew"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:a221c83e554157e8a9857f6fe4e55278ecb8b87c46972d4d0e1b2de61954857c",
+        "tripletDigest": "sha256:c8635e95d1755937810b272f7bee80e4f0747910a04712b52b4b998b11e72606",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 14510,
+            "speed": 150,
+            "physicalBulk": 7549,
+            "specialBulk": 7292,
+            "coverage": 0.4,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.800392
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "lass-haley",
+        "profile": "AVANZADO",
+        "constructionPosition": 8,
+        "familySets": [
+          [
+            "makuhita",
+            "oddish",
+            "whismur",
+            "magikarp",
+            "skitty",
+            "pidgey"
+          ]
+        ],
+        "anchorFamilies": [
+          "oddish",
+          "pidgey"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:ab4d67d8ed67575818ce02493859ab4e9534e468d6cd68f45e307e223e4b5bac",
+        "tripletDigest": "sha256:f9d2be6ebb5a323fd8385a38119eeea6cb4b36bf31d73744dd6377b81db4fbb0",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 11545.25,
+            "speed": 144,
+            "physicalBulk": 5870,
+            "specialBulk": 5423,
+            "coverage": 0.4,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.790934
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "swimmer-luis",
+        "profile": "AVANZADO",
+        "constructionPosition": 9,
+        "familySets": [
+          [
+            "lotad",
+            "wooper",
+            "tentacool",
+            "wingull",
+            "surskit",
+            "qwilfish"
+          ]
+        ],
+        "anchorFamilies": [],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:f1fafbf1a31f052fee8574f0d9071e37b4687d8db018d9b67bdb651715baca82",
+        "tripletDigest": "sha256:cc1f386bd0930717b378fe9e63781cc9e1634749dc0be306072723406855121f",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 10071.75,
+            "speed": 187,
+            "physicalBulk": 6618,
+            "specialBulk": 8068,
+            "coverage": 0.6,
+            "autonomy": 6,
+            "ability": 1,
+            "items": 10
+          },
+          "aggregate": 0.955648
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "hiker-franklin",
+        "profile": "COMUN",
+        "constructionPosition": 10,
+        "familySets": [
+          [
+            "zubat",
+            "machop",
+            "hoppip",
+            "onix",
+            "whismur",
+            "geodude"
+          ]
+        ],
+        "anchorFamilies": [
+          "machop",
+          "geodude"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:c768bbfa92a0bf02c9213fa42a61618c9f3be81a59d4b086f6dd3bb362464a84",
+        "tripletDigest": "sha256:aceb76e7c3d42f6facc96d608581ed626bfe7ac56fe945acb4bb71d05c6fe873",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 10987.5,
+            "speed": 122,
+            "physicalBulk": 8124,
+            "specialBulk": 5049,
+            "coverage": 0.444,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.794391
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "youngster-joey",
+        "profile": "COMUN",
+        "constructionPosition": 11,
+        "familySets": [
+          [
+            "surskit",
+            "rattata",
+            "spearow",
+            "poochyena",
+            "taillow",
+            "gastly"
+          ]
+        ],
+        "anchorFamilies": [
+          "rattata",
+          "spearow"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:caa60a0a48dcf1215cb259cd24be4c8158de97ec82fc9ef135b054b4716ab93b",
+        "tripletDigest": "sha256:3ac068e7de0123782852ba31dbffaff0b1ad9b7fd084b7ad03f57abaa05167f4",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 11089.125,
+            "speed": 190,
+            "physicalBulk": 3866,
+            "specialBulk": 4354,
+            "coverage": 0.25,
+            "autonomy": 6,
+            "ability": 2,
+            "items": 10
+          },
+          "aggregate": 0.85034
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "youngster-dan",
+        "profile": "COMUN",
+        "constructionPosition": 12,
+        "familySets": [
+          [
+            "spearow",
+            "makuhita",
+            "ralts",
+            "ledyba",
+            "magikarp",
+            "slowpoke"
+          ]
+        ],
+        "anchorFamilies": [
+          "slowpoke"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:07136dab5a4b7727eb89cda4e3334519f4a368c1c272837d49e1e5fc2fe6fd62",
+        "tripletDigest": "sha256:1c47297a42718222b84dcabc7fdbbb783318ac4691f3852e64dc08a53900426a",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 9339.825,
+            "speed": 130,
+            "physicalBulk": 5526,
+            "specialBulk": 5471,
+            "coverage": 0.75,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.816252
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      }
+    ],
+    "B": [
+      {
+        "logicalTrainerId": "leader-misty",
+        "profile": "JEFE",
+        "constructionPosition": 0,
+        "familySets": [
+          [
+            "onix",
+            "mudkip",
+            "lapras",
+            "qwilfish",
+            "psyduck",
+            "staryu"
+          ]
+        ],
+        "anchorFamilies": [
+          "staryu"
+        ],
+        "canonicalAceFamily": "staryu",
+        "continuityGroupId": null,
+        "materialDigest": "sha256:aa34a47e63caed5153007e98433ef82e43609205fe93501d287d619c4da2cdfe",
+        "tripletDigest": "sha256:961b27afb7d83d3551d425b4aa0efc4185525752fd4046a927864e244590f796",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 25258.5,
+            "speed": 235,
+            "physicalBulk": 15927,
+            "specialBulk": 14193,
+            "coverage": 0.5,
+            "autonomy": 6,
+            "ability": 0.5,
+            "items": 40
+          },
+          "aggregate": 0.883425
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "picnicker-kelsey",
+        "profile": "ESPECIALISTA",
+        "constructionPosition": 1,
+        "familySets": [
+          [
+            "nidoran_f",
+            "nidoran_m",
+            "bellsprout",
+            "spinarak",
+            "surskit",
+            "skitty"
+          ]
+        ],
+        "anchorFamilies": [
+          "nidoran_m",
+          "nidoran_f"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:ebc4aedd2345e714125db0f95ad507b5cf8d486174c8ae4186a917cb06aad10d",
+        "tripletDigest": "sha256:5d84355e52f6ff2ac27df9f4d89fdef4abd143c03b0041f7ed58632254176422",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 12277.5,
+            "speed": 170,
+            "physicalBulk": 7806,
+            "specialBulk": 7673,
+            "coverage": 0.2,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.844052
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "rocket-cerulean",
+        "profile": "ESPECIALISTA",
+        "constructionPosition": 2,
+        "familySets": [
+          [
+            "snubbull",
+            "poochyena",
+            "gulpin",
+            "cubone",
+            "machop",
+            "drowzee"
+          ]
+        ],
+        "anchorFamilies": [
+          "machop",
+          "drowzee"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:2ef00e84105c5603a906ffa245e1ebed7e0d15b7aa66ed9caa5cefdf22cabea2",
+        "tripletDigest": "sha256:d5c527f2403d5749b9e4efa23333e86d7eec556b8a387e57b68f6d3b0e8a1c7e",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 17934.125,
+            "speed": 128,
+            "physicalBulk": 9745,
+            "specialBulk": 9556,
+            "coverage": 1,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 30
+          },
+          "aggregate": 0.842951
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "picnicker-diana",
+        "profile": "ESPECIALISTA",
+        "constructionPosition": 3,
+        "familySets": [
+          [
+            "electrike",
+            "marill",
+            "surskit",
+            "mudkip",
+            "bulbasaur",
+            "goldeen"
+          ]
+        ],
+        "anchorFamilies": [
+          "goldeen"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:4406bdaf97e325b08fed763b5578675a9781a4e0014472ce1bc44246099bc127",
+        "tripletDigest": "sha256:32e57ddfe0f5494fd1b8188ab1f74a26d3862ece46f7c63cf116d05f33531128",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 15518.375,
+            "speed": 179,
+            "physicalBulk": 10317,
+            "specialBulk": 10845,
+            "coverage": 1,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.959284
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "hiker-wayne",
+        "profile": "AVANZADO",
+        "constructionPosition": 4,
+        "familySets": [
+          [
+            "wooper",
+            "makuhita",
+            "hoothoot",
+            "oddish",
+            "skitty",
+            "onix"
+          ]
+        ],
+        "anchorFamilies": [
+          "onix"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:d1c862ae2cc83e9048afa7b09aaad6f35a8c8e0456625c671716191f9989310a",
+        "tripletDigest": "sha256:270bfb9a4f809ec97806ba4ea639c06315c6420785a50dfa8cde655b240ebd4e",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 12237.75,
+            "speed": 125,
+            "physicalBulk": 7851,
+            "specialBulk": 6487,
+            "coverage": 0.6,
+            "autonomy": 6,
+            "ability": 1,
+            "items": 0
+          },
+          "aggregate": 0.920052
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "hiker-nob",
+        "profile": "AVANZADO",
+        "constructionPosition": 5,
+        "familySets": [
+          [
+            "whismur",
+            "oddish",
+            "pikachu",
+            "makuhita",
+            "tentacool",
+            "geodude"
+          ]
+        ],
+        "anchorFamilies": [
+          "geodude"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:d737a5a6527cceb27d2b5876e33444b330b52a5cd3afd14dbf004472db29ef23",
+        "tripletDigest": "sha256:f84879664aa8288390e6f3386fc0b86c5a4e733ea0bb35c62f58d1f24f6f639d",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 14332.5,
+            "speed": 144,
+            "physicalBulk": 6951,
+            "specialBulk": 6997,
+            "coverage": 0.4,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 280
+          },
+          "aggregate": 0.90687
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "camper-flint",
+        "profile": "AVANZADO",
+        "constructionPosition": 6,
+        "familySets": [
+          [
+            "ekans",
+            "rattata",
+            "weedle",
+            "krabby",
+            "makuhita",
+            "mareep"
+          ]
+        ],
+        "anchorFamilies": [
+          "rattata",
+          "ekans"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:3587b607d7ad89cfc7a03ad39a3f658d88acd6e52e40dccf41d95bd66cc38453",
+        "tripletDigest": "sha256:ba6ca4c0d9d247fc06a8905a5a4fc62b94087814e61e1cdfe37d402cbf23be9f",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 17155,
+            "speed": 161,
+            "physicalBulk": 7102,
+            "specialBulk": 7310,
+            "coverage": 0.333,
+            "autonomy": 6,
+            "ability": 1,
+            "items": 30
+          },
+          "aggregate": 0.935715
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "youngster-chad",
+        "profile": "AVANZADO",
+        "constructionPosition": 7,
+        "familySets": [
+          [
+            "pikachu",
+            "ekans",
+            "zigzagoon",
+            "totodile",
+            "wurmple",
+            "sandshrew"
+          ]
+        ],
+        "anchorFamilies": [
+          "ekans",
+          "sandshrew"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:7ac5d754579c4e4c74d4d2b61b13f825f205591f2d983554b49f9c8247ff2bd2",
+        "tripletDigest": "sha256:c8635e95d1755937810b272f7bee80e4f0747910a04712b52b4b998b11e72606",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 10500,
+            "speed": 172,
+            "physicalBulk": 7967,
+            "specialBulk": 7412,
+            "coverage": 0.333,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.777861
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "lass-haley",
+        "profile": "AVANZADO",
+        "constructionPosition": 8,
+        "familySets": [
+          [
+            "jigglypuff",
+            "oddish",
+            "surskit",
+            "unown",
+            "ralts",
+            "pidgey"
+          ]
+        ],
+        "anchorFamilies": [
+          "oddish",
+          "pidgey"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:318edadbdf2cdc11c4b3f2bf0127107d6631fd063bae6aba37fcf9a03ef5ae0d",
+        "tripletDigest": "sha256:f9d2be6ebb5a323fd8385a38119eeea6cb4b36bf31d73744dd6377b81db4fbb0",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 10010,
+            "speed": 138,
+            "physicalBulk": 5700,
+            "specialBulk": 6583,
+            "coverage": 0.429,
+            "autonomy": 6,
+            "ability": 1,
+            "items": 10
+          },
+          "aggregate": 0.917314
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "swimmer-luis",
+        "profile": "AVANZADO",
+        "constructionPosition": 9,
+        "familySets": [
+          [
+            "slowpoke",
+            "tentacool",
+            "totodile",
+            "wingull",
+            "wooper",
+            "surskit"
+          ]
+        ],
+        "anchorFamilies": [],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:22296d434e18c3eb156c412a3beba09742d5ce1163c767686437f856b4aa09df",
+        "tripletDigest": "sha256:cc1f386bd0930717b378fe9e63781cc9e1634749dc0be306072723406855121f",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 10971.875,
+            "speed": 147,
+            "physicalBulk": 6817,
+            "specialBulk": 7313,
+            "coverage": 0.667,
+            "autonomy": 6,
+            "ability": 1,
+            "items": 10
+          },
+          "aggregate": 0.942635
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "hiker-franklin",
+        "profile": "COMUN",
+        "constructionPosition": 10,
+        "familySets": [
+          [
+            "hoothoot",
+            "machop",
+            "shroomish",
+            "makuhita",
+            "aron",
+            "geodude"
+          ]
+        ],
+        "anchorFamilies": [
+          "machop",
+          "geodude"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:c0197a524d9fd96d0dd71bbc55ce394f99215ff1d0fff00997004b35c930df70",
+        "tripletDigest": "sha256:aceb76e7c3d42f6facc96d608581ed626bfe7ac56fe945acb4bb71d05c6fe873",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 13458.75,
+            "speed": 96,
+            "physicalBulk": 7990,
+            "specialBulk": 5783,
+            "coverage": 0.667,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.846299
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "youngster-joey",
+        "profile": "COMUN",
+        "constructionPosition": 11,
+        "familySets": [
+          [
+            "zigzagoon",
+            "rattata",
+            "spearow",
+            "skitty",
+            "hoothoot",
+            "mankey"
+          ]
+        ],
+        "anchorFamilies": [
+          "rattata",
+          "spearow"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:30c70e47cc7c518735b8aec7abd11a81492d4fa724dbb44f0785f81d0c09ccdc",
+        "tripletDigest": "sha256:3ac068e7de0123782852ba31dbffaff0b1ad9b7fd084b7ad03f57abaa05167f4",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 11912.625,
+            "speed": 174,
+            "physicalBulk": 4534,
+            "specialBulk": 5139,
+            "coverage": 0.25,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.757929
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "youngster-dan",
+        "profile": "COMUN",
+        "constructionPosition": 12,
+        "familySets": [
+          [
+            "ekans",
+            "teddiursa",
+            "mareep",
+            "wooper",
+            "taillow",
+            "slowpoke"
+          ]
+        ],
+        "anchorFamilies": [
+          "slowpoke"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:ed970e09e1d8bef5aa8078810b5f9f10f9870da15a3d512b4773c8e157d73a19",
+        "tripletDigest": "sha256:1c47297a42718222b84dcabc7fdbbb783318ac4691f3852e64dc08a53900426a",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 11182.8,
+            "speed": 122,
+            "physicalBulk": 6820,
+            "specialBulk": 6185,
+            "coverage": 0.667,
+            "autonomy": 6,
+            "ability": 1,
+            "items": 10
+          },
+          "aggregate": 0.978474
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      }
+    ],
+    "C": [
+      {
+        "logicalTrainerId": "leader-misty",
+        "profile": "JEFE",
+        "constructionPosition": 0,
+        "familySets": [
+          [
+            "mudkip",
+            "qwilfish",
+            "lapras",
+            "totodile",
+            "wooper",
+            "staryu"
+          ]
+        ],
+        "anchorFamilies": [
+          "staryu"
+        ],
+        "canonicalAceFamily": "staryu",
+        "continuityGroupId": null,
+        "materialDigest": "sha256:faf1e6230cb605016d346d3b06c4a0338cb8638c842d69033dd09b078953adb3",
+        "tripletDigest": "sha256:961b27afb7d83d3551d425b4aa0efc4185525752fd4046a927864e244590f796",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 24604.375,
+            "speed": 217,
+            "physicalBulk": 17169,
+            "specialBulk": 15606,
+            "coverage": 0.5,
+            "autonomy": 6,
+            "ability": 1.5,
+            "items": 40
+          },
+          "aggregate": 0.975293
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "picnicker-kelsey",
+        "profile": "ESPECIALISTA",
+        "constructionPosition": 1,
+        "familySets": [
+          [
+            "jigglypuff",
+            "nidoran_f",
+            "spinarak",
+            "sunkern",
+            "skitty",
+            "nidoran_m"
+          ]
+        ],
+        "anchorFamilies": [
+          "nidoran_m",
+          "nidoran_f"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:c475439f372402501f7e640f341356b417c44b25bd96d9c9586a0969955d3559",
+        "tripletDigest": "sha256:5d84355e52f6ff2ac27df9f4d89fdef4abd143c03b0041f7ed58632254176422",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 11100,
+            "speed": 145,
+            "physicalBulk": 8050,
+            "specialBulk": 7422,
+            "coverage": 0.4,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.876088
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "rocket-cerulean",
+        "profile": "ESPECIALISTA",
+        "constructionPosition": 2,
+        "familySets": [
+          [
+            "rattata",
+            "gastly",
+            "electrike",
+            "pineco",
+            "machop",
+            "drowzee"
+          ]
+        ],
+        "anchorFamilies": [
+          "machop",
+          "drowzee"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:efc215701e420cec329e328ec41c4c57f0eec1da26b06d8ca97c9c1a28e02ea8",
+        "tripletDigest": "sha256:d5c527f2403d5749b9e4efa23333e86d7eec556b8a387e57b68f6d3b0e8a1c7e",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 16449.5,
+            "speed": 164,
+            "physicalBulk": 8232,
+            "specialBulk": 8436,
+            "coverage": 1,
+            "autonomy": 6,
+            "ability": 2,
+            "items": 30
+          },
+          "aggregate": 0.950153
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "picnicker-diana",
+        "profile": "ESPECIALISTA",
+        "constructionPosition": 3,
+        "familySets": [
+          [
+            "mr_mime",
+            "totodile",
+            "roselia",
+            "slowpoke",
+            "tentacool",
+            "goldeen"
+          ]
+        ],
+        "anchorFamilies": [
+          "goldeen"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:4332108194410ca9f611589d0f8aaaff6fd7ec2d7d3371c946790a26c874c9eb",
+        "tripletDigest": "sha256:32e57ddfe0f5494fd1b8188ab1f74a26d3862ece46f7c63cf116d05f33531128",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 14800,
+            "speed": 192,
+            "physicalBulk": 9616,
+            "specialBulk": 11603,
+            "coverage": 0.5,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.900269
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "hiker-wayne",
+        "profile": "AVANZADO",
+        "constructionPosition": 4,
+        "familySets": [
+          [
+            "wooper",
+            "ralts",
+            "surskit",
+            "paras",
+            "spinarak",
+            "onix"
+          ]
+        ],
+        "anchorFamilies": [
+          "onix"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:72b6e54a2a09324b936812c540097f07a770e6d06962223762e9b1ca9682c29d",
+        "tripletDigest": "sha256:270bfb9a4f809ec97806ba4ea639c06315c6420785a50dfa8cde655b240ebd4e",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 9758.5,
+            "speed": 126,
+            "physicalBulk": 7606,
+            "specialBulk": 5897,
+            "coverage": 1,
+            "autonomy": 6,
+            "ability": 1,
+            "items": 0
+          },
+          "aggregate": 0.930251
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "hiker-nob",
+        "profile": "AVANZADO",
+        "constructionPosition": 5,
+        "familySets": [
+          [
+            "nidoran_m",
+            "hoothoot",
+            "hoppip",
+            "makuhita",
+            "skitty",
+            "geodude"
+          ]
+        ],
+        "anchorFamilies": [
+          "geodude"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:dbfec41f8e4b90e09c6702eb06be02c9a460f512fdad27e2e04479dd58058fe0",
+        "tripletDigest": "sha256:f84879664aa8288390e6f3386fc0b86c5a4e733ea0bb35c62f58d1f24f6f639d",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 12559.5,
+            "speed": 137,
+            "physicalBulk": 7351,
+            "specialBulk": 6542,
+            "coverage": 0.667,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 280
+          },
+          "aggregate": 0.931953
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "camper-flint",
+        "profile": "AVANZADO",
+        "constructionPosition": 6,
+        "familySets": [
+          [
+            "rattata",
+            "ekans",
+            "natu",
+            "lotad",
+            "phanpy",
+            "pidgey"
+          ]
+        ],
+        "anchorFamilies": [
+          "rattata",
+          "ekans"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:b97953a67640c851e7a8f8019cf85f4c87b5211c5abd5591fd455bf2fe7fd824",
+        "tripletDigest": "sha256:ba6ca4c0d9d247fc06a8905a5a4fc62b94087814e61e1cdfe37d402cbf23be9f",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 12798.5,
+            "speed": 178,
+            "physicalBulk": 7302,
+            "specialBulk": 7755,
+            "coverage": 0.333,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 30
+          },
+          "aggregate": 0.801506
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "youngster-chad",
+        "profile": "AVANZADO",
+        "constructionPosition": 7,
+        "familySets": [
+          [
+            "wingull",
+            "ekans",
+            "teddiursa",
+            "weedle",
+            "wooper",
+            "sandshrew"
+          ]
+        ],
+        "anchorFamilies": [
+          "ekans",
+          "sandshrew"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:5247f27b89d5e6a00fcf7015fb77ff3f8ec26bcec1bc339c05d7173a42512cab",
+        "tripletDigest": "sha256:c8635e95d1755937810b272f7bee80e4f0747910a04712b52b4b998b11e72606",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 13919.375,
+            "speed": 155,
+            "physicalBulk": 7512,
+            "specialBulk": 6937,
+            "coverage": 0.667,
+            "autonomy": 6,
+            "ability": 1,
+            "items": 10
+          },
+          "aggregate": 0.967408
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "lass-haley",
+        "profile": "AVANZADO",
+        "constructionPosition": 8,
+        "familySets": [
+          [
+            "clefairy",
+            "oddish",
+            "shroomish",
+            "hoppip",
+            "teddiursa",
+            "pidgey"
+          ]
+        ],
+        "anchorFamilies": [
+          "oddish",
+          "pidgey"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:de50326727f7e3c9958f74c3c4f06b5487f86dcca1ba2c5172f8ac8332af79d7",
+        "tripletDigest": "sha256:f9d2be6ebb5a323fd8385a38119eeea6cb4b36bf31d73744dd6377b81db4fbb0",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 10417.5,
+            "speed": 145,
+            "physicalBulk": 7829,
+            "specialBulk": 8315,
+            "coverage": 0.167,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.78645
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "swimmer-luis",
+        "profile": "AVANZADO",
+        "constructionPosition": 9,
+        "familySets": [
+          [
+            "marill",
+            "surskit",
+            "wooper",
+            "mudkip",
+            "wingull",
+            "lotad"
+          ]
+        ],
+        "anchorFamilies": [],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:77ef24caa7c82aab93907695c8024e9137effede8b0aa7a1338ba115d89ed053",
+        "tripletDigest": "sha256:cc1f386bd0930717b378fe9e63781cc9e1634749dc0be306072723406855121f",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 11842.625,
+            "speed": 149,
+            "physicalBulk": 7393,
+            "specialBulk": 8045,
+            "coverage": 0.5,
+            "autonomy": 6,
+            "ability": 1,
+            "items": 10
+          },
+          "aggregate": 0.942946
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "hiker-franklin",
+        "profile": "COMUN",
+        "constructionPosition": 10,
+        "familySets": [
+          [
+            "nidoran_m",
+            "machop",
+            "paras",
+            "gastly",
+            "phanpy",
+            "geodude"
+          ]
+        ],
+        "anchorFamilies": [
+          "machop",
+          "geodude"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:e0a3c3870bce80d6a1a5a22351909f6d54729d9a785f9b3ff1d336e5ab1feac3",
+        "tripletDigest": "sha256:aceb76e7c3d42f6facc96d608581ed626bfe7ac56fe945acb4bb71d05c6fe873",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 10821.75,
+            "speed": 118,
+            "physicalBulk": 7281,
+            "specialBulk": 5369,
+            "coverage": 0.667,
+            "autonomy": 6,
+            "ability": 2,
+            "items": 10
+          },
+          "aggregate": 0.949491
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "youngster-joey",
+        "profile": "COMUN",
+        "constructionPosition": 11,
+        "familySets": [
+          [
+            "whismur",
+            "rattata",
+            "spearow",
+            "spinarak",
+            "magikarp",
+            "phanpy"
+          ]
+        ],
+        "anchorFamilies": [
+          "rattata",
+          "spearow"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:f176b22014e3fd1df877b5bcdbbb3f05e63f9b666bbee49968a9f8df9ee8ce73",
+        "tripletDigest": "sha256:3ac068e7de0123782852ba31dbffaff0b1ad9b7fd084b7ad03f57abaa05167f4",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 9148.375,
+            "speed": 152,
+            "physicalBulk": 5429,
+            "specialBulk": 4760,
+            "coverage": 0.8,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.811776
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      },
+      {
+        "logicalTrainerId": "youngster-dan",
+        "profile": "COMUN",
+        "constructionPosition": 12,
+        "familySets": [
+          [
+            "poochyena",
+            "phanpy",
+            "wingull",
+            "bellsprout",
+            "spinarak",
+            "slowpoke"
+          ]
+        ],
+        "anchorFamilies": [
+          "slowpoke"
+        ],
+        "canonicalAceFamily": null,
+        "continuityGroupId": null,
+        "materialDigest": "sha256:efb44920a5cfb50f813665e00f8cdfe70dfc843c8e2624182b9ac2c7b9e6f1c9",
+        "tripletDigest": "sha256:1c47297a42718222b84dcabc7fdbbb783318ac4691f3852e64dc08a53900426a",
+        "strength": {
+          "modelId": "deksa-strength-pyramid-v1",
+          "axes": {
+            "reliableDamage": 9190,
+            "speed": 117,
+            "physicalBulk": 6538,
+            "specialBulk": 5275,
+            "coverage": 0.75,
+            "autonomy": 6,
+            "ability": 0,
+            "items": 10
+          },
+          "aggregate": 0.816665
+        },
+        "coverageTypes": [],
+        "status": "ACCEPTED_PROVISIONAL"
+      }
+    ]
+  },
+  "reopenAudits": [
+    {
+      "path": "wiki/trainer-authoring/v7/reopen-audits/02D-picnicker-kelsey-20260904T032204041Z-6bc4ea220287.json",
+      "digest": "sha256:c9687c182483a37f1a1f0c8de0983607f1bf907b460f660485fa594f15289a94"
+    }
+  ],
+  "lotAcceptance": {
+    "gateId": "deksa-trainer-lot-gate-v2",
+    "scope": "13-authorable-trainers",
+    "acceptedAt": "2026-09-04T05:13:48.732Z",
+    "authorizationDigest": "sha256:9a287a1d701d5f577cf68f4b116cff57b06def168971470467becf44e7ceb3a9",
+    "lotTriplet": {
+      "path": "wiki/trainer-authoring/v7/runs/02D/lot-gate/accepted-20260904/lot-triplet.json",
+      "digest": "sha256:7266d91d27145287ed04600f5a4581347a0f01e290588ea3bfa0fe78c0fa353c"
+    },
+    "mechanicalAudit": {
+      "path": "wiki/trainer-authoring/v7/runs/02D/lot-gate/accepted-20260904/mechanical-audit.json",
+      "digest": "sha256:fb7a5a7317d2602625c766f6e500fa0e38e56d235958c7720bc7f3a1b440059a"
+    },
+    "strengthAudit": {
+      "path": "wiki/trainer-authoring/v7/runs/02D/lot-gate/accepted-20260904/strength-pyramid-audit.json",
+      "digest": "sha256:cb07fcc698ffa342f0c1a4c5f45a0f1910a1c4128a4d59a3da333babfe9c47a8"
+    },
+    "frontierAudit": {
+      "path": "wiki/trainer-authoring/v7/runs/02D/lot-gate/accepted-20260904/frontier-audit.json",
+      "digest": "sha256:ea643c4606d0c492b59752a7c5a098a1a42bbf8854e41439bfd0da9a93a1f97b"
+    },
+    "lotAudit": {
+      "path": "wiki/trainer-authoring/v7/runs/02D/lot-gate/accepted-20260904/lot-audit.json",
+      "digest": "sha256:ea3616375177e6bf7a477fd5022dca581fad147cbd286529b26c47b79dcb8825"
+    },
+    "pending": [
+      "02C-to-02D-frontier-matrix",
+      "master-seed-manifest-and-static-writer",
+      "rom-fixture-and-playtest-freeze"
+    ]
+  }
+}

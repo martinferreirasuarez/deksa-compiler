@@ -31,7 +31,7 @@ function remember(job) {
 function updateReport(seed = seedInput.value) {
   const version = versionLabel.textContent;
   const body = `Game version: ${version}\nSeed: ${seed}\nEmulator and version:\nDevice/browser:\n\nWhat happened?\n\nWhat did you expect?\n\nSteps to reproduce:\n`;
-  reportLink.href = 'https://github.com/martinferreirasuarez/deksa-compiler/issues/new?' + new URLSearchParams({ body });
+  reportLink.href = 'https://github.com/martinferreirasuarez/firereddeksa/issues/new?' + new URLSearchParams({ body });
 }
 
 function randomSeed() {

@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "cue-ball-paxton-three-island",
+      "lotId": "07B",
+      "window": 8,
+      "cap": 50,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "grimer",
+          "species": "SPECIES_GRIMER"
+        },
+        {
+          "family": "pinsir",
+          "species": "SPECIES_PINSIR"
+        },
+        {
+          "family": "tauros",
+          "species": "SPECIES_TAUROS"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Tauros abre con Intimidate y presión física. Primeape encarna la violencia del Calvo; Starmie cubre Tierra/Fuego y Skarmory protege de Psíquico/Volador con Spikes y Roar. Muk sostiene y Pinsir cierra con Swords Dance.",
+          "members": [
+            {
+              "species": "SPECIES_TAUROS",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_IRON_TAIL",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_PRIMEAPE",
+              "level": 50,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_CROSS_CHOP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_BULK_UP",
+                "MOVE_OVERHEAT"
+              ],
+              "nature": "NATURE_NAIVE",
+              "ability": "ABILITY_VITAL_SPIRIT",
+              "item": "ITEM_BLACK_BELT"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDERBOLT",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_SKARMORY",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_STEEL_WING",
+                "MOVE_SPIKES",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 49,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_PINSIR",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_FACADE",
+                "MOVE_SWORDS_DANCE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_HYPER_CUTTER",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Sin STAB Bicho legal fiable: cobertura física y Swords Dance con Hyper Cutter."
+            }
+          ]
+        },
+        "B": {
+          "intent": "Tauros abre; Sharpedo representa ferocidad y presión Siniestro contra Psíquico. Lanturn cubre Agua/Volador y paraliza, Gardevoir protege con Reflect y desarrolla Calm Mind. Muk sostiene el veneno y Pinsir cierra.",
+          "members": [
+            {
+              "species": "SPECIES_TAUROS",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_IRON_TAIL",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_SHARPEDO",
+              "level": 50,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_CRUNCH",
+                "MOVE_ICE_BEAM",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_ROUGH_SKIN",
+              "item": "ITEM_BLACK_GLASSES"
+            },
+            {
+              "species": "SPECIES_LANTURN",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_THUNDERBOLT",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_VOLT_ABSORB",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_GARDEVOIR",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_SHOCK_WAVE",
+                "MOVE_CALM_MIND",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 49,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_PINSIR",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_FACADE",
+                "MOVE_SWORDS_DANCE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_HYPER_CUTTER",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Sin STAB Bicho legal fiable: cobertura física y Swords Dance con Hyper Cutter."
+            }
+          ]
+        },
+        "C": {
+          "intent": "Tauros abre con Intimidate. Hariyama mantiene la fuerza bruta del jefe y amortigua Fuego/Hielo; Slowbro protege el flanco físico con cobertura especial. Magneton resiste Psíquico/Volador y paraliza; Muk cubre Acero con fuego y Pinsir remata.",
+          "members": [
+            {
+              "species": "SPECIES_TAUROS",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_IRON_TAIL",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_HARIYAMA",
+              "level": 50,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_BULK_UP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_BLACK_BELT"
+            },
+            {
+              "species": "SPECIES_SLOWBRO",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_BEAM",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OWN_TEMPO",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_MAGNET"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 49,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_FLAMETHROWER",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_PINSIR",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_FACADE",
+                "MOVE_SWORDS_DANCE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_HYPER_CUTTER",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Sin STAB Bicho legal fiable: cobertura física y Swords Dance con Hyper Cutter."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "cue-ball-paxton-three-island",
+      "lotId": "07B",
+      "window": 8,
+      "cap": 50,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "grimer",
+          "species": "SPECIES_GRIMER"
+        },
+        {
+          "family": "pinsir",
+          "species": "SPECIES_PINSIR"
+        },
+        {
+          "family": "tauros",
+          "species": "SPECIES_TAUROS"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Tauros abre con Intimidate y presión física. Primeape encarna la violencia del Calvo; Starmie cubre Tierra/Fuego y Skarmory protege de Psíquico/Volador con Spikes y Roar. Muk sostiene y Pinsir cierra con Swords Dance.",
+          "members": [
+            {
+              "species": "SPECIES_TAUROS",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_IRON_TAIL",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-128"
+            },
+            {
+              "species": "SPECIES_PRIMEAPE",
+              "level": 50,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_CROSS_CHOP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_BULK_UP",
+                "MOVE_OVERHEAT"
+              ],
+              "nature": "NATURE_NAIVE",
+              "ability": "ABILITY_VITAL_SPIRIT",
+              "item": "ITEM_BLACK_BELT",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-056"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDERBOLT",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-120"
+            },
+            {
+              "species": "SPECIES_SKARMORY",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_STEEL_WING",
+                "MOVE_SPIKES",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-227"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 49,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-088"
+            },
+            {
+              "species": "SPECIES_PINSIR",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_FACADE",
+                "MOVE_SWORDS_DANCE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_HYPER_CUTTER",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Sin STAB Bicho legal fiable: cobertura física y Swords Dance con Hyper Cutter.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-127"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Tauros abre; Sharpedo representa ferocidad y presión Siniestro contra Psíquico. Lanturn cubre Agua/Volador y paraliza, Gardevoir protege con Reflect y desarrolla Calm Mind. Muk sostiene el veneno y Pinsir cierra.",
+          "members": [
+            {
+              "species": "SPECIES_TAUROS",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_IRON_TAIL",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-128"
+            },
+            {
+              "species": "SPECIES_SHARPEDO",
+              "level": 50,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_CRUNCH",
+                "MOVE_ICE_BEAM",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_ROUGH_SKIN",
+              "item": "ITEM_BLACK_GLASSES",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-318"
+            },
+            {
+              "species": "SPECIES_LANTURN",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_THUNDERBOLT",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_VOLT_ABSORB",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-170"
+            },
+            {
+              "species": "SPECIES_GARDEVOIR",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_SHOCK_WAVE",
+                "MOVE_CALM_MIND",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-280"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 49,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-088"
+            },
+            {
+              "species": "SPECIES_PINSIR",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_FACADE",
+                "MOVE_SWORDS_DANCE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_HYPER_CUTTER",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Sin STAB Bicho legal fiable: cobertura física y Swords Dance con Hyper Cutter.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-127"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Tauros abre con Intimidate. Hariyama mantiene la fuerza bruta del jefe y amortigua Fuego/Hielo; Slowbro protege el flanco físico con cobertura especial. Magneton resiste Psíquico/Volador y paraliza; Muk cubre Acero con fuego y Pinsir remata.",
+          "members": [
+            {
+              "species": "SPECIES_TAUROS",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_IRON_TAIL",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-128"
+            },
+            {
+              "species": "SPECIES_HARIYAMA",
+              "level": 50,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_BULK_UP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_BLACK_BELT",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-296"
+            },
+            {
+              "species": "SPECIES_SLOWBRO",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_BEAM",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OWN_TEMPO",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-079"
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_MAGNET",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-081"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 49,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_FLAMETHROWER",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-088"
+            },
+            {
+              "species": "SPECIES_PINSIR",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_FACADE",
+                "MOVE_SWORDS_DANCE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_HYPER_CUTTER",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Sin STAB Bicho legal fiable: cobertura física y Swords Dance con Hyper Cutter.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-127"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "cue-ball-paxton-three-island": {
+      "actor": "/root/remaining_boss_coordinator/paxton_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.09850349184125662,
+      "packetBytes": 357136,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-remaining-v2-w08-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

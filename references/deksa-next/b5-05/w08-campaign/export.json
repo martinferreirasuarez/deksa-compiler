@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "leader-giovanni-viridian",
+      "lotId": "07D",
+      "window": 8,
+      "cap": 50,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "rhyhorn",
+          "species": "SPECIES_RHYHORN",
+          "ace": true
+        },
+        {
+          "family": "nidoran_f",
+          "species": "SPECIES_NIDORAN_F"
+        },
+        {
+          "family": "kangaskhan",
+          "species": "SPECIES_KANGASKHAN"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Jolteon abre con velocidad, presión eléctrica y parálisis. Quagsire absorbe Agua y conserva Tierra; Salamence aporta Intimidate e inmunidad Tierra. Nidoqueen castiga Planta/Acero y Kangaskhan ofrece prioridad. Rhydon cierra con doble STAB y Double Edge sin retroceso.",
+          "members": [
+            {
+              "species": "SPECIES_JOLTEON",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_BATON_PASS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_VOLT_ABSORB",
+              "item": "ITEM_MAGNET",
+              "intent": "Baton Pass aporta relevo rápido sin boosts; evita que Protect sin recuperación propia ocupe ese espacio. Hidden Power es Siniestro70 con IV31."
+            },
+            {
+              "species": "SPECIES_QUAGSIRE",
+              "level": 49,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_YAWN"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_SITRUS_BERRY"
+            },
+            {
+              "species": "SPECIES_SALAMENCE",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DRAGON_CLAW",
+                "MOVE_FLAMETHROWER",
+                "MOVE_AERIAL_ACE",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_NAIVE",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_NIDOQUEEN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_FIRE_BLAST",
+                "MOVE_BODY_SLAM",
+                "MOVE_SUPERPOWER"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_POISON_POINT",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_RHYDON",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_LEFTOVERS"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Gengar abre con cobertura especial, sueño e inmunidad Tierra. Milotic sostiene Agua/Hielo y recuperación; Whiscash expresa Tierra con Earthquake natural y descanso. Nidoqueen aporta Veneno/Fuego, Kangaskhan cobertura física y Rhydon el cierre potente.",
+          "members": [
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_MILOTIC",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_MARVEL_SCALE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_WHISCASH",
+              "level": 49,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_WATER_PULSE",
+                "MOVE_AMNESIA",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_OBLIVIOUS",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_NIDOQUEEN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_FLAMETHROWER",
+                "MOVE_BODY_SLAM",
+                "MOVE_SUPERPOWER"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_POISON_POINT",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_RHYDON",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Electabuzz abre con presión eléctrica y parálisis. Meganium resiste Agua/Tierra y sostiene con pantallas y recuperación; Flygon conserva Tierra y aporta inmunidad Tierra con cobertura mixta. Nidoqueen cubre Planta/Agua/Volador, Kangaskhan presiona físicamente y Rhydon remata.",
+          "members": [
+            {
+              "species": "SPECIES_ELECTABUZZ",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_PSYCHIC"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET",
+              "intent": "Psychic amplía cobertura Lucha/Veneno; Meganium conserva ambas pantallas. Thunderbolt natural libera la TM para Nidoqueen."
+            },
+            {
+              "species": "SPECIES_MEGANIUM",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_REFLECT",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_SYNTHESIS"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OVERGROW",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_FLYGON",
+              "level": 49,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_DRAGON_CLAW",
+                "MOVE_FLAMETHROWER",
+                "MOVE_CRUNCH"
+              ],
+              "nature": "NATURE_NAIVE",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_NIDOQUEEN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDERBOLT",
+                "MOVE_SUPERPOWER"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_POISON_POINT",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_RHYDON",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "leader-giovanni-viridian",
+      "lotId": "07D",
+      "window": 8,
+      "cap": 50,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "rhyhorn",
+          "species": "SPECIES_RHYHORN",
+          "ace": true
+        },
+        {
+          "family": "nidoran_f",
+          "species": "SPECIES_NIDORAN_F"
+        },
+        {
+          "family": "kangaskhan",
+          "species": "SPECIES_KANGASKHAN"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Jolteon abre con velocidad, presión eléctrica y parálisis. Quagsire absorbe Agua y conserva Tierra; Salamence aporta Intimidate e inmunidad Tierra. Nidoqueen castiga Planta/Acero y Kangaskhan ofrece prioridad. Rhydon cierra con doble STAB y Double Edge sin retroceso.",
+          "members": [
+            {
+              "species": "SPECIES_JOLTEON",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_BATON_PASS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_VOLT_ABSORB",
+              "item": "ITEM_MAGNET",
+              "intent": "Baton Pass aporta relevo rápido sin boosts; evita que Protect sin recuperación propia ocupe ese espacio. Hidden Power es Siniestro70 con IV31.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-133"
+            },
+            {
+              "species": "SPECIES_QUAGSIRE",
+              "level": 49,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_YAWN"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-194"
+            },
+            {
+              "species": "SPECIES_SALAMENCE",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DRAGON_CLAW",
+                "MOVE_FLAMETHROWER",
+                "MOVE_AERIAL_ACE",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_NAIVE",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-371"
+            },
+            {
+              "species": "SPECIES_NIDOQUEEN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_FIRE_BLAST",
+                "MOVE_BODY_SLAM",
+                "MOVE_SUPERPOWER"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_POISON_POINT",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-029"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-115"
+            },
+            {
+              "species": "SPECIES_RHYDON",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-111"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Gengar abre con cobertura especial, sueño e inmunidad Tierra. Milotic sostiene Agua/Hielo y recuperación; Whiscash expresa Tierra con Earthquake natural y descanso. Nidoqueen aporta Veneno/Fuego, Kangaskhan cobertura física y Rhydon el cierre potente.",
+          "members": [
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-092"
+            },
+            {
+              "species": "SPECIES_MILOTIC",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_MARVEL_SCALE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-349"
+            },
+            {
+              "species": "SPECIES_WHISCASH",
+              "level": 49,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_WATER_PULSE",
+                "MOVE_AMNESIA",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_OBLIVIOUS",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-339"
+            },
+            {
+              "species": "SPECIES_NIDOQUEEN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_FLAMETHROWER",
+                "MOVE_BODY_SLAM",
+                "MOVE_SUPERPOWER"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_POISON_POINT",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-029"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-115"
+            },
+            {
+              "species": "SPECIES_RHYDON",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-111"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Electabuzz abre con presión eléctrica y parálisis. Meganium resiste Agua/Tierra y sostiene con pantallas y recuperación; Flygon conserva Tierra y aporta inmunidad Tierra con cobertura mixta. Nidoqueen cubre Planta/Agua/Volador, Kangaskhan presiona físicamente y Rhydon remata.",
+          "members": [
+            {
+              "species": "SPECIES_ELECTABUZZ",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_PSYCHIC"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET",
+              "intent": "Psychic amplía cobertura Lucha/Veneno; Meganium conserva ambas pantallas. Thunderbolt natural libera la TM para Nidoqueen.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-125"
+            },
+            {
+              "species": "SPECIES_MEGANIUM",
+              "level": 50,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_REFLECT",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_SYNTHESIS"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OVERGROW",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-152"
+            },
+            {
+              "species": "SPECIES_FLYGON",
+              "level": 49,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_DRAGON_CLAW",
+                "MOVE_FLAMETHROWER",
+                "MOVE_CRUNCH"
+              ],
+              "nature": "NATURE_NAIVE",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-328"
+            },
+            {
+              "species": "SPECIES_NIDOQUEEN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDERBOLT",
+                "MOVE_SUPERPOWER"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_POISON_POINT",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-029"
+            },
+            {
+              "species": "SPECIES_KANGASKHAN",
+              "level": 50,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_STRENGTH",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EARLY_BIRD",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-115"
+            },
+            {
+              "species": "SPECIES_RHYDON",
+              "level": 51,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SUBSTITUTE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-111"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "leader-giovanni-viridian": {
+      "actor": "/root/remaining_gyms_coordinator/giovanni_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.09961151098832488,
+      "packetBytes": 240094,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-w08-leader-giovanni-viridian-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

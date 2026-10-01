@@ -1,0 +1,14 @@
+{
+  "navigation": [
+    { "label": "Guide", "href": "/", "wikiHref": "/", "title": "Guide" },
+    { "label": "Changes", "href": "/wiki/changes", "wikiHref": "/cambios", "title": "Changes" },
+    { "label": "How to play", "href": "/play", "wikiHref": "/play", "title": "How to play" },
+    { "label": "Build game", "href": "/build", "wikiHref": "https://pokemondeksa.com/build", "title": "Build game", "primary": true }
+  ],
+  "footer": [
+    { "label": "How to play", "href": "/play" },
+    { "label": "Report a problem", "href": "https://github.com/martinferreirasuarez/firereddeksa/issues/new" },
+    { "label": "Source code", "href": "https://github.com/martinferreirasuarez/firereddeksa" },
+    { "label": "Credits", "href": "/play#credits" }
+  ]
+}

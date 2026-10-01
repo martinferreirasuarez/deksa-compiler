@@ -1,0 +1,10 @@
+[
+  {"window":11,"trainers":[{"trainerId":"rocket-admin-male-warehouse","lotId":"09G"}]},
+  {"window":9,"trainers":[{"trainerId":"rival-route22-late-deksa","lotId":"08A"}]},
+  {"window":8,"trainers":[{"trainerId":"cue-ball-paxton-three-island","lotId":"07B"}]},
+  {"window":6,"trainers":[{"trainerId":"black-belt-koichi-dojo","lotId":"05J"},{"trainerId":"boss-giovanni-silph","lotId":"05I"},{"trainerId":"rival-silph","lotId":"05I"}]},
+  {"window":4,"trainers":[{"trainerId":"boss-giovanni-hideout","lotId":"04F"},{"trainerId":"rival-pokemon-tower","lotId":"04C"}]},
+  {"window":3,"trainers":[{"trainerId":"rival-ss-anne","lotId":"03C"}]},
+  {"window":2,"trainers":[{"trainerId":"rival-cerulean","lotId":"02C"},{"trainerId":"super-nerd-miguel","lotId":"02B"}]},
+  {"window":1,"trainers":[{"trainerId":"rival-route-22","lotId":"01A"}]}
+]

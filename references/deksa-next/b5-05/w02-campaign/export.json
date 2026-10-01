@@ -1,0 +1,791 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "leader-misty",
+      "lotId": "02D",
+      "window": 2,
+      "cap": 21,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "staryu",
+          "species": "SPECIES_STARMIE",
+          "ace": true
+        },
+        {
+          "family": "wailmer",
+          "species": "SPECIES_WAILMER"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Miltank abre con presión física y recuperación; Marshtomp cubre Eléctrico y Lombre aporta neutralidad a Planta/Eléctrico. Gastly frena ataques Normal/Lucha y combina sueño con cobertura especial.",
+          "members": [
+            {
+              "species": "SPECIES_MILTANK",
+              "level": 21,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STOMP",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_TOMB",
+                "MOVE_MILK_DRINK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_MARSHTOMP",
+              "level": 21,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_MUD_SHOT",
+                "MOVE_WATER_GUN",
+                "MOVE_MEGA_PUNCH",
+                "MOVE_MUD_SLAP"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_TORRENT",
+              "item": "ITEM_ORAN_BERRY"
+            },
+            {
+              "species": "SPECIES_LOMBRE",
+              "level": 21,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WATER_PULSE",
+                "MOVE_BULLET_SEED",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_MIRACLE_SEED"
+            },
+            {
+              "species": "SPECIES_GASTLY",
+              "level": 21,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_NIGHT_SHADE",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_CHERI_BERRY"
+            },
+            {
+              "species": "SPECIES_WAILMER",
+              "level": 20,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_ROLLOUT",
+                "MOVE_SECRET_POWER",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_WATER_VEIL",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 22,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Kadabra abre con velocidad, potencia psíquica y Reflect. Roselia controla Eléctrico/Agua, Wingull añade presión Volador contra Planta y Carvanha combina Crunch con cobertura Agua/Hielo.",
+          "members": [
+            {
+              "species": "SPECIES_KADABRA",
+              "level": 21,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYBEAM",
+                "MOVE_THIEF",
+                "MOVE_REFLECT",
+                "MOVE_DISABLE"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SYNCHRONIZE",
+              "item": "ITEM_TWISTED_SPOON"
+            },
+            {
+              "species": "SPECIES_ROSELIA",
+              "level": 21,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_MEGA_DRAIN",
+                "MOVE_LEECH_SEED",
+                "MOVE_STUN_SPORE",
+                "MOVE_GROWTH"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_MIRACLE_SEED"
+            },
+            {
+              "species": "SPECIES_WINGULL",
+              "level": 20,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_WING_ATTACK",
+                "MOVE_SUPERSONIC",
+                "MOVE_HIDDEN_POWER"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_ORAN_BERRY"
+            },
+            {
+              "species": "SPECIES_CARVANHA",
+              "level": 22,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WATER_PULSE",
+                "MOVE_CRUNCH",
+                "MOVE_ICE_BEAM",
+                "MOVE_SCARY_FACE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_ROUGH_SKIN",
+              "item": "ITEM_CHERI_BERRY"
+            },
+            {
+              "species": "SPECIES_WAILMER",
+              "level": 20,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_ROCK_TOMB",
+                "MOVE_SECRET_POWER",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_WATER_VEIL",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 22,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_PSYCHIC",
+                "MOVE_THUNDERBOLT",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Butterfree abre con Sleep Powder de Compound Eyes y presión psíquica. Plusle castiga Agua y controla con Encore/parálisis; Tentacool resiste Planta y Slowpoke aporta Yawn y cobertura Fuego.",
+          "members": [
+            {
+              "species": "SPECIES_BUTTERFREE",
+              "level": 21,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_CONFUSION",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_STUN_SPORE",
+                "MOVE_THIEF"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_COMPOUND_EYES",
+              "item": "ITEM_TWISTED_SPOON"
+            },
+            {
+              "species": "SPECIES_TENTACOOL",
+              "level": 20,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WATER_PULSE",
+                "MOVE_ICE_BEAM",
+                "MOVE_ACID",
+                "MOVE_SUPERSONIC"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_LIQUID_OOZE",
+              "item": "ITEM_ORAN_BERRY",
+              "intent": "Planta inflige daño neutro: Agua débil y Veneno resistente se compensan. Liquid Ooze castiga el drenaje y Leech Seed; no convierte ese tipo en resistencia."
+            },
+            {
+              "species": "SPECIES_SLOWPOKE",
+              "level": 21,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_CONFUSION",
+                "MOVE_FLAMETHROWER",
+                "MOVE_YAWN"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OWN_TEMPO",
+              "item": "ITEM_QUICK_CLAW"
+            },
+            {
+              "species": "SPECIES_PLUSLE",
+              "level": 22,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_ENCORE",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_PLUS",
+              "item": "ITEM_CHERI_BERRY"
+            },
+            {
+              "species": "SPECIES_WAILMER",
+              "level": 20,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_ROCK_TOMB",
+                "MOVE_SECRET_POWER",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_WATER_VEIL",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 22,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_PSYCHIC",
+                "MOVE_REFLECT",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": false,
+  "materializedTeams": [
+    {
+      "trainerId": "leader-misty",
+      "lotId": "02D",
+      "window": 2,
+      "cap": 21,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "staryu",
+          "species": "SPECIES_STARMIE",
+          "ace": true
+        },
+        {
+          "family": "wailmer",
+          "species": "SPECIES_WAILMER"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Miltank abre con presión física y recuperación; Marshtomp cubre Eléctrico y Lombre aporta neutralidad a Planta/Eléctrico. Gastly frena ataques Normal/Lucha y combina sueño con cobertura especial.",
+          "members": [
+            {
+              "species": "SPECIES_MILTANK",
+              "level": 21,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STOMP",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ROCK_TOMB",
+                "MOVE_MILK_DRINK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-241"
+            },
+            {
+              "species": "SPECIES_MARSHTOMP",
+              "level": 21,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_MUD_SHOT",
+                "MOVE_WATER_GUN",
+                "MOVE_MEGA_PUNCH",
+                "MOVE_MUD_SLAP"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_TORRENT",
+              "item": "ITEM_ORAN_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-258"
+            },
+            {
+              "species": "SPECIES_LOMBRE",
+              "level": 21,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WATER_PULSE",
+                "MOVE_BULLET_SEED",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_MIRACLE_SEED",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-270"
+            },
+            {
+              "species": "SPECIES_GASTLY",
+              "level": 21,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_NIGHT_SHADE",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_CHERI_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-092"
+            },
+            {
+              "species": "SPECIES_WAILMER",
+              "level": 20,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_ROLLOUT",
+                "MOVE_SECRET_POWER",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_WATER_VEIL",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-320"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 22,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-120"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Kadabra abre con velocidad, potencia psíquica y Reflect. Roselia controla Eléctrico/Agua, Wingull añade presión Volador contra Planta y Carvanha combina Crunch con cobertura Agua/Hielo.",
+          "members": [
+            {
+              "species": "SPECIES_KADABRA",
+              "level": 21,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYBEAM",
+                "MOVE_THIEF",
+                "MOVE_REFLECT",
+                "MOVE_DISABLE"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_SYNCHRONIZE",
+              "item": "ITEM_TWISTED_SPOON",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-063"
+            },
+            {
+              "species": "SPECIES_ROSELIA",
+              "level": 21,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_MEGA_DRAIN",
+                "MOVE_LEECH_SEED",
+                "MOVE_STUN_SPORE",
+                "MOVE_GROWTH"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_MIRACLE_SEED",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-315"
+            },
+            {
+              "species": "SPECIES_WINGULL",
+              "level": 20,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_WING_ATTACK",
+                "MOVE_SUPERSONIC",
+                "MOVE_HIDDEN_POWER"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_ORAN_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-278"
+            },
+            {
+              "species": "SPECIES_CARVANHA",
+              "level": 22,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WATER_PULSE",
+                "MOVE_CRUNCH",
+                "MOVE_ICE_BEAM",
+                "MOVE_SCARY_FACE"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_ROUGH_SKIN",
+              "item": "ITEM_CHERI_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-318"
+            },
+            {
+              "species": "SPECIES_WAILMER",
+              "level": 20,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_ROCK_TOMB",
+                "MOVE_SECRET_POWER",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_WATER_VEIL",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-320"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 22,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_PSYCHIC",
+                "MOVE_THUNDERBOLT",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-120"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Butterfree abre con Sleep Powder de Compound Eyes y presión psíquica. Plusle castiga Agua y controla con Encore/parálisis; Tentacool resiste Planta y Slowpoke aporta Yawn y cobertura Fuego.",
+          "members": [
+            {
+              "species": "SPECIES_BUTTERFREE",
+              "level": 21,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_CONFUSION",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_STUN_SPORE",
+                "MOVE_THIEF"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_COMPOUND_EYES",
+              "item": "ITEM_TWISTED_SPOON",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-010"
+            },
+            {
+              "species": "SPECIES_TENTACOOL",
+              "level": 20,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WATER_PULSE",
+                "MOVE_ICE_BEAM",
+                "MOVE_ACID",
+                "MOVE_SUPERSONIC"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_LIQUID_OOZE",
+              "item": "ITEM_ORAN_BERRY",
+              "intent": "Planta inflige daño neutro: Agua débil y Veneno resistente se compensan. Liquid Ooze castiga el drenaje y Leech Seed; no convierte ese tipo en resistencia.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-072"
+            },
+            {
+              "species": "SPECIES_SLOWPOKE",
+              "level": 21,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_CONFUSION",
+                "MOVE_FLAMETHROWER",
+                "MOVE_YAWN"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OWN_TEMPO",
+              "item": "ITEM_QUICK_CLAW",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-079"
+            },
+            {
+              "species": "SPECIES_PLUSLE",
+              "level": 22,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_ENCORE",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_PLUS",
+              "item": "ITEM_CHERI_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-311"
+            },
+            {
+              "species": "SPECIES_WAILMER",
+              "level": 20,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_ROCK_TOMB",
+                "MOVE_SECRET_POWER",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_WATER_VEIL",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-320"
+            },
+            {
+              "species": "SPECIES_STARMIE",
+              "level": 22,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WATER_GUN",
+                "MOVE_PSYCHIC",
+                "MOVE_REFLECT",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_NATURAL_CURE",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-120"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "5f4a502b79cb00896bf847d1e456dbbe021cbb149801a4e1d5efafd56a53b254",
+  "provenance": {
+    "leader-misty": {
+      "actor": "/root/b505_campaign_misty",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.005825764965265989,
+      "packetBytes": 69616,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-w02-approved",
+  "exportAdapter": {
+    "id": "campaign-w02-export:571d6699c4e036595b65d2385848a9c9996619e74b082a5fee894d47e6cc568a",
+    "approvedConfigSha256": "e11e7ccb702181d25671e27c87e27b4046784d423389497d6654fa060d7d58d2",
+    "classificationOnly": true
+  }
+}

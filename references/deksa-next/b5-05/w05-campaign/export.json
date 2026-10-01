@@ -1,0 +1,803 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "leader-koga",
+      "lotId": "05F",
+      "window": 5,
+      "cap": 43,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "koffing",
+          "species": "SPECIES_WEEZING",
+          "ace": true
+        },
+        {
+          "family": "grimer",
+          "species": "SPECIES_GRIMER"
+        },
+        {
+          "family": "zubat",
+          "species": "SPECIES_ZUBAT"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Sharpedo abre con presión especial y Taunt; Tentacruel conserva el veneno y cubre Tierra con Surf/Hielo. Steelix resiste Psíquico y ofrece defensa física. Muk absorbe daño especial y Weezing cierra con cobertura y Haze.",
+          "members": [
+            {
+              "species": "SPECIES_SHARPEDO",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_CRUNCH",
+                "MOVE_STRENGTH",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_ROUGH_SKIN",
+              "item": "ITEM_BLACK_GLASSES",
+              "intent": "Surf y Crunch presionan por el lado especial; Strength aprovecha Ataque120. Ice Beam queda en Tentacruel para evitar copia repetida."
+            },
+            {
+              "species": "SPECIES_TENTACRUEL",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_BUBBLE_BEAM",
+                "MOVE_ICE_BEAM",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_LIQUID_OOZE",
+              "item": "ITEM_SHELL_BELL",
+              "intent": "Bubble Beam natural conserva STAB Agua sin duplicar Surf; Ice Beam cubre Tierra y Giga Drain sostiene el desgaste."
+            },
+            {
+              "species": "SPECIES_STEELIX",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_IRON_TAIL",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SCREECH"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_GOLBAT",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_STEEL_WING",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_SHARP_BEAK"
+            },
+            {
+              "species": "SPECIES_WEEZING",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE",
+                "MOVE_FLAMETHROWER",
+                "MOVE_THUNDERBOLT",
+                "MOVE_HAZE"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_SITRUS_BERRY"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Gengar abre con cobertura especial, sueño y la inmunidad Tierra; su Hidden Power es Siniestro70. Miltank ofrece daño físico y recuperación, Xatu resiste Psíquico y coloca pantallas con Wish. Las anclas sostienen el veneno y Weezing cierra.",
+          "members": [
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_MILTANK",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BODY_SLAM",
+                "MOVE_MILK_DRINK",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_XATU",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_REFLECT",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_WISH"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SYNCHRONIZE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_STRENGTH",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY",
+              "intent": "Brick Break queda en Miltank. Strength conserva cobertura física contra Veneno y objetivos resistentes a Sludge Bomb."
+            },
+            {
+              "species": "SPECIES_GOLBAT",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_STEEL_WING",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_SHARP_BEAK"
+            },
+            {
+              "species": "SPECIES_WEEZING",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE",
+                "MOVE_FLAMETHROWER",
+                "MOVE_SHOCK_WAVE",
+                "MOVE_HAZE"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Thunderbolt queda en Gengar. Shock Wave conserva cobertura Agua/Volador sin duplicar el recurso."
+            }
+          ]
+        },
+        "C": {
+          "intent": "Absol abre con inmunidad Psíquico y presión física amplificada por Swords Dance. Slowbro aporta defensa física, Surf/Hielo y Yawn; Seviper expresa veneno con cobertura Siniestro/Fuego/Planta. Muk conserva Sludge Bomb y Weezing remata.",
+          "members": [
+            {
+              "species": "SPECIES_ABSOL",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_SLASH",
+                "MOVE_BITE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_SLOWBRO",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_BEAM",
+                "MOVE_YAWN"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OWN_TEMPO",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_SEVIPER",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_POISON_FANG",
+                "MOVE_CRUNCH",
+                "MOVE_FLAMETHROWER",
+                "MOVE_GIGA_DRAIN"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SHED_SKIN",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_GOLBAT",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_STEEL_WING",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_SHARP_BEAK"
+            },
+            {
+              "species": "SPECIES_WEEZING",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE",
+                "MOVE_FIRE_BLAST",
+                "MOVE_THUNDERBOLT",
+                "MOVE_HAZE"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Flamethrower queda en Seviper. Fire Blast cubre Acero con potencia120 y precisión85, conservando Sludge como STAB fiable."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "leader-koga",
+      "lotId": "05F",
+      "window": 5,
+      "cap": 43,
+      "profile": "JEFE",
+      "anchors": [
+        {
+          "family": "koffing",
+          "species": "SPECIES_WEEZING",
+          "ace": true
+        },
+        {
+          "family": "grimer",
+          "species": "SPECIES_GRIMER"
+        },
+        {
+          "family": "zubat",
+          "species": "SPECIES_ZUBAT"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Sharpedo abre con presión especial y Taunt; Tentacruel conserva el veneno y cubre Tierra con Surf/Hielo. Steelix resiste Psíquico y ofrece defensa física. Muk absorbe daño especial y Weezing cierra con cobertura y Haze.",
+          "members": [
+            {
+              "species": "SPECIES_SHARPEDO",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_CRUNCH",
+                "MOVE_STRENGTH",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_ROUGH_SKIN",
+              "item": "ITEM_BLACK_GLASSES",
+              "intent": "Surf y Crunch presionan por el lado especial; Strength aprovecha Ataque120. Ice Beam queda en Tentacruel para evitar copia repetida.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-318"
+            },
+            {
+              "species": "SPECIES_TENTACRUEL",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_BUBBLE_BEAM",
+                "MOVE_ICE_BEAM",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_LIQUID_OOZE",
+              "item": "ITEM_SHELL_BELL",
+              "intent": "Bubble Beam natural conserva STAB Agua sin duplicar Surf; Ice Beam cubre Tierra y Giga Drain sostiene el desgaste.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-072"
+            },
+            {
+              "species": "SPECIES_STEELIX",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_IRON_TAIL",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_SCREECH"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STURDY",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-095"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-088"
+            },
+            {
+              "species": "SPECIES_GOLBAT",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_STEEL_WING",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_SHARP_BEAK",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-041"
+            },
+            {
+              "species": "SPECIES_WEEZING",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE",
+                "MOVE_FLAMETHROWER",
+                "MOVE_THUNDERBOLT",
+                "MOVE_HAZE"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-109"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Gengar abre con cobertura especial, sueño y la inmunidad Tierra; su Hidden Power es Siniestro70. Miltank ofrece daño físico y recuperación, Xatu resiste Psíquico y coloca pantallas con Wish. Las anclas sostienen el veneno y Weezing cierra.",
+          "members": [
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-092"
+            },
+            {
+              "species": "SPECIES_MILTANK",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BODY_SLAM",
+                "MOVE_MILK_DRINK",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BRICK_BREAK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-241"
+            },
+            {
+              "species": "SPECIES_XATU",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_REFLECT",
+                "MOVE_LIGHT_SCREEN",
+                "MOVE_WISH"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SYNCHRONIZE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-177"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_STRENGTH",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY",
+              "intent": "Brick Break queda en Miltank. Strength conserva cobertura física contra Veneno y objetivos resistentes a Sludge Bomb.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-088"
+            },
+            {
+              "species": "SPECIES_GOLBAT",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_STEEL_WING",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_SHARP_BEAK",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-041"
+            },
+            {
+              "species": "SPECIES_WEEZING",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE",
+                "MOVE_FLAMETHROWER",
+                "MOVE_SHOCK_WAVE",
+                "MOVE_HAZE"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Thunderbolt queda en Gengar. Shock Wave conserva cobertura Agua/Volador sin duplicar el recurso.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-109"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Absol abre con inmunidad Psíquico y presión física amplificada por Swords Dance. Slowbro aporta defensa física, Surf/Hielo y Yawn; Seviper expresa veneno con cobertura Siniestro/Fuego/Planta. Muk conserva Sludge Bomb y Weezing remata.",
+          "members": [
+            {
+              "species": "SPECIES_ABSOL",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_SLASH",
+                "MOVE_BITE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-359"
+            },
+            {
+              "species": "SPECIES_SLOWBRO",
+              "level": 43,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_BEAM",
+                "MOVE_YAWN"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OWN_TEMPO",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-079"
+            },
+            {
+              "species": "SPECIES_SEVIPER",
+              "level": 43,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_POISON_FANG",
+                "MOVE_CRUNCH",
+                "MOVE_FLAMETHROWER",
+                "MOVE_GIGA_DRAIN"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_SHED_SKIN",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-336"
+            },
+            {
+              "species": "SPECIES_MUK",
+              "level": 43,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ACID_ARMOR",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_STICKY_HOLD",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-088"
+            },
+            {
+              "species": "SPECIES_GOLBAT",
+              "level": 42,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_STEEL_WING",
+                "MOVE_CONFUSE_RAY",
+                "MOVE_TAUNT"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_SHARP_BEAK",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-041"
+            },
+            {
+              "species": "SPECIES_WEEZING",
+              "level": 44,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE",
+                "MOVE_FIRE_BLAST",
+                "MOVE_THUNDERBOLT",
+                "MOVE_HAZE"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_SITRUS_BERRY",
+              "intent": "Flamethrower queda en Seviper. Fire Blast cubre Acero con potencia120 y precisión85, conservando Sludge como STAB fiable.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-109"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "leader-koga": {
+      "actor": "/root/koga_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.0788523000665009,
+      "packetBytes": 222183,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-w05-leader-koga-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

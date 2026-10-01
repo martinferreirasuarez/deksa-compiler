@@ -1,0 +1,5343 @@
+{
+  "schemaVersion": 1,
+  "generator": "deksa-b5",
+  "teams": [
+    {
+      "trainerId": "champion-rival-first-deksa",
+      "lotId": "08C",
+      "window": 9,
+      "cap": 60,
+      "profile": "LIGA",
+      "anchors": [
+        {
+          "family": "$starter",
+          "species": "$starter",
+          "ace": true
+        },
+        {
+          "family": "abra",
+          "species": "SPECIES_ALAKAZAM"
+        },
+        {
+          "family": "raikou",
+          "species": "SPECIES_RAIKOU"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Heracross abre con presión física inmediata; Snorlax sostiene el flanco especial y Metagross anticipa la firma futura del mismo campeón con defensa y presión mixta. Raikou y Alakazam desarrollan Calm Mind con pantallas y recuperación. El inicial factual cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_HERACROSS",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MEGAHORN",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_FACADE"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHOICE_BAND"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_SNORLAX",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BODY_SLAM",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_REST",
+                    "MOVE_SLEEP_TALK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_METAGROSS",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_METEOR_MASH",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_PSYCHIC",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": "ITEM_METAL_COAT"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_CHARIZARD",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_DRAGON_CLAW",
+                    "MOVE_WING_ATTACK",
+                    "MOVE_OVERHEAT"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_CHARCOAL"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_HERACROSS",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MEGAHORN",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_FACADE"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHOICE_BAND"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_SNORLAX",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BODY_SLAM",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_REST",
+                    "MOVE_SLEEP_TALK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_METAGROSS",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_METEOR_MASH",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_PSYCHIC",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": "ITEM_METAL_COAT"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_BLASTOISE",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_HERACROSS",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MEGAHORN",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_FACADE"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHOICE_BAND"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_SNORLAX",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BODY_SLAM",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_REST",
+                    "MOVE_SLEEP_TALK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SILK_SCARF"
+                },
+                {
+                  "species": "SPECIES_METAGROSS",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_METEOR_MASH",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_PSYCHIC",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": "ITEM_METAL_COAT"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_VENUSAUR",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_MIRACLE_SEED"
+                }
+              ]
+            }
+          }
+        },
+        "B": {
+          "intent": "Starmie abre con velocidad, Hydro Pump y recuperación; Tyranitar y Rhydon conservan dos bestias del campeón y presionan por el lado físico bajo arena. Rhydon es inmune al desgaste; Raikou lo compensa con Leftovers y Alakazam/Starmie con recuperación. El inicial cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_STARMIE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_HYDRO_PUMP",
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_TYRANITAR",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_CRUNCH",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_SAND_STREAM",
+                  "item": "ITEM_BLACK_GLASSES"
+                },
+                {
+                  "species": "SPECIES_RHYDON",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_DOUBLE_EDGE",
+                    "MOVE_SUBSTITUTE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_HARD_STONE"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_CHARIZARD",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_DRAGON_CLAW",
+                    "MOVE_WING_ATTACK",
+                    "MOVE_OVERHEAT"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_CHARCOAL"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_STARMIE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_HYDRO_PUMP",
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_TYRANITAR",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_CRUNCH",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_SAND_STREAM",
+                  "item": "ITEM_BLACK_GLASSES"
+                },
+                {
+                  "species": "SPECIES_RHYDON",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_DOUBLE_EDGE",
+                    "MOVE_SUBSTITUTE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_HARD_STONE"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_BLASTOISE",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_MYSTIC_WATER"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_STARMIE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_HYDRO_PUMP",
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_TYRANITAR",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_CRUNCH",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_SAND_STREAM",
+                  "item": "ITEM_BLACK_GLASSES"
+                },
+                {
+                  "species": "SPECIES_RHYDON",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_DOUBLE_EDGE",
+                    "MOVE_SUBSTITUTE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_HARD_STONE"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY"
+                },
+                {
+                  "species": "SPECIES_VENUSAUR",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_MIRACLE_SEED"
+                }
+              ]
+            }
+          }
+        },
+        "C": {
+          "intent": "Salamence abre con Intimidate y cobertura mixta; Blissey sostiene el flanco especial y Arcanine conserva la bestia de fuego factual del campeón con prioridad y un segundo Intimidate. Raikou y Alakazam amenazan por el lado especial, preparando al inicial final.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_SALAMENCE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DRAGON_CLAW",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_BLISSEY",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SEISMIC_TOSS",
+                    "MOVE_SOFT_BOILED",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_BOLD",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Omite STAB Normal físico de Ataque10 para conservar daño fijo, recuperación y estados contra objetivos diferentes."
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_EXTREME_SPEED",
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_CHARIZARD",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_WING_ATTACK",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SUNNY_DAY"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_LUM_BERRY"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_SALAMENCE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DRAGON_CLAW",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_BLISSEY",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SEISMIC_TOSS",
+                    "MOVE_SOFT_BOILED",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_BOLD",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Omite STAB Normal físico de Ataque10 para conservar daño fijo, recuperación y estados contra objetivos diferentes."
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_EXTREME_SPEED",
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_BLASTOISE",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_ROAR",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_LUM_BERRY"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_SALAMENCE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DRAGON_CLAW",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS"
+                },
+                {
+                  "species": "SPECIES_BLISSEY",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SEISMIC_TOSS",
+                    "MOVE_SOFT_BOILED",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_BOLD",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Omite STAB Normal físico de Ataque10 para conservar daño fijo, recuperación y estados contra objetivos diferentes."
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_EXTREME_SPEED",
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON"
+                },
+                {
+                  "species": "SPECIES_VENUSAUR",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_LUM_BERRY"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "trainerId": "elite-four-lance-first",
+      "lotId": "08C",
+      "window": 9,
+      "cap": 60,
+      "profile": "LIGA",
+      "anchors": [
+        {
+          "family": "dratini",
+          "species": "SPECIES_DRATINI"
+        },
+        {
+          "family": "aerodactyl",
+          "species": "SPECIES_AERODACTYL"
+        },
+        {
+          "family": "latios",
+          "species": "SPECIES_LATIOS"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Aerodactyl abre con presión física inmediata. Kingdra mantiene el dragón acuático y acelera con lluvia; Magneton resiste Hielo/Dragón y presiona Agua y Acero. Miltank amortigua Hielo con Thick Fat y recupera; Dragonite combina presión física y parálisis, preparando el cierre de Latios.",
+          "members": [
+            {
+              "species": "SPECIES_AERODACTYL",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_WING_ATTACK"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_CHOICE_BAND"
+            },
+            {
+              "species": "SPECIES_KINGDRA",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RAIN_DANCE",
+                "MOVE_HYDRO_PUMP"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_MYSTIC_WATER"
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_MAGNET"
+            },
+            {
+              "species": "SPECIES_MILTANK",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BODY_SLAM",
+                "MOVE_SHADOW_BALL",
+                "MOVE_MILK_DRINK",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_DRAGONITE",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_BRICK_BREAK",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_OUTRAGE"
+              ],
+              "nature": "NATURE_LONELY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_LATIOS",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_DRAGON_CLAW",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LEFTOVERS"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Gyarados abre con Intimidate y amenaza Dragon Dance, conservando la bestia acuática de Lance. Porygon2 ofrece Trace, recuperación y Hielo/Eléctrico; Hariyama resiste Hielo con Thick Fat y rompe defensas Roca/Acero con Bulk Up. Aerodactyl mantiene velocidad, Dragonite cobertura mixta y Latios el cierre especial.",
+          "members": [
+            {
+              "species": "SPECIES_GYARADOS",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_DRAGON_DANCE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_NAUGHTY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_MYSTIC_WATER"
+            },
+            {
+              "species": "SPECIES_AERODACTYL",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_WING_ATTACK",
+                "MOVE_STEEL_WING"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_CHOICE_BAND"
+            },
+            {
+              "species": "SPECIES_PORYGON2",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Omite STAB Normal físico para mantener cobertura especial Hielo/Eléctrico, recuperación y control de velocidad; Trace puede copiar inmunidades útiles."
+            },
+            {
+              "species": "SPECIES_HARIYAMA",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_BULK_UP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_DRAGONITE",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_FLAMETHROWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_OUTRAGE"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_LATIOS",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_DRAGON_CLAW",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_TWISTED_SPOON"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Aerodactyl abre con Choice Band. Milotic conserva la serpiente del grupo Dragón, resiste Hielo y recupera; Scizor cubre Hielo/Dragón y escala con Swords Dance y prioridad. Manectric presiona Agua y distribuye parálisis; Dragonite añade cobertura Fuego/Lucha y Latios remata con Calm Mind.",
+          "members": [
+            {
+              "species": "SPECIES_AERODACTYL",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_WING_ATTACK"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_CHOICE_BAND"
+            },
+            {
+              "species": "SPECIES_MILOTIC",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_MARVEL_SCALE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_SCIZOR",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STEEL_WING",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_STRENGTH",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SWARM",
+              "item": "ITEM_METAL_COAT"
+            },
+            {
+              "species": "SPECIES_MANECTRIC",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET"
+            },
+            {
+              "species": "SPECIES_DRAGONITE",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_BRICK_BREAK",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_FIRE_BLAST"
+              ],
+              "nature": "NATURE_LONELY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_SITRUS_BERRY"
+            },
+            {
+              "species": "SPECIES_LATIOS",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_DRAGON_CLAW",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "elite-four-agatha-first",
+      "lotId": "08C",
+      "window": 9,
+      "cap": 60,
+      "profile": "LIGA",
+      "anchors": [
+        {
+          "family": "gastly",
+          "species": "SPECIES_GASTLY"
+        },
+        {
+          "family": "ekans",
+          "species": "SPECIES_EKANS"
+        },
+        {
+          "family": "registeel",
+          "species": "SPECIES_REGISTEEL"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Gengar abre con velocidad, cobertura y sueño. Dusclops conserva el eje Fantasma y quema; Houndoom cubre Psíquico y Fuego. Arbok y Registeel controlan velocidad y ataque, preparando el cierre físico de Marowak con Thick Club.",
+          "members": [
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_MAGNET",
+              "intent": "Omite STAB físico de Ataque65 para explotar Ataque Especial130; Hidden Power es Siniestro70. Cobertura especial y sueño."
+            },
+            {
+              "species": "SPECIES_DUSCLOPS",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_WILL_O_WISP",
+                "MOVE_EARTHQUAKE",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_HOUNDOOM",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_CRUNCH",
+                "MOVE_TAUNT",
+                "MOVE_OVERHEAT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_BLACK_GLASSES"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_DIG",
+                "MOVE_SCREECH",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB"
+            },
+            {
+              "species": "SPECIES_REGISTEEL",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_METAL_CLAW",
+                "MOVE_SEISMIC_TOSS",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BONEMERANG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SWORDS_DANCE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Crobat abre con Choice Band y velocidad, conservando el murciélago venenoso de Agatha. Vaporeon cubre Tierra/Fuego y corta boosts; Absol aporta inmunidad Psíquico y presión física creciente. Arbok y Registeel facilitan el cierre especial de Gengar.",
+          "members": [
+            {
+              "species": "SPECIES_CROBAT",
+              "level": 61,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_POISON_FANG",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_STEEL_WING"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_CHOICE_BAND"
+            },
+            {
+              "species": "SPECIES_VAPOREON",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_HAZE",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_ABSOL",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_STRENGTH",
+                "MOVE_BITE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB"
+            },
+            {
+              "species": "SPECIES_REGISTEEL",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_METAL_CLAW",
+                "MOVE_SEISMIC_TOSS",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_MAGNET",
+              "intent": "Omite STAB físico de Ataque65 para explotar Ataque Especial130; Hidden Power es Siniestro70. Cobertura especial y sueño."
+            }
+          ]
+        },
+        "C": {
+          "intent": "Tauros abre con Intimidate y potencia física inmediata. Banette mantiene el Fantasma con quemadura y retirada de objetos; Slowbro resiste Fuego/Lucha, cubre Tierra y desarrolla Calm Mind. Arbok y Registeel sostienen el control para el cierre de Gengar.",
+          "members": [
+            {
+              "species": "SPECIES_TAUROS",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_IRON_TAIL",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_CHOICE_BAND"
+            },
+            {
+              "species": "SPECIES_BANETTE",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_WILL_O_WISP",
+                "MOVE_FRUSTRATION",
+                "MOVE_KNOCK_OFF"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INSOMNIA",
+              "item": "ITEM_SPELL_TAG"
+            },
+            {
+              "species": "SPECIES_SLOWBRO",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_BEAM",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OWN_TEMPO",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_DIG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB"
+            },
+            {
+              "species": "SPECIES_REGISTEEL",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_METAL_CLAW",
+                "MOVE_SEISMIC_TOSS",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_MAGNET",
+              "intent": "Omite STAB físico de Ataque65 para explotar Ataque Especial130; Hidden Power es Siniestro70. Cobertura especial y sueño."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "elite-four-bruno-first",
+      "lotId": "08C",
+      "window": 9,
+      "cap": 60,
+      "profile": "LIGA",
+      "anchors": [
+        {
+          "family": "machop",
+          "species": "SPECIES_MACHOP"
+        },
+        {
+          "family": "hitmonlee",
+          "species": "SPECIES_TYROGUE"
+        },
+        {
+          "family": "regirock",
+          "species": "SPECIES_REGIROCK"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Electabuzz abre con velocidad, parálisis y pantalla especial. Medicham representa disciplina marcial con Pure Power y recuperación; Exeggutor resiste Psíquico, Agua y Tierra y facilita con sueño y drenaje. Hitmonchan aporta prioridad, Regirock aguante físico y Machamp cierra con Choice Band.",
+          "members": [
+            {
+              "species": "SPECIES_ELECTABUZZ",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_LIGHT_SCREEN"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET"
+            },
+            {
+              "species": "SPECIES_MEDICHAM",
+              "level": 61,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_HI_JUMP_KICK",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BULK_UP",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_PURE_POWER",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_EXEGGUTOR",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED"
+            },
+            {
+              "species": "SPECIES_HITMONCHAN",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SKY_UPPERCUT",
+                "MOVE_MACH_PUNCH",
+                "MOVE_BODY_SLAM",
+                "MOVE_COUNTER"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_BLACK_BELT"
+            },
+            {
+              "species": "SPECIES_REGIROCK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_CURSE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_MACHAMP",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_CROSS_CHOP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_FACADE",
+                "MOVE_FIRE_BLAST"
+              ],
+              "nature": "NATURE_NAUGHTY",
+              "ability": "ABILITY_GUTS",
+              "item": "ITEM_CHOICE_BAND"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Poliwrath abre con sueño y cobertura Agua/Hielo/Lucha, conservando el luchador anfibio. Shiftry aporta inmunidad Psíquico y daño especial creciente; Skarmory resiste Psíquico/Volador, coloca Spikes y fuerza cambios. Hitmonlee mantiene presión y parálisis, Regirock sostiene y Machamp remata.",
+          "members": [
+            {
+              "species": "SPECIES_POLIWRATH",
+              "level": 61,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ICE_BEAM",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_MYSTIC_WATER"
+            },
+            {
+              "species": "SPECIES_SHIFTRY",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_GROWTH",
+                "MOVE_EXTRASENSORY"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED"
+            },
+            {
+              "species": "SPECIES_SKARMORY",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_SPIKES",
+                "MOVE_ROAR",
+                "MOVE_STEEL_WING"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_HITMONLEE",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_BODY_SLAM",
+                "MOVE_MEDITATE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_LIMBER",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_REGIROCK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_CURSE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_MACHAMP",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_CROSS_CHOP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_FACADE",
+                "MOVE_FIRE_BLAST"
+              ],
+              "nature": "NATURE_NAUGHTY",
+              "ability": "ABILITY_GUTS",
+              "item": "ITEM_CHOICE_BAND"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Flygon abre con velocidad, cobertura mixta e inmunidades Tierra/Eléctrico. Breloom mantiene el eje Lucha con prioridad y drenaje; Gardevoir resiste Psíquico y aporta sueño, cobertura eléctrica y Calm Mind. Hitmonlee distribuye parálisis, Regirock protege el flanco físico y Machamp cierra.",
+          "members": [
+            {
+              "species": "SPECIES_FLYGON",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_DRAGON_CLAW",
+                "MOVE_FLAMETHROWER",
+                "MOVE_CRUNCH"
+              ],
+              "nature": "NATURE_NAIVE",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY"
+            },
+            {
+              "species": "SPECIES_BRELOOM",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SKY_UPPERCUT",
+                "MOVE_MACH_PUNCH",
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EFFECT_SPORE",
+              "item": "ITEM_BLACK_BELT"
+            },
+            {
+              "species": "SPECIES_GARDEVOIR",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_THUNDERBOLT",
+                "MOVE_CALM_MIND",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_HITMONLEE",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_BODY_SLAM",
+                "MOVE_MEDITATE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_LIMBER",
+              "item": "ITEM_SILK_SCARF"
+            },
+            {
+              "species": "SPECIES_REGIROCK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_CURSE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY"
+            },
+            {
+              "species": "SPECIES_MACHAMP",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_CROSS_CHOP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_FACADE",
+                "MOVE_FIRE_BLAST"
+              ],
+              "nature": "NATURE_NAUGHTY",
+              "ability": "ABILITY_GUTS",
+              "item": "ITEM_CHOICE_BAND"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "elite-four-lorelei-first",
+      "lotId": "08C",
+      "window": 9,
+      "cap": 60,
+      "profile": "LIGA",
+      "anchors": [
+        {
+          "family": "lapras",
+          "species": "SPECIES_LAPRAS"
+        },
+        {
+          "family": "jynx",
+          "species": "SPECIES_JYNX"
+        },
+        {
+          "family": "articuno",
+          "species": "SPECIES_ARTICUNO"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Ludicolo abre lluvia autónoma y drena Agua/Tierra; Tentacruel cubre Lucha y presiona con doble STAB y Hielo. Piloswine conserva identidad Hielo e inmunidad Eléctrico con Choice Band. Articuno protege el flanco físico; Lapras aporta cobertura y Jynx cierra con sueño y Calm Mind.",
+          "members": [
+            {
+              "species": "SPECIES_LUDICOLO",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_RAIN_DANCE",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_TENTACRUEL",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_ICE_BEAM",
+                "MOVE_BARRIER"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_LIQUID_OOZE",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_PILOSWINE",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_BLIZZARD",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_OBLIVIOUS",
+              "item": "ITEM_CHOICE_BAND"
+            },
+            {
+              "species": "SPECIES_ARTICUNO",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_REFLECT",
+                "MOVE_TOXIC",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_CHESTO_BERRY",
+              "intent": "Omite Volador físico para conservar Reflect, Toxic y recuperación; Ice Beam usa Ataque Especial95."
+            },
+            {
+              "species": "SPECIES_LAPRAS",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDERBOLT",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_SITRUS_BERRY"
+            },
+            {
+              "species": "SPECIES_JYNX",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_PUNCH",
+                "MOVE_PSYCHIC",
+                "MOVE_LOVELY_KISS",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_OBLIVIOUS",
+              "item": "ITEM_LUM_BERRY"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Dugtrio abre con velocidad y presión física, atrapando objetivos vulnerables; Cloyster conserva el molusco helado y coloca Spikes. Lanturn absorbe Eléctrico y paraliza, Articuno aporta Reflect/Toxic, Lapras cubre y Jynx remata con Calm Mind.",
+          "members": [
+            {
+              "species": "SPECIES_DUGTRIO",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_AERIAL_ACE",
+                "MOVE_SLUDGE_BOMB"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_ARENA_TRAP",
+              "item": "ITEM_CHOICE_BAND"
+            },
+            {
+              "species": "SPECIES_CLOYSTER",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_SPIKES",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_SHELL_ARMOR",
+              "item": "ITEM_LEFTOVERS"
+            },
+            {
+              "species": "SPECIES_LANTURN",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_THUNDERBOLT",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_VOLT_ABSORB",
+              "item": "ITEM_MAGNET"
+            },
+            {
+              "species": "SPECIES_ARTICUNO",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_REFLECT",
+                "MOVE_TOXIC",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_CHESTO_BERRY",
+              "intent": "Omite Volador físico para conservar Reflect, Toxic y recuperación; Ice Beam usa Ataque Especial95."
+            },
+            {
+              "species": "SPECIES_LAPRAS",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_ICE_BEAM",
+                "MOVE_BODY_SLAM",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_SITRUS_BERRY"
+            },
+            {
+              "species": "SPECIES_JYNX",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_PUNCH",
+                "MOVE_PSYCHIC",
+                "MOVE_LOVELY_KISS",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_OBLIVIOUS",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Ice Punch natural conserva STAB Hielo especial y libera la única copia efectiva de Ice Beam para Cloyster; mantiene sueño y Calm Mind."
+            }
+          ]
+        },
+        "C": {
+          "intent": "Kabutops abre con Choice Band y presión física Roca/Lucha; Walrein conserva la foca helada y castiga turnos pasivos con Encore. Quagsire absorbe Agua y bloquea Eléctrico, mientras Articuno protege y desgasta. Lapras cubre por el lado especial y Jynx cierra.",
+          "members": [
+            {
+              "species": "SPECIES_KABUTOPS",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_BRICK_BREAK",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_AERIAL_ACE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_BATTLE_ARMOR",
+              "item": "ITEM_CHOICE_BAND",
+              "intent": "Omite Agua especial de Ataque Especial65 para concentrar Choice Band en cuatro ataques físicos; Surf queda en Walrein."
+            },
+            {
+              "species": "SPECIES_WALREIN",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_ENCORE",
+                "MOVE_BODY_SLAM"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_SHELL_BELL"
+            },
+            {
+              "species": "SPECIES_QUAGSIRE",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_WATERFALL",
+                "MOVE_YAWN",
+                "MOVE_HAZE"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Haze está disponible exactamente a nivel61, comprobado en consulta contextual. Corta boosts rivales; Earthquake natural, Waterfall especial y Yawn conservan daño y control."
+            },
+            {
+              "species": "SPECIES_ARTICUNO",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_REFLECT",
+                "MOVE_TOXIC",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_CHESTO_BERRY",
+              "intent": "Omite Volador físico para conservar Reflect, Toxic y recuperación; Ice Beam usa Ataque Especial95."
+            },
+            {
+              "species": "SPECIES_LAPRAS",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDERBOLT",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_SITRUS_BERRY"
+            },
+            {
+              "species": "SPECIES_JYNX",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_PUNCH",
+                "MOVE_PSYCHIC",
+                "MOVE_LOVELY_KISS",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_OBLIVIOUS",
+              "item": "ITEM_LUM_BERRY"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "testOnly": true,
+  "materializedTeams": [
+    {
+      "trainerId": "champion-rival-first-deksa",
+      "lotId": "08C",
+      "window": 9,
+      "cap": 60,
+      "profile": "LIGA",
+      "anchors": [
+        {
+          "family": "$starter",
+          "species": "$starter",
+          "ace": true
+        },
+        {
+          "family": "abra",
+          "species": "SPECIES_ALAKAZAM"
+        },
+        {
+          "family": "raikou",
+          "species": "SPECIES_RAIKOU"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Heracross abre con presión física inmediata; Snorlax sostiene el flanco especial y Metagross anticipa la firma futura del mismo campeón con defensa y presión mixta. Raikou y Alakazam desarrollan Calm Mind con pantallas y recuperación. El inicial factual cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_HERACROSS",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MEGAHORN",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_FACADE"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHOICE_BAND",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-214"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-243"
+                },
+                {
+                  "species": "SPECIES_SNORLAX",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BODY_SLAM",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_REST",
+                    "MOVE_SLEEP_TALK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-143"
+                },
+                {
+                  "species": "SPECIES_METAGROSS",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_METEOR_MASH",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_PSYCHIC",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": "ITEM_METAL_COAT",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-374"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_CHARIZARD",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_DRAGON_CLAW",
+                    "MOVE_WING_ATTACK",
+                    "MOVE_OVERHEAT"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_HERACROSS",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MEGAHORN",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_FACADE"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHOICE_BAND",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-214"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-243"
+                },
+                {
+                  "species": "SPECIES_SNORLAX",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BODY_SLAM",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_REST",
+                    "MOVE_SLEEP_TALK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-143"
+                },
+                {
+                  "species": "SPECIES_METAGROSS",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_METEOR_MASH",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_PSYCHIC",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": "ITEM_METAL_COAT",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-374"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_BLASTOISE",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_MYSTIC_WATER",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_HERACROSS",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_MEGAHORN",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_FACADE"
+                  ],
+                  "nature": "NATURE_JOLLY",
+                  "ability": "ABILITY_GUTS",
+                  "item": "ITEM_CHOICE_BAND",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-214"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-243"
+                },
+                {
+                  "species": "SPECIES_SNORLAX",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_BODY_SLAM",
+                    "MOVE_SHADOW_BALL",
+                    "MOVE_REST",
+                    "MOVE_SLEEP_TALK"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_THICK_FAT",
+                  "item": "ITEM_SILK_SCARF",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-143"
+                },
+                {
+                  "species": "SPECIES_METAGROSS",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_METEOR_MASH",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_PSYCHIC",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_CLEAR_BODY",
+                  "item": "ITEM_METAL_COAT",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-374"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_VENUSAUR",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_MIRACLE_SEED",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        },
+        "B": {
+          "intent": "Starmie abre con velocidad, Hydro Pump y recuperación; Tyranitar y Rhydon conservan dos bestias del campeón y presionan por el lado físico bajo arena. Rhydon es inmune al desgaste; Raikou lo compensa con Leftovers y Alakazam/Starmie con recuperación. El inicial cierra.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_STARMIE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_HYDRO_PUMP",
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-120"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-243"
+                },
+                {
+                  "species": "SPECIES_TYRANITAR",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_CRUNCH",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_SAND_STREAM",
+                  "item": "ITEM_BLACK_GLASSES",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-246"
+                },
+                {
+                  "species": "SPECIES_RHYDON",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_DOUBLE_EDGE",
+                    "MOVE_SUBSTITUTE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_HARD_STONE",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-111"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_CHARIZARD",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_DRAGON_CLAW",
+                    "MOVE_WING_ATTACK",
+                    "MOVE_OVERHEAT"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_STARMIE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_HYDRO_PUMP",
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-120"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-243"
+                },
+                {
+                  "species": "SPECIES_TYRANITAR",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_CRUNCH",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_SAND_STREAM",
+                  "item": "ITEM_BLACK_GLASSES",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-246"
+                },
+                {
+                  "species": "SPECIES_RHYDON",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_DOUBLE_EDGE",
+                    "MOVE_SUBSTITUTE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_HARD_STONE",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-111"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_BLASTOISE",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_TOXIC",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_MYSTIC_WATER",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_STARMIE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_HYDRO_PUMP",
+                    "MOVE_PSYCHIC",
+                    "MOVE_RECOVER",
+                    "MOVE_LIGHT_SCREEN"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-120"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-243"
+                },
+                {
+                  "species": "SPECIES_TYRANITAR",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_CRUNCH",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_BRAVE",
+                  "ability": "ABILITY_SAND_STREAM",
+                  "item": "ITEM_BLACK_GLASSES",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-246"
+                },
+                {
+                  "species": "SPECIES_RHYDON",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_ROCK_SLIDE",
+                    "MOVE_DOUBLE_EDGE",
+                    "MOVE_SUBSTITUTE"
+                  ],
+                  "nature": "NATURE_ADAMANT",
+                  "ability": "ABILITY_ROCK_HEAD",
+                  "item": "ITEM_HARD_STONE",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-111"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_VENUSAUR",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_MIRACLE_SEED",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        },
+        "C": {
+          "intent": "Salamence abre con Intimidate y cobertura mixta; Blissey sostiene el flanco especial y Arcanine conserva la bestia de fuego factual del campeón con prioridad y un segundo Intimidate. Raikou y Alakazam amenazan por el lado especial, preparando al inicial final.",
+          "branches": {
+            "bulbasaur": {
+              "members": [
+                {
+                  "species": "SPECIES_SALAMENCE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DRAGON_CLAW",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-371"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-243"
+                },
+                {
+                  "species": "SPECIES_BLISSEY",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SEISMIC_TOSS",
+                    "MOVE_SOFT_BOILED",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_BOLD",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Omite STAB Normal físico de Ataque10 para conservar daño fijo, recuperación y estados contra objetivos diferentes.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-113"
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_EXTREME_SPEED",
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-058"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_CHARIZARD",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_WING_ATTACK",
+                    "MOVE_BRICK_BREAK",
+                    "MOVE_SUNNY_DAY"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_BLAZE",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-004"
+                }
+              ]
+            },
+            "charmander": {
+              "members": [
+                {
+                  "species": "SPECIES_SALAMENCE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DRAGON_CLAW",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-371"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-243"
+                },
+                {
+                  "species": "SPECIES_BLISSEY",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SEISMIC_TOSS",
+                    "MOVE_SOFT_BOILED",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_BOLD",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Omite STAB Normal físico de Ataque10 para conservar daño fijo, recuperación y estados contra objetivos diferentes.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-113"
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_EXTREME_SPEED",
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-058"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_BLASTOISE",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_SURF",
+                    "MOVE_ICE_BEAM",
+                    "MOVE_ROAR",
+                    "MOVE_PROTECT"
+                  ],
+                  "nature": "NATURE_MODEST",
+                  "ability": "ABILITY_TORRENT",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-007"
+                }
+              ]
+            },
+            "squirtle": {
+              "members": [
+                {
+                  "species": "SPECIES_SALAMENCE",
+                  "level": 61,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_DRAGON_CLAW",
+                    "MOVE_AERIAL_ACE",
+                    "MOVE_EARTHQUAKE",
+                    "MOVE_FIRE_BLAST"
+                  ],
+                  "nature": "NATURE_NAIVE",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_SHELL_BELL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-371"
+                },
+                {
+                  "species": "SPECIES_RAIKOU",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_THUNDERBOLT",
+                    "MOVE_CRUNCH",
+                    "MOVE_CALM_MIND",
+                    "MOVE_REFLECT"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_PRESSURE",
+                  "item": "ITEM_LEFTOVERS",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-243"
+                },
+                {
+                  "species": "SPECIES_BLISSEY",
+                  "level": 60,
+                  "akiRole": "K",
+                  "moves": [
+                    "MOVE_SEISMIC_TOSS",
+                    "MOVE_SOFT_BOILED",
+                    "MOVE_THUNDER_WAVE",
+                    "MOVE_TOXIC"
+                  ],
+                  "nature": "NATURE_BOLD",
+                  "ability": "ABILITY_NATURAL_CURE",
+                  "item": "ITEM_SITRUS_BERRY",
+                  "intent": "Omite STAB Normal físico de Ataque10 para conservar daño fijo, recuperación y estados contra objetivos diferentes.",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-113"
+                },
+                {
+                  "species": "SPECIES_ARCANINE",
+                  "level": 60,
+                  "akiRole": "I",
+                  "moves": [
+                    "MOVE_FLAMETHROWER",
+                    "MOVE_EXTREME_SPEED",
+                    "MOVE_OVERHEAT",
+                    "MOVE_BITE"
+                  ],
+                  "nature": "NATURE_HASTY",
+                  "ability": "ABILITY_INTIMIDATE",
+                  "item": "ITEM_CHARCOAL",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-058"
+                },
+                {
+                  "species": "SPECIES_ALAKAZAM",
+                  "level": 60,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_PSYCHIC",
+                    "MOVE_CALM_MIND",
+                    "MOVE_RECOVER",
+                    "MOVE_HIDDEN_POWER"
+                  ],
+                  "nature": "NATURE_TIMID",
+                  "ability": "ABILITY_SYNCHRONIZE",
+                  "item": "ITEM_TWISTED_SPOON",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-063"
+                },
+                {
+                  "species": "SPECIES_VENUSAUR",
+                  "level": 61,
+                  "akiRole": "A",
+                  "moves": [
+                    "MOVE_GIGA_DRAIN",
+                    "MOVE_SLUDGE_BOMB",
+                    "MOVE_SLEEP_POWDER",
+                    "MOVE_LEECH_SEED"
+                  ],
+                  "nature": "NATURE_MILD",
+                  "ability": "ABILITY_OVERGROW",
+                  "item": "ITEM_LUM_BERRY",
+                  "iv": 31,
+                  "evs": {
+                    "hp": 0,
+                    "attack": 0,
+                    "defense": 0,
+                    "spAttack": 0,
+                    "spDefense": 0,
+                    "speed": 0
+                  },
+                  "family": "family-001"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "trainerId": "elite-four-lance-first",
+      "lotId": "08C",
+      "window": 9,
+      "cap": 60,
+      "profile": "LIGA",
+      "anchors": [
+        {
+          "family": "dratini",
+          "species": "SPECIES_DRATINI"
+        },
+        {
+          "family": "aerodactyl",
+          "species": "SPECIES_AERODACTYL"
+        },
+        {
+          "family": "latios",
+          "species": "SPECIES_LATIOS"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Aerodactyl abre con presión física inmediata. Kingdra mantiene el dragón acuático y acelera con lluvia; Magneton resiste Hielo/Dragón y presiona Agua y Acero. Miltank amortigua Hielo con Thick Fat y recupera; Dragonite combina presión física y parálisis, preparando el cierre de Latios.",
+          "members": [
+            {
+              "species": "SPECIES_AERODACTYL",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_WING_ATTACK"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-142"
+            },
+            {
+              "species": "SPECIES_KINGDRA",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RAIN_DANCE",
+                "MOVE_HYDRO_PUMP"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_MYSTIC_WATER",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-116"
+            },
+            {
+              "species": "SPECIES_MAGNETON",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_REFLECT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_MAGNET_PULL",
+              "item": "ITEM_MAGNET",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-081"
+            },
+            {
+              "species": "SPECIES_MILTANK",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BODY_SLAM",
+                "MOVE_SHADOW_BALL",
+                "MOVE_MILK_DRINK",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-241"
+            },
+            {
+              "species": "SPECIES_DRAGONITE",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_BRICK_BREAK",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_OUTRAGE"
+              ],
+              "nature": "NATURE_LONELY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-147"
+            },
+            {
+              "species": "SPECIES_LATIOS",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_DRAGON_CLAW",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-381"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Gyarados abre con Intimidate y amenaza Dragon Dance, conservando la bestia acuática de Lance. Porygon2 ofrece Trace, recuperación y Hielo/Eléctrico; Hariyama resiste Hielo con Thick Fat y rompe defensas Roca/Acero con Bulk Up. Aerodactyl mantiene velocidad, Dragonite cobertura mixta y Latios el cierre especial.",
+          "members": [
+            {
+              "species": "SPECIES_GYARADOS",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_DRAGON_DANCE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_NAUGHTY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_MYSTIC_WATER",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-129"
+            },
+            {
+              "species": "SPECIES_AERODACTYL",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_WING_ATTACK",
+                "MOVE_STEEL_WING"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-142"
+            },
+            {
+              "species": "SPECIES_PORYGON2",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER",
+                "MOVE_THUNDER_WAVE"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Omite STAB Normal físico para mantener cobertura especial Hielo/Eléctrico, recuperación y control de velocidad; Trace puede copiar inmunidades útiles.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-137"
+            },
+            {
+              "species": "SPECIES_HARIYAMA",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_BULK_UP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-296"
+            },
+            {
+              "species": "SPECIES_DRAGONITE",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_FLAMETHROWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_OUTRAGE"
+              ],
+              "nature": "NATURE_MILD",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-147"
+            },
+            {
+              "species": "SPECIES_LATIOS",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_DRAGON_CLAW",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_TWISTED_SPOON",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-381"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Aerodactyl abre con Choice Band. Milotic conserva la serpiente del grupo Dragón, resiste Hielo y recupera; Scizor cubre Hielo/Dragón y escala con Swords Dance y prioridad. Manectric presiona Agua y distribuye parálisis; Dragonite añade cobertura Fuego/Lucha y Latios remata con Calm Mind.",
+          "members": [
+            {
+              "species": "SPECIES_AERODACTYL",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_WING_ATTACK"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-142"
+            },
+            {
+              "species": "SPECIES_MILOTIC",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_RECOVER",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_MARVEL_SCALE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-349"
+            },
+            {
+              "species": "SPECIES_SCIZOR",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_STEEL_WING",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_STRENGTH",
+                "MOVE_QUICK_ATTACK"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_SWARM",
+              "item": "ITEM_METAL_COAT",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-123"
+            },
+            {
+              "species": "SPECIES_MANECTRIC",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_ROAR"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-309"
+            },
+            {
+              "species": "SPECIES_DRAGONITE",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_BRICK_BREAK",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_FIRE_BLAST"
+              ],
+              "nature": "NATURE_LONELY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-147"
+            },
+            {
+              "species": "SPECIES_LATIOS",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_DRAGON_CLAW",
+                "MOVE_CALM_MIND",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-381"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "elite-four-agatha-first",
+      "lotId": "08C",
+      "window": 9,
+      "cap": 60,
+      "profile": "LIGA",
+      "anchors": [
+        {
+          "family": "gastly",
+          "species": "SPECIES_GASTLY"
+        },
+        {
+          "family": "ekans",
+          "species": "SPECIES_EKANS"
+        },
+        {
+          "family": "registeel",
+          "species": "SPECIES_REGISTEEL"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Gengar abre con velocidad, cobertura y sueño. Dusclops conserva el eje Fantasma y quema; Houndoom cubre Psíquico y Fuego. Arbok y Registeel controlan velocidad y ataque, preparando el cierre físico de Marowak con Thick Club.",
+          "members": [
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_MAGNET",
+              "intent": "Omite STAB físico de Ataque65 para explotar Ataque Especial130; Hidden Power es Siniestro70. Cobertura especial y sueño.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-092"
+            },
+            {
+              "species": "SPECIES_DUSCLOPS",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_WILL_O_WISP",
+                "MOVE_EARTHQUAKE",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-355"
+            },
+            {
+              "species": "SPECIES_HOUNDOOM",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_FLAMETHROWER",
+                "MOVE_CRUNCH",
+                "MOVE_TAUNT",
+                "MOVE_OVERHEAT"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_FLASH_FIRE",
+              "item": "ITEM_BLACK_GLASSES",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-228"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_DIG",
+                "MOVE_SCREECH",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-023"
+            },
+            {
+              "species": "SPECIES_REGISTEEL",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_METAL_CLAW",
+                "MOVE_SEISMIC_TOSS",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-379"
+            },
+            {
+              "species": "SPECIES_MAROWAK",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_BONEMERANG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_SWORDS_DANCE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_ROCK_HEAD",
+              "item": "ITEM_THICK_CLUB",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-104"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Crobat abre con Choice Band y velocidad, conservando el murciélago venenoso de Agatha. Vaporeon cubre Tierra/Fuego y corta boosts; Absol aporta inmunidad Psíquico y presión física creciente. Arbok y Registeel facilitan el cierre especial de Gengar.",
+          "members": [
+            {
+              "species": "SPECIES_CROBAT",
+              "level": 61,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_WING_ATTACK",
+                "MOVE_POISON_FANG",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_STEEL_WING"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INNER_FOCUS",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-041"
+            },
+            {
+              "species": "SPECIES_VAPOREON",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_HAZE",
+                "MOVE_TOXIC"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-133"
+            },
+            {
+              "species": "SPECIES_ABSOL",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_SWORDS_DANCE",
+                "MOVE_STRENGTH",
+                "MOVE_BITE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-359"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-023"
+            },
+            {
+              "species": "SPECIES_REGISTEEL",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_METAL_CLAW",
+                "MOVE_SEISMIC_TOSS",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-379"
+            },
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_MAGNET",
+              "intent": "Omite STAB físico de Ataque65 para explotar Ataque Especial130; Hidden Power es Siniestro70. Cobertura especial y sueño.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-092"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Tauros abre con Intimidate y potencia física inmediata. Banette mantiene el Fantasma con quemadura y retirada de objetos; Slowbro resiste Fuego/Lucha, cubre Tierra y desarrolla Calm Mind. Arbok y Registeel sostienen el control para el cierre de Gengar.",
+          "members": [
+            {
+              "species": "SPECIES_TAUROS",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_IRON_TAIL",
+                "MOVE_STRENGTH"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-128"
+            },
+            {
+              "species": "SPECIES_BANETTE",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SHADOW_BALL",
+                "MOVE_WILL_O_WISP",
+                "MOVE_FRUSTRATION",
+                "MOVE_KNOCK_OFF"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INSOMNIA",
+              "item": "ITEM_SPELL_TAG",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-353"
+            },
+            {
+              "species": "SPECIES_SLOWBRO",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_PSYCHIC",
+                "MOVE_ICE_BEAM",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_OWN_TEMPO",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-079"
+            },
+            {
+              "species": "SPECIES_ARBOK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_DIG",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_GLARE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_INTIMIDATE",
+              "item": "ITEM_POISON_BARB",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-023"
+            },
+            {
+              "species": "SPECIES_REGISTEEL",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_METAL_CLAW",
+                "MOVE_SEISMIC_TOSS",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-379"
+            },
+            {
+              "species": "SPECIES_GENGAR",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_MAGNET",
+              "intent": "Omite STAB físico de Ataque65 para explotar Ataque Especial130; Hidden Power es Siniestro70. Cobertura especial y sueño.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-092"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "elite-four-bruno-first",
+      "lotId": "08C",
+      "window": 9,
+      "cap": 60,
+      "profile": "LIGA",
+      "anchors": [
+        {
+          "family": "machop",
+          "species": "SPECIES_MACHOP"
+        },
+        {
+          "family": "hitmonlee",
+          "species": "SPECIES_TYROGUE"
+        },
+        {
+          "family": "regirock",
+          "species": "SPECIES_REGIROCK"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Electabuzz abre con velocidad, parálisis y pantalla especial. Medicham representa disciplina marcial con Pure Power y recuperación; Exeggutor resiste Psíquico, Agua y Tierra y facilita con sueño y drenaje. Hitmonchan aporta prioridad, Regirock aguante físico y Machamp cierra con Choice Band.",
+          "members": [
+            {
+              "species": "SPECIES_ELECTABUZZ",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_THUNDERBOLT",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_LIGHT_SCREEN"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_STATIC",
+              "item": "ITEM_MAGNET",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-125"
+            },
+            {
+              "species": "SPECIES_MEDICHAM",
+              "level": 61,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_HI_JUMP_KICK",
+                "MOVE_SHADOW_BALL",
+                "MOVE_BULK_UP",
+                "MOVE_RECOVER"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_PURE_POWER",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-307"
+            },
+            {
+              "species": "SPECIES_EXEGGUTOR",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_SLEEP_POWDER",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-102"
+            },
+            {
+              "species": "SPECIES_HITMONCHAN",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_SKY_UPPERCUT",
+                "MOVE_MACH_PUNCH",
+                "MOVE_BODY_SLAM",
+                "MOVE_COUNTER"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_BLACK_BELT",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-106"
+            },
+            {
+              "species": "SPECIES_REGIROCK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_CURSE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-377"
+            },
+            {
+              "species": "SPECIES_MACHAMP",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_CROSS_CHOP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_FACADE",
+                "MOVE_FIRE_BLAST"
+              ],
+              "nature": "NATURE_NAUGHTY",
+              "ability": "ABILITY_GUTS",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-066"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Poliwrath abre con sueño y cobertura Agua/Hielo/Lucha, conservando el luchador anfibio. Shiftry aporta inmunidad Psíquico y daño especial creciente; Skarmory resiste Psíquico/Volador, coloca Spikes y fuerza cambios. Hitmonlee mantiene presión y parálisis, Regirock sostiene y Machamp remata.",
+          "members": [
+            {
+              "species": "SPECIES_POLIWRATH",
+              "level": 61,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_BRICK_BREAK",
+                "MOVE_ICE_BEAM",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_MYSTIC_WATER",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-060"
+            },
+            {
+              "species": "SPECIES_SHIFTRY",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_GIGA_DRAIN",
+                "MOVE_HIDDEN_POWER",
+                "MOVE_GROWTH",
+                "MOVE_EXTRASENSORY"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_CHLOROPHYLL",
+              "item": "ITEM_MIRACLE_SEED",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-273"
+            },
+            {
+              "species": "SPECIES_SKARMORY",
+              "level": 60,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_AERIAL_ACE",
+                "MOVE_SPIKES",
+                "MOVE_ROAR",
+                "MOVE_STEEL_WING"
+              ],
+              "nature": "NATURE_IMPISH",
+              "ability": "ABILITY_KEEN_EYE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-227"
+            },
+            {
+              "species": "SPECIES_HITMONLEE",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_BODY_SLAM",
+                "MOVE_MEDITATE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_LIMBER",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-106"
+            },
+            {
+              "species": "SPECIES_REGIROCK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_CURSE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-377"
+            },
+            {
+              "species": "SPECIES_MACHAMP",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_CROSS_CHOP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_FACADE",
+                "MOVE_FIRE_BLAST"
+              ],
+              "nature": "NATURE_NAUGHTY",
+              "ability": "ABILITY_GUTS",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-066"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Flygon abre con velocidad, cobertura mixta e inmunidades Tierra/Eléctrico. Breloom mantiene el eje Lucha con prioridad y drenaje; Gardevoir resiste Psíquico y aporta sueño, cobertura eléctrica y Calm Mind. Hitmonlee distribuye parálisis, Regirock protege el flanco físico y Machamp cierra.",
+          "members": [
+            {
+              "species": "SPECIES_FLYGON",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_DIG",
+                "MOVE_DRAGON_CLAW",
+                "MOVE_FLAMETHROWER",
+                "MOVE_CRUNCH"
+              ],
+              "nature": "NATURE_NAIVE",
+              "ability": "ABILITY_LEVITATE",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-328"
+            },
+            {
+              "species": "SPECIES_BRELOOM",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SKY_UPPERCUT",
+                "MOVE_MACH_PUNCH",
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_LEECH_SEED"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_EFFECT_SPORE",
+              "item": "ITEM_BLACK_BELT",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-285"
+            },
+            {
+              "species": "SPECIES_GARDEVOIR",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_PSYCHIC",
+                "MOVE_THUNDERBOLT",
+                "MOVE_CALM_MIND",
+                "MOVE_HYPNOSIS"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_TRACE",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-280"
+            },
+            {
+              "species": "SPECIES_HITMONLEE",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_BRICK_BREAK",
+                "MOVE_BODY_SLAM",
+                "MOVE_MEDITATE",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_ADAMANT",
+              "ability": "ABILITY_LIMBER",
+              "item": "ITEM_SILK_SCARF",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-106"
+            },
+            {
+              "species": "SPECIES_REGIROCK",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_EARTHQUAKE",
+                "MOVE_CURSE",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_CAREFUL",
+              "ability": "ABILITY_CLEAR_BODY",
+              "item": "ITEM_CHESTO_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-377"
+            },
+            {
+              "species": "SPECIES_MACHAMP",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_CROSS_CHOP",
+                "MOVE_ROCK_TOMB",
+                "MOVE_FACADE",
+                "MOVE_FIRE_BLAST"
+              ],
+              "nature": "NATURE_NAUGHTY",
+              "ability": "ABILITY_GUTS",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-066"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "trainerId": "elite-four-lorelei-first",
+      "lotId": "08C",
+      "window": 9,
+      "cap": 60,
+      "profile": "LIGA",
+      "anchors": [
+        {
+          "family": "lapras",
+          "species": "SPECIES_LAPRAS"
+        },
+        {
+          "family": "jynx",
+          "species": "SPECIES_JYNX"
+        },
+        {
+          "family": "articuno",
+          "species": "SPECIES_ARTICUNO"
+        }
+      ],
+      "variants": {
+        "A": {
+          "intent": "Ludicolo abre lluvia autónoma y drena Agua/Tierra; Tentacruel cubre Lucha y presiona con doble STAB y Hielo. Piloswine conserva identidad Hielo e inmunidad Eléctrico con Choice Band. Articuno protege el flanco físico; Lapras aporta cobertura y Jynx cierra con sueño y Calm Mind.",
+          "members": [
+            {
+              "species": "SPECIES_LUDICOLO",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_GIGA_DRAIN",
+                "MOVE_RAIN_DANCE",
+                "MOVE_FAKE_OUT"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_SWIFT_SWIM",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-270"
+            },
+            {
+              "species": "SPECIES_TENTACRUEL",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_SLUDGE_BOMB",
+                "MOVE_ICE_BEAM",
+                "MOVE_BARRIER"
+              ],
+              "nature": "NATURE_HASTY",
+              "ability": "ABILITY_LIQUID_OOZE",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-072"
+            },
+            {
+              "species": "SPECIES_PILOSWINE",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_BLIZZARD",
+                "MOVE_DOUBLE_EDGE"
+              ],
+              "nature": "NATURE_BRAVE",
+              "ability": "ABILITY_OBLIVIOUS",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-220"
+            },
+            {
+              "species": "SPECIES_ARTICUNO",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_REFLECT",
+                "MOVE_TOXIC",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_CHESTO_BERRY",
+              "intent": "Omite Volador físico para conservar Reflect, Toxic y recuperación; Ice Beam usa Ataque Especial95.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-144"
+            },
+            {
+              "species": "SPECIES_LAPRAS",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDERBOLT",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-131"
+            },
+            {
+              "species": "SPECIES_JYNX",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_PUNCH",
+                "MOVE_PSYCHIC",
+                "MOVE_LOVELY_KISS",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_OBLIVIOUS",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-124"
+            }
+          ]
+        },
+        "B": {
+          "intent": "Dugtrio abre con velocidad y presión física, atrapando objetivos vulnerables; Cloyster conserva el molusco helado y coloca Spikes. Lanturn absorbe Eléctrico y paraliza, Articuno aporta Reflect/Toxic, Lapras cubre y Jynx remata con Calm Mind.",
+          "members": [
+            {
+              "species": "SPECIES_DUGTRIO",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_ROCK_SLIDE",
+                "MOVE_AERIAL_ACE",
+                "MOVE_SLUDGE_BOMB"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_ARENA_TRAP",
+              "item": "ITEM_CHOICE_BAND",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-050"
+            },
+            {
+              "species": "SPECIES_CLOYSTER",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_SPIKES",
+                "MOVE_PROTECT"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_SHELL_ARMOR",
+              "item": "ITEM_LEFTOVERS",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-090"
+            },
+            {
+              "species": "SPECIES_LANTURN",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_THUNDERBOLT",
+                "MOVE_THUNDER_WAVE",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_VOLT_ABSORB",
+              "item": "ITEM_MAGNET",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-170"
+            },
+            {
+              "species": "SPECIES_ARTICUNO",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_REFLECT",
+                "MOVE_TOXIC",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_CHESTO_BERRY",
+              "intent": "Omite Volador físico para conservar Reflect, Toxic y recuperación; Ice Beam usa Ataque Especial95.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-144"
+            },
+            {
+              "species": "SPECIES_LAPRAS",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_ICE_BEAM",
+                "MOVE_BODY_SLAM",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-131"
+            },
+            {
+              "species": "SPECIES_JYNX",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_PUNCH",
+                "MOVE_PSYCHIC",
+                "MOVE_LOVELY_KISS",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_OBLIVIOUS",
+              "item": "ITEM_LUM_BERRY",
+              "intent": "Ice Punch natural conserva STAB Hielo especial y libera la única copia efectiva de Ice Beam para Cloyster; mantiene sueño y Calm Mind.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-124"
+            }
+          ]
+        },
+        "C": {
+          "intent": "Kabutops abre con Choice Band y presión física Roca/Lucha; Walrein conserva la foca helada y castiga turnos pasivos con Encore. Quagsire absorbe Agua y bloquea Eléctrico, mientras Articuno protege y desgasta. Lapras cubre por el lado especial y Jynx cierra.",
+          "members": [
+            {
+              "species": "SPECIES_KABUTOPS",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_ROCK_SLIDE",
+                "MOVE_BRICK_BREAK",
+                "MOVE_DOUBLE_EDGE",
+                "MOVE_AERIAL_ACE"
+              ],
+              "nature": "NATURE_JOLLY",
+              "ability": "ABILITY_BATTLE_ARMOR",
+              "item": "ITEM_CHOICE_BAND",
+              "intent": "Omite Agua especial de Ataque Especial65 para concentrar Choice Band en cuatro ataques físicos; Surf queda en Walrein.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-140"
+            },
+            {
+              "species": "SPECIES_WALREIN",
+              "level": 60,
+              "akiRole": "I",
+              "moves": [
+                "MOVE_SURF",
+                "MOVE_ICE_BEAM",
+                "MOVE_ENCORE",
+                "MOVE_BODY_SLAM"
+              ],
+              "nature": "NATURE_QUIET",
+              "ability": "ABILITY_THICK_FAT",
+              "item": "ITEM_SHELL_BELL",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-363"
+            },
+            {
+              "species": "SPECIES_QUAGSIRE",
+              "level": 61,
+              "akiRole": "K",
+              "moves": [
+                "MOVE_EARTHQUAKE",
+                "MOVE_WATERFALL",
+                "MOVE_YAWN",
+                "MOVE_HAZE"
+              ],
+              "nature": "NATURE_RELAXED",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_LEFTOVERS",
+              "intent": "Haze está disponible exactamente a nivel61, comprobado en consulta contextual. Corta boosts rivales; Earthquake natural, Waterfall especial y Yawn conservan daño y control.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-194"
+            },
+            {
+              "species": "SPECIES_ARTICUNO",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_BEAM",
+                "MOVE_REFLECT",
+                "MOVE_TOXIC",
+                "MOVE_REST"
+              ],
+              "nature": "NATURE_BOLD",
+              "ability": "ABILITY_PRESSURE",
+              "item": "ITEM_CHESTO_BERRY",
+              "intent": "Omite Volador físico para conservar Reflect, Toxic y recuperación; Ice Beam usa Ataque Especial95.",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-144"
+            },
+            {
+              "species": "SPECIES_LAPRAS",
+              "level": 60,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_HYDRO_PUMP",
+                "MOVE_ICE_BEAM",
+                "MOVE_THUNDERBOLT",
+                "MOVE_CONFUSE_RAY"
+              ],
+              "nature": "NATURE_MODEST",
+              "ability": "ABILITY_WATER_ABSORB",
+              "item": "ITEM_SITRUS_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-131"
+            },
+            {
+              "species": "SPECIES_JYNX",
+              "level": 61,
+              "akiRole": "A",
+              "moves": [
+                "MOVE_ICE_PUNCH",
+                "MOVE_PSYCHIC",
+                "MOVE_LOVELY_KISS",
+                "MOVE_CALM_MIND"
+              ],
+              "nature": "NATURE_TIMID",
+              "ability": "ABILITY_OBLIVIOUS",
+              "item": "ITEM_LUM_BERRY",
+              "iv": 31,
+              "evs": {
+                "hp": 0,
+                "attack": 0,
+                "defense": 0,
+                "spAttack": 0,
+                "spDefense": 0,
+                "speed": 0
+              },
+              "family": "family-124"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "reviewed": false,
+  "accepted": false,
+  "romPromotion": false,
+  "catalogFingerprint": "0df9d16fd43077a4255e5af3f12b7f1a2bf59394cd872e2868c3e4467ae03dad",
+  "provenance": {
+    "champion-rival-first-deksa": {
+      "actor": "/root/first_league_champion_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    },
+    "elite-four-lance-first": {
+      "actor": "/root/first_league_lance_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    },
+    "elite-four-agatha-first": {
+      "actor": "/root/first_league_agatha_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    },
+    "elite-four-bruno-first": {
+      "actor": "/root/first_league_bruno_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    },
+    "elite-four-lorelei-first": {
+      "actor": "/root/first_league_lorelei_author",
+      "model": "gpt-6-astra",
+      "effort": "low"
+    }
+  },
+  "corrections": [],
+  "metrics": [
+    {
+      "stage": "prepare",
+      "seconds": 0.11039329832419753,
+      "packetBytes": 313642,
+      "tokens": null
+    },
+    {
+      "stage": "prepare",
+      "seconds": 0.11224762536585331,
+      "packetBytes": 328700,
+      "tokens": null
+    },
+    {
+      "stage": "prepare",
+      "seconds": 0.12172277178615332,
+      "packetBytes": 335104,
+      "tokens": null
+    },
+    {
+      "stage": "prepare",
+      "seconds": 0.13040784187614918,
+      "packetBytes": 341209,
+      "tokens": null
+    },
+    {
+      "stage": "prepare",
+      "seconds": 0.1335534518584609,
+      "packetBytes": 347084,
+      "tokens": null
+    }
+  ],
+  "policyId": "deksa-b5-campaign-w09-league-first-approved",
+  "supportStatus": "step-2-contract-bound-test-only"
+}

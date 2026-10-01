@@ -43,7 +43,7 @@ index 6f41e3ce1..affacfb9d 100644
  	waitmessage B_WAIT_TIME_LONG
  	printstring STRINGID_ITDODGEDBALL
 diff --git a/data/event_scripts.s b/data/event_scripts.s
-index 88d75946a..179114bbb 100644
+index 88d75946a..5148a0105 100644
 --- a/data/event_scripts.s
 +++ b/data/event_scripts.s
 @@ -887,8 +887,8 @@ gText_PkmnFainted3::
@@ -74,8 +74,8 @@ index 88d75946a..179114bbb 100644
 +	.string "The price is ¥{STR_VAR_2}.$"
 +
 +Text_DeksaCenterTeamReviveQuote::
-+	.string "Revive all fainted POKéMON?\n"
-+	.string "The total is ¥{STR_VAR_2}.$"
++	.string "Revive {STR_VAR_1} fainted POKéMON\n"
++	.string "for ¥{STR_VAR_2}?$"
 +
 +Text_DeksaCenterTeamRevived::
 +	.string "All fainted POKéMON were revived\n"
@@ -7797,133 +7797,63 @@ index e5b0f72b2..fe5372c1f 100644
  CapeBrinkTutor_EventScript_FadeTaughtMove::
  	fadescreen FADE_FROM_BLACK
 diff --git a/data/scripts/pkmn_center_nurse.inc b/data/scripts/pkmn_center_nurse.inc
-index 507c8a498..80047d52d 100644
+index 507c8a498..db48b4cfc 100644
 --- a/data/scripts/pkmn_center_nurse.inc
 +++ b/data/scripts/pkmn_center_nurse.inc
-@@ -2,10 +2,12 @@ EventScript_PkmnCenterNurse::
+@@ -1,22 +1,33 @@
+ EventScript_PkmnCenterNurse::
  	goto_if_questlog EventScript_ReleaseEnd
- 	message Text_WelcomeWantToHealPkmn
- 	waitmessage
+-	message Text_WelcomeWantToHealPkmn
+-	waitmessage
 -	multichoice 19, 8, MULTICHOICE_YES_NO, FALSE | (TRUE << 1)
-+	multichoice 12, 2, MULTICHOICE_DEKSA_CENTER, FALSE | (TRUE << 1)
- 	switch VAR_RESULT
- 	case 0, EventScript_PkmnCenterNurse_HealPkmn
+-	switch VAR_RESULT
+-	case 0, EventScript_PkmnCenterNurse_HealPkmn
 -	case 1 EventScript_PkmnCenterNurse_Goodbye
-+	case 1, EventScript_DeksaCenter_ReviveTeam
-+	case 2, EventScript_DeksaCenter_ReviveOne
-+	case 3, EventScript_PkmnCenterNurse_Goodbye
- 	case SCR_MENU_CANCEL, EventScript_PkmnCenterNurse_Goodbye
- 	end
- 
-@@ -15,9 +17,44 @@ EventScript_PkmnCenterNurse_HealPkmn::
+-	case SCR_MENU_CANCEL, EventScript_PkmnCenterNurse_Goodbye
+-	end
+-
+-EventScript_PkmnCenterNurse_HealPkmn::
+ 	incrementgamestat GAME_STAT_USED_POKECENTER
+ 	message Text_TakeYourPkmnForFewSeconds
  	waitmessage
  	call EventScript_PkmnCenterNurse_TakeAndHealPkmn
  	special SetUsedPkmnCenterQuestLogEvent
 +	specialvar VAR_RESULT, DeksaCenterHasFaintedMons
-+	goto_if_eq VAR_RESULT, TRUE, EventScript_PkmnCenterNurse_ReturnLivingPkmn
- 	goto EventScript_PkmnCenterNurse_CheckTrainerTowerAndUnionRoom
- 	end
- 
-+EventScript_DeksaCenter_ReviveTeam::
++	goto_if_eq VAR_RESULT, FALSE, EventScript_PkmnCenterNurse_CheckTrainerTowerAndUnionRoom
 +	specialvar VAR_RESULT, DeksaCenterCanOfferRevives
 +	goto_if_eq VAR_RESULT, FALSE, EventScript_DeksaCenter_RevivalUnavailable
++	goto EventScript_DeksaCenter_ReviveTeam
++
++EventScript_DeksaCenter_ReviveTeam::
 +	specialvar VAR_RESULT, DeksaCenterQuoteTeam
-+	goto_if_eq VAR_RESULT, FALSE, EventScript_DeksaCenter_NoFaintedMons
++	goto_if_eq VAR_RESULT, FALSE, EventScript_PkmnCenterNurse_CheckTrainerTowerAndUnionRoom
 +	msgbox Text_DeksaCenterTeamReviveQuote, MSGBOX_YESNO
-+	goto_if_ne VAR_RESULT, YES, EventScript_PkmnCenterNurse
++	goto_if_ne VAR_RESULT, YES, EventScript_PkmnCenterNurse_Goodbye
 +	specialvar VAR_RESULT, DeksaCenterReviveTeam
 +	goto_if_eq VAR_RESULT, 1, EventScript_DeksaCenter_TeamNotEnoughMoney
-+	goto_if_ne VAR_RESULT, 0, EventScript_DeksaCenter_NoFaintedMons
-+	msgbox Text_DeksaCenterTeamRevived
-+	goto EventScript_PkmnCenterNurse
++	goto_if_ne VAR_RESULT, 0, EventScript_PkmnCenterNurse_Goodbye
+ 	goto EventScript_PkmnCenterNurse_CheckTrainerTowerAndUnionRoom
+-	end
 +
 +EventScript_DeksaCenter_TeamNotEnoughMoney::
 +	msgbox Text_DeksaCenterNotEnoughMoney
-+	goto EventScript_PkmnCenterNurse
-+
-+EventScript_DeksaCenter_ReviveOne::
-+	specialvar VAR_RESULT, DeksaCenterCanOfferRevives
-+	goto_if_eq VAR_RESULT, FALSE, EventScript_DeksaCenter_RevivalUnavailable
-+	specialvar VAR_RESULT, DeksaCenterHasFaintedMons
-+	goto_if_eq VAR_RESULT, FALSE, EventScript_DeksaCenter_NoFaintedMons
-+	call EventScript_DeksaCenter_ChooseRevives
-+	goto EventScript_PkmnCenterNurse
++	return
 +
 +EventScript_DeksaCenter_RevivalUnavailable::
 +	msgbox Text_DeksaCenterRevivalUnavailable
-+	goto EventScript_PkmnCenterNurse
-+
-+EventScript_DeksaCenter_NoFaintedMons::
-+	msgbox Text_DeksaCenterNoFaintedMons
-+	goto EventScript_PkmnCenterNurse
-+
++	return
+ 
  EventScript_PkmnCenterNurse_TakeAndHealPkmn::
  	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterLeft
- 	waitmovement 0
-@@ -28,6 +65,48 @@ EventScript_PkmnCenterNurse_TakeAndHealPkmn::
- 	special HealPlayerParty
- 	return
- 
-+@ Returns TRUE while one or more fainted Pokemon remain. The native party
-+@ selector only chooses a slot; quote, confirmation, charge and revival stay
-+@ separate so CANCEL and NO never remove money.
-+EventScript_DeksaCenter_ChooseRevives::
-+	specialvar VAR_RESULT, DeksaCenterCanOfferRevives
-+	goto_if_eq VAR_RESULT, FALSE, EventScript_DeksaCenter_ChooseRevivesDone
-+	specialvar VAR_RESULT, DeksaCenterHasFaintedMons
-+	goto_if_eq VAR_RESULT, FALSE, EventScript_DeksaCenter_ChooseRevivesDone
-+	msgbox Text_DeksaCenterChooseFainted
-+
-+EventScript_DeksaCenter_ChooseRevivesSelect::
-+	special ChoosePartyMon
-+	waitstate
-+	lock
-+	goto_if_ge VAR_0x8004, PARTY_SIZE, EventScript_DeksaCenter_ChooseRevivesDone
-+	specialvar VAR_RESULT, DeksaCenterQuoteSelectedMon
-+	goto_if_eq VAR_RESULT, FALSE, EventScript_DeksaCenter_SelectedMonNeedsNoRevive
-+	msgbox Text_DeksaCenterReviveQuote, MSGBOX_YESNO
-+	goto_if_ne VAR_RESULT, YES, EventScript_DeksaCenter_ChooseRevivesAgain
-+	specialvar VAR_RESULT, DeksaCenterReviveSelectedMon
-+	goto_if_eq VAR_RESULT, 1, EventScript_DeksaCenter_NotEnoughMoney
-+	goto_if_ne VAR_RESULT, 0, EventScript_DeksaCenter_SelectedMonNeedsNoRevive
-+	msgbox Text_DeksaCenterMonRevived
-+	specialvar VAR_RESULT, DeksaCenterHasFaintedMons
-+	goto_if_eq VAR_RESULT, TRUE, EventScript_DeksaCenter_ChooseRevivesAgain
-+	return
-+
-+EventScript_DeksaCenter_SelectedMonNeedsNoRevive::
-+	msgbox Text_DeksaCenterSelectedMonNeedsNoRevive
-+	goto EventScript_DeksaCenter_ChooseRevivesAgain
-+
-+EventScript_DeksaCenter_NotEnoughMoney::
-+	msgbox Text_DeksaCenterNotEnoughMoney
-+
-+EventScript_DeksaCenter_ChooseRevivesAgain::
-+	msgbox Text_DeksaCenterChooseAnotherFainted
-+	goto EventScript_DeksaCenter_ChooseRevivesSelect
-+
-+EventScript_DeksaCenter_ChooseRevivesDone::
-+	specialvar VAR_RESULT, DeksaCenterHasFaintedMons
-+	return
-+
- EventScript_PkmnCenterNurse_CheckTrainerTowerAndUnionRoom::
- 	specialvar VAR_RESULT, IsPlayerNotInTrainerTowerLobby
- 	goto_if_eq VAR_RESULT, FALSE, EventScript_PkmnCenterNurse_ReturnPkmn
-@@ -45,6 +124,14 @@ EventScript_PkmnCenterNurse_ReturnPkmn::
+@@ -51,8 +62,6 @@ EventScript_PkmnCenterNurse_PlayerWaitingInUnionRoom::
+ 	setflag FLAG_SYS_INFORMED_OF_LOCAL_WIRELESS_PLAYER
+ 	message Text_PlayerIsPlayingRightNowGoForIt
+ 	waitmessage
+-	applymovement VAR_LAST_TALKED, Movement_Bow
+-	waitmovement 0
  	msgbox Text_WeHopeToSeeYouAgain
  	return
  
-+EventScript_PkmnCenterNurse_ReturnLivingPkmn::
-+	message Text_DeksaCenterLivingPkmnRestored
-+	waitmessage
-+	applymovement VAR_LAST_TALKED, Movement_Bow
-+	waitmovement 0
-+	msgbox Text_WeHopeToSeeYouAgain
-+	return
-+
- EventScript_PkmnCenterNurse_PlayerWaitingInUnionRoom::
- 	goto_if_set FLAG_SYS_INFORMED_OF_LOCAL_WIRELESS_PLAYER, EventScript_PkmnCenterNurse_ReturnPkmn
- 	msgbox Text_RestoredPkmnToFullHealth
 diff --git a/data/scripts/white_out.inc b/data/scripts/white_out.inc
 index ff4feb66f..9cf2d3f70 100644
 --- a/data/scripts/white_out.inc
@@ -8769,20 +8699,6 @@ index 77aed7820..9d4f13844 100644
  void FieldUseFunc_PokeFlute(u8 taskId);
  void FieldUseFunc_Medicine(u8 taskId);
  void FieldUseFunc_Ether(u8 taskId);
-diff --git a/include/party_menu.h b/include/party_menu.h
-index 97379910f..fd9bfeeb0 100644
---- a/include/party_menu.h
-+++ b/include/party_menu.h
-@@ -50,6 +50,9 @@ bool8 FieldCallback_PrepareFadeInFromMenu(void);
- void CB2_ReturnToPartyMenuFromFlyMap(void);
- void SetUsedFlyQuestLogEvent(const u8 *healLocCtrlData);
- void CB2_ShowPartyMenuForItemUse(void);
-+void CB2_ShowPartyMenuForDeksaKit(void);
-+void ItemUseCB_DeksaKitSingle(u8 taskId, TaskFunc func);
-+void ItemUseCB_DeksaKitRevive(u8 taskId, TaskFunc func);
- void ItemUseCB_Medicine(u8 taskId, TaskFunc func);
- void ItemUseCB_MedicineStep(u8 taskId, TaskFunc func);
- void ItemUseCB_TryRestorePP(u8 taskId, TaskFunc func);
 diff --git a/include/pokemon.h b/include/pokemon.h
 index 414dc4176..b06ff916f 100644
 --- a/include/pokemon.h
@@ -79571,7 +79487,7 @@ index d44e32b63..42338dc51 100644
              SetMonData(pokemon, MON_DATA_HP, &hp);
              numPoisoned++;
 diff --git a/src/item_use.c b/src/item_use.c
-index 954f4821d..747311fe6 100644
+index 954f4821d..4c1f6012a 100644
 --- a/src/item_use.c
 +++ b/src/item_use.c
 @@ -38,6 +38,7 @@
@@ -79602,7 +79518,7 @@ index 954f4821d..747311fe6 100644
 +
 +static void ItemUseOnFieldCB_DeksaKit(u8 taskId)
 +{
-+    DeksaKit_OpenMenu(taskId);
++    DeksaKit_Use(taskId);
 +}
 +
  void FieldUseFunc_PokeFlute(u8 taskId)
@@ -80191,7 +80107,7 @@ index 339014da4..19bb105dd 100644
  {
      ResetInitialPlayerAvatarState();
 diff --git a/src/party_menu.c b/src/party_menu.c
-index 7f3a881e6..4ea314ecd 100644
+index 7f3a881e6..e6a70ddeb 100644
 --- a/src/party_menu.c
 +++ b/src/party_menu.c
 @@ -8,6 +8,8 @@
@@ -80268,20 +80184,7 @@ index 7f3a881e6..4ea314ecd 100644
          DisplayGaveHeldItemMessage(&gPlayerParty[gPartyMenu.slotId], item, FALSE, FALSE);
          GiveItemToMon(&gPlayerParty[gPartyMenu.slotId], item);
          RemoveBagItem(item, 1);
-@@ -4245,6 +4274,12 @@ void CB2_ShowPartyMenuForItemUse(void)
-     InitPartyMenu(menuType, partyLayout, PARTY_ACTION_USE_ITEM, TRUE, msgId, task, callback);
- }
- 
-+void CB2_ShowPartyMenuForDeksaKit(void)
-+{
-+    InitPartyMenu(PARTY_MENU_TYPE_FIELD, PARTY_LAYOUT_SINGLE, PARTY_ACTION_USE_ITEM, TRUE,
-+                  PARTY_MSG_USE_ON_WHICH_MON, Task_HandleChooseMonInput, CB2_ReturnToField);
-+}
-+
- static void CB2_ReturnToBagMenu(void)
- {
-     GoToBagMenu(ITEMMENULOCATION_LAST, OPEN_BAG_LAST, NULL);
-@@ -5021,7 +5056,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc func)
+@@ -5021,7 +5050,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc func)
      u16 item = gSpecialVar_ItemId;
      bool8 noEffect;
  
@@ -80290,7 +80193,7 @@ index 7f3a881e6..4ea314ecd 100644
          noEffect = PokemonItemUseNoEffect(mon, item, gPartyMenu.slotId, 0);
      else
          noEffect = TRUE;
-@@ -5312,7 +5347,6 @@ static void CB2_UseEvolutionStone(void)
+@@ -5312,7 +5341,6 @@ static void CB2_UseEvolutionStone(void)
      gCB2_AfterEvolution = gPartyMenu.exitCallback;
      ExecuteTableBasedItemEffect_(gPartyMenu.slotId, gSpecialVar_ItemId, 0);
      ItemUse_SetQuestLogEvent(QL_EVENT_USED_ITEM, &gPlayerParty[gPartyMenu.slotId], gSpecialVar_ItemId, 0xFFFF);
@@ -80298,7 +80201,7 @@ index 7f3a881e6..4ea314ecd 100644
  }
  
  static bool8 MonCanEvolve(void)
-@@ -5455,7 +5489,12 @@ void CB2_ChooseMonToGiveItem(void)
+@@ -5455,7 +5483,12 @@ void CB2_ChooseMonToGiveItem(void)
  static void TryGiveItemOrMailToSelectedMon(u8 taskId)
  {
      sPartyMenuItemId = GetMonData(&gPlayerParty[gPartyMenu.slotId], MON_DATA_HELD_ITEM);
@@ -80312,7 +80215,7 @@ index 7f3a881e6..4ea314ecd 100644
      {
          GiveItemOrMailToSelectedMon(taskId);
      }
-@@ -5491,6 +5530,12 @@ static void GiveItemToSelectedMon(u8 taskId)
+@@ -5491,6 +5524,12 @@ static void GiveItemToSelectedMon(u8 taskId)
      if (!gPaletteFade.active)
      {
          item = gPartyMenu.bagItem;
@@ -80325,7 +80228,7 @@ index 7f3a881e6..4ea314ecd 100644
          DisplayGaveHeldItemMessage(&gPlayerParty[gPartyMenu.slotId], item, FALSE, TRUE);
          GiveItemToMon(&gPlayerParty[gPartyMenu.slotId], item);
          RemoveItemToGiveFromBag(item);
-@@ -5634,7 +5679,11 @@ static void TryGiveMailToSelectedMon(u8 taskId)
+@@ -5634,7 +5673,11 @@ static void TryGiveMailToSelectedMon(u8 taskId)
  
      gPartyMenuUseExitCallback = FALSE;
      mail = &gSaveBlock1Ptr->mail[gPlayerPcMenuManager.cursorPos + 6 + gPlayerPcMenuManager.itemsAbove];
@@ -80877,23 +80780,14 @@ index fdc5250c3..b9c857f67 100644
  {
      TilemapUtil_Free();
 diff --git a/src/script_menu.c b/src/script_menu.c
-index 41eebd86e..4ce246c17 100644
+index 41eebd86e..27fc47cc6 100644
 --- a/src/script_menu.c
 +++ b/src/script_menu.c
-@@ -44,6 +44,34 @@ static const struct MenuAction sMultichoiceList_YesNo[] = {
+@@ -44,6 +44,25 @@ static const struct MenuAction sMultichoiceList_YesNo[] = {
      { gText_No }
  };
  
-+static const u8 sText_DeksaHealTeam[] = _("Heal team (FREE)");
-+static const u8 sText_DeksaReviveTeam[] = _("Revive team");
-+static const u8 sText_DeksaReviveMon[] = _("Revive POKéMON");
 +static const u8 sText_DeksaCenterExit[] = _("Exit");
-+static const struct MenuAction sMultichoiceList_DeksaCenter[] = {
-+    { sText_DeksaHealTeam },
-+    { sText_DeksaReviveTeam },
-+    { sText_DeksaReviveMon },
-+    { sText_DeksaCenterExit }
-+};
 +
 +static const u8 sText_DeksaPichu[] = _("PICHU");
 +static const u8 sText_DeksaAzurill[] = _("AZURILL");
@@ -80915,11 +80809,10 @@ index 41eebd86e..4ce246c17 100644
  static const struct MenuAction sMultichoiceList_TrainerCardIconTint[] = {
      { gText_Normal },
      { gText_Black },
-@@ -568,6 +596,10 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
+@@ -568,6 +587,9 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
      [MULTICHOICE_62]                                         = MULTICHOICE(sMultichoiceList_62),
      [MULTICHOICE_JOIN_OR_LEAD]                               = MULTICHOICE(sMultichoiceList_JoinOrLead),
      [MULTICHOICE_TRAINER_TOWER_MODE]                         = MULTICHOICE(sMultichoiceList_TrainerTowerMode),
-+    [MULTICHOICE_DEKSA_CENTER]                              = MULTICHOICE(sMultichoiceList_DeksaCenter),
 +    [MULTICHOICE_DEKSA_VIRIDIAN_EGG]                        = MULTICHOICE(sMultichoiceList_DeksaViridianEgg),
 +    [MULTICHOICE_DEKSA_DAYCARE_EGG]                         = MULTICHOICE(sMultichoiceList_DeksaDaycareEgg),
 +    [MULTICHOICE_DEKSA_CINNABAR_EGG]                        = MULTICHOICE(sMultichoiceList_DeksaCinnabarEgg),
@@ -80927,7 +80820,7 @@ index 41eebd86e..4ce246c17 100644
  
  // From Cool to Berries goes unused
 diff --git a/src/script_pokemon_util.c b/src/script_pokemon_util.c
-index bc11dc001..904aa7b99 100644
+index bc11dc001..c01d08afd 100644
 --- a/src/script_pokemon_util.c
 +++ b/src/script_pokemon_util.c
 @@ -2,8 +2,11 @@
@@ -80942,7 +80835,7 @@ index bc11dc001..904aa7b99 100644
  #include "overworld.h"
  #include "party_menu.h"
  #include "pokedex.h"
-@@ -14,57 +17,288 @@
+@@ -14,57 +17,289 @@
  static void CB2_ReturnFromChooseHalfParty(void);
  static void CB2_ReturnFromChooseBattleTowerParty(void);
  
@@ -81124,6 +81017,7 @@ index bc11dc001..904aa7b99 100644
 +    if (!Deksa_CanRevive() || CountFaintedPlayerMons() == 0)
 +        return FALSE;
 +
++    ConvertIntToDecimalStringN(gStringVar1, CountFaintedPlayerMons(), STR_CONV_MODE_LEFT_ALIGN, 1);
 +    ConvertIntToDecimalStringN(gStringVar2, DeksaCenterTeamReviveCost(), STR_CONV_MODE_LEFT_ALIGN, 6);
 +    return TRUE;
 +}
@@ -81258,7 +81152,7 @@ index bc11dc001..904aa7b99 100644
          break;
      }
  
-@@ -74,15 +308,22 @@ u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 unused1, u32 unused2, u8 u
+@@ -74,15 +309,22 @@ u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 unused1, u32 unused2, u8 u
  
  u8 ScriptGiveEgg(u16 species)
  {
